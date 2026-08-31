@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Savage Worlds — Player card</title>
+  <style>
+    @page { size: A4 portrait; margin: 7mm; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #111;
+      font: 7.85pt/1.18 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .sheet {
+      width: 196mm;
+      margin: 0 auto;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 2pt solid #111;
+      padding-bottom: 1.6mm;
+      margin-bottom: 1.8mm;
+    }
+    header h1 {
+      font-size: 12pt;
+      letter-spacing: .04em;
+      margin: 0;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    header .sub {
+      font-size: 7pt;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: #333;
+    }
+    .lede {
+      margin: 0 0 1.8mm;
+      font-size: 7.7pt;
+    }
+    .cols {
+      column-count: 2;
+      column-gap: 5.5mm;
+      column-rule: 0.4pt solid #bbb;
+    }
+    h2 {
+      font-size: 7.6pt;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin: 0 0 0.9mm;
+      padding: 0.8mm 1.4mm;
+      background: #111;
+      color: #fff;
+      break-after: avoid;
+    }
+    section { break-inside: avoid; margin-bottom: 1.8mm; }
+    ul { margin: 0; padding-left: 3mm; }
+    li { margin: 0 0 0.35mm; }
+    p { margin: 0 0 0.8mm; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.4mm 0 0;
+      font-size: 7.7pt;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 0.45mm 1.1mm 0.45mm 0;
+      border-bottom: 0.3pt solid #ddd;
+    }
+    th { font-weight: 700; letter-spacing: .04em; text-transform: uppercase; font-size: 6.8pt; color: #333; }
+    strong { font-weight: 700; }
+    .kicker {
+      background: #f3f3f3;
+      padding: 1.1mm 1.6mm;
+      margin-bottom: 1.8mm;
+      border-left: 2pt solid #111;
+    }
+    footer {
+      margin-top: 1.2mm;
+      border-top: 1pt solid #111;
+      padding-top: 1mm;
+      font-size: 6.8pt;
+      color: #333;
+    }
+    @media print {
+      body { background: #fff; }
+      .sheet { max-height: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <h1>Savage Worlds — Player card</h1>
+      <div class="sub">Keep beside your sheet</div>
+    </header>
+    <p class="lede">Same card for everyone. Your numbers, Edges, and weapons stay on the character sheet. The GM has the book.</p>
+    <div class="kicker"><strong>You are a Wild Card.</strong> Roll your Trait die <em>and</em> a <strong>Wild Die (d6)</strong>; keep the higher. You can take <strong>three Wounds</strong>. You start with <strong>3 Bennies</strong>.</div>
+
+    <div class="cols">
+      <section>
+        <h2>How to roll</h2>
+        <p>Keep the higher of Trait die and Wild Die. Both can <strong>Ace</strong> (max on the die → roll again and add).</p>
+        <ul>
+          <li><strong>Success:</strong> 4+ after modifiers (TN 4 unless told otherwise).</li>
+          <li><strong>Raise:</strong> every 4 over the TN. One raise is the extra effect (better detail, +1d6 damage on an attack).</li>
+          <li><strong>Opposed:</strong> you still need a 4. They must match or beat you. Raises count from <em>their</em> total.</li>
+          <li><strong>Unskilled:</strong> no skill → <strong>d4−2</strong> (+ Wild Die).</li>
+          <li><strong>Critical Failure:</strong> 1 on <em>both</em> dice. Fails badly. You cannot Benny it.</li>
+        </ul>
+        <p>Easy <strong>+2</strong>, hard <strong>−2</strong>, very hard <strong>−4</strong>. Wounds and Fatigue also subtract.</p>
+      </section>
+
+      <section>
+        <h2>Bennies (3)</h2>
+        <p>Spend them. Unused tokens vanish at the end of the night.</p>
+        <ul>
+          <li><strong>Reroll a Trait</strong> — keep the best total (not a Critical Failure).</li>
+          <li><strong>Un-Shake instantly</strong> — even off-turn.</li>
+          <li><strong>Soak</strong> — after damage, before Wounds. Vigor; each success and raise soaks <strong>one Wound</strong> from that hit. Soak them all and you are not Shaken. Once per attack; you may Benny the Vigor roll.</li>
+          <li><strong>New Action Card</strong> in a fight (after the deal).</li>
+          <li><strong>Reroll damage.</strong></li>
+          <li><strong>Nudge the story</strong> — only if the GM allows (a small item, a bit more talk).</li>
+        </ul>
+        <p><strong>Joker</strong> on your card: act whenever you want this round, <strong>+2</strong> Trait and damage, and <strong>every player</strong> gets a Benny.</p>
+      </section>
+
+      <section>
+        <h2>Your turn (~6 seconds)</h2>
+        <p>Cards: Ace down to 2. Ties: Spades, Hearts, Diamonds, Clubs.</p>
+        <p>Move <strong>Pace 6″ (12 yards)</strong> and take <strong>one action</strong>. Movement is not an action. Climb, crawl, swim, or rough ground: 1″ costs <strong>2″</strong>.</p>
+        <ul>
+          <li><strong>Run:</strong> +d6 Pace (does not Ace), <strong>−2</strong> to all actions.</li>
+          <li><strong>Multi-action:</strong> up to three. Two = <strong>−2</strong> to both. Three = <strong>−4</strong> to all. Declare before you roll.</li>
+          <li><strong>Free:</strong> a short sentence, drop an item, prone, stand (−2″ Pace), recover Shaken/Stunned once at the start of your turn, ready two familiar items.</li>
+          <li><strong>Hold:</strong> wait. Interrupt with opposed <strong>Athletics</strong>. Shaken or Stunned on Hold loses it.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Hitting and hurting</h2>
+        <table>
+          <thead><tr><th>Try</th><th>Roll</th><th>Beat</th></tr></thead>
+          <tbody>
+            <tr><td>Knife / fists / grab</td><td>Fighting</td><td>their Parry</td></tr>
+            <tr><td>Gun</td><td>Shooting</td><td>4 + range</td></tr>
+            <tr><td>Grenade / thrown charge</td><td>Athletics</td><td>4 + range</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Range:</strong> Short —, Medium <strong>−2</strong>, Long <strong>−4</strong>. 1″ = 2 yards.</p>
+        <p><strong>Raise on the attack:</strong> +1d6 damage (once). Damage dice Ace. Melee is Strength + weapon — <strong>no Wild Die</strong>.</p>
+        <p>Damage vs <strong>Toughness</strong>:</p>
+        <ul>
+          <li>Below Toughness → no effect that counts.</li>
+          <li>Equal or higher → <strong>Shaken</strong>.</li>
+          <li>Each raise on damage → a <strong>Wound</strong> (and Shaken).</li>
+          <li>Already Shaken + another Shaken from <em>physical</em> damage → a Wound, still Shaken.</li>
+        </ul>
+        <p><strong>You:</strong> three Wounds, then Incapacitated. Each Wound: <strong>−1</strong> Pace (min 1″) and <strong>−1</strong> Trait (max <strong>−3</strong>).</p>
+        <p><strong>Extras</strong> (most watch, clerks, soldiers): <strong>one Wound</strong> and they are out.</p>
+        <p><strong>Shaken:</strong> only move and free actions (you may still Run). Start of turn: <strong>Spirit</strong> as a free action — success and you act. Or spend a Benny anytime.</p>
+      </section>
+
+      <section>
+        <h2>What you can try</h2>
+        <p>Say what you do. The GM names the Trait if it is not obvious.</p>
+        <table>
+          <thead><tr><th>Do</th><th>Trait</th></tr></thead>
+          <tbody>
+            <tr><td>See, hear, catch a lie, find a clue</td><td>Notice</td></tr>
+            <tr><td>Sneak or hide</td><td>Stealth (vs Notice if they are looking). Sneak-up success: Vulnerable; raise: The Drop. In a fight, roll at the end of your move (free)</td></tr>
+            <tr><td>Climb, jump, swim, throw</td><td>Athletics</td></tr>
+            <tr><td>Talk someone round</td><td>Persuasion (vs Spirit if they resist)</td></tr>
+            <tr><td>Scare / bark</td><td>Intimidation</td></tr>
+            <tr><td>Insult / rattle</td><td>Taunt (usually a Test vs Smarts)</td></tr>
+            <tr><td>Shoot / fight</td><td>Shooting / Fighting</td></tr>
+            <tr><td>Fix, cut, or set a charge</td><td>Repair (electronics Limited by Electronics)</td></tr>
+            <tr><td>Patch a Wound</td><td>Healing — 10 min per Wound level; success heals 1, raise 2; once per healer in the first hour</td></tr>
+            <tr><td>Help an ally</td><td>Support — any fitting skill; success +1, raise +2 (max +4)</td></tr>
+            <tr><td>Unbalance a foe</td><td>Test — opposed by the skill’s linked attribute. Win: Distracted <em>or</em> Vulnerable. Raise: also Shaken</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Language:</strong> talking skills use the <em>lower</em> of that skill and the language. Native tongue is never limited.</p>
+      </section>
+
+      <section>
+        <h2>Combat tricks</h2>
+        <ul>
+          <li><strong>Aim</strong> (whole turn, stay put): next first shot ignores 4 points of range/cover/called shot — <em>or</em> +2 to hit.</li>
+          <li><strong>Defend</strong> (whole turn, no extra actions, no Run): +4 Parry until your next turn.</li>
+          <li><strong>Wild Attack</strong> (melee): +2 Fighting and damage; you are Vulnerable until the end of your <em>next</em> turn.</li>
+          <li><strong>Called Shot:</strong> limb −2; head/vitals −4 and +4 damage. Face of an open helmet: −5, helmet does not count.</li>
+          <li><strong>Cover:</strong> −2 / −4 / −6 / −8. Prone vs ranged at 3″+ is −4 (does not stack with cover).</li>
+          <li><strong>The Drop</strong> (bound or truly unaware): +4 attack and damage, one action.</li>
+          <li><strong>Auto (RoF 3):</strong> more than one shot in one action → Recoil −2. You may fire fewer. Reload a magazine = an action.</li>
+          <li><strong>Withdraw:</strong> adjacent foes get a free attack. Extraction (if on your sheet) skips one.</li>
+          <li><strong>Gang up:</strong> +1 Fighting per extra adjacent attacker (max +4).</li>
+        </ul>
+        <p><strong>Distracted:</strong> −2 Trait until the end of your next turn. <strong>Vulnerable:</strong> others +2 against you until then.</p>
+      </section>
+
+      <section>
+        <h2>This night</h2>
+        <ul>
+          <li>Default light is <strong>Dark (−4)</strong> on attacks, Notice, and similar. No target visible past <strong>10″ (20 yards)</strong> without a lamp or a break in the dark.</li>
+          <li><strong>Helmet</strong> does not raise Toughness. Armor +2 only vs Called Shots to the <strong>head</strong>.</li>
+          <li>Rank titles are speech — no extra Bennies.</li>
+          <li>Team satchels, TNT, cutters, civilian coats: anyone may use them. Repair is demolitions.</li>
+          <li>Edges live on your sheet. If one would change a roll, say so before the dice.</li>
+        </ul>
+      </section>
+    </div>
+    <footer>Stuck? Say what your soldier does. Rolling comes after. · Short paraphrase for the table; the book remains the rules.</footer>
+  </div>
+</body>
+</html>

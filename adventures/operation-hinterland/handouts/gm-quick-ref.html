@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Operation Hinterland — GM card</title>
+  <style>
+    @page { size: A4 portrait; margin: 7mm; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #111;
+      font: 7.55pt/1.16 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .sheet {
+      width: 196mm;
+      margin: 0 auto;
+      page-break-after: always;
+    }
+    .sheet:last-of-type { page-break-after: auto; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 2pt solid #111;
+      padding-bottom: 1.4mm;
+      margin-bottom: 1.6mm;
+    }
+    header h1 {
+      font-size: 11.5pt;
+      letter-spacing: .04em;
+      margin: 0;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    header .sub {
+      font-size: 6.8pt;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: #333;
+    }
+    .lede { margin: 0 0 1.5mm; font-size: 7.4pt; }
+    .cols {
+      column-count: 2;
+      column-gap: 5mm;
+      column-rule: 0.4pt solid #bbb;
+    }
+    h2 {
+      font-size: 7.3pt;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin: 0 0 0.8mm;
+      padding: 0.7mm 1.3mm;
+      background: #111;
+      color: #fff;
+      break-after: avoid;
+    }
+    section { break-inside: avoid; margin-bottom: 1.6mm; }
+    ul { margin: 0; padding-left: 3mm; }
+    li { margin: 0 0 0.28mm; }
+    p { margin: 0 0 0.7mm; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.3mm 0 0;
+      font-size: 7.2pt;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 0.35mm 1mm 0.35mm 0;
+      border-bottom: 0.3pt solid #ddd;
+    }
+    th {
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      font-size: 6.4pt;
+      color: #333;
+    }
+    strong { font-weight: 700; }
+    .kicker {
+      background: #f3f3f3;
+      padding: 1.1mm 1.5mm;
+      margin-bottom: 1.6mm;
+      border-left: 2pt solid #111;
+    }
+    .track {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6mm 4mm;
+      font-size: 7.4pt;
+    }
+    .box { font-family: "Courier New", Courier, monospace; }
+    .warn {
+      background: #111;
+      color: #fff;
+      padding: 1.1mm 1.5mm;
+      margin: 0 0 1.6mm;
+    }
+    .warn strong { color: #fff; }
+    footer {
+      margin-top: 1mm;
+      border-top: 1pt solid #111;
+      padding-top: 0.9mm;
+      font-size: 6.5pt;
+      color: #333;
+    }
+    @media print {
+      body { background: #fff; }
+      .sheet { max-height: none; overflow: visible; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <h1>Hinterland — GM card 1/2</h1>
+      <div class="sub">Tonight · not for players</div>
+    </header>
+    <p class="lede">Players have the white one-pager. This is the rest: hydra, night, fuse, and what actually counts. <strong>RUN.md</strong> still runs the situations.</p>
+    <div class="kicker">
+      <strong>Any two real heads and the hydra dies.</strong> Board · loft · books. The Rathaus is a <strong>false head</strong> — cutting it does not count. One head off = wounded; it can still scream. Hollow town. No occult. Gender is not a table question.
+    </div>
+    <div class="cols">
+      <section>
+        <h2>Tracker</h2>
+        <div class="track">
+          <div><span class="box">☐</span> Board (Altrathausplatz)</div>
+          <div><span class="box">☐</span> Fuse (Stein / Keller)</div>
+          <div><span class="box">☐</span> Loft (Grüner Turm)</div>
+          <div><span class="box">☐</span> Scream attempted</div>
+          <div><span class="box">☐</span> Books (Brandt / satchel)</div>
+          <div><span class="box">☐</span> Dawn / civilian harm</div>
+        </div>
+        <p>Two boxes in the left column = job done. Rathaus does not get a box.</p>
+      </section>
+
+      <section>
+        <h2>What kills a head</h2>
+        <ul>
+          <li><strong>Board:</strong> smash, cut cables, kill power, or fire. Repair / Electronics to wreck the set. Smash still works if Repair fails. <em>Fire here is a civilian problem.</em></li>
+          <li><strong>Loft:</strong> wreck the set, or cut the feed at the base or wall-walk. Climb is not the only method. Slip = noise / maybe a Wound, not a bench.</li>
+          <li><strong>Books:</strong> steal, burn, or scatter the satchel. Brandt need not die. If the bag leaves, it is still findable (board, gate, stove, Stein’s office).</li>
+        </ul>
+        <p>Hitting one and leaving is not the job. Restate the hydra rule if they stop.</p>
+      </section>
+
+      <section>
+        <h2>Finding (GM copy)</h2>
+        <p>They already know the <em>types</em>. Locations stay hidden until found. Need two channels; three is better. Hofmann is never the only vector.</p>
+        <table>
+          <thead><tr><th>Head</th><th>How they find the place</th></tr></thead>
+          <tbody>
+            <tr><td>Board</td><td>Leftover / Hofmann: east, old post. Dead wire east. Lamp or hum on Altrathausplatz; east walk from Wörnitztor.</td></tr>
+            <tr><td>Loft</td><td>Skyline from a north or high angle. Feed at the base. Keller’s stretch is a sighting, not the key.</td></tr>
+            <tr><td>Books</td><td>Leftover: Feldwebel toward Nördlinger. Operators name Brandt. Stein / Keller know who holds the bag. Satchel can move.</td></tr>
+          </tbody>
+        </table>
+        <p>Skip the Rathaus: streets still pay (aerial, hum/lamp). Dummy wreck is not a win — give a tell (aerial still up, or a line still alive).</p>
+      </section>
+
+      <section>
+        <h2>Night, light, cold</h2>
+        <ul>
+          <li>Default <strong>Dark (−4)</strong> on attacks, Notice, and similar. No target visible past <strong>10″ (20 yd)</strong> without a lamp or a break. SWADE p.102.</li>
+          <li>6–7 Jan, Last Quarter (moon ~midnight). First half stays Dark. After moonrise, a clear snow sky or a lamp/stove can be <strong>Dim (−2)</strong>.</li>
+          <li><strong>Pitch (−6)</strong> only in an unlit cellar or sealed room.</li>
+          <li>Jump <code>Athletics</code> is flavor only: no Wounds, Fatigue, lost gear, scatter, or a better LZ. They land together.</li>
+          <li>No hidden Fatigue at the LZ. If they linger exposed: Hazards p.125.</li>
+          <li>Ice / height / climb: <code>Athletics</code>. Rough ground: 1″ costs 2″.</li>
+          <li>Lang’s Woodsman +2 Stealth: fields / Wörnitz tree line only — <em>not</em> streets, indoors, or the wall-walk (p.50).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Gates (hollow)</h2>
+        <p>Closing from the east LZ is a short correction, not a travel map. Play the gate they arrive at. Do not stack a pair at every door.</p>
+        <table>
+          <thead><tr><th>Face</th><th>Watch</th></tr></thead>
+          <tbody>
+            <tr><td>Wörnitztor E</td><td>2 extras, stove. Immediate close.</td></tr>
+            <tr><td>Nördlinger SE</td><td>Empty or 1 sleeper (same Extra, maybe no rifle). Brandt’s street inside.</td></tr>
+            <tr><td>Rothenburger N</td><td>Gate empty. Keller on the wall-walk toward Grüner Turm.</td></tr>
+            <tr><td>Segringer W</td><td>Empty or 1 sleeper. Long circuit; night shortens. Rathaus just inside.</td></tr>
+            <tr><td>Postern / climb</td><td>No dedicated watch. Ice. Not a death gate.</td></tr>
+            <tr><td>Bahnhof</td><td>Not a door into the Altstadt. Not a fourth head.</td></tr>
+          </tbody>
+        </table>
+        <p>Map names: Kohlenburger → Rothenburger (N). Sägringer → Segringer (W). If the fuse is lit, the gate they used becomes an obvious plug. Other faces stay thinner. Do not add a squad.</p>
+      </section>
+
+      <section>
+        <h2>Clocks and scream</h2>
+        <table>
+          <thead><tr><th>Trigger</th><th>What changes</th></tr></thead>
+          <tbody>
+            <tr><td>Time on the dummy</td><td>Night shortens. Hydra still up.</td></tr>
+            <tr><td>One head off</td><td>Wounded. Can still scream.</td></tr>
+            <tr><td>Two heads off</td><td>Hydra dead. Hunt may still be live.</td></tr>
+            <tr><td>Officers lit</td><td>Local hunt / curfew. Not a battalion.</td></tr>
+            <tr><td>Dawn</td><td>More eyes. Extraction expensive.</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Scream</strong> = the hydra calling: landline from a live board, radio from a live loft, or papers still useful enough to pass traffic. Out-of-town help needs a <em>living path and time</em>. En-route flak does not wake this town. One Stealth fail is not an army.</p>
+      </section>
+
+      <section>
+        <h2>Fuse hunt</h2>
+        <ul>
+          <li>Start with <strong>one pair</strong> of Volkssturm extras (same block as Wörnitztor). Add Stein and/or Keller when the fiction puts them there.</li>
+          <li><strong>Move</strong> pins. Do not empty other heads. Do not add Experienced infantry, Dodge, Rock and Roll!, or MG42.</li>
+          <li>Stein in Command Range (5″ / 10 yd): extras +1 Toughness (Hold the Line!). They are still Extras. Command helps them recover from Shaken / Stunned. Neither officer has Natural Leader — Leadership does not buff player Wild Cards. Keene’s Command is the same: allied Extras only.</li>
+          <li>After they have acted in town, lethality is on. Telegraph it. Four Seasoned vs two extras is still favored; vs two extras + a Wild Card officer it is a real fight.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Failure still plays</h2>
+        <ul>
+          <li>Ugly jump → description only. Failed Notice at the LZ → water is still in front of them.</li>
+          <li>Dummy wreck → leftover still points onward.</li>
+          <li>Botched loft climb → noise, not a bench. Feed at the base remains.</li>
+          <li>Brandt flees → bag still findable, or skip this head (board + loft).</li>
+          <li>Hofmann freezes → wire stub, tag, empty board room.</li>
+          <li>One humming room and they stop → restate: one head is not the job.</li>
+        </ul>
+      </section>
+    </div>
+    <div class="warn"><strong>Do not import:</strong> SS / Fanatic / HJ · Experienced / Elite Edges (Dodge, Rock and Roll!, Élan) · Sanity · Rank extra Benny / +2 Toughness on NPCs · Demo Man, Medic!, Jump Qualified · any Chapter 10 horror. Rank titles are speech.</div>
+    <footer>SWADE Fifth Printing (2023) · Weird War II kit/weapons only · house rule none · RUL-2026-08-29-01 helmets · short paraphrase; the PDF remains the rules · page 1 of 2</footer>
+  </div>
+
+  <div class="sheet">
+    <header>
+      <h1>Hinterland — GM card 2/2</h1>
+      <div class="sub">Numbers · Edges · opposition</div>
+    </header>
+    <p class="lede">Default TN 4. Extras: no Wild Die; one Wound and they are out (p.95). Wild Card NPCs: Wild Die, 3 Wounds, <strong>2 Bennies</strong> when they appear (p.89). GM pool: <strong>1 per player (4)</strong> — spend on any NPC (reroll, un-Shake, Soak for Wild Cards).</p>
+
+    <div class="cols">
+      <section>
+        <h2>Opposition</h2>
+        <table>
+          <thead><tr><th>Who</th><th>T</th><th>P</th><th>Key</th><th>Now</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Stein</strong> WC</td><td>5</td><td>5</td><td>Sm d8, Battle d8, Persuasion d8, Fighting d6, Shooting d6, Notice d6. Command, Hold the Line!</td><td>P38. Weinmarkt. Fuse. 2 Bennies.</td></tr>
+            <tr><td><strong>Keller</strong> WC</td><td>5</td><td>5</td><td>Notice d8, Fighting d6, Shooting d6, Athletics d6. Command, Combat Reflexes (+2 un-Shake).</td><td>P38; MP40 after fuse. North walk. 2 Bennies.</td></tr>
+            <tr><td><strong>Brandt</strong> E</td><td>5</td><td>4</td><td>Sm d8, Electronics d6, Repair d6, Shooting d6, Notice d6. Extra, not a boss.</td><td>P38, satchel. Nördlinger. Head = bag.</td></tr>
+            <tr><td><strong>Hofmann</strong> E</td><td>5</td><td>4</td><td>Notice d6, Persuasion d6, Shooting d4. Talk / freeze.</td><td>Lamp. P38 in a drawer. Rathaus leftover.</td></tr>
+            <tr><td><strong>Gate ×2</strong> E</td><td>5</td><td>4</td><td>All d4, Spirit d4, Ag/Str/Vi d6. Tired.</td><td>Kar 98K / P38. Wörnitztor only as a pair.</td></tr>
+            <tr><td><strong>Ops ×2</strong> E</td><td>5</td><td>4</td><td>Electronics d6, Shooting d6, Notice d6, Fighting d4.</td><td>P38; one MP40 on a hook. Can scream.</td></tr>
+            <tr><td><strong>Loft</strong> E</td><td>5</td><td>5</td><td>Athletics d6, Fighting d6, Shooting d6, Notice d6.</td><td>Kar or MP40 + Stielhandgranate. One watch.</td></tr>
+            <tr><td><strong>Benoit</strong> E</td><td>5</td><td>4</td><td>Stealth d6, French d8, German d4. Not a fight.</td><td>Knife, maybe empty P38. Cellar. Re-entry.</td></tr>
+            <tr><td><strong>Ward</strong> E</td><td>5</td><td>4</td><td>Persuasion d8, Smarts d8. Briefing only.</td><td>M1911 holstered. Does not jump. No fight.</td></tr>
+          </tbody>
+        </table>
+        <p>All Pace 6, Toughness 5 (helmet +2 vs head only). Unskilled = d4−2. Other-gate sleeper: same Extra as Wörnitztor, <em>one</em> man. Hunt pair: copy the gate extras. Default interaction is talk, freeze, or get through the night.</p>
+      </section>
+
+      <section>
+        <h2>Weapons</h2>
+        <table>
+          <thead><tr><th>Weapon</th><th>Range</th><th>Dmg</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>P38</td><td>12/24/48</td><td>2d6−1</td><td>RoF 1, 8, Semi-Auto</td></tr>
+            <tr><td>MP40 / Sten</td><td>12/24/48</td><td>2d6−1</td><td>RoF 3, 32, AP 1, Auto</td></tr>
+            <tr><td>Kar 98K</td><td>24/48/96</td><td>2d8</td><td>RoF 1, 5, AP 2, Snapfire, Min Str d6</td></tr>
+            <tr><td>M1 Carbine</td><td>15/30/60</td><td>2d6</td><td>RoF 1, 15, Semi-Auto</td></tr>
+            <tr><td>M1911A1</td><td>12/24/48</td><td>2d6+1</td><td>RoF 1, 7, AP 1, Semi-Auto</td></tr>
+            <tr><td>Enfield No.2</td><td>12/24/48</td><td>2d6−1</td><td>RoF 1, 6, Revolver</td></tr>
+            <tr><td>Mk2</td><td>5/10/20</td><td>3d6</td><td>MBT · Athletics</td></tr>
+            <tr><td>Stielhandgranate</td><td>5/10/20</td><td>3d6−2</td><td>MBT · Athletics</td></tr>
+            <tr><td>TNT ½-lb</td><td>5/10/20</td><td>2d6+1</td><td>MBT · team kit</td></tr>
+            <tr><td>Small satchel</td><td>3/6/12</td><td>4d6</td><td>LBT · team kit ×2</td></tr>
+          </tbody>
+        </table>
+        <p>Range: Short —, Medium −2, Long −4. 1″ = 2 yd. Grenades / thrown charges: Athletics (p.93). Raise on attack: +1d6 damage once. Damage vs Toughness: equal = Shaken; each raise = a Wound.</p>
+      </section>
+
+      <section>
+        <h2>Combat, this night</h2>
+        <ul>
+          <li><strong>NPC shooting is bad in the dark.</strong> Dark −4 on their Shooting too. Kar <strong>Snapfire −2</strong> if the shooter moved (p.66). Auto more than one shot in one action: <strong>Recoil −2</strong> (p.105) — nobody here has Rock and Roll!, including the PCs. Noise still lights the fuse even when shots miss.</li>
+          <li><strong>Helmet:</strong> Armor +2 vs Called Shots to the head only. Does not raise Toughness. No 50% save. Face of an open helmet: −5, bypasses the helmet. (pp. 98–99; RUL-2026-08-29-01)</li>
+          <li>Called Shot: limb −2; head/vitals −4 and +4 damage.</li>
+          <li>Cover −2 / −4 / −6 / −8. Prone vs ranged at 3″+ is −4 (does not stack with cover).</li>
+          <li><strong>The Drop</strong> (bound or truly unaware): +4 attack and damage, one action. Sneak-up success: Vulnerable; raise: The Drop.</li>
+          <li>Withdraw: adjacent foes get a free attack. Extraction skips one (Keene, Lang, Voss).</li>
+          <li>Shaken: Spirit as a free action at start of turn, or a Benny. Combat Reflexes: +2 to that Spirit (Krajewski, Vasseur, Keller, Voss).</li>
+          <li>Soak (Wild Cards): Benny + Vigor after damage, before Wounds. Each success/raise soaks one Wound from that hit.</li>
+          <li>Lang Parry <strong>2</strong> (no Fighting). Do not stand her in melee.</li>
+          <li>Chase p.113 only if you actually run one; otherwise a short street situation. Do not force a Dramatic Task.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Team and Edges that fire</h2>
+        <p>Team kit, anyone: 2× small satchel, 4× ½-lb TNT, cutters, 4× civilian coats and papers. Anyone may set a charge. <strong>Repair</strong> is demolitions (p.34). Repair of electronic gear is <strong>Limited by Electronics</strong> — use the lower die (p.34). Krajewski Repair d8 / Electronics d6. Vasseur both d8. Fire, smash, and cut still work if Repair fails.</p>
+        <ul>
+          <li><strong>Alertness +2 Notice</strong> — Keene, Vasseur, Lang.</li>
+          <li><strong>Mr. Fix It +2 Repair</strong> — Krajewski, Vasseur, Voss.</li>
+          <li><strong>Healer +2 Healing</strong> — Lang. Healing: 10 min per Wound level; success 1, raise 2; once per healer in the first hour. Vasseur Healing d6 so Lang is not the only aid.</li>
+          <li><strong>McGyver</strong> — Krajewski; improvised tools, not a unique key.</li>
+          <li><strong>Soldier</strong> — Krajewski; Strength one die higher for load / Min Str (p.67).</li>
+          <li><strong>Linguist</strong> — Vasseur. Verbal skills Limited by Language (p.32): lower of the talking skill and German. Native tongue never limited. Keene German d6; Vasseur d6; Lang d4; Voss d6.</li>
+          <li><strong>Thief</strong> — Voss (re-entry). Talk is never required.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Common rolls tonight</h2>
+        <table>
+          <thead><tr><th>Do</th><th>Trait</th></tr></thead>
+          <tbody>
+            <tr><td>See a lamp, aerial, leftover, lie</td><td>Notice (Dark −4 unless Dim / Pitch)</td></tr>
+            <tr><td>Sneak the gate / streets</td><td>Stealth vs their Notice (gate d4; Keller d8)</td></tr>
+            <tr><td>Orient / postern / ice close</td><td>Survival (Woodsman +2 in the tree line only)</td></tr>
+            <tr><td>Talk Hofmann, watch, Brandt</td><td>Persuasion vs Spirit if they resist; Limited by German</td></tr>
+            <tr><td>Scare a sleeper</td><td>Intimidation (same Language limit)</td></tr>
+            <tr><td>Climb, throw, slip on ice</td><td>Athletics</td></tr>
+            <tr><td>Cut, charge, smash a set</td><td>Repair (electronics Limited by Electronics)</td></tr>
+            <tr><td>Read whether a line can still scream</td><td>Electronics</td></tr>
+            <tr><td>Help an ally</td><td>Support: success +1, raise +2 (max +4)</td></tr>
+            <tr><td>Unbalance a foe</td><td>Test: win Distracted or Vulnerable; raise also Shaken</td></tr>
+          </tbody>
+        </table>
+        <p>Information rolls: always state fail / success / raise. A failed Notice, Persuasion, or Repair never stops the night — it costs time, noise, or a tell.</p>
+      </section>
+
+      <section>
+        <h2>PC snapshot</h2>
+        <ul>
+          <li><strong>Keene</strong> — Parry 5. Shooting d8, Athletics d8, Notice d8. Command (Extras only). Extraction. Holds the four; do not spend them on the dummy.</li>
+          <li><strong>Krajewski</strong> — Parry 5. Repair d8, Shooting d8, Str d8, Spirit d4. Counts charges. Driven: wreck traffic, not masonry.</li>
+          <li><strong>Vasseur</strong> — Parry 5. Electronics d8, Repair d8, Sten (Auto). Curious / Cautious. Smash works.</li>
+          <li><strong>Lang</strong> — Parry 2. Stealth d8, Healing d8, Survival d8, Spirit d8. Names every gate. Not melee.</li>
+          <li><strong>Voss</strong> (reserve) — Parry 5. Stealth d8, Repair d8, Thievery d6. Missed this lift; after the first hour, or a fifth from the start.</li>
+        </ul>
+        <p>All Wild Cards, Pace 6, Toughness 5, 3 Bennies. If a player is removed: prefer Voss; else promote Benoit (Wild Die + 3 Bennies, p.87). Do not leave a player in the hall. Captured PC is a same-night stake.</p>
+      </section>
+
+      <section>
+        <h2>Briefing marks / climax</h2>
+        <p>Player map at SP0: planned DZ (west / Segringer) + Rathaus only. Actual east LZ marked after they orient. Never mark live heads on Handout A.</p>
+        <p><strong>Climax:</strong> second head + live fuse. Opposition = remaining watch, officer if lit, one hunt pair. Secondary objective: finish the head or stop the scream <em>and</em> get the four off the board. Civilians in the line are a cost, not a hidden auto-fail. If time is short: one location, fuse on the table, then “you are out, at this cost.” Long vehicle chase is the cut.</p>
+        <p>End: 1 Advance only if these characters continue (p.54). Otherwise the night is the ending.</p>
+      </section>
+    </div>
+    <footer>Authority: SWADE pp. 29, 31–32, 34, 41, 44–45, 50, 65–67, 87–89, 93, 95, 98–99, 102, 105, 113, 125, 202 · WW2 pp. 14, 21, 41, 52, 60, 144, 152 · RUL-2026-08-29-01 · page 2 of 2</footer>
+  </div>
+</body>
+</html>

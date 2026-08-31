@@ -1,0 +1,1085 @@
+{
+  "sheet": {
+    "title_suffix": "Operation Hinterland",
+    "op": "Allied special operations · Restricted",
+    "file": "Personnel file · Operation Hinterland",
+    "meta": [
+      "Seasoned · Wild Card · Human · Size 0",
+      "SWADE Fifth Printing · Night of 6–7 Jan 1945"
+    ],
+    "skills_heading": "Skill qualification · unskilled d4−2",
+    "skills_footnote": "* Core skill. Core skills start at d4. Talking skills are Limited by Language if it is not your native tongue.",
+    "weapons_heading": "Ordnance",
+    "gear_heading": "Equipment report",
+    "you_label": "You",
+    "play_label": "At the table",
+    "footer_left": "Place beside the Savage Worlds player card",
+    "footer_right": "Not session history · Charisma / Sanity / Conviction unused tonight",
+    "reserve_banner": "Reserve pregen — print if a fifth sits or a player is replaced",
+    "team_kit": "Team kit (anyone): 2× small satchel (3/6/12, 4d6 LBT), 4× ½-lb TNT (5/10/20, 2d6+1 MBT), wire cutters, 4× civilian coats & papers. Repair sets charges.",
+    "bennies": "Bennies · start 3 · tick when spent · rank is not an extra token"
+  },
+  "characters": [
+    {
+      "id": "keene",
+      "reserve": false,
+      "name": "Jack Keene",
+      "role": "Point / small-unit lead",
+      "tags": [
+        {
+          "label": "Rank",
+          "value": "1st Lieutenant"
+        },
+        {
+          "label": "MOS",
+          "value": "Officer"
+        },
+        {
+          "label": "Nationality",
+          "value": "United States"
+        },
+        {
+          "label": "Service",
+          "value": "U.S. Army"
+        }
+      ],
+      "attrs": [
+        [
+          "Agility",
+          "d8"
+        ],
+        [
+          "Smarts",
+          "d8"
+        ],
+        [
+          "Spirit",
+          "d6"
+        ],
+        [
+          "Strength",
+          "d6"
+        ],
+        [
+          "Vigor",
+          "d6"
+        ]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting",
+      "tough": "5",
+      "tough_note": "Helmet not in this number",
+      "skills": [
+        [
+          "Athletics*",
+          "d8",
+          "Throw grenades"
+        ],
+        [
+          "Common Knowledge*",
+          "d6",
+          ""
+        ],
+        [
+          "Notice*",
+          "d8",
+          "+2 Alertness"
+        ],
+        [
+          "Persuasion*",
+          "d6",
+          "Limited by Language"
+        ],
+        [
+          "Stealth*",
+          "d6",
+          ""
+        ],
+        [
+          "Fighting",
+          "d6",
+          "Basic Training"
+        ],
+        [
+          "Shooting",
+          "d8",
+          "Basic Training"
+        ],
+        [
+          "Battle",
+          "d6",
+          "Officer MOS"
+        ],
+        [
+          "English",
+          "d8",
+          "Native"
+        ],
+        [
+          "German",
+          "d6",
+          "Prolonged, sometimes halting"
+        ]
+      ],
+      "hindrances": [
+        [
+          "Heroic",
+          "Major",
+          "Cannot refuse people in real need."
+        ],
+        [
+          "Loyal",
+          "Minor",
+          "Will not betray or abandon the four."
+        ],
+        [
+          "Stubborn",
+          "Minor",
+          "Wants his way; hard to talk down once set."
+        ]
+      ],
+      "edges": [
+        [
+          "Alertness",
+          "+2 Notice."
+        ],
+        [
+          "Command",
+          "Allied Extras in 5″ / 10 yards: +1 Spirit vs Shaken and Vigor vs Stunned. Does not aid the other player characters."
+        ],
+        [
+          "Extraction",
+          "When you withdraw, one adjacent foe (your choice) does not get the free attack."
+        ]
+      ],
+      "weapons": [
+        [
+          "M1 Carbine",
+          "15/30/60",
+          "1",
+          "2d6",
+          "Semi-Auto · 15 shots"
+        ],
+        [
+          "Colt M1911A1",
+          "12/24/48",
+          "1",
+          "2d6+1",
+          "AP 1 · Semi-Auto · 7 shots"
+        ],
+        [
+          "Mk2 grenade ×2",
+          "5/10/20",
+          "—",
+          "3d6",
+          "MBT · Athletics to throw"
+        ],
+        [
+          "Knife",
+          "melee",
+          "—",
+          "Str+d4",
+          ""
+        ]
+      ],
+      "ammo": "Carbine 15 loaded + 3 spare mags. Pistol 7 loaded + 2 spare mags.",
+      "gear": [
+        [
+          "Steel helmet",
+          "5"
+        ],
+        [
+          "Greatcoat (winter)",
+          "6"
+        ],
+        [
+          "Web belt + suspenders",
+          "3"
+        ],
+        [
+          "Ammo pouches ×4",
+          "2"
+        ],
+        [
+          "Pistol holster",
+          "1"
+        ],
+        [
+          "Canteen (full)",
+          "3"
+        ],
+        [
+          "Field dressing",
+          "¼"
+        ],
+        [
+          "Binoculars, compass, map case",
+          "4¾"
+        ],
+        [
+          "Knife",
+          "1"
+        ],
+        [
+          "M1 Carbine (loaded)",
+          "5.5"
+        ],
+        [
+          "M1911A1 (loaded)",
+          "2.5"
+        ],
+        [
+          "Mk2 grenade ×2",
+          "4"
+        ]
+      ],
+      "carried": "38 lb",
+      "limit": "40 lb (Str d6)",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "Head: steel helmet Armor +2 vs Called Shots to the head only. Face of an open helmet is −5 and bypasses it. Torso / arms / legs: none.",
+      "you": "The team is his responsibility. Finish the station; bring the four out. Trusts Lang’s eyes; needs Krajewski’s wrecking; has German so Vasseur is not the only talker. Do not spend them on a building that does not pass traffic.",
+      "play": "Spotlight: approach and not splitting. Not the only scout. Rank title is speech — no extra Benny."
+    },
+    {
+      "id": "krajewski",
+      "reserve": false,
+      "name": "Tomasz Krajewski",
+      "role": "Demo / field engineer",
+      "tags": [
+        {
+          "label": "Rank",
+          "value": "Sergeant"
+        },
+        {
+          "label": "MOS",
+          "value": "Combat Engineer"
+        },
+        {
+          "label": "Nationality",
+          "value": "Polish"
+        },
+        {
+          "label": "Service",
+          "value": "Polish Army (Allied)"
+        }
+      ],
+      "attrs": [
+        [
+          "Agility",
+          "d6"
+        ],
+        [
+          "Smarts",
+          "d8"
+        ],
+        [
+          "Spirit",
+          "d4"
+        ],
+        [
+          "Strength",
+          "d8"
+        ],
+        [
+          "Vigor",
+          "d6"
+        ]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting",
+      "tough": "5",
+      "tough_note": "Helmet not in this number",
+      "skills": [
+        [
+          "Athletics*",
+          "d6",
+          "Throw charges"
+        ],
+        [
+          "Common Knowledge*",
+          "d6",
+          ""
+        ],
+        [
+          "Notice*",
+          "d8",
+          "McGyver req."
+        ],
+        [
+          "Persuasion*",
+          "d4",
+          "Limited by Language"
+        ],
+        [
+          "Stealth*",
+          "d6",
+          ""
+        ],
+        [
+          "Fighting",
+          "d6",
+          "Basic Training"
+        ],
+        [
+          "Shooting",
+          "d8",
+          "Basic Training"
+        ],
+        [
+          "Repair",
+          "d8",
+          "+2 Mr. Fix It · −1 portable kit"
+        ],
+        [
+          "Electronics",
+          "d6",
+          "Limits electronic Repair"
+        ],
+        [
+          "Polish",
+          "d8",
+          "Native · no German"
+        ]
+      ],
+      "hindrances": [
+        [
+          "Driven",
+          "Major",
+          "The job. Will not walk away from a live station to save masonry."
+        ],
+        [
+          "Loyal",
+          "Minor",
+          "Will not betray or abandon the four."
+        ],
+        [
+          "Quirk",
+          "Minor",
+          "Counts charges aloud. Roleplay only."
+        ]
+      ],
+      "edges": [
+        [
+          "Soldier",
+          "Treat Strength as d10 for Encumbrance and Min Str. Free reroll on Vigor vs environmental hazards."
+        ],
+        [
+          "Mr. Fix It",
+          "+2 Repair. A raise halves the time."
+        ],
+        [
+          "McGyver",
+          "One full turn, no movement: Repair to improvise from what is at hand."
+        ],
+        [
+          "Combat Reflexes",
+          "+2 to recover from Shaken or Stunned."
+        ]
+      ],
+      "weapons": [
+        [
+          "M1 Carbine",
+          "15/30/60",
+          "1",
+          "2d6",
+          "Semi-Auto · 15 shots"
+        ],
+        [
+          "Colt M1911A1",
+          "12/24/48",
+          "1",
+          "2d6+1",
+          "AP 1 · Semi-Auto · 7 shots"
+        ],
+        [
+          "TNT ½-lb",
+          "5/10/20",
+          "—",
+          "2d6+1",
+          "MBT · Athletics · team bag"
+        ],
+        [
+          "Small satchel",
+          "3/6/12",
+          "—",
+          "4d6",
+          "LBT · Athletics · team bag"
+        ],
+        [
+          "Knife",
+          "melee",
+          "—",
+          "Str+d4",
+          "Str d8"
+        ]
+      ],
+      "ammo": "Carbine 15 loaded + 3 spare mags. Pistol 7 loaded + 2 spare mags.",
+      "gear": [
+        [
+          "Steel helmet",
+          "5"
+        ],
+        [
+          "Greatcoat (winter)",
+          "6"
+        ],
+        [
+          "Web + suspenders + pouches",
+          "5"
+        ],
+        [
+          "Pistol holster, canteen, dressing",
+          "4¼"
+        ],
+        [
+          "Knife",
+          "1"
+        ],
+        [
+          "Portable toolkit",
+          "15 · Repair −1"
+        ],
+        [
+          "M1 Carbine (loaded)",
+          "5.5"
+        ],
+        [
+          "M1911A1 (loaded)",
+          "2.5"
+        ]
+      ],
+      "carried": "45.25 lb (51.25 with team demo)",
+      "limit": "80 lb (Soldier: Str as d10)",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "Head: steel helmet Armor +2 vs Called Shots to the head only. Face −5 bypasses helmet. Torso / arms / legs: none.",
+      "you": "The briefed building may waste charges; improvisation is the job. Wreck what actually passes traffic, not masonry for its own sake. Works with Vasseur on boards and sets; Keene calls the noise. Fire, smash, and cut still work if Repair fails.",
+      "play": "Spotlight: making a head stay dead. No German — talk through the others. Rank is flavor."
+    },
+    {
+      "id": "vasseur",
+      "reserve": false,
+      "name": "Hélène Vasseur",
+      "role": "Signals / language",
+      "tags": [
+        {
+          "label": "Rank",
+          "value": "Sergeant"
+        },
+        {
+          "label": "MOS",
+          "value": "Signals"
+        },
+        {
+          "label": "Nationality",
+          "value": "French (Free French)"
+        },
+        {
+          "label": "Service",
+          "value": "Forces Françaises Libres"
+        }
+      ],
+      "attrs": [
+        [
+          "Agility",
+          "d6"
+        ],
+        [
+          "Smarts",
+          "d8"
+        ],
+        [
+          "Spirit",
+          "d6"
+        ],
+        [
+          "Strength",
+          "d4"
+        ],
+        [
+          "Vigor",
+          "d6"
+        ]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting",
+      "tough": "5",
+      "tough_note": "Helmet not in this number",
+      "skills": [
+        [
+          "Athletics*",
+          "d6",
+          ""
+        ],
+        [
+          "Common Knowledge*",
+          "d6",
+          ""
+        ],
+        [
+          "Notice*",
+          "d8",
+          "+2 Alertness"
+        ],
+        [
+          "Persuasion*",
+          "d6",
+          "Limited by Language"
+        ],
+        [
+          "Stealth*",
+          "d6",
+          ""
+        ],
+        [
+          "Fighting",
+          "d6",
+          "Basic Training"
+        ],
+        [
+          "Shooting",
+          "d6",
+          "Sten Recoil −2 at RoF 3"
+        ],
+        [
+          "Electronics",
+          "d8",
+          "Sets, landline, Morse"
+        ],
+        [
+          "Repair",
+          "d8",
+          "+2 Mr. Fix It"
+        ],
+        [
+          "Healing",
+          "d6",
+          "Second aid path"
+        ],
+        [
+          "French",
+          "d8",
+          "Native"
+        ],
+        [
+          "German / English / Polish / Italian",
+          "d6",
+          "Linguist"
+        ]
+      ],
+      "hindrances": [
+        [
+          "Curious",
+          "Major",
+          "Must inspect, open, and ask."
+        ],
+        [
+          "Loyal",
+          "Minor",
+          "Will not betray or abandon the four."
+        ],
+        [
+          "Cautious",
+          "Minor",
+          "Plans; hates being rushed into a dummy building."
+        ]
+      ],
+      "edges": [
+        [
+          "Alertness",
+          "+2 Notice."
+        ],
+        [
+          "Linguist",
+          "Four extra languages at d6. Talking skills use the lower of the skill and that language."
+        ],
+        [
+          "Mr. Fix It",
+          "+2 Repair; a raise halves time. Smash still works if the roll fails."
+        ],
+        [
+          "Combat Reflexes",
+          "+2 vs Shaken / Stunned."
+        ]
+      ],
+      "weapons": [
+        [
+          "Sten (9mm)",
+          "12/24/48",
+          "3",
+          "2d6−1",
+          "AP 1 · Auto · Recoil −2 if RoF > 1"
+        ],
+        [
+          "Enfield No. 2 Mk 1",
+          "12/24/48",
+          "1",
+          "2d6−1",
+          "Revolver · 6 shots"
+        ],
+        [
+          "Knife",
+          "melee",
+          "—",
+          "Str+d4",
+          "Str d4 caps the damage die"
+        ]
+      ],
+      "ammo": "Sten 32 loaded + 2 spare mags (96). Enfield 6 loaded + 12 loose.",
+      "gear": [
+        [
+          "Steel helmet",
+          "5"
+        ],
+        [
+          "Sten (loaded)",
+          "8"
+        ],
+        [
+          "Knife",
+          "1"
+        ],
+        [
+          "Field telephone / tap kit",
+          "3"
+        ],
+        [
+          "Web belt + dressing",
+          "1¼"
+        ],
+        [
+          "Pistol holster",
+          "1"
+        ],
+        [
+          "Enfield (loaded)",
+          "2"
+        ]
+      ],
+      "carried": "20 lb (at limit)",
+      "limit": "20 lb (Str d4)",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "Head: steel helmet Armor +2 vs Called Shots to the head only. Face −5 bypasses helmet. Torso / arms / legs: none. Greatcoat (+6) Encumbers — ditch at the wall or use a team civilian coat.",
+      "you": "Wires, sets, and other people’s conversations. Kill the traffic, not the facade. German overlap with Keene; Repair overlap with Krajewski; Healing d6 so Lang is not the only aid. Talk is not required.",
+      "play": "Spotlight: reading the net. Sten, Enfield, and tap kit are on the body. Pace 6."
+    },
+    {
+      "id": "lang",
+      "reserve": false,
+      "name": "Beatrice “Bee” Lang",
+      "role": "Scout / medic",
+      "tags": [
+        {
+          "label": "Rank",
+          "value": "Corporal"
+        },
+        {
+          "label": "MOS",
+          "value": "Scout / medic"
+        },
+        {
+          "label": "Nationality",
+          "value": "British"
+        },
+        {
+          "label": "Service",
+          "value": "British Army"
+        }
+      ],
+      "attrs": [
+        [
+          "Agility",
+          "d8"
+        ],
+        [
+          "Smarts",
+          "d6"
+        ],
+        [
+          "Spirit",
+          "d8"
+        ],
+        [
+          "Strength",
+          "d4"
+        ],
+        [
+          "Vigor",
+          "d6"
+        ]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards · 4 if Encumbered",
+      "parry": "2",
+      "parry_alert": true,
+      "parry_note": "No Fighting — do not melee",
+      "tough": "5",
+      "tough_note": "Helmet not in this number",
+      "skills": [
+        [
+          "Athletics*",
+          "d6",
+          "Grenades"
+        ],
+        [
+          "Common Knowledge*",
+          "d4",
+          ""
+        ],
+        [
+          "Notice*",
+          "d6",
+          "+2 Alertness"
+        ],
+        [
+          "Persuasion*",
+          "d4",
+          ""
+        ],
+        [
+          "Stealth*",
+          "d8",
+          "+2 Woodsman in the wild only"
+        ],
+        [
+          "Shooting",
+          "d6",
+          "Sten Recoil −2 at RoF 3"
+        ],
+        [
+          "Healing",
+          "d8",
+          "+2 Healer · +2 kit while it has uses"
+        ],
+        [
+          "Survival",
+          "d8",
+          "+2 Woodsman"
+        ],
+        [
+          "English",
+          "d8",
+          "Native"
+        ],
+        [
+          "German",
+          "d4",
+          "Common words and phrases"
+        ]
+      ],
+      "hindrances": [
+        [
+          "Heroic",
+          "Major",
+          "Cannot refuse people in real need."
+        ],
+        [
+          "Loyal",
+          "Minor",
+          "Will not betray or abandon the four."
+        ],
+        [
+          "Quirk",
+          "Minor",
+          "Names every gate. Roleplay only."
+        ]
+      ],
+      "edges": [
+        [
+          "Alertness",
+          "+2 Notice."
+        ],
+        [
+          "Healer",
+          "+2 to all Healing rolls."
+        ],
+        [
+          "Woodsman",
+          "+2 Survival; +2 Stealth in the wild (fields, tree line) — not streets, ruins, or underground."
+        ],
+        [
+          "Extraction",
+          "One adjacent foe skipped when withdrawing from melee."
+        ]
+      ],
+      "weapons": [
+        [
+          "Sten (9mm)",
+          "12/24/48",
+          "3",
+          "2d6−1",
+          "AP 1 · Auto · Recoil −2 if RoF > 1"
+        ],
+        [
+          "Enfield No. 2 Mk 1",
+          "12/24/48",
+          "1",
+          "2d6−1",
+          "Optional — carrying it Encumbers"
+        ],
+        [
+          "Knife",
+          "melee",
+          "—",
+          "Str+d4",
+          "Do not choose melee"
+        ]
+      ],
+      "ammo": "Sten 32 loaded + 2 spare mags. Enfield 6 + 12 loose if carried. Medical kit: 10 applications.",
+      "gear": [
+        [
+          "Steel helmet",
+          "5"
+        ],
+        [
+          "Sten (loaded)",
+          "8"
+        ],
+        [
+          "Field medical kit",
+          "5 · +2 Healing"
+        ],
+        [
+          "Knife",
+          "1"
+        ],
+        [
+          "Web belt + dressing",
+          "1¼"
+        ]
+      ],
+      "carried": "20 lb (dressing in the kit)",
+      "limit": "20 lb (Str d4)",
+      "penalty": "None on default load",
+      "encumbered": false,
+      "armor": "Head: steel helmet Armor +2 vs Called Shots to the head only. Face −5 bypasses helmet. Torso / arms / legs: none. Revolver or greatcoat Encumbers.",
+      "you": "Eyes first, bandages second. If the map and the ground disagree, trust the ground. Keep the four walking. Pairs with Keene on close work. Unskilled Fighting is d4−2; Parry stays 2.",
+      "play": "Spotlight: ground and recovery. Woodsman does not help in town. Extraction if you must leave a grab."
+    },
+    {
+      "id": "voss",
+      "reserve": true,
+      "name": "Pieter Voss",
+      "role": "Reserve — stealth + wrecking",
+      "tags": [
+        {
+          "label": "Rank",
+          "value": "Corporal"
+        },
+        {
+          "label": "MOS",
+          "value": "Scout / wrecking"
+        },
+        {
+          "label": "Nationality",
+          "value": "Dutch"
+        },
+        {
+          "label": "Service",
+          "value": "Dutch Army (Allied)"
+        }
+      ],
+      "attrs": [
+        [
+          "Agility",
+          "d8"
+        ],
+        [
+          "Smarts",
+          "d6"
+        ],
+        [
+          "Spirit",
+          "d4"
+        ],
+        [
+          "Strength",
+          "d6"
+        ],
+        [
+          "Vigor",
+          "d6"
+        ]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting",
+      "tough": "5",
+      "tough_note": "Helmet not in this number",
+      "skills": [
+        [
+          "Athletics*",
+          "d6",
+          "+1 urban climb (Thief)"
+        ],
+        [
+          "Common Knowledge*",
+          "d6",
+          ""
+        ],
+        [
+          "Notice*",
+          "d6",
+          ""
+        ],
+        [
+          "Persuasion*",
+          "d4",
+          ""
+        ],
+        [
+          "Stealth*",
+          "d8",
+          "+1 urban (Thief)"
+        ],
+        [
+          "Fighting",
+          "d6",
+          "Basic Training"
+        ],
+        [
+          "Shooting",
+          "d6",
+          "Sten Recoil −2 at RoF 3"
+        ],
+        [
+          "Thievery",
+          "d6",
+          "+1 Thief · locks, pockets"
+        ],
+        [
+          "Repair",
+          "d8",
+          "+2 Mr. Fix It"
+        ],
+        [
+          "Dutch",
+          "d8",
+          "Native"
+        ],
+        [
+          "German",
+          "d6",
+          ""
+        ]
+      ],
+      "hindrances": [
+        [
+          "Overconfident",
+          "Major",
+          "Believes he can do anything."
+        ],
+        [
+          "Loyal",
+          "Minor",
+          "Will not betray or abandon the four."
+        ],
+        [
+          "Cautious",
+          "Minor",
+          "Still plans. Play the tension with Overconfident."
+        ]
+      ],
+      "edges": [
+        [
+          "Thief",
+          "+1 Athletics (urban climb), +1 Stealth (urban), +1 Thievery."
+        ],
+        [
+          "Extraction",
+          "One adjacent foe skipped on withdraw."
+        ],
+        [
+          "Mr. Fix It",
+          "+2 Repair."
+        ],
+        [
+          "Combat Reflexes",
+          "+2 vs Shaken / Stunned."
+        ]
+      ],
+      "weapons": [
+        [
+          "Sten (9mm)",
+          "12/24/48",
+          "3",
+          "2d6−1",
+          "AP 1 · Auto · Recoil −2 if RoF > 1"
+        ],
+        [
+          "Enfield No. 2 Mk 1",
+          "12/24/48",
+          "1",
+          "2d6−1",
+          "Revolver · 6 shots"
+        ],
+        [
+          "Knife",
+          "melee",
+          "—",
+          "Str+d4",
+          ""
+        ]
+      ],
+      "ammo": "Sten 32 loaded + 2 spare mags. Enfield 6 + 12 loose.",
+      "gear": [
+        [
+          "Steel helmet",
+          "5"
+        ],
+        [
+          "Greatcoat (winter)",
+          "6"
+        ],
+        [
+          "Web + suspenders + pouches",
+          "5"
+        ],
+        [
+          "Holster, canteen, dressing",
+          "4¼"
+        ],
+        [
+          "Knife",
+          "1"
+        ],
+        [
+          "Lockpicks",
+          "1"
+        ],
+        [
+          "Pry bar",
+          "2"
+        ],
+        [
+          "Sten (loaded)",
+          "8"
+        ],
+        [
+          "Enfield (loaded)",
+          "2"
+        ]
+      ],
+      "carried": "35.25 lb",
+      "limit": "40 lb (Str d6)",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "Head: steel helmet Armor +2 vs Called Shots to the head only. Torso / arms / legs: none.",
+      "you": "Missed this lift. Already in the snow, looking for the four. Stealth with Lang; Repair with Krajewski / Vasseur; German with Keene / Vasseur. Not a unique plot key.",
+      "play": "Print if a fifth sits, or if a player takes him after a removal. Finds the team after the first hour, or starts as a fifth."
+    }
+  ]
+}
