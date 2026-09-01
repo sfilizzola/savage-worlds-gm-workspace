@@ -2,7 +2,7 @@
 
 Real-life invitations. Not table canon, not a briefing, not session history.
 
-Print one A4 per envelope. Leave the **DATE / TIME** line blank and fill it by hand.
+Print one A4 per envelope. **DATE / TIME** is printed: 14.11.2026 at 1400 hours.
 
 | File | Who |
 |---|---|
@@ -18,6 +18,6 @@ python3 build_letters.py --who all --pdf
 ```
 
 `--who` is `keene` | `krajewski` | `vasseur` | `lang` | `all`.  
-Do not pass `--when` unless you want the date typed in.
+Date/time is in `build_letters.py` (`WHEN`). Pass `--when` only to override.
 
 Source text: `../letter-*.md`.

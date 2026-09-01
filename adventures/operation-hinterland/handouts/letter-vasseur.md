@@ -1,6 +1,6 @@
 # Call letter — Sgt. Hélène Vasseur
 
-Print from the rule below. Insert date and time before sending. Not table canon.
+Print from the rule below. Not table canon.
 
 ---
 
@@ -24,7 +24,7 @@ You are directed to report for briefing:
 **Forward Station CHARLIE-MILLS**  
 **Charlie-Mills-Strasse 3**  
 **Hamburg, Germany**  
-**Date / time:** *[to be inserted]*
+**Date / time:** 14.11.2026 at 1400 hours
 
 Be cautious, of course. Also be on time. *Liberté*, equality, and try not to take the host’s telephone apart before the briefing starts. It is a civilian line. It is allowed to be boring.
 

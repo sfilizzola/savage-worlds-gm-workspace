@@ -1,6 +1,6 @@
 # Call letter — Sgt. Tomasz Krajewski
 
-Print from the rule below. Insert date and time before sending. Not table canon.
+Print from the rule below. Not table canon.
 
 ---
 
@@ -24,7 +24,7 @@ You will report to:
 **Forward Station CHARLIE-MILLS**  
 **Charlie-Mills-Strasse 3**  
 **Hamburg, Germany**  
-**Date / time:** *[to be inserted]*
+**Date / time:** 14.11.2026 at 1400 hours
 
 Leave the practical jokes at home. A whoopee cushion is funny. A satchel charge in the umbrella stand is a court martial with extra paperwork.
 

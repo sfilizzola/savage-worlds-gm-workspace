@@ -2,7 +2,7 @@
 
 ## Call letters
 
-Real-life invitations to the four players. Print one per envelope. These are not table canon, not a briefing, and not session history. They name the operation only. Insert the date and time before sending.
+Real-life invitations to the four players. Print one per envelope. These are not table canon, not a briefing, and not session history. They name the operation only.
 
 | File | Player character | Role |
 |---|---|---|
@@ -14,7 +14,7 @@ Real-life invitations to the four players. Print one per envelope. These are not
 Full character sheets (print with the letter): `../characters/print/*.pdf`. Markdown source: `../characters/`. Rebuild sheets with the workspace printer: `python3 ../characters/print/build_sheets.py` ([`tools/print-sheets/`](../../../tools/print-sheets/README.md)).
 
 **Meeting point:** Charlie-Mills-Strasse 3, Hamburg, Germany.  
-**Date / time:** blank line on the print; fill by marker.  
+**Date / time:** 14.11.2026 at 1400 hours.  
 **Mess:** snacks provided; drinks are bring-your-own.
 
 Print letters: `print/letter-keene.pdf`, `print/letter-krajewski.pdf`, `print/letter-vasseur.pdf`, `print/letter-lang.pdf`.  

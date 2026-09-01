@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Build call-letter HTML (and optionally PDF) for Operation Hinterland.
 
-Source of truth remains the letter-*.md files. Fill WHEN when the session date is confirmed.
+Source of truth remains the letter-*.md files. WHEN is the confirmed session.
 
   python3 build_letters.py --who keene
-  python3 build_letters.py --who all --when "Saturday 6 September 2026, 19:00" --pdf
+  python3 build_letters.py --who all --pdf
 """
 
 from __future__ import annotations
@@ -17,8 +17,8 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# Set this, or pass --when, once the date is confirmed.
-WHEN = ""
+# Session date/time printed on every letter.
+WHEN = "14.11.2026 at 1400 hours"
 
 ROUND_STAMP = """
 <svg class="stamp-round" viewBox="0 0 120 120" aria-hidden="true">
@@ -250,7 +250,7 @@ def main() -> None:
     parser.add_argument(
         "--when",
         default=WHEN,
-        help='Session date/time, e.g. "Saturday 6 September 2026, 19:00"',
+        help='Session date/time (default: WHEN in this file)',
     )
     parser.add_argument("--pdf", action="store_true", help="Also print A4 PDF via Chrome")
     args = parser.parse_args()

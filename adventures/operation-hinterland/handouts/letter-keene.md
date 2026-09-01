@@ -1,6 +1,6 @@
 # Call letter — 1st Lt. Jack Keene
 
-Print from the rule below. Insert date and time before sending. Not table canon.
+Print from the rule below. Not table canon.
 
 ---
 
@@ -24,7 +24,7 @@ You are hereby directed to report for briefing:
 **Forward Station CHARLIE-MILLS**  
 **Charlie-Mills-Strasse 3**  
 **Hamburg, Germany**  
-**Date / time:** *[to be inserted]*
+**Date / time:** 14.11.2026 at 1400 hours
 
 Attendance is mandatory. Heroics are optional until we say otherwise. Stubbornness will be tolerated; it usually is, in your case.
 

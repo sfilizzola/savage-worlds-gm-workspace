@@ -1,6 +1,6 @@
 # Call letter — Cpl. Beatrice "Bee" Lang
 
-Print from the rule below. Insert date and time before sending. Not table canon.
+Print from the rule below. Not table canon.
 
 ---
 
@@ -24,7 +24,7 @@ You will present yourself at:
 **Forward Station CHARLIE-MILLS**  
 **Charlie-Mills-Strasse 3**  
 **Hamburg, Germany**  
-**Date / time:** *[to be inserted]*
+**Date / time:** 14.11.2026 at 1400 hours
 
 Do not get lost. That would be embarrassing, and this desk does not budget for irony. If you arrive early, you may reconnoitre the kitchen. If you start bandaging people who are only hungry, we will have words.
 

@@ -1023,7 +1023,7 @@ Applied here: whole night
 | ID            | What it is                                                                   | Used at                                                      |
 | ------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Handout A     | BG-OH-001 *Garnisonsplan Dinkelsbühl*, player copy (`maps/garrison map.png`) | SP0: planned DZ + Rathaus. SP1: actual LZ after they orient. |
-| Call letters  | `handouts/print/letter-*.pdf` — blank DATE / TIME, fill by hand            | Before play. Not table canon.                                 |
+| Call letters  | `handouts/print/letter-*.pdf` — 14.11.2026 at 1400 hours                    | Before play. Not table canon.                                 |
 | Pregen sheets | `characters/print/*.pdf` — one A4 personnel file per PC                  | Table start. Markdown source: `characters/*.md`. Rebuild: `tools/print-sheets/` via `characters/print/build_sheets.py`. Voss if needed. |
 | Player card   | `handouts/player-quick-ref.pdf` — SWADE one-pager (same for every PC)        | Table start, beside the sheet.                               |
 | GM card       | `handouts/gm-quick-ref.pdf` — two A4 pages (hydra, night, opposition)        | GM only, beside this file. Not for players.                  |
