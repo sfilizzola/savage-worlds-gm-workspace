@@ -30,7 +30,7 @@ Weird War II is installed as an optional module. It has no effect unless an adve
 - `world/` - reusable canon: locations, factions, NPCs, and lore.
 - `adventures/` - one-shots, arcs, or campaign units.
 - `templates/` - files to copy when creating new material.
-- `tools/` - workspace utilities, including the pregen [sheet printer](tools/print-sheets/).
+- `tools/` - workspace utilities, including the pregen [sheet printer](tools/print-sheets/) and the [`RUN.md` printer](tools/print-run/).
 - `docs/` - design decisions for the workspace itself.
 
 ## Four kinds of truth

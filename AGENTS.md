@@ -10,3 +10,4 @@ Before performing any RPG authoring, editing, rules verification, or session-pre
 6. When generating or substantially revising an adventure, fill and score `QUALITY.md` from `templates/adventure/QUALITY.md` before compiling `RUN.md`.
 7. When compiling `RUN.md`, follow `templates/adventure/SKELETON.md`. Do not omit required blocks.
 8. Pregen A4 print uses `tools/print-sheets/` (sheet printer, not a generator). Do not put a sheet renderer inside an adventure.
+9. Table print of `RUN.md` uses `tools/print-run/`. Do not put a RUN renderer inside an adventure.

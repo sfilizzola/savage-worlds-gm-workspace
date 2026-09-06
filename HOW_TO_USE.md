@@ -36,6 +36,7 @@ Before performing any RPG authoring, editing, rules verification, or session-pre
 6. When generating or substantially revising an adventure, fill and score `QUALITY.md` from `templates/adventure/QUALITY.md` before compiling `RUN.md`.
 7. When compiling `RUN.md`, follow `templates/adventure/SKELETON.md`. Do not omit required blocks.
 8. Pregen A4 print uses `tools/print-sheets/` (sheet printer, not a generator). Do not put a sheet renderer inside an adventure.
+9. Table print of `RUN.md` uses `tools/print-run/`. Do not put a RUN renderer inside an adventure.
 ```
 
 Start a new Codex task after adding `AGENTS.md` so that the instructions are loaded from the beginning.
@@ -217,6 +218,14 @@ python3 tools/print-sheets/render.py adventures/<adventure-name>/characters/prin
 
 Operation Hinterland also keeps a wrapper: `adventures/operation-hinterland/characters/print/build_sheets.py`. Call letters stay with that adventure (`handouts/print/build_letters.py`).
 
+For the GM run packet, print `RUN.md` with the workspace run printer:
+
+```text
+python3 tools/print-run/render.py adventures/<adventure-name>/RUN.md --pdf
+```
+
+Edit `RUN.md`, not the generated `print/RUN.html` / `print/RUN.pdf`. Open the PDF on a tablet the same way you would flip paper.
+
 ### Player-supplied PCs
 
 Add the character files or summaries to the adventure and use:
@@ -330,6 +339,12 @@ At the table, you should be able to run most of the session from:
 
 ```text
 adventures/<adventure-name>/RUN.md
+```
+
+To print that file as an A4 two-column packet:
+
+```text
+python3 tools/print-run/render.py adventures/<adventure-name>/RUN.md --pdf
 ```
 
 Keep the SWADE PDF available for unexpected rules questions.
