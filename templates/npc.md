@@ -19,6 +19,11 @@ Write as a person with limited knowledge, a current objective, and a fear. Lines
 - Voice/manner cue:
 - Spoken lines: one to three quoted lines the GM can use at the table.
 - Avoid:
+- Pressure variants (one short line or action-plus-line each; same person, not a second personality):
+  - Cooperate:
+  - Refuse:
+  - Threatened:
+  - Ignored: must match **If ignored** above; not a speech to empty air unless they would shout anyway
 
 ## Mechanics
 
