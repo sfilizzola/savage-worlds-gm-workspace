@@ -1,38 +1,38 @@
-# Call letter — Sgt. Hélène Vasseur
+# Carta de convocação — Sarg. Hélène Vasseur
 
-Print from the rule below. Not table canon.
+Imprima conforme o modelo abaixo. Não é cânon da mesa.
 
 ---
 
-**ALLIED SPECIAL OPERATIONS / FORCES FRANÇAISES LIBRES**  
-**RESTRICTED — ADDRESSEE ONLY**
+**OPERAÇÕES ESPECIAIS ALIADAS / FORÇAS FRANCESAS LIVRES**  
+**RESTRITO — SOMENTE DESTINATÁRIA**
 
-**TO:** Sgt. Hélène Vasseur  
-**FROM:** Joint Operations Desk  
-**RE:** **OPERATION HINTERLAND**  
-**YOUR ROLE:** Signals and languages. Wires, sets, and other people’s conversations.  
-**PRIORITY:** Immediate. Curiosity is not a sufficient excuse for lateness. We checked.
+**PARA:** Sarg. Hélène Vasseur  
+**DE:** Mesa de Operações Conjuntas  
+**ASSUNTO:** **OPERAÇÃO HINTERLAND**  
+**SUA FUNÇÃO:** Sinais e idiomas. Fios, rádios e as conversas dos outros.  
+**PRIORIDADE:** Imediata. Curiosidade não é desculpa suficiente para atraso. Já verificamos.
 
-Ma chère Sergent,
+Minha cara Sargento,
 
-Your months among wires, languages, and other people’s secrets have made you the least replaceable person in a very replaceable war. HQ would like it noted that this is a compliment. They would also like it noted that they are slightly afraid of you. Both can be true.
+Seus últimos meses entre fios, idiomas e segredos alheios fizeram de você a pessoa menos substituível numa guerra em que quase todo mundo é substituível. O Quartel-General pede que isso conste como elogio. Também pede que conste que eles têm um leve medo de você. As duas coisas podem ser verdade.
 
-You are the signals specialist, and the one who can switch tongues without switching sides. Radios, switchboards, taps, papers: you read them, and if the conversation goes badly you can also turn them into scrap. The others will arrive speaking one language each and expect you to make a team out of it. *Quelle surprise.*
+Você é a especialista em sinais e a única que troca de idioma sem trocar de lado. Rádios, centrais telefônicas, escutas, papéis: você lê tudo isso; e, se a conversa azedar, também sabe transformar tudo em sucata. Os outros vão chegar cada um falando sua própria língua e esperando que você transforme isso numa equipe. *Que surpresa.*
 
-You are directed to report for briefing:
+Fica determinada sua apresentação para briefing:
 
-**Forward Station CHARLIE-MILLS**  
+**Posto Avançado CHARLIE-MILLS**  
 **Charlie-Mills-Strasse 3**  
-**Hamburg, Germany**  
-**Date / time:** 14.11.2026 at 1400 hours
+**Hamburgo, Alemanha**  
+**Data / hora:** 14.11.2026 às 1400 horas
 
-Be cautious, of course. Also be on time. *Liberté*, equality, and try not to take the host’s telephone apart before the briefing starts. It is a civilian line. It is allowed to be boring.
+Seja cautelosa, claro. E pontual também. *Liberté*, igualdade, e tente não desmontar o telefone do anfitrião antes do briefing começar. É uma linha civil. Ela tem permissão oficial para ser entediante.
 
-**Food:** Snacks will be provided. This is not French cooking. We are aware. Please do not file a complaint in triplicate.  
-**Drinks:** Bring your own. Wine is a personal matter. The desk provides only water and bad decisions.
+**Comida:** Haverá lanches. Não é culinária francesa. Estamos cientes. Favor não abrir reclamação em três vias.  
+**Bebidas:** Traga a sua. Vinho é assunto pessoal. Esta mesa só fornece água e decisões ruins.
 
-Do not ask too many questions before you arrive. That is what the briefing is for. We both know you will anyway.
+Não faça perguntas demais antes de chegar. O briefing existe para isso. Nós duas sabemos que você vai perguntar mesmo assim.
 
-*With distinguished regards — and a certain amused distrust,*  
+*Com elevada consideração — e uma certa desconfiança divertida,*  
 **Col. W. Harrow**  
-Joint Operations Desk
+Mesa de Operações Conjuntas

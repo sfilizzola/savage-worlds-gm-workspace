@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Savage Worlds — Cartão do jogador</title>
+  <style>
+    @page { size: A4 portrait; margin: 7mm; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #111;
+      font: 7.85pt/1.18 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .sheet {
+      width: 196mm;
+      margin: 0 auto;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 2pt solid #111;
+      padding-bottom: 1.6mm;
+      margin-bottom: 1.8mm;
+    }
+    header h1 {
+      font-size: 12pt;
+      letter-spacing: .04em;
+      margin: 0;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    header .sub {
+      font-size: 7pt;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: #333;
+    }
+    .lede {
+      margin: 0 0 1.8mm;
+      font-size: 7.7pt;
+    }
+    .cols {
+      column-count: 2;
+      column-gap: 5.5mm;
+      column-rule: 0.4pt solid #bbb;
+    }
+    h2 {
+      font-size: 7.6pt;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin: 0 0 0.9mm;
+      padding: 0.8mm 1.4mm;
+      background: #111;
+      color: #fff;
+      break-after: avoid;
+    }
+    section { break-inside: avoid; margin-bottom: 1.8mm; }
+    ul { margin: 0; padding-left: 3mm; }
+    li { margin: 0 0 0.35mm; }
+    p { margin: 0 0 0.8mm; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.4mm 0 0;
+      font-size: 7.7pt;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 0.45mm 1.1mm 0.45mm 0;
+      border-bottom: 0.3pt solid #ddd;
+    }
+    th { font-weight: 700; letter-spacing: .04em; text-transform: uppercase; font-size: 6.8pt; color: #333; }
+    strong { font-weight: 700; }
+    .kicker {
+      background: #f3f3f3;
+      padding: 1.1mm 1.6mm;
+      margin-bottom: 1.8mm;
+      border-left: 2pt solid #111;
+    }
+    footer {
+      margin-top: 1.2mm;
+      border-top: 1pt solid #111;
+      padding-top: 1mm;
+      font-size: 6.8pt;
+      color: #333;
+    }
+    @media print {
+      body { background: #fff; }
+      .sheet { max-height: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <h1>Savage Worlds — Cartão do jogador</h1>
+      <div class="sub">Mantenha ao lado da ficha</div>
+    </header>
+    <p class="lede">Mesmo cartão para todos. Seus números, Edges e armas ficam na ficha de personagem. O GM tem o livro.</p>
+    <div class="kicker"><strong>Você é um Wild Card.</strong> Role seu dado de Trait <em>e</em> um <strong>Wild Die (d6)</strong>; fique com o maior. Você pode sofrer <strong>três Wounds</strong>. Você começa com <strong>3 Bennies</strong>.</div>
+
+    <div class="cols">
+      <section>
+        <h2>Como rolar</h2>
+        <p>Fique com o maior entre dado de Trait e Wild Die. Ambos podem ter <strong>Ace</strong> (máximo no dado → role de novo e some).</p>
+        <ul>
+          <li><strong>Sucesso:</strong> 4+ após modificadores (NA 4, salvo indicação contrária).</li>
+          <li><strong>Raise:</strong> a cada 4 acima do NA. Um raise gera efeito extra (detalhe melhor, +1d6 de dano em um ataque).</li>
+          <li><strong>Oposto:</strong> você ainda precisa de 4. Eles precisam empatar ou superar você. Raises contam do total <em>deles</em>.</li>
+          <li><strong>Sem treino:</strong> sem perícia → <strong>d4−2</strong> (+ Wild Die).</li>
+          <li><strong>Falha Crítica:</strong> 1 em <em>ambos</em> os dados. Falha feia. Você não pode usar Benny.</li>
+        </ul>
+        <p>Fácil <strong>+2</strong>, difícil <strong>−2</strong>, muito difícil <strong>−4</strong>. Wounds e Fatigue também subtraem.</p>
+      </section>
+
+      <section>
+        <h2>Bennies (3)</h2>
+        <p>Gaste. Marcadores não usados somem no fim da noite.</p>
+        <ul>
+          <li><strong>Rerrole um Trait</strong> — fique com o melhor total (não vale para Falha Crítica).</li>
+          <li><strong>Remova Shaken na hora</strong> — mesmo fora do turno.</li>
+          <li><strong>Absorver</strong> — após dano, antes dos Wounds. Vigor; cada sucesso e raise absorve <strong>um Wound</strong> desse ataque. Se absorver todos, você não fica Shaken. Uma vez por ataque; você pode usar Benny no Vigor.</li>
+          <li><strong>Novo Action Card</strong> em combate (após a distribuição).</li>
+          <li><strong>Rerrolar dano.</strong></li>
+          <li><strong>Ajustar a história</strong> — só com permissão do GM (item pequeno, conversa extra).</li>
+        </ul>
+        <p><strong>Joker</strong> na sua carta: aja quando quiser nesta rodada, <strong>+2</strong> em Trait e dano, e <strong>todo jogador</strong> ganha um Benny.</p>
+      </section>
+
+      <section>
+        <h2>Seu turno (~6 segundos)</h2>
+        <p>Cartas: de Ás até 2. Empates: Espadas, Copas, Ouros, Paus.</p>
+        <p>Mova <strong>Pace 6″ (12 jardas)</strong> e faça <strong>uma ação</strong>. Movimento não é ação. Escalar, rastejar, nadar, ou terreno ruim: 1″ custa <strong>2″</strong>.</p>
+        <ul>
+          <li><strong>Run:</strong> +d6 ao Pace (não tem Ace), <strong>−2</strong> em todas as ações.</li>
+          <li><strong>Múltiplas ações:</strong> até três. Duas = <strong>−2</strong> nas duas. Três = <strong>−4</strong> em todas. Declare antes de rolar.</li>
+          <li><strong>Livre:</strong> frase curta, largar item, prone, levantar (−2″ Pace), recuperar Shaken/Stunned uma vez no início do turno, preparar dois itens familiares.</li>
+          <li><strong>Hold:</strong> esperar. Interrompa com <strong>Athletics</strong> oposto. Se ficar Shaken ou Stunned em Hold, perde.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Acertar e ferir</h2>
+        <table>
+          <thead><tr><th>Tentativa</th><th>Rola</th><th>Supera</th></tr></thead>
+          <tbody>
+            <tr><td>Faca / socos / agarrar</td><td>Fighting</td><td>o Parry deles</td></tr>
+            <tr><td>Arma de fogo</td><td>Shooting</td><td>4 + alcance</td></tr>
+            <tr><td>Granada / carga arremessada</td><td>Athletics</td><td>4 + alcance</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Alcance:</strong> Curto —, Médio <strong>−2</strong>, Longo <strong>−4</strong>. 1″ = 2 jardas.</p>
+        <p><strong>Raise no ataque:</strong> +1d6 de dano (uma vez). Dados de dano têm Ace. Corpo a corpo = Força + arma — <strong>sem Wild Die</strong>.</p>
+        <p>Dano contra <strong>Toughness</strong>:</p>
+        <ul>
+          <li>Abaixo de Toughness → sem efeito relevante.</li>
+          <li>Igual ou acima → <strong>Shaken</strong>.</li>
+          <li>Cada raise no dano → um <strong>Wound</strong> (e Shaken).</li>
+          <li>Já Shaken + outro Shaken de dano <em>físico</em> → um Wound, continua Shaken.</li>
+        </ul>
+        <p><strong>Você:</strong> três Wounds, depois Incapacitated. Cada Wound: <strong>−1</strong> Pace (mín. 1″) e <strong>−1</strong> Trait (máx. <strong>−3</strong>).</p>
+        <p><strong>Extras</strong> (a maioria de sentinelas, escriturários, soldados): <strong>um Wound</strong> e caem fora.</p>
+        <p><strong>Shaken:</strong> só move e faz ações livres (ainda pode Run). Início do turno: <strong>Spirit</strong> como ação livre — sucesso e você age. Ou gaste Benny a qualquer momento.</p>
+      </section>
+
+      <section>
+        <h2>O que você pode tentar</h2>
+        <p>Diga o que faz. O GM define o Trait se não estiver óbvio.</p>
+        <table>
+          <thead><tr><th>Fazer</th><th>Trait</th></tr></thead>
+          <tbody>
+            <tr><td>Ver, ouvir, pegar mentira, achar pista</td><td>Notice</td></tr>
+            <tr><td>Esgueirar ou se esconder</td><td>Stealth (vs Notice se estiverem atentos). Aproximação furtiva com sucesso: Vulnerable; raise: The Drop. Em combate, role no fim do seu movimento (livre)</td></tr>
+            <tr><td>Escalar, pular, nadar, arremessar</td><td>Athletics</td></tr>
+            <tr><td>Convencer alguém</td><td>Persuasion (vs Spirit se resistirem)</td></tr>
+            <tr><td>Intimidar / dar ordem</td><td>Intimidation</td></tr>
+            <tr><td>Provocar / desestabilizar</td><td>Taunt (normalmente Test vs Smarts)</td></tr>
+            <tr><td>Atirar / lutar</td><td>Shooting / Fighting</td></tr>
+            <tr><td>Consertar, cortar, armar carga</td><td>Repair (eletrônicos Limitados por Electronics)</td></tr>
+            <tr><td>Tratar um Wound</td><td>Healing — 10 min por nível de Wound; sucesso cura 1, raise cura 2; uma vez por curador na primeira hora</td></tr>
+            <tr><td>Ajudar aliado</td><td>Support — qualquer perícia adequada; sucesso +1, raise +2 (máx. +4)</td></tr>
+            <tr><td>Desequilibrar inimigo</td><td>Test — oposto pelo atributo ligado da perícia. Vitória: Distracted <em>ou</em> Vulnerable. Raise: também Shaken</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Language:</strong> perícias de conversa usam o <em>menor</em> valor entre perícia e idioma. Língua nativa nunca é limitada.</p>
+      </section>
+
+      <section>
+        <h2>Truques de combate</h2>
+        <ul>
+          <li><strong>Aim</strong> (turno inteiro, sem mover): primeiro tiro do próximo turno ignora 4 pontos de alcance/cobertura/called shot — <em>ou</em> +2 para acertar.</li>
+          <li><strong>Defend</strong> (turno inteiro, sem ações extras, sem Run): +4 Parry até seu próximo turno.</li>
+          <li><strong>Wild Attack</strong> (corpo a corpo): +2 Fighting e dano; você fica Vulnerable até o fim do seu <em>próximo</em> turno.</li>
+          <li><strong>Called Shot:</strong> membro −2; cabeça/vitais −4 e +4 dano. Rosto com capacete aberto: −5, capacete não conta.</li>
+          <li><strong>Cover:</strong> −2 / −4 / −6 / −8. Prone contra ataque à distância em 3″+ é −4 (não acumula com cover).</li>
+          <li><strong>The Drop</strong> (alvo amarrado ou realmente distraído): +4 ataque e dano, uma ação.</li>
+          <li><strong>Auto (RoF 3):</strong> mais de um tiro em uma ação → Recoil −2. Você pode disparar menos. Recarregar carregador = uma ação.</li>
+          <li><strong>Withdraw:</strong> inimigos adjacentes ganham ataque livre. Extraction (se estiver na ficha) ignora um.</li>
+          <li><strong>Gang up:</strong> +1 Fighting por atacante adjacente extra (máx. +4).</li>
+        </ul>
+        <p><strong>Distracted:</strong> −2 Trait até o fim do seu próximo turno. <strong>Vulnerable:</strong> outros +2 contra você até lá.</p>
+      </section>
+
+      <section>
+        <h2>Esta noite</h2>
+        <ul>
+          <li>Luz padrão: <strong>Dark (−4)</strong> em ataques, Notice e similares. Sem alvo visível além de <strong>10″ (20 jardas)</strong> sem lanterna ou abertura na escuridão.</li>
+          <li><strong>Helmet</strong> não aumenta Toughness. Armor +2 só contra Called Shots na <strong>cabeça</strong>.</li>
+          <li>Títulos de patente são fala — sem Bennies extras.</li>
+          <li>Bolsas da equipe, TNT, alicates, casacos civis: qualquer um pode usar. Repair é demolição.</li>
+          <li>Edges ficam na sua ficha. Se um mudar a rolagem, avise antes de jogar os dados.</li>
+        </ul>
+      </section>
+    </div>
+    <footer>Travou? Diga o que seu soldado faz. A rolagem vem depois. · Paráfrase curta para mesa; o livro segue como regra.</footer>
+  </div>
+</body>
+</html>
