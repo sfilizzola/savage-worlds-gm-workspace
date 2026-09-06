@@ -190,7 +190,7 @@ WW2 Rank (Officer/NCO) extra Benny / +2 Toughness is **not** on these sheets. Ra
 
 ## German faces (working names)
 
-Not unique locks. Titles: BG-OH-007. Keller as *Oblt.* is world-rule fiction (auxiliaries were real). Briefing may name the two officers.
+Not unique locks. Titles: BG-OH-007. Keller as *Oblt.* is world-rule fiction (auxiliaries were real). Briefing may name the two officers. Portrayal: `npcs/`.
 
 | Name | Job tonight | Default pin |
 |---|---|---|
@@ -199,7 +199,7 @@ Not unique locks. Titles: BG-OH-007. Keller as *Oblt.* is world-rule fiction (au
 | **Fw. Otto Brandt** | Signals NCO. Papers. | Nördlinger Straße billets; bag can move |
 | **Gefr. Lina Hofmann** | Clerk leftover at the dummy site | Rathaus. One vector east, not the only one |
 
-**Capt. Ellis Ward** (U.S., intel/ops): briefing officer in Pont-à-Mousson. Believes the pack. Does not jump. Extra; not a combat encounter.
+**Capt. Ellis Ward** (U.S., intel/ops): briefing officer in Pont-à-Mousson. Believes the pack. Does not jump. Extra; not a combat encounter. Portrayal: `npcs/ellis-ward.md`.
 
 Stein and Keller can escalate. They are not a hidden army. Brandt is not the only path to the papers or the plot. Hofmann is not the only leftover.
 
@@ -208,7 +208,7 @@ Stat blocks: `encounters.md`. Officers are Wild Cards; Brandt, Hofmann, watch, a
 ### Allied Extra — Pvt. Louis Benoit (Free French evader)
 
 - Extra, promotable. Cellar off Altrathausplatz. Re-entry and extra eyes, not a required guide.
-- Full block: `encounters.md`. If a player needs a finished Seasoned sheet, use **Voss** instead.
+- Portrayal: `npcs/louis-benoit.md`. Full block: `encounters.md`. If a player needs a finished Seasoned sheet, use **Voss** instead.
 
 ## Player-supplied PC intake
 

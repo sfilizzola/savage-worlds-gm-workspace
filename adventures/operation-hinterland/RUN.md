@@ -275,7 +275,7 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 - **Environment and interactive features:** ice and tight lanes; height and feed line if the loft; civilian houses and fire risk if the board; satchel/stove/street door if papers; sound carries in the cold.
 - **Urgency / countdown:** if only one head is dead, the hydra can still **scream**. Dawn puts more eyes on the same map. A hunt closes the gate they already used.
 - **Secondary objective besides defeating everyone:** finish the second head **or** stop the scream **and** get the four off the board. Civilians in the line are a cost, not a hidden auto-fail. Capture of an officer is optional.
-- **Spoken lines:** Stein, if directing: “Raise whoever still answers.” Keller, if the hunt is hers: “Pair on the lanes. Curfew. Get them.” A living board, shouting: “I still have a line—”
+- **Spoken lines:** Stein, if directing: `"Hebt ab, wer noch antwortet." (Raise whoever still answers.)` Keller, if the hunt is hers: `"Paar auf die Gassen. Ausgangssperre. Holt sie." (Pair on the lanes. Curfew. Get them.)` A living board, shouting: “I still have a line—”
 - **GM Note:** Out-of-town help needs a living path **and** time. This is still a hollow town. Dummy wreck was never success.
 - **If time is short:** still run this compressed — one location, the fuse on the table, the scream clock if it applies, then “you are out, at this cost.” Do not skip it in favor of a leftover room fight. A long vehicle chase is the cut.
 
@@ -426,7 +426,7 @@ Applied here: Story Point 0b. Dinkelsbühl stays asleep.
 
 - **Goal:** they discover they are on the unplanned east face and choose a close. Spend little clock.
 - **Situation now:** together in cover, snow, short night, **east / Wörnitz face**, south of Wörnitztor, off the Bahnhof. They do **not** know that when they hit snow. Rehearsed close is **Segringer Tor** (west). After they orient, mark the actual LZ on the player copy.
-- **Spoken lines:** none required at the LZ (PCs). If they close Wörnitztor loud, the watch: “Halt! Wer da?” If they try to talk past the stove: “Papiere. Schnell.”
+- **Spoken lines:** none required at the LZ (PCs). If they close Wörnitztor loud, the watch: `"Halt! Wer da?" (Halt! Who goes there?)` If they try to talk past the stove: `"Papiere. Schnell." (Papers. Quick.)`
 - **Discoverable:**
 
 
@@ -482,7 +482,7 @@ Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
   - **Feel:** Thin watch. They want the night to pass. Not a fortress.
 - People and forces: two tired Extras (Volkssturm / convalescent). Keller is not here at start. **HPTM. FRIEDRICH STEIN** is not here at start.
 - Environment/hazards: gate passage, gatehouse, ice, short view along the east walk toward Altrathausplatz.
-- Spoken lines: “Halt! Wer da?” / “Papiere. Schnell.”
+- Spoken lines: `"Halt! Wer da?" (Halt! Who goes there?)` / `"Papiere. Schnell." (Papers. Quick.)`
 - Discoverable: Stealth / Persuasion rows in the table above. Success can also tell: town is thin; east lanes toward the old post / Altrathausplatz; the Rathaus is not on this face.
 - GM Note: Bypass remains available. Failed gate = noise and time, not “you never enter.”
 - Changes if delayed: if the fuse lights, this gate is an obvious plug. Dawn puts more eyes here.
@@ -514,7 +514,7 @@ Full table: **Gates and the circuit** (near the top). Hollow town. Do not clone 
   - **Feel:** Thin. Time is the cost, not a company.
 - People and forces: **Nördlinger** / **Segringer** — empty or 1 sleeper (same Extra profile as Wörnitztor; maybe no rifle). **Rothenburger** — gate empty; **OBLT. MARTA KELLER** is on the wall-walk toward Grüner Turm (stats: SP4), not in the passage. Postern / climb: no dedicated watch.
 - Environment/hazards: ice, Dark (−4), civilian houses inside. Height is not a death gate.
-- Spoken lines: a sleeper, if woken: “Lass mich. Die Nacht.” Keller, if they take the north walk: “The watch is mine tonight. Stay off the wall.”
+- Spoken lines: a sleeper, if woken: `"Lass mich. Die Nacht." (Leave me. The night.)` Keller, if they take the north walk: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)`
 - Discoverable: circuit costs time, not a fortress. South face feeds Brandt’s street. North face can show the aerial. West face is the briefing close, late.
 - GM Note: Play the gate they arrive at. A sleeper wants to be left alone. Do not add a squad because they walked. If they meet Keller here, first contact is a sighting — use her SP4 block only if the fiction makes her a fight.
 - Changes if delayed: night shortens; Keller may leave her stretch; dawn puts more eyes on every face.
@@ -534,7 +534,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 
 - **Goal:** the real improvisation. They came for the **board**. The Rathaus is a **false head**.
 - **Situation now:** optional visit. Must pay if they come. They are looking for the landline exchange, **not** papers and not the aerial. Reachable by checking the site, overhearing, watching wire, asking, or never going there and reading the town.
-- **Spoken lines:** **GEFR. LINA HOFMANN**, if she talks: “The board isn’t here. They cut it over. East — the old post rooms. The books are with the Feldwebel, toward Nördlinger.” If they ask about a tower, a radio, or why the building is dead: “The north tower still talks. That’s not this house.” Stein, if woken: “This is still my building. Who is in my house?”
+- **Spoken lines:** **GEFR. LINA HOFMANN**, if she talks: `"Die Vermittlung ist nicht hier. Die haben umgelegt. Ostzimmer. Ich mache Papier. Ich fahre das Netz nicht." (The exchange isn’t here. They cut it over. East rooms. I do paper. I don’t run the net.)` If they ask about a tower, a radio, or why the building is dead: `"Der Nordturm redet noch. Das ist nicht dieses Haus." (The north tower still talks. That’s not this house.)` If they press the books: `"Die Bücher hat der Feldwebel. Richtung Nördlinger." (The Feldwebel has the books. Toward Nördlinger.)` Stein, if woken: `"Das ist noch immer mein Gebäude. Wer ist in meinem Haus?" (This is still my building. Who is in my house?)`
 - **Discoverable:**
 
 
@@ -662,7 +662,7 @@ Recoil −2 on Auto unless the shooter does not move and has Rock and Roll! (the
   - **Hear:** Street muffled above. His breath if they are close.
   - **Feel:** Hiding, not a fight.
 - People and forces: **PVT. LOUIS BENOIT**. Neighbors who may or may not know.
-- Spoken lines: “Don’t shoot. French. I’ve been under this square.”
+- Spoken lines: **PVT. LOUIS BENOIT**, if they find him: `"Ne tirez pas. Français." (Don’t shoot. French.)` If they want a guide: `"Je ne marche pas en ville. Je reste en dessous." (I don’t walk the town. I stay under it.)`
 - Discoverable:
 
 
@@ -702,7 +702,7 @@ If promoted to a temporary PC: Wild Die and 3 Bennies (SWADE p.87). Prefer **CPL
 
 - **Goal:** second head. **Grüner Turm**, north wall. Aerial visible in principle.
 - **Situation now:** more exposed than the switchboard; winter wind and height; a small watch, not a fortress roof.
-- **Spoken lines:** Loft watch, if they come up the stair: “Stay off the set.” Keller, if she sees them on the walk: “The watch is mine tonight. Stay off the wall.”
+- **Spoken lines:** Loft watch, if they come up the stair: “Stay off the set.” Keller, if she sees them on the walk: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)`
 - **Discoverable:**
 
 
@@ -746,7 +746,7 @@ Novice, not Experienced (no Dodge / Rock and Roll!). Voss / Benoit if someone st
 ### Keller’s night round (north wall)
 
 - Trigger: they are seen on the north wall-walk, at Grüner Turm, or a shout pulls her off her stretch.
-- Spoken lines: “The watch is mine tonight. Stay off the wall.” After the fuse she may pick up an MP40.
+- Spoken lines: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)` After the fuse she may pick up an MP40.
 - **GM Note:** She orders the thin watch. She is a possible loft sighting, not the key to the tower. She can reach the east face later if they linger. She does **not** have Hold the Line! — that sits on Stein.
 
 #### At-hand statistics — Keller (Wild Card)
@@ -779,7 +779,7 @@ World rule: gender is not a question. Rank Benny omitted. A pair of extras only 
 
 - **Goal:** third head. Codebooks and traffic. The NCO is a person, not a locked box.
 - **Situation now:** papers move. Default start: **Brandt’s billet on Nördlinger Straße**, not on Altrathausplatz and not in the Rathaus. The bag may be on him, in the room, or in motion.
-- **Spoken lines:** **FW. OTTO BRANDT**: “The books stay with me.” If he runs: he does not speechify; he moves the satchel toward a gate, the board, a stove, or Stein’s office.
+- **Spoken lines:** **FW. OTTO BRANDT**: `"Die Bücher bleiben bei mir." (The books stay with me.)` If he runs: he does not speechify; he moves the satchel toward a gate, the board, a stove, or Stein’s office.
 - **Discoverable:**
 
 
@@ -834,7 +834,7 @@ Rank (NCO) +2 Toughness **not** applied. He stays an Extra. Early capture of a *
 
 - **Goal:** end the night under the cost they earned.
 - **Situation now:** hollow town becoming a hunt or a waking street. Named officers act as the fuse, not as a battalion arriving by teleport. Reachable after noise, dawn, a wounded hydra scream, or they choose to leave.
-- **Spoken lines:** Stein: “Raise whoever still answers.” Keller: “Pair on the lanes. Curfew. Get them.” A civilian shutter, if dragged in: they want to survive the winter, not solve the hydra.
+- **Spoken lines:** Stein: `"Hebt ab, wer noch antwortet." (Raise whoever still answers.)` Keller: `"Paar auf die Gassen. Ausgangssperre. Holt sie." (Pair on the lanes. Curfew. Get them.)` A civilian shutter, if dragged in: they want to survive the winter, not solve the hydra.
 - **Discoverable:**
 
 
@@ -977,13 +977,13 @@ Not a combat menu. Default is talk, freeze, or get through the night. Fight only
 | **Wörnitztor ×2** | Tired east-gate watch | “Halt / Papiere.” Want the night to pass. Talk or slip. | Only if they stand in the passage and shoot, or a loud close is challenged |
 | **Other-gate sleeper** | Same type, thinner | “Lass mich. Die Nacht.” Wants to be left alone | Same Extra profile; **one** man, not a pair; do not stack |
 | **Hofmann** | Clerk leftover at the false head | Talk/scare. Freeze on failed Persuasion. Points **east** (board) and **Nördlinger** (books). North tower only if they ask. | Not a fight unless cornered. P38 is in a drawer |
-| **Stein** | Ortskommandant; the **fuse** | Off the floor until noise or a runner. “This is still my building.” Directs a hunt; extras in 5″ get +1 Toughness | Wild Card if woken or on the hunt. Four Seasoned should win and pay in noise |
-| **Keller** | Night duty / deputy | North wall-walk. “The watch is mine tonight.” Sighting, not the key to the loft | Wild Card if they meet her on the walk or after the fuse. A pair of extras only after the fuse |
+| **Stein** | Ortskommandant; the **fuse** | Off the floor until noise or a runner. `"Das ist noch immer mein Gebäude."` Directs a hunt; extras in 5″ get +1 Toughness | Wild Card if woken or on the hunt. Four Seasoned should win and pay in noise |
+| **Keller** | Night duty / deputy | North wall-walk. `"Die Wache ist heute Nacht meine."` Sighting, not the key to the loft | Wild Card if they meet her on the walk or after the fuse. A pair of extras only after the fuse |
 | **Operators ×2** | Keep the board useful | “Board’s live — don’t cut that.” Will try a landline scream if they believe the raid | Yes if the room is hit. Two extras; one MP40 on a hook. Brandt is **not** here |
 | **Loft watch** | Keep the set live | “Stay off the set.” Will try to raise out of town | One extra; height; Keller may arrive later, not a company |
-| **Brandt** | Papers NCO; one head is the **satchel** | “The books stay with me.” Runs; does not speechify. Steal / burn / scatter counts | Extra, not a boss. He need not die. Bag still findable if he leaves |
-| **Hunt pair** | Fuse extras | “Pair on the lanes. Curfew.” | Same profile as Wörnitztor. **Move** pins; do not add a battalion |
-| **Benoit** | Re-entry; extra eyes | “Don’t shoot. French.” Not a required guide | Not a combat solution. Not an enemy |
+| **Brandt** | Papers NCO; one head is the **satchel** | `"Die Bücher bleiben bei mir."` Runs; does not speechify. Steal / burn / scatter counts | Extra, not a boss. He need not die. Bag still findable if he leaves |
+| **Hunt pair** | Fuse extras | `"Paar auf die Gassen. Ausgangssperre."` | Same profile as Wörnitztor. **Move** pins; do not add a battalion |
+| **Benoit** | Re-entry; extra eyes | `"Ne tirez pas. Français."` Not a required guide | Not a combat solution. Not an enemy |
 | **Civilians** | Pressure, not a puzzle | Survive the winter. Shutters, wood smoke | Not enemies. Standing constraint if the town is torched or massacred |
 
 **Agendas:** Ward wants them in the air with the plan he believes. Stein wants order in his town. Keller wants the night watch to work. Brandt wants papers useful and in German hands. Hofmann wants the night to pass. Signals want the net up. Civilians want to survive. Dawn and weather do not negotiate.
