@@ -1,0 +1,87 @@
+---
+name: npc-voice
+description: Writes and repairs NPC Portrayal and situation spoken lines for Savage Worlds adventures in this workspace so speakers sound like people with limited knowledge, not plot devices. Use when drafting or revising NPC dialogue, Portrayal, RUN.md Spoken lines, extra shouts, quest-kiosk speech, or rewriting NPC voice.
+---
+
+# NPC Voice
+
+Implements `GM.md` people/speech policy. Does not replace `GM.md`. Does not design plot, write Mood (table), write player handouts/letters, fill stat blocks, or promote NPCs into `world/npcs/` unless the GM asks. Pregen PCs are not NPCs.
+
+Quoted lines are table cues, not a script.
+
+For good/bad pairs see [EXAMPLES.md](EXAMPLES.md).
+
+## Required reads (before any line)
+
+1. `GM.md` — people, speech, and behavior.
+2. The adventure's `ADVENTURE.md` — sides, period, setting, secrets vs public facts.
+3. The situation under edit — who is present, what just happened, what this person can perceive.
+4. The named NPC file if it exists.
+
+If adventure context is missing, stop and ask. Do not invent a generic watchman.
+
+Unnamed extras get no biography. Derive role, knowledge, fear, and language from the situation only.
+
+## Choose a path
+
+- **Write** — speaker is new, Portrayal is empty, or `Spoken lines` is missing/empty.
+- **Repair** — quoted lines exist; check them against the rubric and rewrite only failures.
+
+## Write path
+
+1. Lock this moment: current objective, fear, leverage, what they have seen or been told, relationship to the PCs, which language(s) they would actually use here.
+2. Silence: if they would not talk and the skeleton does not require the field, omit or write `Spoken lines: none`. If a named speaker is present and the field is required, write a non-speech cue (they move, glare, keep working). Do not invent dialogue to fill a blank.
+3. Named NPC: if no file exists, copy `templates/npc.md` into the adventure (not `world/npcs/` unless asked). Fill Portrayal (first impression, voice/manner, 1–3 core lines, avoid, four pressure variants). Leave Mechanics empty or untouched — do not invent stats. If a line would imply a Trait test, read `rules/RULES.md`; still do not write the roll in this skill.
+4. Write beat-specific `Spoken lines` into the situation (see File mapping). One named person in several beats: Portrayal stays in the NPC file; each beat gets only the line that belongs there. Do not paste the pressure table into every story point.
+5. Named only — pressure variants, one short line or action-plus-line each, same person: Cooperate, Refuse, Threatened, Ignored. Ignored must match **If ignored** on the NPC file.
+6. Self-check: would this person say this if the plot did not need it? If not, rewrite or omit.
+
+### Named vs extra
+
+| Speaker | Portrayal | Situation | Pressure variants |
+|---|---|---|---|
+| Named NPC | Full Portrayal in their adventure NPC file | Beat-specific line(s) | Four labeled lines in the NPC file |
+| Unnamed extra | One voice cue in the situation only; no new file | One shout | None |
+
+Do not create one NPC file per extra shout.
+
+## Repair path
+
+Walk quotes in Portrayal and in the relevant situations. Rewrite in place if the line fails the rubric. Leave lines that already pass. Do not add pressure variants when existing named lines already pass, unless Portrayal is incomplete.
+
+### Rubric — fail (must rewrite)
+
+- Knowledge they were not in a position to have, including adventure secrets
+- Briefs the party or summarizes the situation for the players
+- Slogan, "as you know," or narrator voice
+- Exists only to hand the next story point
+- Same register as another speaker so everyone sounds like the GM
+- Unnamed extra given a unique life story in the shout
+
+### Rubric — pass (leave)
+
+Short, specific, in that person's register, limited to their knowledge, omitted when they would not talk.
+
+## Language
+
+GM-facing files stay English (workspace default), including when player handouts are another language.
+
+Other languages only when **this person, in this beat, would use them** — from `ADVENTURE.md` and the speaker, not a blanket nationality garnish. A German watch may shout a halt in German. An Italian who works in English may drop Italian under stress, not on every line.
+
+Non-English quotes need the English meaning on the same line (or immediately beside): `"Halt! Wer da?" (Halt! Who goes there?)`
+
+## File mapping
+
+| What | Where |
+|---|---|
+| Named Portrayal + pressure variants | Adventure NPC/character file (`templates/npc.md` shape) |
+| Situation `Spoken lines` | That situation in `RUN.md` if the block exists; otherwise the pre-compile situation draft (`plot.md` / location notes) using the field name `Spoken lines` |
+| Extra voice cue + shout | Situation only |
+
+Edit files in place. Do not leave the only copy in chat. Do not add `voices.md`.
+
+Never write Mood (table). Never write `handouts/` letters.
+
+## Skeleton note
+
+`templates/adventure/SKELETON.md` requires `Spoken lines` when a named NPC, victim, messenger, or opposition can talk or shout. This skill fills that field. It does not change the skeleton.
