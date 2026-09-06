@@ -85,20 +85,22 @@ def print_pdf(html_path: Path) -> None:
     if not chrome.is_file():
         raise SystemExit(f"Chrome not found at {CHROME}. Print the HTML to A4 instead.")
     pdf_path = html_path.with_suffix(".pdf")
-    subprocess.run(
-        [
-            str(chrome),
-            "--headless",
-            "--disable-gpu",
-            "--virtual-time-budget=8000",
-            "--no-pdf-header-footer",
-            f"--print-to-pdf={pdf_path}",
-            html_path.as_uri(),
-        ],
-        check=True,
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
+    try:
+        subprocess.run(
+            [
+                str(chrome),
+                "--headless",
+                "--disable-gpu",
+                "--virtual-time-budget=8000",
+                "--no-pdf-header-footer",
+                f"--print-to-pdf={pdf_path}",
+                html_path.as_uri(),
+            ],
+            check=True,
+            stdout=subprocess.DEVNULL,
+        )
+    except subprocess.CalledProcessError as e:
+        raise SystemExit(f"Chrome failed to print PDF: {e}") from e
     print("wrote", pdf_path.name)
 
 

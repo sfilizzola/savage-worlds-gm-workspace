@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -95,6 +96,22 @@ class CliTests(unittest.TestCase):
             with patch.object(self.render, "CHROME", str(Path(td) / "no-chrome")):
                 with self.assertRaises(SystemExit) as ctx:
                     self.render.main([str(src), "--out-dir", str(out), "--pdf"])
+            self.assertTrue(ctx.exception.code)
+            self.assertTrue((out / "RUN.html").is_file())
+            self.assertFalse((out / "RUN.pdf").exists())
+
+    def test_pdf_chrome_failure_keeps_html(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            src = Path(td) / "RUN.md"
+            src.write_text("# Title\n\nHi.\n", encoding="utf-8")
+            out = Path(td) / "out"
+            fake_chrome = Path(td) / "chrome"
+            fake_chrome.write_text("", encoding="utf-8")
+            fail = subprocess.CalledProcessError(1, ["chrome"])
+            with patch.object(self.render, "CHROME", str(fake_chrome)):
+                with patch.object(self.render.subprocess, "run", side_effect=fail):
+                    with self.assertRaises(SystemExit) as ctx:
+                        self.render.main([str(src), "--out-dir", str(out), "--pdf"])
             self.assertTrue(ctx.exception.code)
             self.assertTrue((out / "RUN.html").is_file())
             self.assertFalse((out / "RUN.pdf").exists())
