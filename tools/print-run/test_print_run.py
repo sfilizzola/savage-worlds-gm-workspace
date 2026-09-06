@@ -12,7 +12,6 @@ TOOL_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(TOOL_DIR))
 
 import mdhtml  # noqa: E402
-import render  # noqa: E402
 
 FIXTURE = TOOL_DIR / "testdata" / "mini-run.md"
 
@@ -48,21 +47,31 @@ class ConvertFixtureTests(unittest.TestCase):
 
 
 class PathTests(unittest.TestCase):
+    def setUp(self) -> None:
+        import render
+
+        self.render = render
+
     def test_adventure_run_defaults_to_print_dir(self) -> None:
         path = Path("/repo/adventures/demo/RUN.md")
-        self.assertEqual(render.default_out_dir(path), Path("/repo/adventures/demo/print"))
+        self.assertEqual(self.render.default_out_dir(path), Path("/repo/adventures/demo/print"))
 
     def test_other_markdown_defaults_to_same_dir(self) -> None:
         path = Path("/tmp/notes/RUN.md")
-        self.assertEqual(render.default_out_dir(path), Path("/tmp/notes"))
+        self.assertEqual(self.render.default_out_dir(path), Path("/tmp/notes"))
 
 
 class CliTests(unittest.TestCase):
+    def setUp(self) -> None:
+        import render
+
+        self.render = render
+
     def test_missing_file_writes_nothing(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             missing = Path(td) / "nope.md"
             with self.assertRaises(SystemExit) as ctx:
-                render.main([str(missing)])
+                self.render.main([str(missing)])
             self.assertTrue(ctx.exception.code)
             self.assertEqual(list(Path(td).iterdir()), [])
 
@@ -73,7 +82,7 @@ class CliTests(unittest.TestCase):
             out = Path(td) / "out"
             err = StringIO()
             with patch("sys.stderr", err):
-                render.main([str(src), "--out-dir", str(out)])
+                self.render.main([str(src), "--out-dir", str(out)])
             html = (out / "RUN.html").read_text(encoding="utf-8")
             self.assertIn("just words", html)
             self.assertIn("no headings", err.getvalue().lower())
@@ -83,9 +92,9 @@ class CliTests(unittest.TestCase):
             src = Path(td) / "RUN.md"
             src.write_text("# Title\n\nHi.\n", encoding="utf-8")
             out = Path(td) / "out"
-            with patch.object(render, "CHROME", str(Path(td) / "no-chrome")):
+            with patch.object(self.render, "CHROME", str(Path(td) / "no-chrome")):
                 with self.assertRaises(SystemExit) as ctx:
-                    render.main([str(src), "--out-dir", str(out), "--pdf"])
+                    self.render.main([str(src), "--out-dir", str(out), "--pdf"])
             self.assertTrue(ctx.exception.code)
             self.assertTrue((out / "RUN.html").is_file())
             self.assertFalse((out / "RUN.pdf").exists())
