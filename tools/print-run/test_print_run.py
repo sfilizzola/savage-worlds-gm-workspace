@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import re
 import subprocess
 import sys
 import tempfile
@@ -43,8 +44,99 @@ class ConvertFixtureTests(unittest.TestCase):
         self.assertIn("WATCHER", self.body)
         self.assertIn("Attributes:", self.body)
 
+    def test_at_hand_statistics_alert(self) -> None:
+        self.assertIn('class="callout callout-important at-hand-statistics"', self.body)
+        self.assertIn("<h4>At-hand statistics</h4>", self.body)
+
+    def test_at_hand_rules_alert(self) -> None:
+        self.assertIn('class="callout callout-tip at-hand-rules"', self.body)
+        self.assertIn("<h4>At-hand rules</h4>", self.body)
+        self.assertIn("Use the fake procedure here", self.body)
+        self.assertIn("<pre><code>", self.body)
+
+    def test_alert_marker_is_not_printed(self) -> None:
+        self.assertNotIn("[!IMPORTANT]", self.body)
+        self.assertNotIn("[!TIP]", self.body)
+        self.assertNotIn("```", self.body)
+
     def test_plain_paragraph_survives(self) -> None:
         self.assertIn("unclassified text still prints", self.body)
+
+    def test_spoken_lines_field_is_marked(self) -> None:
+        self.assertIn('<li class="speech">', self.body)
+        self.assertIn("The watcher, if pressed", self.body)
+
+    def test_spoken_lines_paragraph_is_marked(self) -> None:
+        self.assertIn('<p class="speech">', self.body)
+        self.assertIn("speak this beat while they climb", self.body)
+
+    def test_quote_leading_blockquote_is_speech(self) -> None:
+        self.assertIn('<blockquote class="speech-quote">', self.body)
+        self.assertIn("not supposed to be on this ladder", self.body)
+
+    def test_spoken_words_are_wrapped_for_color(self) -> None:
+        self.assertIn('<span class="line">“Nobody comes up here.”</span>', self.body)
+
+    def test_prose_blockquote_stays_neutral(self) -> None:
+        self.assertIn("<blockquote><p>Compiled table document", self.body)
+
+    def test_prose_quotes_are_not_wrapped_as_speech(self) -> None:
+        neutral = mdhtml.convert('A rushed glance may still read “military enough.”\n')
+        self.assertNotIn('class="line"', neutral)
+
+    def test_foreign_line_keeps_code_inside_speech(self) -> None:
+        self.assertIn('<code>"Halt. Papiere." (Halt. Papers.)</code>', self.body)
+
+
+class PrintCssTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.css = (TOOL_DIR / "run.css").read_text(encoding="utf-8")
+
+    def declarations(self, selector: str) -> str:
+        found = [
+            body
+            for group, body in re.findall(r"([^{}]+)\{([^}]*)\}", self.css)
+            if selector in [s.strip() for s in group.split(",")]
+        ]
+        self.assertTrue(found, f"no rule for {selector}")
+        return "\n".join(found)
+
+    def value(self, selector: str, prop: str) -> str:
+        match = re.search(rf"{prop}:\s*([^;]+);", self.declarations(selector))
+        self.assertIsNotNone(match, f"{selector} has no {prop}")
+        return match.group(1).strip()
+
+    def test_callouts_are_kept_together(self) -> None:
+        self.assertRegex(
+            self.css,
+            r"\.callout\s*\{[^}]*break-inside:\s*avoid;",
+        )
+
+    def test_statistics_and_rules_have_distinct_accents(self) -> None:
+        self.assertIn(".at-hand-statistics", self.css)
+        self.assertIn(".at-hand-rules", self.css)
+
+    def test_speech_blocks_are_kept_together(self) -> None:
+        self.assertIn("break-inside: avoid;", self.declarations(".speech"))
+        self.assertIn("break-inside: avoid;", self.declarations(".speech-quote"))
+
+    def test_spoken_words_are_colored(self) -> None:
+        self.assertTrue(self.value(".line", "color").startswith("#"))
+
+    def test_speech_accent_differs_from_other_cards(self) -> None:
+        speech = self.value(".speech", "background")
+        others = [
+            self.value(".gm-note", "background"),
+            self.value(".at-hand-statistics", "background"),
+            self.value(".at-hand-rules", "background"),
+        ]
+        self.assertNotIn(speech, others)
+
+    def test_fenced_rules_wrap_inside_the_column(self) -> None:
+        self.assertRegex(
+            self.css,
+            r"\.callout pre\s*\{[^}]*white-space:\s*pre-wrap;",
+        )
 
 
 class PathTests(unittest.TestCase):

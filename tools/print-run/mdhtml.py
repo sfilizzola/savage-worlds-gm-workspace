@@ -9,6 +9,11 @@ import re
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
 LIST_RE = re.compile(r"^\s*[-*]\s+(.*)$")
 SEP_RE = re.compile(r"^\s*\|?(\s*:?-{3,}:?\s*\|)+\s*:?-{3,}:?\s*\|?\s*$")
+ALERT_RE = re.compile(r"^\[!(IMPORTANT|TIP)\]\s*$", re.IGNORECASE)
+FENCE_RE = re.compile(r"^```([A-Za-z0-9_-]*)\s*$")
+SPEECH_RE = re.compile(r"[“\"][^“”\"]{2,}[”\"]")
+CODE_SLOT = "\x00%d\x00"
+CODE_SLOT_RE = re.compile(r"\x00(\d+)\x00")
 STAT_CONT = (
     "attributes:",
     "skills:",
@@ -22,12 +27,20 @@ STAT_CONT = (
 )
 
 
-def inline(text: str) -> str:
+def inline(text: str, speech: bool = False) -> str:
     s = html.escape(text, quote=False)
-    s = re.sub(r"`([^`]+)`", r"<code>\1</code>", s)
+    spans: list[str] = []
+
+    def stash(m: re.Match) -> str:
+        spans.append(m.group(1))
+        return CODE_SLOT % (len(spans) - 1)
+
+    s = re.sub(r"`([^`]+)`", stash, s)
     s = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", s)
-    return s
+    if speech:
+        s = SPEECH_RE.sub(r'<span class="line">\g<0></span>', s)
+    return CODE_SLOT_RE.sub(lambda m: f"<code>{spans[int(m.group(1))]}</code>", s)
 
 
 def visible_start(text: str) -> str:
@@ -59,6 +72,17 @@ def parse_blocks(text: str) -> list[tuple]:
         line = lines[i]
         if not line.strip():
             i += 1
+            continue
+        fence = FENCE_RE.match(line)
+        if fence:
+            chunk: list[str] = []
+            i += 1
+            while i < n and not FENCE_RE.match(lines[i]):
+                chunk.append(lines[i])
+                i += 1
+            if i < n:
+                i += 1
+            blocks.append(("code", fence.group(1), chunk))
             continue
         m = HEADING_RE.match(line)
         if m:
@@ -101,6 +125,8 @@ def parse_blocks(text: str) -> list[tuple]:
                 break
             if lines[i].lstrip().startswith(">"):
                 break
+            if FENCE_RE.match(lines[i]):
+                break
             if "|" in lines[i] and i + 1 < n and is_sep(lines[i + 1]):
                 break
             para.append(lines[i])
@@ -129,6 +155,14 @@ def is_gm_item(text: str) -> bool:
     return visible_start(text).lower().startswith("gm note")
 
 
+def is_speech_item(text: str) -> bool:
+    return visible_start(text).lower().startswith("spoken lines")
+
+
+def opens_with_quote(lines: list[str]) -> bool:
+    return visible_start(" ".join(lines)).startswith(("“", '"'))
+
+
 def is_stat_header(text: str) -> bool:
     low = text.lower()
     return "wild card" in low or re.search(r"\bextra\b", low) is not None
@@ -143,11 +177,38 @@ def has_attributes(lines: list[str]) -> bool:
     return any(visible_start(ln).lower().startswith("attributes:") for ln in lines)
 
 
+def alert_scope(blocks: list[tuple]) -> str:
+    for block in blocks:
+        if block[0] != "heading":
+            continue
+        heading = block[2].lower()
+        if heading.startswith("at-hand statistics"):
+            return "at-hand-statistics"
+        if heading.startswith("at-hand rules"):
+            return "at-hand-rules"
+    return ""
+
+
 def classify(blocks: list[tuple]) -> list[tuple]:
     out: list[tuple] = []
     i = 0
     while i < len(blocks):
         b = blocks[i]
+        if b[0] == "quote" and b[1]:
+            marker = ALERT_RE.match(b[1][0].strip())
+            if marker:
+                inner = classify(parse_blocks("\n".join(b[1][1:])))
+                out.append(("alert", marker.group(1).lower(), alert_scope(inner), inner))
+                i += 1
+                continue
+        if b[0] == "quote" and opens_with_quote(b[1]):
+            out.append(("speech-quote", b[1]))
+            i += 1
+            continue
+        if b[0] == "code" and is_stat_header(" ".join(b[2])) and has_attributes(b[2]):
+            out.append(("stat-block", b[2]))
+            i += 1
+            continue
         if looks_mood(b):
             chunk = [b]
             j = i + 1
@@ -170,6 +231,10 @@ def classify(blocks: list[tuple]) -> list[tuple]:
             lines = list(b[1])
             if is_gm_item(" ".join(lines)):
                 out.append(("gm-note", " ".join(lines)))
+                i += 1
+                continue
+            if is_speech_item(lines[0]):
+                out.append(("speech", " ".join(lines)))
                 i += 1
                 continue
             if lines and is_stat_header(lines[0]) and has_attributes(lines):
@@ -217,12 +282,30 @@ def render_blocks(blocks: list[tuple]) -> str:
         elif kind == "para":
             parts.append(f"<p>{inline(' '.join(b[1]))}</p>")
         elif kind == "list":
-            items = "".join(f"<li>{inline(x)}</li>" for x in b[1])
+            items = "".join(
+                f'<li class="speech">{inline(x, speech=True)}</li>'
+                if is_speech_item(x)
+                else f"<li>{inline(x)}</li>"
+                for x in b[1]
+            )
             parts.append(f"<ul>{items}</ul>")
         elif kind == "table":
             parts.append(render_table(b[1]))
         elif kind == "quote":
             parts.append(f"<blockquote><p>{inline(' '.join(b[1]))}</p></blockquote>")
+        elif kind == "speech-quote":
+            body = inline(" ".join(b[1]), speech=True)
+            parts.append(f'<blockquote class="speech-quote"><p>{body}</p></blockquote>')
+        elif kind == "speech":
+            parts.append(f'<p class="speech">{inline(b[1], speech=True)}</p>')
+        elif kind == "code":
+            parts.append(f"<pre><code>{html.escape(chr(10).join(b[2]))}</code></pre>")
+        elif kind == "alert":
+            alert_type, scope, blocks = b[1], b[2], b[3]
+            classes = f"callout callout-{alert_type}"
+            if scope:
+                classes += f" {scope}"
+            parts.append(f'<aside class="{classes}">{render_blocks(blocks)}</aside>')
         elif kind == "mood":
             parts.append(f'<div class="mood">{render_blocks(b[1])}</div>')
         elif kind == "gm-note":

@@ -38,7 +38,7 @@ State these rules once under **Notation**. Use them throughout the file.
 | First appearance of an NPC or named creature | **ALL-CAPS** on first mention in that situation; normal title case after |
 | Trait test | `` `Notice (-2)` ``, `` `Persuasion` ``, `` `Survival (+1)` `` — Trait name, optional modifier, no invented skill names |
 | Information rolls | Always state fail, success, and raise when the roll reveals information |
-| Quoted speech | Quotation marks for lines the GM can speak. Not a read-aloud script. Omit the field if nobody speaks |
+| Quoted speech | Quotation marks for lines the GM can speak. Not a read-aloud script. Omit the field if nobody speaks. Carry speech in a **Spoken lines** field or a blockquote that opens with the quotation mark, so the printer can tint it |
 | Mood | Four labeled lines the GM paraphrases to the table **now**: **Climate**, **See**, **Hear**, **Feel**. Player-perceivable only. Not a boxed read-aloud. No secrets, unearned names, historical footnotes, or GM editorials |
 | GM Note | Labeled **GM Note.** Secret or ruling. Never player-facing |
 | Optional material | Label **Optional.** Side paths must not gate the main objective |
@@ -49,6 +49,13 @@ State these rules once under **Notation**. Use them throughout the file.
 **Opening mood** (document section 4) is a GM throughline of the night: briefing calm → trouble. It may mention facts the players do not know yet. Do not speak it as the landing.
 
 **Story-point Mood** is what you paraphrase to the table when that situation is on. Compile it from the location's **First impression**.
+
+**Speech carriers.** `tools/print-run/` tints NPC speech so the GM can find a voice mid-scene. Two carriers get that tint:
+
+- A **Spoken lines** field (list item or paragraph). An attribution parenthetical is allowed: `**Spoken lines (CAPT. ELLIS WARD):**`.
+- A blockquote whose first character is the quotation mark, used for a longer beat the GM speaks as written.
+
+Quotation marks used for paraphrase, idiom, or a nickname stay in ordinary prose and are deliberately left untinted. Do not put speech only in a table cell or an unlabeled paragraph; label it or blockquote it.
 
 ## Situation block
 
@@ -90,14 +97,23 @@ Do not put in Mood: secrets, tells meant to be rolled, historical footnotes, “
 - GM Note:
 - Changes if delayed:
 
-#### At-hand statistics
+> [!IMPORTANT]
+> #### At-hand statistics
+>
+> One published-layout block per Wild Card or Extra profile that can matter here. Duplicate from character files rather than sending the GM elsewhere.
 
-One published-layout block per Wild Card or Extra profile that can matter here. Duplicate from character files rather than sending the GM elsewhere.
-
-#### At-hand rules
-
-Recurring or easy-to-miss procedure for this situation. Short paraphrase plus authority. Box environment rules that will be used more than once (travel, weather, drowning, thin air, darkness).
+> [!TIP]
+> #### At-hand rules
+>
+> Recurring or easy-to-miss procedure for this situation. Short paraphrase plus authority. Box environment rules that will be used more than once (travel, weather, drowning, thin air, darkness).
 ```
+
+Use GitHub-style Markdown alerts for both at-hand boards. Prefix every content line and every blank line inside the board with `>` so the heading and all of its content stay inside one alert. End the board with a normal unquoted blank line before another alert or heading:
+
+- `> [!IMPORTANT]` contains the complete **At-hand statistics** board.
+- `> [!TIP]` contains the complete **At-hand rules** board.
+
+Do not use a plain heading for either board. The alert is semantic source Markdown: compatible viewers highlight it, and `tools/print-run/` maps it to a high-attention, keep-together PDF card.
 
 ### When a field is required
 

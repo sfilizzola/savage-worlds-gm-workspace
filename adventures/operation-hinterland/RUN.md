@@ -148,59 +148,64 @@ Circle the Rathaus. No radio icon.
 
 > “The officers named as responsible are Hauptmann Stein and Oberleutnant Keller. They are people, not the objective. There is no second mission: no prisoners, no photographs, no side errand. Extraction is yours after two heads are off. Questions, then the truck.”
 
-If they dawdle: “The strip won’t wait on a better map.” If they ask where the aerial or the books sit, or for a room that kills the hydra: “That’s the pack. That’s what you jump with.” If they ask whether the Rathaus is the radio: “The Rathaus is the exchange. The aerial is a second head. You find it in town.”
+**Spoken lines (answers, only if asked):** If they dawdle: “The strip won’t wait on a better map.” If they ask where the aerial or the books sit, or for a room that kills the hydra: “That’s the pack. That’s what you jump with.” If they ask whether the Rathaus is the radio: “The Rathaus is the exchange. The aerial is a second head. You find it in town.”
 
 Then the truck. Then the jump (Story Point 0b). Then snow. **After they orient**, put the party token on the east LZ. That is Story Point 1.
 
-#### At-hand statistics — Capt. Ellis Ward (briefing only)
+> [!IMPORTANT]
+> #### At-hand statistics — Capt. Ellis Ward (briefing only)
+>
+> ```text
+> **Capt. Ellis Ward** — Extra
+> Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d4, Common Knowledge d8, Fighting d4, Notice d6, Persuasion d8, Shooting d6
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: M1911A1 in a holster (12/24/48, 2d6+1, RoF 1, 7 shots, AP 1, Semi-Auto), not drawn; winter coat; briefing folder
+> Special Abilities:
+> - Extra: one Wound Incapacitates (SWADE p.95)
+> Personality: calm, certain, wrong about the Rathaus; wants them in the air on time
+> Authority: SWADE pp. 87–88, 95, 202; Weird War II p.52 M1911A1, p.21 Rank NPC clause; house rule none
+> ```
+>
+> Do not play a fight with Ward.
+>
 
-```text
-**Capt. Ellis Ward** — Extra
-Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d4, Common Knowledge d8, Fighting d4, Notice d6, Persuasion d8, Shooting d6
-Pace: 6; Parry: 4; Toughness: 5
-Gear: M1911A1 in a holster (12/24/48, 2d6+1, RoF 1, 7 shots, AP 1, Semi-Auto), not drawn; winter coat; briefing folder
-Special Abilities:
-- Extra: one Wound Incapacitates (SWADE p.95)
-Personality: calm, certain, wrong about the Rathaus; wants them in the air on time
-Authority: SWADE pp. 87–88, 95, 202; Weird War II p.52 M1911A1, p.21 Rank NPC clause; house rule none
-```
+> [!IMPORTANT]
+> #### At-hand statistics — Wörnitztor watch (if they close the near gate)
+>
+> ```text
+> **Volkssturm / convalescent Extra** (×2) — Extra
+> Attributes: Agility d6, Smarts d6, Spirit d4, Strength d6, Vigor d6
+> Skills: Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d4
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 (12/24/48, 2d6−1, RoF 1, 8, Semi-Auto) or no rifle; greatcoat; maybe a helmet; stove; lamp
+> Special Abilities:
+> - Extra: one Wound Incapacitates (SWADE p.95)
+> Personality: tired; they want the night to pass
+> Authority: SWADE pp. 87–88, 95, 202; p. 66 Snapfire; Weird War II p.144 Volkssturm, p.152 weapons; house rule none
+> ```
+>
 
-Do not play a fight with Ward.
-
-#### At-hand statistics — Wörnitztor watch (if they close the near gate)
-
-```text
-**Volkssturm / convalescent Extra** (×2) — Extra
-Attributes: Agility d6, Smarts d6, Spirit d4, Strength d6, Vigor d6
-Skills: Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d4
-Pace: 6; Parry: 4; Toughness: 5
-Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 (12/24/48, 2d6−1, RoF 1, 8, Semi-Auto) or no rifle; greatcoat; maybe a helmet; stove; lamp
-Special Abilities:
-- Extra: one Wound Incapacitates (SWADE p.95)
-Personality: tired; they want the night to pass
-Authority: SWADE pp. 87–88, 95, 202; p. 66 Snapfire; Weird War II p.144 Volkssturm, p.152 weapons; house rule none
-```
-
-#### At-hand rules — night, cold, and flavor jump
-
-```text
-Authority: SWADE Fifth Printing (2023), p. 29 "Athletics"; p. 102 "Illumination"; p. 125 "Hazards"
-Setting: none for light; BG-OH-009 for the night clock; BG-OH-012 for the briefing town
-House rule: none
-Summary: typical night is Dark (−4); targets not visible past 10″ (20 yards).
-  6 Jan 1945 is Last Quarter (moon up around midnight). First half stays Dark.
-  After moonrise, a clear snow sky or a lamp/stove can be Dim (−2). Pitch Darkness
-  (−6) only in an unlit cellar or sealed room. Cloud on the flight is worse than
-  briefed (fiction). Cloud over Dinkelsbühl that night is unknown.
-  Athletics on the jump is flavor only: ignore Wounds, Fatigue, lost gear, scatter,
-  and any raise that would improve the LZ. They land together.
-Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
-  If they linger exposed, then Hazards (p.125). Jump Qualified is not used.
-```
-
-Lang’s Woodsman +2 Stealth applies in the wild (fields, Wörnitz tree line), **not** in streets or indoors (SWADE p.50).
-
+> [!TIP]
+> #### At-hand rules — night, cold, and flavor jump
+>
+> ```text
+> Authority: SWADE Fifth Printing (2023), p. 29 "Athletics"; p. 102 "Illumination"; p. 125 "Hazards"
+> Setting: none for light; BG-OH-009 for the night clock; BG-OH-012 for the briefing town
+> House rule: none
+> Summary: typical night is Dark (−4); targets not visible past 10″ (20 yards).
+>   6 Jan 1945 is Last Quarter (moon up around midnight). First half stays Dark.
+>   After moonrise, a clear snow sky or a lamp/stove can be Dim (−2). Pitch Darkness
+>   (−6) only in an unlit cellar or sealed room. Cloud on the flight is worse than
+>   briefed (fiction). Cloud over Dinkelsbühl that night is unknown.
+>   Athletics on the jump is flavor only: ignore Wounds, Fatigue, lost gear, scatter,
+>   and any raise that would improve the LZ. They land together.
+> Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
+>   If they linger exposed, then Hazards (p.125). Jump Qualified is not used.
+> ```
+>
+> Lang’s Woodsman +2 Stealth applies in the wild (fields, Wörnitz tree line), **not** in streets or indoors (SWADE p.50).
+>
 ## Mission in 30 seconds
 
 - **Premise:** Four Seasoned Allies briefed in Pont-à-Mousson, dropped onto Dinkelsbühl, early January 1945, winter night.
@@ -279,21 +284,24 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 - **GM Note:** Out-of-town help needs a living path **and** time. This is still a hollow town. Dummy wreck was never success.
 - **If time is short:** still run this compressed — one location, the fuse on the table, the scream clock if it applies, then “you are out, at this cost.” Do not skip it in favor of a leftover room fight. A long vehicle chase is the cut.
 
-#### At-hand statistics — hunt pair (after the fuse)
+> [!IMPORTANT]
+> #### At-hand statistics — hunt pair (after the fuse)
+>
+> Same profile as Wörnitztor watch (2 Extras). If Stein is within Command Range (5″ / 10 yards), Hold the Line! gives those extras +1 Toughness (SWADE p.45). They are still Extras. Natural Leader is not on either officer.
+>
 
-Same profile as Wörnitztor watch (2 Extras). If Stein is within Command Range (5″ / 10 yards), Hold the Line! gives those extras +1 Toughness (SWADE p.45). They are still Extras. Natural Leader is not on either officer.
-
-#### At-hand rules
-
-```text
-Authority: SWADE p.45 Command / Hold the Line!; p.102 Illumination; p.125 Hazards if still exposed
-Setting: Weird War II p.21 Rank NPC bonuses not applied
-House rule: none
-Applied here: local hunt only. Do not import Experienced infantry, Dodge, Rock and Roll!, or MG42.
-```
-
----
-
+> [!TIP]
+> #### At-hand rules
+>
+> ```text
+> Authority: SWADE p.45 Command / Hold the Line!; p.102 Illumination; p.125 Hazards if still exposed
+> Setting: Weird War II p.21 Rank NPC bonuses not applied
+> House rule: none
+> Applied here: local hunt only. Do not import Experienced infantry, Dodge, Rock and Roll!, or MG42.
+> ```
+>
+> ---
+>
 ## Story Point 0 - Briefing in Pont-à-Mousson
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -335,35 +343,38 @@ Applied here: local hunt only. Do not import Experienced infantry, Dodge, Rock a
 - GM Note: as story-point GM Note. Do not play an attack on Ward.
 - Changes if delayed: skip kit and chat; truck.
 
-#### At-hand statistics
+> [!IMPORTANT]
+> #### At-hand statistics
+>
+> ```text
+> **Capt. Ellis Ward** — Extra
+> Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d4, Common Knowledge d8, Fighting d4, Notice d6, Persuasion d8, Shooting d6
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: M1911A1 in a holster (12/24/48, 2d6+1, RoF 1, 7 shots, AP 1, Semi-Auto), not drawn; winter coat; briefing folder
+> Special Abilities:
+> - Extra: one Wound Incapacitates (SWADE p.95)
+> Personality: calm, certain, wrong about the Rathaus; wants them in the air on time
+> Authority: SWADE pp. 87–88, 95, 202; Weird War II p.52 M1911A1, p.21 Rank NPC clause; house rule none
+> ```
+>
+> Do not play a fight with Ward.
+>
 
-```text
-**Capt. Ellis Ward** — Extra
-Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d4, Common Knowledge d8, Fighting d4, Notice d6, Persuasion d8, Shooting d6
-Pace: 6; Parry: 4; Toughness: 5
-Gear: M1911A1 in a holster (12/24/48, 2d6+1, RoF 1, 7 shots, AP 1, Semi-Auto), not drawn; winter coat; briefing folder
-Special Abilities:
-- Extra: one Wound Incapacitates (SWADE p.95)
-Personality: calm, certain, wrong about the Rathaus; wants them in the air on time
-Authority: SWADE pp. 87–88, 95, 202; Weird War II p.52 M1911A1, p.21 Rank NPC clause; house rule none
-```
-
-Do not play a fight with Ward.
-
-#### At-hand rules
-
-```text
-Authority: SWADE Fifth Printing (2023), p.12 "Gear"; p.34 Repair includes demolitions
-Setting: Weird War II pp. 41, 52, 60 — do not add weapons not on the sheets
-House rule: none
-Summary: optional ordinary extras only (spare mag, gloves, lamp, extra cutters,
-  or one extra ½-lb TNT). Ward can refuse without a roll.
-Applied here: kit ask. No second satchel. No live-head intel.
-```
-
----
-
+> [!TIP]
+> #### At-hand rules
+>
+> ```text
+> Authority: SWADE Fifth Printing (2023), p.12 "Gear"; p.34 Repair includes demolitions
+> Setting: Weird War II pp. 41, 52, 60 — do not add weapons not on the sheets
+> House rule: none
+> Summary: optional ordinary extras only (spare mag, gloves, lamp, extra cutters,
+>   or one extra ½-lb TNT). Ward can refuse without a roll.
+> Applied here: kit ask. No second satchel. No live-head intel.
+> ```
+>
+> ---
+>
 ## Story Point 0b - The jump
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -401,20 +412,21 @@ Applied here: kit ask. No second satchel. No live-head intel.
 - GM Note: as story-point GM Note.
 - Changes if delayed: there is no delay. Cut to snow.
 
-#### At-hand rules
-
-```text
-Authority: SWADE Fifth Printing (2023), p. 29 "Athletics"; p. 102 "Illumination"
-Setting: BG-OH-012 briefing town; en-route flak is fiction
-House rule: none
-Summary: Athletics on the jump is flavor only. Ignore Wounds, Fatigue, lost gear,
-  scatter, and any raise that would improve the LZ. They land together.
-  Jump Qualified is not used. Dark in the door.
-Applied here: Story Point 0b. Dinkelsbühl stays asleep.
-```
-
----
-
+> [!TIP]
+> #### At-hand rules
+>
+> ```text
+> Authority: SWADE Fifth Printing (2023), p. 29 "Athletics"; p. 102 "Illumination"
+> Setting: BG-OH-012 briefing town; en-route flak is fiction
+> House rule: none
+> Summary: Athletics on the jump is flavor only. Ignore Wounds, Fatigue, lost gear,
+>   scatter, and any raise that would improve the LZ. They land together.
+>   Jump Qualified is not used. Dark in the door.
+> Applied here: Story Point 0b. Dinkelsbühl stays asleep.
+> ```
+>
+> ---
+>
 ## Story Point 1 - Wrong face of the walls
 
 **Mood (table):** Paraphrase. Not a read-aloud. They do **not** know which face this is yet.
@@ -456,23 +468,24 @@ Applied here: Story Point 0b. Dinkelsbühl stays asleep.
 - GM Note: as story-point GM Note.
 - Changes if delayed: cold, fatigue, less night.
 
-#### At-hand rules
-
-```text
-Authority: SWADE Fifth Printing (2023), p. 102 "Illumination"; p. 125 "Hazards";
-  p. 50 Woodsman
-Setting: none for light; BG-OH-009 for the night clock
-House rule: none
-Summary: typical night is Dark (−4); targets not visible past 10″ (20 yards).
-  6 Jan 1945 is Last Quarter (moon up around midnight). First half stays Dark.
-  After moonrise, a clear snow sky or a lamp/stove can be Dim (−2). Pitch Darkness
-  (−6) only in an unlit cellar or sealed room. Cloud over Dinkelsbühl that night
-  is unknown. Lang’s Woodsman +2 Stealth in the wild (fields, Wörnitz tree line)
-  only, not in streets or indoors.
-Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
-  If they linger exposed, then Hazards (p.125).
-```
-
+> [!TIP]
+> #### At-hand rules
+>
+> ```text
+> Authority: SWADE Fifth Printing (2023), p. 102 "Illumination"; p. 125 "Hazards";
+>   p. 50 Woodsman
+> Setting: none for light; BG-OH-009 for the night clock
+> House rule: none
+> Summary: typical night is Dark (−4); targets not visible past 10″ (20 yards).
+>   6 Jan 1945 is Last Quarter (moon up around midnight). First half stays Dark.
+>   After moonrise, a clear snow sky or a lamp/stove can be Dim (−2). Pitch Darkness
+>   (−6) only in an unlit cellar or sealed room. Cloud over Dinkelsbühl that night
+>   is unknown. Lang’s Woodsman +2 Stealth in the wild (fields, Wörnitz tree line)
+>   only, not in streets or indoors.
+> Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
+>   If they linger exposed, then Hazards (p.125).
+> ```
+>
 ### Wörnitztor
 
 - Sensory frame:
@@ -487,22 +500,23 @@ Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
 - GM Note: Bypass remains available. Failed gate = noise and time, not “you never enter.”
 - Changes if delayed: if the fuse lights, this gate is an obvious plug. Dawn puts more eyes here.
 
-#### At-hand statistics
-
-```text
-**Volkssturm / convalescent Extra** (×2) — Extra
-Attributes: Agility d6, Smarts d6, Spirit d4, Strength d6, Vigor d6
-Skills: Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d4
-Pace: 6; Parry: 4; Toughness: 5
-Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 or no rifle; greatcoat; maybe a helmet; stove; lamp
-Special Abilities:
-- Extra: one Wound Incapacitates (SWADE p.95)
-Personality: they want the night to pass; they will challenge a loud close; they will not sortie as a fortress
-Authority: SWADE pp. 87–88, 95, 202; p. 66 Snapfire; Weird War II p.144 Volkssturm, p.152; house rule none
-```
-
-Early-removal mitigated: break-contact is available. Civilians in nearby houses. Do not add a squad.
-
+> [!IMPORTANT]
+> #### At-hand statistics
+>
+> ```text
+> **Volkssturm / convalescent Extra** (×2) — Extra
+> Attributes: Agility d6, Smarts d6, Spirit d4, Strength d6, Vigor d6
+> Skills: Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d4
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 or no rifle; greatcoat; maybe a helmet; stove; lamp
+> Special Abilities:
+> - Extra: one Wound Incapacitates (SWADE p.95)
+> Personality: they want the night to pass; they will challenge a loud close; they will not sortie as a fortress
+> Authority: SWADE pp. 87–88, 95, 202; p. 66 Snapfire; Weird War II p.144 Volkssturm, p.152; house rule none
+> ```
+>
+> Early-removal mitigated: break-contact is available. Civilians in nearby houses. Do not add a squad.
+>
 ### Other gates and the circuit
 
 Full table: **Gates and the circuit** (near the top). Hollow town. Do not clone this pair.
@@ -561,45 +575,48 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 - GM Note: as story-point GM Note.
 - Changes if delayed: dawn fills the square with ordinary eyes.
 
-#### At-hand statistics — Hofmann (Extra)
+> [!IMPORTANT]
+> #### At-hand statistics — Hofmann (Extra)
+>
+> ```text
+> **Gefr. Lina Hofmann** — Extra
+> Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d4, Common Knowledge d6, Fighting d4, Notice d6, Persuasion d6, Shooting d4, Stealth d4
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: clerk papers, lamp; a P38 may be in a drawer, not in her hand at start
+> Personality: wants the night to pass; not the only vector
+> Authority: SWADE pp. 87–88, 95, 202; Weird War II p.152 P38; house rule none
+> ```
+>
 
-```text
-**Gefr. Lina Hofmann** — Extra
-Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d4, Common Knowledge d6, Fighting d4, Notice d6, Persuasion d6, Shooting d4, Stealth d4
-Pace: 6; Parry: 4; Toughness: 5
-Gear: clerk papers, lamp; a P38 may be in a drawer, not in her hand at start
-Personality: wants the night to pass; not the only vector
-Authority: SWADE pp. 87–88, 95, 202; Weird War II p.152 P38; house rule none
-```
-
-#### At-hand statistics — Stein if woken (Wild Card)
-
-```text
-**Hptm. Friedrich Stein** — Wild Card
-Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d4, Battle d8, Fighting d6, Notice d6, Persuasion d8, Shooting d6, Stealth d4
-Pace: 6; Parry: 5; Toughness: 5 (helmet +2 vs head Called Shots)
-Edges: Command (SWADE p.45), Hold the Line! (p.45 — Extras in Command Range +1 Toughness)
-Gear: P38, binoculars if he dressed, steel helmet if he had time, greatcoat. Staff sidearm unless the hunt is already on.
-Special Abilities:
-- Wild Card: Wild Die; 2 Bennies when he appears (SWADE p.89), plus the common GM pool
-Personality: Ortskommandant; the fuse; wants order in his town
-Authority: SWADE pp. 44–45, 87–89, 95, 202; Weird War II pp. 144, 21 (Rank NPC clause), 152; house rule none
-```
-
-Hold the Line! applies once he is directing a hunt: extras in Command Range (5″ / 10 yards) get +1 Toughness. They are still Extras. No off-map battalion. Rank (Officer) extra Benny **not** applied (WW2 p.21). Natural Leader is **not** on either officer, so Leadership Edges do not buff player Wild Cards.
-
-```text
-Authority: SWADE pp. 44–45, 87–89, 95, 202
-Setting: Weird War II pp. 144, 21, 152
-House rule: none
-Summary: Hofmann is talk/scare. Stein woken is one Wild Card plus whoever arrives in minutes.
-Applied here: dummy site. Four Seasoned should win a straight fight and pay in noise.
-```
-
----
-
+> [!IMPORTANT]
+> #### At-hand statistics — Stein if woken (Wild Card)
+>
+> ```text
+> **Hptm. Friedrich Stein** — Wild Card
+> Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d4, Battle d8, Fighting d6, Notice d6, Persuasion d8, Shooting d6, Stealth d4
+> Pace: 6; Parry: 5; Toughness: 5 (helmet +2 vs head Called Shots)
+> Edges: Command (SWADE p.45), Hold the Line! (p.45 — Extras in Command Range +1 Toughness)
+> Gear: P38, binoculars if he dressed, steel helmet if he had time, greatcoat. Staff sidearm unless the hunt is already on.
+> Special Abilities:
+> - Wild Card: Wild Die; 2 Bennies when he appears (SWADE p.89), plus the common GM pool
+> Personality: Ortskommandant; the fuse; wants order in his town
+> Authority: SWADE pp. 44–45, 87–89, 95, 202; Weird War II pp. 144, 21 (Rank NPC clause), 152; house rule none
+> ```
+>
+> Hold the Line! applies once he is directing a hunt: extras in Command Range (5″ / 10 yards) get +1 Toughness. They are still Extras. No off-map battalion. Rank (Officer) extra Benny **not** applied (WW2 p.21). Natural Leader is **not** on either officer, so Leadership Edges do not buff player Wild Cards.
+>
+> ```text
+> Authority: SWADE pp. 44–45, 87–89, 95, 202
+> Setting: Weird War II pp. 144, 21, 152
+> House rule: none
+> Summary: Hofmann is talk/scare. Stein woken is one Wild Card plus whoever arrives in minutes.
+> Applied here: dummy site. Four Seasoned should win a straight fight and pay in noise.
+> ```
+>
+> ---
+>
 ## Story Point 3 - Switchboard
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -638,22 +655,23 @@ Applied here: dummy site. Four Seasoned should win a straight fight and pay in n
 - GM Note: as story-point GM Note.
 - Changes if delayed: one other head dead → they try to patch or call. Alarm → they shout for Brandt or try the loft. Dawn → more traffic, more people.
 
-#### At-hand statistics — 2 operators (Extras)
-
-```text
-**Signals operator Extra** (×2) — Extra
-Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d4, Electronics d6, Fighting d4, Notice d6, Repair d4, Shooting d6, Stealth d4
-Pace: 6; Parry: 4; Toughness: 5 (helmet if they grabbed it)
-Gear: one P38 each; one of the two may have an MP40 on a hook (12/24/48, 2d6−1, RoF 3, 32 shots, AP 1, Auto). No squad MG.
-Special Abilities:
-- Extra: one Wound Incapacitates
-Personality: keep the board useful or get out and scream
-Authority: SWADE p.31 Electronics; pp. 87–88, 95, 202; p.105 Auto / Recoil −2; Weird War II p.144 quality floor, p.152; house rule none
-```
-
-Recoil −2 on Auto unless the shooter does not move and has Rock and Roll! (these extras do not). Do not add Brandt to this room.
-
+> [!IMPORTANT]
+> #### At-hand statistics — 2 operators (Extras)
+>
+> ```text
+> **Signals operator Extra** (×2) — Extra
+> Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d4, Electronics d6, Fighting d4, Notice d6, Repair d4, Shooting d6, Stealth d4
+> Pace: 6; Parry: 4; Toughness: 5 (helmet if they grabbed it)
+> Gear: one P38 each; one of the two may have an MP40 on a hook (12/24/48, 2d6−1, RoF 3, 32 shots, AP 1, Auto). No squad MG.
+> Special Abilities:
+> - Extra: one Wound Incapacitates
+> Personality: keep the board useful or get out and scream
+> Authority: SWADE p.31 Electronics; pp. 87–88, 95, 202; p.105 Auto / Recoil −2; Weird War II p.144 quality floor, p.152; house rule none
+> ```
+>
+> Recoil −2 on Auto unless the shooter does not move and has Rock and Roll! (these extras do not). Do not add Brandt to this room.
+>
 ### Pvt. Louis Benoit (cellar) — Optional, same east cluster
 
 - Sensory frame:
@@ -675,22 +693,23 @@ Recoil −2 on Auto unless the shooter does not move and has Rock and Roll! (the
 - **GM Note:** Re-entry and extra eyes. Not a required guide. Not a unique clue. Same-night chair if a PC is removed.
 - Changes if delayed: a hunt makes this cellar hotter. Dawn makes leaving with him louder.
 
-#### At-hand statistics — Benoit (Extra, promotable)
-
-```text
-**Pvt. Louis Benoit** — Extra (promotable)
-Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d6, Fighting d4, Notice d6, Persuasion d4, Shooting d4, Stealth d6; Language (French) d8, Language (German) d4
-Pace: 6; Parry: 4; Toughness: 5
-Gear: knife, stolen civilian clothes, maybe a P38 with almost no ammunition
-Personality: wants to stay hidden and alive; not a combat solution
-Authority: SWADE pp. 31–32, 87–88, 202–203; Weird War II p.12 recommended skills only; house rule none
-```
-
-If promoted to a temporary PC: Wild Die and 3 Bennies (SWADE p.87). Prefer **CPL. PIETER VOSS** if you want a finished Seasoned sheet.
-
----
-
+> [!IMPORTANT]
+> #### At-hand statistics — Benoit (Extra, promotable)
+>
+> ```text
+> **Pvt. Louis Benoit** — Extra (promotable)
+> Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d6, Fighting d4, Notice d6, Persuasion d4, Shooting d4, Stealth d6; Language (French) d8, Language (German) d4
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: knife, stolen civilian clothes, maybe a P38 with almost no ammunition
+> Personality: wants to stay hidden and alive; not a combat solution
+> Authority: SWADE pp. 31–32, 87–88, 202–203; Weird War II p.12 recommended skills only; house rule none
+> ```
+>
+> If promoted to a temporary PC: Wild Die and 3 Bennies (SWADE p.87). Prefer **CPL. PIETER VOSS** if you want a finished Seasoned sheet.
+>
+> ---
+>
 ## Story Point 4 - Aerial or radio loft
 
 **Mood (table):** Paraphrase. Not a read-aloud. Do not place Keller in the description unless they can already see her.
@@ -729,45 +748,47 @@ If promoted to a temporary PC: Wild Die and 3 Bennies (SWADE p.87). Prefer **CPL
 - GM Note: as story-point GM Note.
 - Changes if delayed: board dead → they still try radio. Papers gone → less useful traffic.
 
-#### At-hand statistics — loft watch (1 Extra)
-
-```text
-**Loft watch Extra** — Extra
-Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d6, Fighting d6, Notice d6, Shooting d6, Stealth d6
-Pace: 6; Parry: 5; Toughness: 5 (helmet +2 vs head)
-Gear: Kar 98K or MP40, 1× Stielhandgranate (5/10/20, 3d6−2, MBT, Athletics to throw), steel helmet. Set is live.
-Personality: keep the set live; raise out of town if they believe the raid
-Authority: SWADE pp. 29, 87–88, 93, 95; Weird War II p.144 Novice infantry, p.152; house rule none
-```
-
-Novice, not Experienced (no Dodge / Rock and Roll!). Voss / Benoit if someone still goes down.
-
+> [!IMPORTANT]
+> #### At-hand statistics — loft watch (1 Extra)
+>
+> ```text
+> **Loft watch Extra** — Extra
+> Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d6, Fighting d6, Notice d6, Shooting d6, Stealth d6
+> Pace: 6; Parry: 5; Toughness: 5 (helmet +2 vs head)
+> Gear: Kar 98K or MP40, 1× Stielhandgranate (5/10/20, 3d6−2, MBT, Athletics to throw), steel helmet. Set is live.
+> Personality: keep the set live; raise out of town if they believe the raid
+> Authority: SWADE pp. 29, 87–88, 93, 95; Weird War II p.144 Novice infantry, p.152; house rule none
+> ```
+>
+> Novice, not Experienced (no Dodge / Rock and Roll!). Voss / Benoit if someone still goes down.
+>
 ### Keller’s night round (north wall)
 
 - Trigger: they are seen on the north wall-walk, at Grüner Turm, or a shout pulls her off her stretch.
 - Spoken lines: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)` After the fuse she may pick up an MP40.
 - **GM Note:** She orders the thin watch. She is a possible loft sighting, not the key to the tower. She can reach the east face later if they linger. She does **not** have Hold the Line! — that sits on Stein.
 
-#### At-hand statistics — Keller (Wild Card)
-
-```text
-**Oblt. Marta Keller** — Wild Card
-Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d6, Battle d6, Fighting d6, Notice d8, Persuasion d6, Shooting d6, Stealth d6
-Pace: 6; Parry: 5; Toughness: 5 (helmet +2 vs head)
-Edges: Command (p.45), Combat Reflexes (p.41 — +2 to recover from Shaken)
-Gear: P38 at start. After the fuse she may pick up an MP40. Steel helmet, binoculars, greatcoat, whistle or lamp.
-Special Abilities:
-- Wild Card: Wild Die; 2 Bennies when she appears (p.89)
-Personality: night duty / deputy; the night watch does its job; not a side change
-Authority: SWADE pp. 41, 45, 87–89; Weird War II p.144 officer, p.152; house rule none
-```
-
-World rule: gender is not a question. Rank Benny omitted. A pair of extras only after the fuse, not a company.
-
----
-
+> [!IMPORTANT]
+> #### At-hand statistics — Keller (Wild Card)
+>
+> ```text
+> **Oblt. Marta Keller** — Wild Card
+> Attributes: Agility d6, Smarts d6, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d6, Battle d6, Fighting d6, Notice d8, Persuasion d6, Shooting d6, Stealth d6
+> Pace: 6; Parry: 5; Toughness: 5 (helmet +2 vs head)
+> Edges: Command (p.45), Combat Reflexes (p.41 — +2 to recover from Shaken)
+> Gear: P38 at start. After the fuse she may pick up an MP40. Steel helmet, binoculars, greatcoat, whistle or lamp.
+> Special Abilities:
+> - Wild Card: Wild Die; 2 Bennies when she appears (p.89)
+> Personality: night duty / deputy; the night watch does its job; not a side change
+> Authority: SWADE pp. 41, 45, 87–89; Weird War II p.144 officer, p.152; house rule none
+> ```
+>
+> World rule: gender is not a question. Rank Benny omitted. A pair of extras only after the fuse, not a company.
+>
+> ---
+>
 ## Story Point 5 - Papers and the signals NCO
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -807,22 +828,23 @@ World rule: gender is not a question. Rank Benny omitted. A pair of extras only 
 - GM Note: as story-point GM Note.
 - Changes if delayed: alarm → bag toward a car, a gate, the board, or a stove.
 
-#### At-hand statistics — Brandt (Extra)
-
-```text
-**Fw. Otto Brandt** — Extra
-Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
-Skills: Athletics d4, Electronics d6, Fighting d4, Notice d6, Repair d6, Shooting d6, Stealth d6
-Pace: 6; Parry: 4; Toughness: 5
-Gear: P38, satchel (live books / last traffic) in the room or on him, greatcoat. Helmet if he had time.
-Personality: papers stay useful and in German hands; not a boss fight
-Authority: SWADE pp. 87–88, 95, 202; Chase p.113 only if you run a chase; Weird War II p.21 Rank NPC clause; house rule none
-```
-
-Rank (NCO) +2 Toughness **not** applied. He stays an Extra. Early capture of a *PC* here is recoverable the same night (Benoit or Voss).
-
----
-
+> [!IMPORTANT]
+> #### At-hand statistics — Brandt (Extra)
+>
+> ```text
+> **Fw. Otto Brandt** — Extra
+> Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
+> Skills: Athletics d4, Electronics d6, Fighting d4, Notice d6, Repair d6, Shooting d6, Stealth d6
+> Pace: 6; Parry: 4; Toughness: 5
+> Gear: P38, satchel (live books / last traffic) in the room or on him, greatcoat. Helmet if he had time.
+> Personality: papers stay useful and in German hands; not a boss fight
+> Authority: SWADE pp. 87–88, 95, 202; Chase p.113 only if you run a chase; Weird War II p.21 Rank NPC clause; house rule none
+> ```
+>
+> Rank (NCO) +2 Toughness **not** applied. He stays an Extra. Early capture of a *PC* here is recoverable the same night (Benoit or Voss).
+>
+> ---
+>
 ## Story Point 6 - Fuse and extraction
 
 **Mood (table):** Paraphrase. Not a read-aloud. Fork on the clocks.
