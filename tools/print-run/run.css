@@ -1,0 +1,103 @@
+html {
+  font-size: 10pt;
+}
+
+body {
+  margin: 0;
+  color: #111;
+  font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+  line-height: 1.35;
+  background: #fff;
+}
+
+.run {
+  column-count: 2;
+  column-gap: 1.1em;
+}
+
+h1 {
+  column-span: all;
+  font-size: 1.6em;
+  margin: 0 0 0.6em;
+  border-bottom: 1px solid #111;
+  padding-bottom: 0.2em;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.section-banner {
+  column-span: all;
+  font-size: 1.15em;
+  margin: 0.9em 0 0.45em;
+  padding: 0.15em 0 0.15em 0.45em;
+  border-left: 4px solid #111;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h3, h4 {
+  font-size: 1em;
+  margin: 0.7em 0 0.25em;
+}
+
+p, ul, table {
+  margin: 0 0 0.45em;
+}
+
+ul {
+  padding-left: 1.1em;
+}
+
+code {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+}
+
+.mood,
+.stat-block,
+.run-table,
+.gm-note {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.mood {
+  border: 1px solid #ccc;
+  padding: 0.4em 0.5em;
+  margin: 0 0 0.5em;
+}
+
+.gm-note {
+  background: #fff6d4;
+  border-left: 4px solid #c9a227;
+  padding: 0.35em 0.5em;
+  margin: 0 0 0.5em;
+}
+
+.stat-block {
+  border: 1px solid #111;
+  padding: 0.4em 0.5em;
+  margin: 0 0 0.5em;
+}
+
+.stat-block p {
+  margin: 0 0 0.2em;
+}
+
+.run-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88em;
+}
+
+.run-table th,
+.run-table td {
+  border: 1px solid #ccc;
+  padding: 0.15em 0.3em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.run-table th {
+  background: #f3f3f3;
+}
