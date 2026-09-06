@@ -31,7 +31,7 @@ Unnamed extras get no biography. Derive role, knowledge, fear, and language from
 
 1. Lock this moment: current objective, fear, leverage, what they have seen or been told, relationship to the PCs, which language(s) they would actually use here.
 2. Silence: if they would not talk and the skeleton does not require the field, omit or write `Spoken lines: none`. If a named speaker is present and the field is required, write a non-speech cue (they move, glare, keep working). Do not invent dialogue to fill a blank.
-3. Named NPC: if no file exists, copy `templates/npc.md` into the adventure (not `world/npcs/` unless asked). Fill Portrayal (first impression, voice/manner, 1–3 core lines, avoid, four pressure variants). Leave Mechanics empty or untouched — do not invent stats. If a line would imply a Trait test, read `rules/RULES.md`; still do not write the roll in this skill.
+3. Named NPC: if no named NPC file exists, create `adventures/<slug>/npcs/<name>.md` from `templates/npc.md`. Do not put NPC Portrayal in `characters/` or player sheets (`characters/` is pregenerated PCs). Do not promote to `world/npcs/` unless the GM asks. If a named NPC file already exists (wherever it is — except pregen sheets, which are not Portrayal targets), edit that Portrayal in place. Fill Portrayal (first impression, voice/manner, 1–3 core lines, avoid, four pressure variants). Leave Mechanics empty or untouched — do not invent stats. If a line would imply a Trait test, read `rules/RULES.md`; still do not write the roll in this skill.
 4. Write beat-specific `Spoken lines` into the situation (see File mapping). One named person in several beats: Portrayal stays in the NPC file; each beat gets only the line that belongs there. Do not paste the pressure table into every story point.
 5. Named only — pressure variants, one short line or action-plus-line each, same person: Cooperate, Refuse, Threatened, Ignored. Ignored must match **If ignored** on the NPC file.
 6. Self-check: would this person say this if the plot did not need it? If not, rewrite or omit.
@@ -47,7 +47,7 @@ Do not create one NPC file per extra shout.
 
 ## Repair path
 
-Walk quotes in Portrayal and in the relevant situations. Rewrite in place if the line fails the rubric. Leave lines that already pass. Do not add pressure variants when existing named lines already pass, unless Portrayal is incomplete.
+Walk quotes in Portrayal and in the relevant situations. Rewrite in place if the line fails the rubric. Leave lines that already pass. Add the four pressure slots only on **Write**, when the GM asked for pressure variants, or when Portrayal has no first impression and no core spoken lines. Missing pressure slots alone do not count as incomplete Portrayal on Repair. Do not add them while repairing a passing named speaker.
 
 ### Rubric — fail (must rewrite)
 
@@ -74,7 +74,7 @@ Non-English quotes need the English meaning on the same line (or immediately bes
 
 | What | Where |
 |---|---|
-| Named Portrayal + pressure variants | Adventure NPC/character file (`templates/npc.md` shape) |
+| Named Portrayal + pressure variants | Existing named NPC file if one exists (not pregen sheets in `characters/`); otherwise `adventures/<slug>/npcs/<name>.md` from `templates/npc.md`. Never `characters/` or player sheets. Never `world/npcs/` unless the GM asks. |
 | Situation `Spoken lines` | That situation in `RUN.md` if the block exists; otherwise the pre-compile situation draft (`plot.md` / location notes) using the field name `Spoken lines` |
 | Extra voice cue + shout | Situation only |
 
