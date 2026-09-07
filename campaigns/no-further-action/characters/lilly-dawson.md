@@ -13,6 +13,7 @@ Player sheet. Print this. Not session history. Canonical for **1986 / Novice** i
 | **Born** | 1962 (24 in January 1986) |
 | **Ancestry** | Human |
 | **Rank (SWADE)** | Novice |
+| **Portrait (1986)** | `lily_portrait_1986.png` |
 
 ---
 
@@ -113,3 +114,9 @@ Lilly does not want to go. Refusing an official promotion would confirm that she
 From Lilly's perspective, Ashgrove is simply the distant small department that accepted the arrangement. She has no reason to suspect a family or investigative connection.
 
 Do not print GM Correction material on this sheet.
+
+## Print
+
+A4 print extract: `print/chars.json`, rendered by `tools/print-sheets/`. It prints as an Ashgrove PD personnel file with the 1986 portrait, description-and-service fields, ruled case notes, and blank open-thread checkboxes for the player to fill at the table.
+
+Fields the campaign has not established — height, shield number, assigned partner — print as blank lines to fill in by hand. Do not invent values for them here or in the extract. The threads list is empty write-in rows; do not pre-fill plot or GM Correction material.

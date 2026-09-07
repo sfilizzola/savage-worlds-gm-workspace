@@ -137,12 +137,31 @@ h2 {
   text-transform: uppercase;
   color: var(--muted);
 }
+.mast .classification {
+  display: inline-block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 5.6pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--alert);
+  border: 0.8pt solid var(--alert);
+  padding: 0.5mm 1.2mm 0.35mm;
+  margin-top: 1.1mm;
+}
 .ident {
   display: grid;
   grid-template-columns: 1fr 58mm;
   gap: 3mm;
   margin-bottom: 2.2mm;
 }
+.ident.filed {
+  grid-template-columns: 32mm minmax(0, 1fr) 48mm;
+  gap: 4mm;
+  margin-bottom: 1.8mm;
+}
+.ident .who { min-width: 0; }
+.ident .side { min-width: 0; }
 .name {
   font-size: 22pt;
   line-height: 0.86;
@@ -167,6 +186,142 @@ h2 {
 }
 .tags dt { color: var(--muted); font-size: 5.8pt; letter-spacing: 0.14em; }
 .tags dd { margin: 0; font-weight: 600; font-size: 7.4pt; letter-spacing: 0.02em; }
+/* Photo pasted into the file: mount corners, thin border, caption strip. */
+.photo { margin: 0; }
+.photo .frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border: 1.4pt solid var(--rule);
+  background: #f4f1ea;
+  overflow: hidden;
+}
+.photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo .c {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0.88;
+}
+.photo .c.tl {
+  top: 0; left: 0;
+  border-top: 4.6mm solid var(--ink);
+  border-right: 4.6mm solid transparent;
+}
+.photo .c.tr {
+  top: 0; right: 0;
+  border-top: 4.6mm solid var(--ink);
+  border-left: 4.6mm solid transparent;
+}
+.photo .c.bl {
+  bottom: 0; left: 0;
+  border-bottom: 4.6mm solid var(--ink);
+  border-right: 4.6mm solid transparent;
+}
+.photo .c.br {
+  bottom: 0; right: 0;
+  border-bottom: 4.6mm solid var(--ink);
+  border-left: 4.6mm solid transparent;
+}
+.photo figcaption {
+  border: 1.4pt solid var(--rule);
+  border-top: 0;
+  padding: 0.8mm 1.2mm 0.7mm;
+  text-align: center;
+}
+.photo .cap-name {
+  display: block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 6.4pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.photo .cap-sub {
+  display: block;
+  font-size: 5.6pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.4mm;
+}
+
+/* Personnel-file fields. An empty value prints a line to fill in by hand. */
+.dossier-head {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 6pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 0.8pt solid var(--rule);
+  padding-bottom: 0.7mm;
+  margin-top: 2.6mm;
+}
+.dossier {
+  columns: 2;
+  column-gap: 4mm;
+  margin: 0.6mm 0 0;
+}
+.dossier > div {
+  display: grid;
+  grid-template-columns: 18mm minmax(0, 1fr);
+  align-items: baseline;
+  gap: 1.4mm;
+  border-bottom: 0.35pt solid #c9c3b4;
+  padding: 0.5mm 0;
+  break-inside: avoid;
+}
+.dossier dt {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 5.7pt;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dossier dd {
+  margin: 0;
+  font-size: 6.5pt;
+  font-weight: 600;
+}
+.dossier dd.blank { border-bottom: 0.5pt dotted var(--muted); height: 2.6mm; }
+
+/* Rubber stamp. Flavour only: never place it over numbers the GM must read. */
+.stamp {
+  margin-top: 4mm;
+  border: 1.6pt solid var(--alert);
+  outline: 0.5pt solid var(--alert);
+  outline-offset: 0.9mm;
+  padding: 1.4mm 1mm 1.2mm;
+  text-align: center;
+  transform: rotate(-4.5deg);
+  opacity: 0.82;
+}
+.stamp-text {
+  display: block;
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  font-size: 9.6pt;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alert);
+}
+.stamp-sub {
+  display: block;
+  font-size: 5.4pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--alert);
+  margin-top: 0.8mm;
+}
+
 .reserve-banner {
   grid-column: 1 / -1;
   background: var(--ink);
@@ -411,7 +566,7 @@ td {
 .team { font-size: 6.3pt; margin-top: 1mm; }
 .you {
   border-top: 1.6pt solid var(--rule);
-  padding-top: 1.6mm;
+  padding-top: 1.2mm;
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 4mm;
@@ -424,6 +579,60 @@ td {
   text-transform: uppercase;
   font-size: 6.2pt;
   margin-bottom: 0.6mm;
+}
+.casework {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4mm;
+  margin-top: 1.8mm;
+}
+.casework.solo { grid-template-columns: 1fr; }
+.rules {
+  display: grid;
+  gap: 4.4mm;
+  padding: 2.8mm 0 0.4mm;
+}
+.rules span { display: block; border-bottom: 0.4pt solid #b9b2a2; }
+.thread-list {
+  margin: 1mm 0 0;
+  padding: 0;
+  list-style: none;
+}
+.thread-list li {
+  display: grid;
+  grid-template-columns: 3.4mm minmax(0, 1fr);
+  gap: 1.6mm;
+  align-items: start;
+  padding: 0.55mm 0;
+  border-bottom: 0.35pt solid #c9c3b4;
+  font-size: 6.4pt;
+}
+.thread-list .cb {
+  width: 3.2mm;
+  height: 3.2mm;
+  border: 0.9pt solid var(--rule);
+  margin-top: 0.2mm;
+}
+.thread-list .blank {
+  border-bottom: 0.5pt dotted var(--muted);
+  height: 3mm;
+}
+.signature {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr;
+  gap: 6mm;
+  margin-top: 2.4mm;
+}
+.sig .rule { display: block; border-bottom: 0.9pt solid var(--rule); height: 4mm; }
+.sig .lbl {
+  display: block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 5.6pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.9mm;
 }
 .foot {
   display: flex;

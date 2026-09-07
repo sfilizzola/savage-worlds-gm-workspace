@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -42,6 +43,12 @@ SHEET_DEFAULTS = {
     "reserve_banner": "Reserve pregen",
     "team_kit": "",
     "bennies": "Bennies · start 3 · tick when spent",
+    "classification": "",
+    "dossier_heading": "",
+    "notes_heading": "Case notes",
+    "notes_lines": 0,
+    "threads_heading": "Open threads",
+    "signature": [],
 }
 
 
@@ -66,7 +73,111 @@ def skill_row(name: str, die: str, mod: str) -> str:
     )
 
 
-def render(ch: dict, sheet: dict) -> str:
+def portrait_html(ch: dict, href) -> str:
+    """Mount the character image like a photo pasted into a personnel file."""
+    portrait = ch.get("portrait")
+    if not portrait:
+        return ""
+    src = href(portrait["src"])
+    corners = "".join(f'<i class="c {p}"></i>' for p in ("tl", "tr", "bl", "br"))
+    caption = portrait.get("caption") or ch["name"]
+    sub = portrait.get("sub") or ""
+    sub_html = f'<span class="cap-sub">{e(sub)}</span>' if sub else ""
+    return f"""
+      <figure class="photo">
+        <div class="frame">
+          <img src="{e(src)}" alt="{e(caption)}" />
+          {corners}
+        </div>
+        <figcaption>
+          <span class="cap-name">{e(caption)}</span>
+          {sub_html}
+        </figcaption>
+      </figure>"""
+
+
+def stamp_html(ch: dict) -> str:
+    stamp = ch.get("stamp")
+    if not stamp:
+        return ""
+    text = stamp["text"] if isinstance(stamp, dict) else str(stamp)
+    sub = stamp.get("sub", "") if isinstance(stamp, dict) else ""
+    sub_html = f'<span class="stamp-sub">{e(sub)}</span>' if sub else ""
+    return f"""
+        <div class="stamp">
+          <span class="stamp-text">{e(text)}</span>
+          {sub_html}
+        </div>"""
+
+
+def dossier_html(ch: dict, sheet: dict) -> str:
+    """Personnel-file fields beside the photo. An empty value prints a fill line."""
+    rows = ch.get("dossier") or []
+    if not rows:
+        return ""
+    heading = sheet.get("dossier_heading") or ""
+    head = f'<div class="dossier-head">{e(heading)}</div>' if heading else ""
+    items = "".join(
+        f'<div><dt>{e(label)}</dt>'
+        + (f"<dd>{e(value)}</dd>" if value else '<dd class="blank"></dd>')
+        + "</div>"
+        for label, value in rows
+    )
+    return f"""
+        {head}
+        <dl class="dossier">{items}</dl>"""
+
+
+def casework_html(ch: dict, sheet: dict) -> str:
+    """Ruled note space and a checkbox thread list for use during play."""
+    lines = int(ch.get("notes_lines", sheet.get("notes_lines") or 0))
+    threads = ch.get("threads") or []
+    if not lines and not threads:
+        return ""
+
+    notes = ""
+    if lines:
+        rules = "".join("<span></span>" for _ in range(lines))
+        notes = f"""
+      <div class="panel">
+        <h2>{e(sheet["notes_heading"])}</h2>
+        <div class="rules">{rules}</div>
+      </div>"""
+
+    thread_block = ""
+    if threads:
+        items = "".join(
+            f'<li><span class="cb"></span>'
+            + (f"<span>{e(t)}</span>" if t else '<span class="blank"></span>')
+            + "</li>"
+            for t in threads
+        )
+        thread_block = f"""
+      <div class="panel">
+        <h2>{e(sheet["threads_heading"])}</h2>
+        <ul class="thread-list">{items}</ul>
+      </div>"""
+
+    cls = "casework" if notes and thread_block else "casework solo"
+    return f"""
+    <div class="{cls}">{notes}{thread_block}
+    </div>"""
+
+
+def signature_html(sheet: dict) -> str:
+    labels = sheet.get("signature") or []
+    if not labels:
+        return ""
+    fields = "".join(
+        f'<div class="sig"><span class="rule"></span>'
+        f'<span class="lbl">{e(label)}</span></div>'
+        for label in labels
+    )
+    return f"""
+    <div class="signature">{fields}</div>"""
+
+
+def render(ch: dict, sheet: dict, href) -> str:
     title = ch["name"]
     if sheet["title_suffix"]:
         title = f'{ch["name"]} — {sheet["title_suffix"]}'
@@ -118,6 +229,17 @@ def render(ch: dict, sheet: dict) -> str:
     team_kit = sheet.get("team_kit") or ""
     you = ch.get("you") or ""
     play = ch.get("play") or ""
+    photo = portrait_html(ch, href)
+    dossier = dossier_html(ch, sheet)
+    stamp = stamp_html(ch)
+    casework = casework_html(ch, sheet)
+    signature = signature_html(sheet)
+    ident_cls = "ident filed" if photo else "ident"
+    classification = sheet.get("classification") or ""
+    class_html = (
+        f'<div class="classification">{e(classification)}</div>' if classification else ""
+    )
+
     you_block = ""
     if you or play:
         you_block = f"""
@@ -145,19 +267,22 @@ def render(ch: dict, sheet: dict) -> str:
       <div>
         <div class="op">{e(sheet["op"])}</div>
         <div class="file">{e(sheet["file"])}</div>
+        {class_html}
       </div>
       <div class="meta">{meta_html}</div>
     </header>
 
     {banner}
-    <div class="ident">
-      <div>
+    <div class="{ident_cls}">{photo}
+      <div class="who">
         <h1 class="name">{e(ch["name"])}</h1>
-        <div class="role">{e(ch["role"])}</div>
+        <div class="role">{e(ch["role"])}</div>{dossier}
       </div>
-      <dl class="tags">
+      <div class="side">
+        <dl class="tags">
 {tags}
-      </dl>
+        </dl>{stamp}
+      </div>
     </div>
 
     <div class="row-stats">
@@ -236,7 +361,7 @@ def render(ch: dict, sheet: dict) -> str:
         <p class="team">{e(team_kit)}</p>
       </div>
     </div>
-{you_block}
+{you_block}{casework}{signature}
     <footer class="foot">
       <span>{e(sheet["footer_left"])}</span>
       <span>{e(sheet["footer_right"])}</span>
@@ -314,6 +439,20 @@ def print_pdf(html_path: Path) -> None:
     print("wrote", pdf_path.name)
 
 
+def make_href(base: Path, out: Path):
+    """Image paths in the JSON are relative to the JSON; hrefs are relative to output."""
+
+    def href(src: str) -> str:
+        if src.startswith(("http://", "https://", "data:", "/")):
+            return src
+        target = (base / src).resolve()
+        if not target.is_file():
+            raise SystemExit(f"Portrait not found: {target}")
+        return os.path.relpath(target, out).replace(os.sep, "/")
+
+    return href
+
+
 def build(data_path: Path, out: Path, who: str, pdf: bool) -> None:
     sheet, characters = load_pack(data_path)
     known = {ch["id"]: ch for ch in characters}
@@ -324,9 +463,10 @@ def build(data_path: Path, out: Path, who: str, pdf: bool) -> None:
 
     out.mkdir(parents=True, exist_ok=True)
     sync_assets(out)
+    href = make_href(data_path.parent, out)
     for lid in wanted:
         path = out / f"{lid}.html"
-        path.write_text(render(known[lid], sheet), encoding="utf-8")
+        path.write_text(render(known[lid], sheet, href), encoding="utf-8")
         print("wrote", path.name)
         if pdf:
             print_pdf(path)

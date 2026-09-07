@@ -7,6 +7,16 @@
       "Novice · Wild Card · Human · Size 0",
       "SWADE Fifth Printing · January 1986 · HR-NFA-001 (15 skill points)"
     ],
+    "classification": "Confidential · Investigations Division",
+    "dossier_heading": "Description and service",
+    "notes_heading": "Case notes",
+    "notes_lines": 4,
+    "threads_heading": "Open threads · yours",
+    "signature": [
+      "Detective (signature)",
+      "Reviewed by",
+      "Date"
+    ],
     "skills_heading": "Skills · unskilled d4−2",
     "skills_footnote": "* Core skill. Core skills start at d4. Investigator may apply to Notice or Research when the Edge says so.",
     "weapons_heading": "Weapons",
@@ -25,6 +35,38 @@
       "reserve": false,
       "name": "Lilly Dawson",
       "role": "Detective",
+      "portrait": {
+        "src": "../lily_portrait_1986.png",
+        "caption": "Dawson, Lilly",
+        "sub": "Ashgrove PD · 1986"
+      },
+      "stamp": {
+        "text": "No Further Action",
+        "sub": "Disposition"
+      },
+      "dossier": [
+        ["Shield no.", ""],
+        ["Rank", "Detective Third Class"],
+        ["Unit", "Investigations"],
+        ["Appointed", "10 Jan 1986"],
+        ["Prior post", "New Jersey"],
+        ["Height", ""],
+        ["Hair", "Red"],
+        ["Eyes", "Honey"],
+        ["Marks", "Freckles"],
+        ["Build", "Athletic"],
+        ["Ambition", "FBI"],
+        ["Kin", "Medrick, Simon, Ashley"],
+        ["Born", "1962"],
+        ["Partner", ""]
+      ],
+      "threads": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
       "tags": [
         {
           "label": "Dept",
@@ -52,7 +94,7 @@
       "parry_alert": false,
       "parry_note": "2 + half Fighting d6",
       "tough": "4",
-      "tough_note": "Vest not in this number",
+      "tough_note": "Vest not included",
       "skills": [
         ["Athletics*", "d8", ""],
         ["Common Knowledge*", "d4", ""],
@@ -80,11 +122,11 @@
         ["9mm service pistol", "12/24/48", "1", "2d6", "Semi-Auto · SWADE firearms"]
       ],
       "ammo": "Department issue. Count magazines at the table.",
-      "carried": "~12 lb (with vest)",
-      "limit": "20 lb (Str d4)",
+      "carried": "12 lb",
+      "limit": "20 lb",
       "penalty": "None",
       "encumbered": false,
-      "armor": "Torso: light Kevlar when worn (SWADE gear). Head/limbs: none.",
+      "armor": "Torso: light Kevlar when worn (SWADE gear). Head/limbs: none. Load Limit Str d4 × 5.",
       "gear": [
         ["Light Kevlar vest (when worn)", "5"],
         ["Badge and ID", "—"],

@@ -42,6 +42,7 @@ Same layout wherever the sheets live — a standalone adventure's `characters/` 
 ```text
 <path-to-characters>/
 ├── <name>.md            # mechanical source of truth
+├── <name>_portrait.png  # optional; referenced from chars.json
 └── print/
     ├── chars.json       # print extract for this tool
     ├── build_sheets.py  # optional wrapper; calls this tool
@@ -58,3 +59,37 @@ After editing a `.md` sheet, update the `chars.json` beside it to match, then re
 Top-level keys: `sheet` (masthead, headings, footer, shared team kit) and `characters` (one object per pregen). Tags are a list of `{label, value}` so a Weird War II file can use Rank / MOS / Nationality / Service and another adventure can use different labels.
 
 See `adventures/operation-hinterland/characters/print/chars.json` for a complete example.
+
+## Case-file blocks (optional)
+
+These keys are off unless present, so an existing `chars.json` prints exactly as before. They exist to make an investigative sheet read like a personnel file; a war sheet can ignore all of them.
+
+Per character:
+
+| Key | Effect |
+|---|---|
+| `portrait` | `{src, caption, sub}`. Mounts the image with photo corners and a caption strip in a left column of the identity row. `src` is relative to the `chars.json`, so a portrait beside the `.md` sheets is `../name.png`. |
+| `stamp` | `{text, sub}` or a plain string. Rotated rubber stamp under the tags. Flavour only — never place it over numbers the GM must read. |
+| `dossier` | List of `[label, value]`. Description-and-service fields beside the photo. **An empty value prints a line to fill in by hand**, which is how to carry a field the campaign has not established. |
+| `threads` | List of strings with a checkbox each. An empty string prints a blank write-in row. |
+| `notes_lines` | Overrides `sheet.notes_lines` for one character. |
+
+In `sheet`:
+
+| Key | Effect |
+|---|---|
+| `classification` | Small outlined chip under the file line (for example `Confidential · Investigations Division`). |
+| `dossier_heading` | Heading above the `dossier` fields. |
+| `notes_heading`, `notes_lines` | Ruled writing panel. `notes_lines: 0` omits it. |
+| `threads_heading` | Heading above the `threads` list. |
+| `signature` | List of labels, each printed as a signature rule (for example `Detective (signature)`, `Reviewed by`, `Date`). |
+
+## Checking that a sheet still fits one page
+
+A4 portrait with the stylesheet's 7mm margins leaves **283mm** of printable height. Adding a portrait or case-file blocks can push a sheet onto a second page, and the overflow is easy to miss in a PDF viewer.
+
+```text
+python3 tools/print-sheets/measure.py campaigns/<campaign-slug>/characters/print/<id>.html
+```
+
+It prints the height of each block, the total, and the remaining slack. Keep a few millimetres spare — font metrics drift between Chrome versions. The identity row is usually governed by whichever is taller, the photo column or the name-and-dossier column, so shrinking the photo below the dossier height buys nothing.
