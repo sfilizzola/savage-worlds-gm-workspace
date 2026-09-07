@@ -16,7 +16,7 @@
 
 ## Working (not played)
 
-- **Weeks after January 1986 (working February):** *Vozes sem Corpo*.
+- **Morning after night 1, January 1986:** *Vozes sem Corpo* begins only hours after Whitley shelves the Loman file. Adventure preparation exists; outcomes remain unplayed.
 - **Months later, 1986:** action cop case (shots).
 - **Later 1986:** puzzle case; arc-1 rhyme.
 - **1998:** four files, weeks or months apart; she is still Ashgrove PD when the year opens; FBI consultancy.

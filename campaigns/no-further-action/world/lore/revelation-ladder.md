@@ -21,9 +21,10 @@ When an adventure is written, every essential revelation inside that night recei
 
 ### 2. Vozes sem Corpo — first seam
 
+- Begins the morning after night 1, only hours after Whitley shelves Frank's file; drafted outcomes remain preparation, not history.
 - The station recording and local infrastructure produce the first **synchronization gap**.
 - Ownership or responsibility is deliberately muddy, but no evidence names a national consortium.
-- Walter Greene, the Water Authority, and ClearWave are available design material, not mandatory answers.
+- The Water Authority access trail is usable local evidence. Walter Greene and ClearWave remain unused material, not answers.
 - Resolve the local case as far as Lilly's choices and evidence allow; do not turn Abigail into an exposition source.
 
 ### 3. Action case — independent crime

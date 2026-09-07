@@ -80,12 +80,12 @@ Canonical mechanical sheets live under this campaign's `characters/`. Do not kee
 
 ## Adventure index
 
-Child folders sit beside `world/` and `characters/`. Only night 1 has a folder so far (played). Other slugs are **jobs in the arc**, not written adventures.
+Child folders sit beside `world/` and `characters/`. Night 1 is played; night 2 is drafted preparation. Other slugs are **jobs in the arc**, not written adventures.
 
 | Slug | Title | Status | Calendar | Notes |
 |------|-------|--------|----------|-------|
 | `neblina-sobre-o-lago` | Neblina sobre o Lago | played | Jan 1986 | Loman / Lake Barrow. Recap in the child folder. Ends with Abigail Carr’s call. |
-| `vozes-sem-corpo` | Vozes sem Corpo | concept | weeks after night 1 (working: Feb 1986) | Only 1986 sequel. The call / the recording becomes a case. Not the empire. |
+| `vozes-sem-corpo` | Vozes sem Corpo | drafting | morning after night 1 (Jan 1986) | Only 1986 sequel. The fresh call / recording becomes a case; prepared outcomes are not history. Not the empire. |
 | `ashgrove-shots-1986` | (untitled; working) | concept | months later in 1986 | Unrelated **action** cop case — shots, live danger, not investigation-only. |
 | `ashgrove-puzzle-1986` | (untitled; working) | concept | later 1986, weeks/months after night 3 | **Puzzle** night. Arc-1 finishing rhyme. 1986 personal bruise in the paperwork if she looks. |
 | `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | FBI in her town. She is still Ashgrove PD + consultant. First concrete Correction language. |
@@ -97,7 +97,7 @@ Child folders sit beside `world/` and `characters/`. Only night 1 has a folder s
 | `the-dawson-file` | (untitled; working) | concept | 2016, hours/days later | Movement 3. Origin + Correction lock while the case is live. |
 | `ashgrove-disposition` | (untitled; working) | concept | 2016, hours/days later | Movement 4. Takedown in Ashgrove. Haunt as feeling; proof is human. |
 
-**Calendars:** 1986 and 1998 — weeks or months between files (except 1→2 is weeks). 2016 — one big case; gaps are hours or days; stalling lets the Correction move.
+**Calendars:** Night 2 begins the morning after night 1. Later 1986 and 1998 files are weeks or months apart; night 3 remains months later and unrelated. 2016 is one big case with gaps of hours or days; stalling lets the Correction move.
 
 ## Rank and sheets
 

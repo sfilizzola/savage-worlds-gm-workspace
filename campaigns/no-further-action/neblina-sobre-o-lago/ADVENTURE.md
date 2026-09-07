@@ -70,4 +70,4 @@ Lilly Dawson — canonical sheet `../characters/lilly-dawson.md`. Night hooks: `
 
 ## Next
 
-*Vozes sem Corpo* (`vozes-sem-corpo`) — not written yet. Weeks later. Abigail’s recording is the hook. The case is still not the empire.
+*Vozes sem Corpo* (`vozes-sem-corpo`) — drafted preparation for the morning after this session. Abigail’s fresh recording is the hook. Prepared outcomes are not history; the case is still not the empire.
