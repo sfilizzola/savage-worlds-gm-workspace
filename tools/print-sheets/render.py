@@ -2,10 +2,13 @@
 """Print SWADE pregen sheets as A4 HTML (and optionally PDF).
 
 This is a sheet printer, not a character generator. Stats, Edges, and gear
-come from a JSON file that lives with the adventure. Markdown character
-sheets remain the mechanical source of truth.
+come from a JSON file that lives with the character sheets it prints, in a
+standalone adventure or at a campaign root. Markdown character sheets remain
+the mechanical source of truth. Output lands beside the JSON you pass.
 
-  python3 tools/print-sheets/render.py adventures/<slug>/characters/print/chars.json
+  python3 tools/print-sheets/render.py <path-to-characters>/print/chars.json
+  python3 tools/print-sheets/render.py adventures/<slug>/characters/print/chars.json --pdf
+  python3 tools/print-sheets/render.py campaigns/<campaign-slug>/characters/print/chars.json --pdf
   python3 tools/print-sheets/render.py path/to/chars.json --who keene --pdf
 """
 
@@ -331,7 +334,7 @@ def build(data_path: Path, out: Path, who: str, pdf: bool) -> None:
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(
-        description="Build A4 SWADE pregen sheets from adventure JSON."
+        description="Build A4 SWADE pregen sheets from a character print extract."
     )
     parser.add_argument("data", type=Path, help="Path to chars.json")
     parser.add_argument(

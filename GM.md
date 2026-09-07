@@ -91,6 +91,8 @@ When choosing how to publish or test, prefer: focused one-shot, then two- or thr
 
 **Long campaign** — use only when the setting generates new conflicts, multiple factions stay active, villains can adapt, advancement is meaningful, and problems do not depend upon one predetermined plot. A campaign needs an evolving situation, not more encounters.
 
+**Where the material lives.** A standalone adventure — a one-shot or any unit that is not split across linked sessions — lives at `adventures/<slug>/`. Linked play lives at `campaigns/<campaign-slug>/`, where child adventure folders sit directly beside the campaign's `world/` and `characters/`. Either order is valid: create the campaign first and add children, or adopt an existing standalone adventure into a campaign later. The campaign's `world/` holds this table's established canon and evolving state, including predetermined GM canon, secrets, and recurring entities established in prep. Planned events and unused prep are not history or canon merely because they were drafted. The repository-root `world/` stays setting-wide canon shared across tables.
+
 ## Character support and lethality
 
 Every adventure declares whether it uses pregenerated PCs, player-supplied PCs, or supports both.

@@ -6,14 +6,23 @@ Turns an adventure `RUN.md` into A4 HTML (and optionally PDF) for paper at the t
 
 ## Use
 
-From the workspace root:
+From the workspace root.
+
+Standalone adventure:
 
 ```text
 python3 tools/print-run/render.py adventures/<slug>/RUN.md
 python3 tools/print-run/render.py adventures/<slug>/RUN.md --pdf
 ```
 
-Default output for `adventures/<slug>/RUN.md` is `adventures/<slug>/print/RUN.html` (and `RUN.pdf` with `--pdf`). CSS is copied beside the HTML on each build.
+Campaign night (a child adventure folder):
+
+```text
+python3 tools/print-run/render.py campaigns/<campaign-slug>/<adventure-slug>/RUN.md
+python3 tools/print-run/render.py campaigns/<campaign-slug>/<adventure-slug>/RUN.md --pdf
+```
+
+Output stays beside the input: `<path-to-adventure>/RUN.md` writes `<path-to-adventure>/print/RUN.html` (and `RUN.pdf` with `--pdf`), whether that adventure is standalone or a campaign child. CSS is copied beside the HTML on each build.
 
 `--pdf` uses Chrome headless, A4, no header/footer chrome. If Chrome is missing, the HTML is still written; print that file to A4 yourself (backgrounds on).
 

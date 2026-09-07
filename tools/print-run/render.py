@@ -3,8 +3,10 @@
 
 RUN.md remains the file you edit. This tool does not compile or rewrite it.
 
-  python3 tools/print-run/render.py adventures/<slug>/RUN.md
+Pass the path to the RUN.md you want printed; output lands in that adventure's print/ folder.
+
   python3 tools/print-run/render.py adventures/<slug>/RUN.md --pdf
+  python3 tools/print-run/render.py campaigns/<campaign-slug>/<adventure-slug>/RUN.md --pdf
 """
 
 from __future__ import annotations
@@ -28,7 +30,7 @@ def default_out_dir(run_path: Path) -> Path:
     if not path.is_absolute():
         path = Path.cwd() / path
     parent = path.parent
-    if parent.parent.name == "adventures" and path.name == "RUN.md":
+    if path.name == "RUN.md":
         return parent / "print"
     return parent
 
@@ -127,7 +129,7 @@ def main(argv: list[str] | None = None) -> None:
         "--out-dir",
         type=Path,
         default=None,
-        help="Output directory (default: adventures/<slug>/print/ for that path)",
+        help="Output directory (default: the print/ folder beside that RUN.md)",
     )
     parser.add_argument("--pdf", action="store_true", help="Also print A4 PDF via Chrome")
     args = parser.parse_args(argv)

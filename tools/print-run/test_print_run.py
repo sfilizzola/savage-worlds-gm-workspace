@@ -149,8 +149,15 @@ class PathTests(unittest.TestCase):
         path = Path("/repo/adventures/demo/RUN.md")
         self.assertEqual(self.render.default_out_dir(path), Path("/repo/adventures/demo/print"))
 
+    def test_campaign_run_defaults_to_print_dir(self) -> None:
+        path = Path("/repo/campaigns/demo/episode/RUN.md")
+        self.assertEqual(
+            self.render.default_out_dir(path),
+            Path("/repo/campaigns/demo/episode/print"),
+        )
+
     def test_other_markdown_defaults_to_same_dir(self) -> None:
-        path = Path("/tmp/notes/RUN.md")
+        path = Path("/tmp/notes/notes.md")
         self.assertEqual(self.render.default_out_dir(path), Path("/tmp/notes"))
 
 

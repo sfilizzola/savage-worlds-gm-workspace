@@ -198,9 +198,9 @@ npc-voice:
 
 ## Printers and path docs
 
-No Python changes required if examples tell the truth:
+One Python behavior change is required so examples tell the truth:
 
-- `python3 tools/print-run/render.py <path-to>/RUN.md` — output defaults to `<adventure>/print/`.
+- `python3 tools/print-run/render.py <path-to>/RUN.md` — when the input file is named `RUN.md`, output defaults to that file’s parent `print/` folder (standalone `adventures/<slug>/` or campaign child `campaigns/<campaign-slug>/<adventure-slug>/`). Other markdown filenames still default to the same directory as the input. `--out-dir` remains optional override, not a campaign workaround.
 - `python3 tools/print-sheets/render.py <path-to>/characters/print/chars.json` — for a campaign, that path is `campaigns/<slug>/characters/print/chars.json`.
 
 `tools/README.md` currently says adventure data stays under `adventures/<slug>/`. Replace with: one-shot data under `adventures/<slug>/`; campaign nights under `campaigns/<campaign>/<adventure>/`; campaign party sheets under `campaigns/<campaign>/characters/`. Handouts stay with the adventure that owns them.
@@ -225,7 +225,7 @@ Implementation is complete when:
 - `templates/campaign/` and `campaigns/README.md` exist and match this layout.
 - A co-GM can follow `HOW_TO_USE.md` for campaign-first and adopt without inventing directories.
 - `AGENTS.md` and npc-voice name the correct NPC and `CAMPAIGN.md` reads.
-- Printer docs accept campaign paths; Hinterland one-shot examples still work.
+- Printer docs accept campaign paths; a `RUN.md` input defaults to its parent `print/` folder; Hinterland one-shot examples still work.
 - No `campaigns/<real-slug>/` adventure content is added in this pass.
 - Operation Hinterland paths are unchanged.
 

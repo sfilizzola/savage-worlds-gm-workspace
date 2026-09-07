@@ -1,6 +1,6 @@
 # RUN.md writing contract
 
-Do not copy this file into an adventure directory. Follow it when generating or compiling `adventures/<slug>/RUN.md`.
+Do not copy this file into an adventure directory. Follow it when generating or compiling `<path-to-adventure>/RUN.md`, whether that adventure is a standalone unit or a child of a campaign.
 
 Modular sources remain authoritative. `RUN.md` is the table document. Story points are reachable situations, not a visit order. Flavor must not overrule predetermined truths or rules authority.
 

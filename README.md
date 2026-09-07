@@ -5,12 +5,14 @@ This repository is a reusable workspace for preparing and maintaining Savage Wor
 ## Start here
 
 1. Read [`GM.md`](GM.md) before creating or revising material.
-2. Copy `templates/adventure/` into `adventures/<adventure-slug>/`.
-3. Complete the required configuration in `ADVENTURE.md` before writing mechanics.
+2. Choose a playable root:
+   - **Standalone adventure** - copy `templates/adventure/` into `adventures/<adventure-slug>/`.
+   - **Linked play** - copy `templates/campaign/` into `campaigns/<campaign-slug>/`, complete `CAMPAIGN.md`, then add child adventure folders beside the campaign's `world/` and `characters/`.
+3. Complete the required configuration in each adventure's `ADVENTURE.md` before writing mechanics.
 4. Add only the modular files the adventure needs.
 5. Score [`QUALITY.md`](templates/adventure/QUALITY.md) (five-beat map, Coherence (prep), and 120-point checklist) before compiling.
 6. Compile the playable material into `RUN.md` using `templates/adventure/SKELETON.md` and complete its verification checklist.
-7. After play, record what happened separately before promoting changes into world canon.
+7. After play, record what happened separately. Promote established facts into the campaign's `world/` for linked play; promote into root `world/` only when the fact is setting-wide canon.
 
 ## Authority model
 
@@ -27,8 +29,9 @@ Weird War II is installed as an optional module. It has no effect unless an adve
 - `GM.md` - operating instructions for the GM and co-GM.
 - `sources/` - read-only rulebooks, setting books, historical references, maps, and background texts.
 - `rules/` - authority policy, explicit house rules, and recorded rulings.
-- `world/` - reusable canon: locations, factions, NPCs, and lore.
-- `adventures/` - one-shots, arcs, or campaign units.
+- `world/` - setting-wide canon shared across tables: locations, factions, NPCs, and lore.
+- `adventures/` - standalone units: one-shots and other adventures that are not split across a campaign.
+- `campaigns/` - linked play: `CAMPAIGN.md`, campaign `world/` and `characters/`, and the child adventure folders beside them.
 - `templates/` - files to copy when creating new material.
 - `tools/` - workspace utilities, including the pregen [sheet printer](tools/print-sheets/) and the [`RUN.md` printer](tools/print-run/).
 - `docs/` - design decisions for the workspace itself.

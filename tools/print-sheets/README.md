@@ -2,16 +2,29 @@
 
 Prints filled A4 SWADE character sheets as HTML (and optionally PDF). This is **not** a character generator: it does not roll traits, spend points, or apply MOS packages.
 
-Markdown character sheets in the adventure remain the mechanical source of truth. `chars.json` is the print extract.
+Markdown character sheets remain the mechanical source of truth. `chars.json` is the print extract.
 
 ## Use
 
-From the workspace root:
+From the workspace root.
+
+Standalone adventure pregens:
 
 ```text
 python3 tools/print-sheets/render.py adventures/<slug>/characters/print/chars.json
 python3 tools/print-sheets/render.py adventures/<slug>/characters/print/chars.json --who keene --pdf
 ```
+
+Campaign party:
+
+```text
+python3 tools/print-sheets/render.py campaigns/<campaign-slug>/characters/print/chars.json
+python3 tools/print-sheets/render.py campaigns/<campaign-slug>/characters/print/chars.json --who keene --pdf
+```
+
+Output stays beside the input: sheets are written into the same character `print/` directory that holds the `chars.json` you passed, unless you pass `--out`.
+
+In a campaign, the party's `.md` sheets and `characters/print/chars.json` at the campaign root are canonical. A child adventure's `characters.md` carries night hooks and links to those sheets; it is not a second mechanical copy and is not what you print.
 
 From an adventure that already has a wrapper (Operation Hinterland):
 
@@ -22,10 +35,12 @@ python3 adventures/operation-hinterland/characters/print/build_sheets.py --who k
 
 `--pdf` uses Chrome headless, A4, no header/footer. If Chrome is missing, print the HTML the same way.
 
-## Adventure files
+## Character files
+
+Same layout wherever the sheets live — a standalone adventure's `characters/` or a campaign's canonical `characters/`:
 
 ```text
-adventures/<slug>/characters/
+<path-to-characters>/
 ├── <name>.md            # mechanical source of truth
 └── print/
     ├── chars.json       # print extract for this tool
@@ -36,7 +51,7 @@ adventures/<slug>/characters/
 
 Copy `sheet.css` is written next to the HTML on each build. Fonts live in `tools/print-sheets/fonts/` and are symlinked into the output folder when needed.
 
-After editing a `.md` sheet, update that adventure's `chars.json` to match, then rebuild.
+After editing a `.md` sheet, update the `chars.json` beside it to match, then rebuild.
 
 ## JSON shape
 

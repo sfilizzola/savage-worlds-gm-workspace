@@ -5,7 +5,16 @@ description: Writes and repairs NPC Portrayal and situation spoken lines for Sav
 
 # NPC Voice
 
-Implements `GM.md` people/speech policy. Does not replace `GM.md`. Does not design plot, write Mood (table), write player handouts/letters, fill stat blocks, or promote NPCs into `world/npcs/` unless the GM asks. Pregen PCs are not NPCs.
+Implements `GM.md` people/speech policy. Does not replace `GM.md`. Does not design plot, write Mood (table), write player handouts/letters, fill stat blocks, or promote NPCs into the repository-root `world/npcs/` unless the GM asks. Pregen PCs are not NPCs.
+
+Destination rules, used the same way in the write path, the named-vs-extra table, and File mapping:
+
+- a named NPC file that already exists (anywhere except pregen sheets): edit that Portrayal in place;
+- a named NPC who should persist for this campaign: `campaigns/<campaign-slug>/world/npcs/<name>.md`;
+- otherwise: `<adventure>/npcs/<name>.md`, whether that adventure is standalone or a child of a campaign;
+- never player sheets, and never the repository-root `world/npcs/` unless the GM asks.
+
+An adventure-local named NPC is fine inside a campaign child. Only promote to campaign `world/npcs/` when the person is meant to recur beyond this night.
 
 Quoted lines are table cues, not a script.
 
@@ -31,7 +40,7 @@ Unnamed extras get no biography. Derive role, knowledge, fear, and language from
 
 1. Lock this moment: current objective, fear, leverage, what they have seen or been told, relationship to the PCs, which language(s) they would actually use here.
 2. Silence: if they would not talk and the skeleton does not require the field, omit or write `Spoken lines: none`. If a named speaker is present and the field is required, write a non-speech cue (they move, glare, keep working). Do not invent dialogue to fill a blank.
-3. Named NPC: if no named NPC file exists, create `adventures/<slug>/npcs/<name>.md` from `templates/npc.md`. Do not put NPC Portrayal in `characters/` or player sheets (`characters/` is pregenerated PCs). Do not promote to `world/npcs/` unless the GM asks. If a named NPC file already exists (wherever it is — except pregen sheets, which are not Portrayal targets), edit that Portrayal in place. Fill Portrayal (first impression, voice/manner, 1–3 core lines, avoid, four pressure variants). Leave Mechanics empty or untouched — do not invent stats. If a line would imply a Trait test, read `rules/RULES.md`; still do not write the roll in this skill.
+3. Named NPC: apply the destination rules above. If a named NPC file already exists (wherever it is — except pregen sheets, which are not Portrayal targets), edit that Portrayal in place. Otherwise create the file from `templates/npc.md`: `campaigns/<campaign-slug>/world/npcs/<name>.md` when this person should persist for the campaign, else `<adventure>/npcs/<name>.md` — the same for a standalone adventure and a campaign child. Do not put NPC Portrayal in `characters/` or player sheets (`characters/` is pregenerated PCs). Do not promote to the repository-root `world/npcs/` unless the GM asks. Fill Portrayal (first impression, voice/manner, 1–3 core lines, avoid, four pressure variants). Leave Mechanics empty or untouched — do not invent stats. If a line would imply a Trait test, read `rules/RULES.md`; still do not write the roll in this skill.
 4. Write beat-specific `Spoken lines` into the situation (see File mapping). One named person in several beats: Portrayal stays in the NPC file; each beat gets only the line that belongs there. Do not paste the pressure table into every story point.
 5. Named only — pressure variants, one short line or action-plus-line each, same person: Cooperate, Refuse, Threatened, Ignored. Ignored must match **If ignored** on the NPC file.
 6. Self-check: would this person say this if the plot did not need it? If not, rewrite or omit.
@@ -40,7 +49,7 @@ Unnamed extras get no biography. Derive role, knowledge, fear, and language from
 
 | Speaker | Portrayal | Situation | Pressure variants |
 |---|---|---|---|
-| Named NPC | Full Portrayal in their adventure NPC file | Beat-specific line(s) | Four labeled lines in the NPC file |
+| Named NPC | Full Portrayal in their own NPC file — the existing one, else campaign `world/npcs/` for a persisting person, else `<adventure>/npcs/` | Beat-specific line(s) | Four labeled lines in the NPC file |
 | Unnamed extra | One voice cue in the situation only; no new file | One shout | None |
 
 Do not create one NPC file per extra shout.
@@ -74,7 +83,7 @@ Non-English quotes need the English meaning on the same line (or immediately bes
 
 | What | Where |
 |---|---|
-| Named Portrayal + pressure variants | Existing named NPC file if one exists (not pregen sheets in `characters/`); otherwise `adventures/<slug>/npcs/<name>.md` from `templates/npc.md`. Never `characters/` or player sheets. Never `world/npcs/` unless the GM asks. |
+| Named Portrayal + pressure variants | Existing named NPC file if one exists (not pregen sheets in `characters/`); otherwise `campaigns/<campaign-slug>/world/npcs/<name>.md` if the person should persist for this campaign, else `<adventure>/npcs/<name>.md` — standalone or campaign child — from `templates/npc.md`. Never `characters/` or player sheets. Never the repository-root `world/npcs/` unless the GM asks. |
 | Situation `Spoken lines` | That situation in `RUN.md` if the block exists; otherwise the pre-compile situation draft (`plot.md` / location notes) using the field name `Spoken lines` |
 | Extra voice cue + shout | Situation only |
 

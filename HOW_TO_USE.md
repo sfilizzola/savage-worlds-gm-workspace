@@ -1,8 +1,15 @@
 # How to Use the Savage Worlds GM Authoring Workspace
 
-This workspace is designed to be used as an ongoing Codex project. Each adventure lives inside `adventures/`, while the rest of the repository provides instructions, rules authority, reusable world canon, sources, and templates.
+This workspace is designed to be used as an ongoing Codex project. Playable material has two roots:
 
-The normal lifecycle is:
+- **Standalone adventures** live in `adventures/<adventure-slug>/`: a one-shot, or any unit that is not split across linked sessions.
+- **Linked play** lives in `campaigns/<campaign-slug>/`, where `CAMPAIGN.md`, the campaign's `world/`, and its canonical `characters/` sit beside ordinary child adventure folders.
+
+The rest of the repository provides instructions, rules authority, setting-wide world canon, sources, and templates.
+
+Either order is valid: create a campaign first and add child adventures, or start with a standalone adventure and adopt it into a campaign later.
+
+The normal lifecycle of one adventure — standalone or campaign child — is:
 
 ```text
 Premise
@@ -32,11 +39,12 @@ Before performing any RPG authoring, editing, rules verification, or session-pre
 2. Treat `GM.md` as the authoritative operating policy for this workspace.
 3. Read `rules/RULES.md` before writing mechanics.
 4. Read the target adventure's `ADVENTURE.md` before modifying it.
-5. Do not treat preparation as established canon or session history.
-6. When generating or substantially revising an adventure, fill and score `QUALITY.md` from `templates/adventure/QUALITY.md` before compiling `RUN.md`.
-7. When compiling `RUN.md`, follow `templates/adventure/SKELETON.md`. Do not omit required blocks.
-8. Pregen A4 print uses `tools/print-sheets/` (sheet printer, not a generator). Do not put a sheet renderer inside an adventure.
-9. Table print of `RUN.md` uses `tools/print-run/`. Do not put a RUN renderer inside an adventure.
+5. When the target adventure is under `campaigns/`, also read that campaign's `CAMPAIGN.md`.
+6. Do not treat preparation as established canon or session history.
+7. When generating or substantially revising an adventure, fill and score `QUALITY.md` from `templates/adventure/QUALITY.md` before compiling `RUN.md`.
+8. When compiling `RUN.md`, follow `templates/adventure/SKELETON.md` (including **Table flow (one home)**). Do not omit required blocks.
+9. Pregen A4 print uses `tools/print-sheets/` (sheet printer, not a generator). Do not put a sheet renderer inside an adventure.
+10. Table print of `RUN.md` uses `tools/print-run/`. Do not put a RUN renderer inside an adventure.
 ```
 
 Start a new Codex task after adding `AGENTS.md` so that the instructions are loaded from the beginning.
@@ -55,9 +63,94 @@ The expected hierarchy is:
 4. Recorded rulings interpret unclear cases but are not automatically house rules.
 5. The co-GM must never invent Savage Worlds mechanics.
 
-## 2. Start an adventure from a premise
+## 2. Start a campaign or short arc
+
+Choose this root when several sessions will share the same party, the same evolving canon, and a common pressure. A single night with a decisive ending belongs under `adventures/` instead.
+
+The campaign context comes first; each night or arc chapter is then designed and created as its own child adventure.
+
+### Create the campaign root
+
+Do this once, before any child adventure exists:
+
+1. Copy `templates/campaign/` to `campaigns/<campaign-slug>/`.
+2. Complete `CAMPAIGN.md`: every front-matter field, the one-sentence throughline, GM intent, campaign predetermined truths, canon boundaries, and child-adventure exceptions.
+3. Create the canonical party sheets under `campaigns/<campaign-slug>/characters/`, with the print extract in `campaigns/<campaign-slug>/characters/print/chars.json`. Child adventures link to these sheets and never keep a second full mechanical sheet.
+4. Write campaign canon under `campaigns/<campaign-slug>/world/` only when it is established as canon for this table. Predetermined GM canon, secrets, and recurring campaign NPCs may be written during prep before session 1 if they are already true for this table; label them clearly. Planned events and unused preparation do not become history or canon merely because they were drafted. Setting-wide canon shared across tables stays in the repository-root `world/`.
+
+A useful opening prompt:
+
+```text
+I want to start a linked Savage Worlds campaign in this workspace.
+
+Premise: [describe the arc]
+
+Act as the co-GM defined in `GM.md`. First read `campaigns/README.md` and `templates/campaign/CAMPAIGN.md`.
+
+Interview me one focused question at a time until the throughline, format, Rank, player count, PC workflow, active setting modules, supernatural level, historical-accuracy requirement and sources, house rules, and canon boundaries are decided.
+
+Then create `campaigns/<campaign-slug>/` from `templates/campaign/` and complete `CAMPAIGN.md`. Do not create child adventures yet; we will design each one separately.
+```
+
+`CAMPAIGN.md` is configuration and indexes. It is never compiled as table flow: a campaign has no `QUALITY.md` and no campaign-root `RUN.md`.
+
+### Add a child adventure to the campaign
+
+Design each child when its concept is ready, not in advance. Start with:
+
+```text
+I want to add the next child adventure to this campaign.
+
+Premise: [describe this night or arc chapter]
+
+Act as the co-GM defined in `GM.md`. First read this campaign's `CAMPAIGN.md`, its `world/` canon, its `characters/` sheets, and the latest child recap if one exists.
+
+Interview me one focused question at a time about this child's runtime, truths, objective, stakes, and situations. Keep the campaign throughline. Reuse the campaign's declared Rank, player count, PC workflow, setting modules, supernatural level, historical-accuracy requirement, and house rules unless I record a child-adventure exception.
+
+Do not create files until the essential decisions are clear. Challenge single points of failure, excessive scope, railroading, and risks that could remove a player early.
+```
+
+Once you approve the concept, tell Codex:
+
+```text
+Create this child adventure as `campaigns/<campaign-slug>/<adventure-slug>/` by copying `templates/adventure/` except `SKELETON.md`; compile `RUN.md` against the skeleton later. The child folder sits directly beside the campaign's `world/` and `characters/`, not inside them.
+
+Repeat the campaign's shared configuration in the child's `ADVENTURE.md`: `system`, `rank`, `pc_mode`, `setting_modules`, `supernatural_level`, `historical_accuracy`, and `house_rules`, unless a recorded child-adventure exception says otherwise.
+
+Do not copy full party sheets into the child; link this campaign's `characters/` sheets instead. Include only the optional files and sections that are useful for this child.
+
+Then add the child to the adventure index in `CAMPAIGN.md`.
+```
+
+Once the child folder exists, the rest of this document applies to it unchanged: configure its `ADVENTURE.md` (section 5), develop it in focused passes, verify rules and history, score its own `QUALITY.md`, and compile its own `RUN.md`. Section 4 covers only the standalone case.
+
+## 3. Adopt a standalone adventure into a campaign
+
+You do not have to decide the shape in advance. Campaign-first and adventure-first both work: an existing standalone adventure can become a campaign child later.
+
+First create the campaign root as described in "Create the campaign root" above, or open the existing `campaigns/<campaign-slug>/`. Then move the whole adventure folder so Git keeps its history:
+
+```text
+git mv adventures/<adventure-slug> campaigns/<campaign-slug>/<adventure-slug>
+```
+
+Then finish the adoption:
+
+1. If the campaign does not yet own the party, **move** the child's full mechanical sheets and `print/chars.json` into `campaigns/<campaign-slug>/characters/`. Those become the canonical campaign copies.
+2. If both campaign and child copies already exist, keep the campaign copies. Diff the child's full sheets against them, reconcile any child-only changes into the campaign sheets, then delete the duplicate full child sheets (including a child `print/chars.json` if it remains).
+3. Leave the child's `characters.md` as night hooks, spotlight notes, and links to the campaign sheets — not a second full sheet.
+4. Promote only recurring facts, locations, factions, and NPCs into `campaigns/<campaign-slug>/world/`. Night-specific prep, situation detail, and unspent secrets stay in the child adventure.
+5. Add the child to the adventure index in `CAMPAIGN.md`, and reconcile its `ADVENTURE.md` with the campaign configuration or record a child-adventure exception.
+6. Repair hardcoded old paths: printer commands, cross-file links, wrapper scripts, recaps, and any remaining `adventures/<adventure-slug>/…` reference.
+7. Do not leave a duplicate copy or a placeholder stub under `adventures/`. The adventure must have exactly one home.
+
+Operation Hinterland appears in this document only as a standalone example. It is not part of a campaign and should not be moved.
+
+## 4. Start a standalone adventure from a premise
 
 Start one Codex task for each adventure. Keeping the adventure in one task makes its design discussion easier to follow, while the files preserve the lasting state.
+
+This section creates a standalone unit under `adventures/<adventure-slug>/`. For a campaign child, use "Add a child adventure to the campaign" in section 2 instead. From section 5 onward, the guidance is identical for both roots.
 
 Send this prompt:
 
@@ -89,7 +182,7 @@ Create the adventure as `adventures/operation-winter-wolf/` using the adventure 
 
 Replace `operation-winter-wolf` with a short lowercase name separated by hyphens.
 
-## 3. Configure `ADVENTURE.md`
+## 5. Configure `ADVENTURE.md`
 
 Every adventure must declare:
 
@@ -132,7 +225,7 @@ house_rules: none
 
 Do not begin detailed mechanical preparation while required configuration fields remain undecided.
 
-## 4. Activate Weird War II only when needed
+## 6. Activate Weird War II only when needed
 
 Weird War II is installed but inactive by default. Activate it explicitly in the adventure:
 
@@ -156,7 +249,7 @@ Select the supernatural level independently:
 
 Even when Weird War II is active, SWADE Fifth Printing remains the default mechanical authority. Weird War II predates SWADE, so older mechanics require compatibility review. Only an explicit active house rule may deliberately override SWADE.
 
-## 5. Develop the adventure in focused passes
+## 7. Develop the adventure in focused passes
 
 Do not ask Codex to write everything in one enormous pass. Develop and review one responsibility at a time.
 
@@ -198,7 +291,12 @@ For substantial revisions, ask Codex to explain its proposed changes before edit
 Review this part of the adventure and propose improvements first. Do not modify files until I approve the direction.
 ```
 
-## 6. Create or integrate player characters
+## 8. Create or integrate player characters
+
+Decide where the sheets live before writing them:
+
+- **Standalone adventure:** full mechanical sheets in `adventures/<adventure-slug>/characters/<name>.md`, print extract in `adventures/<adventure-slug>/characters/print/chars.json`.
+- **Campaign child:** full mechanical sheets and `print/chars.json` always live in `campaigns/<campaign-slug>/characters/`, because the party belongs to the table and not to one night. The child's `characters.md` holds only night hooks, spotlight notes, and links to those sheets. Never duplicate a full sheet inside a child adventure.
 
 ### Pregenerated PCs
 
@@ -206,32 +304,45 @@ Use:
 
 ```text
 Create [number] pregenerated player characters for this adventure at the declared Rank. Give each one a reason to accept the mission, a personal stake, useful relationships with other PCs, and an opportunity for spotlight play. Verify every mechanical element against the active rules authority.
+
+Write the full mechanical sheets in this adventure's `characters/` directory. If this adventure is a campaign child under `campaigns/`, write the full sheets and the print extract in `campaigns/<campaign-slug>/characters/` instead, and keep only night hooks and links to those sheets in the child's `characters.md`.
 ```
 
 Review the characters before approving them. Make sure the adventure does not depend on one specific character, Edge, power, or skill.
 
-For table print, use the workspace sheet printer — not a character generator. It lives at [`tools/print-sheets/`](tools/print-sheets/README.md). Put mechanical stats in `characters/<name>.md`, a print extract in `characters/print/chars.json`, then:
+For table print, use the workspace sheet printer — not a character generator. It lives at [`tools/print-sheets/`](tools/print-sheets/README.md). Point the printer at the `print/chars.json` that belongs to the owning directory decided above.
+
+For a standalone adventure:
 
 ```text
-python3 tools/print-sheets/render.py adventures/<adventure-name>/characters/print/chars.json
+python3 tools/print-sheets/render.py adventures/<adventure-slug>/characters/print/chars.json
 ```
 
-Operation Hinterland also keeps a wrapper: `adventures/operation-hinterland/characters/print/build_sheets.py`. Call letters stay with that adventure (`handouts/print/build_letters.py`).
-
-For the GM run packet, print `RUN.md` with the workspace run printer:
+For a campaign party:
 
 ```text
-python3 tools/print-run/render.py adventures/<adventure-name>/RUN.md --pdf
+python3 tools/print-sheets/render.py campaigns/<campaign-slug>/characters/print/chars.json
+```
+
+Operation Hinterland is a standalone adventure and also keeps a wrapper: `adventures/operation-hinterland/characters/print/build_sheets.py`. Call letters stay with that adventure (`handouts/print/build_letters.py`).
+
+For the GM run packet, print the adventure's `RUN.md` with the workspace run printer:
+
+```text
+python3 tools/print-run/render.py adventures/<adventure-slug>/RUN.md --pdf
+python3 tools/print-run/render.py campaigns/<campaign-slug>/<adventure-slug>/RUN.md --pdf
 ```
 
 Edit `RUN.md`, not the generated `print/RUN.html` / `print/RUN.pdf`. Open the PDF on a tablet the same way you would flip paper.
 
 ### Player-supplied PCs
 
-Add the character files or summaries to the adventure and use:
+Add the character files or summaries to the owning directory: the standalone adventure's `characters/`, or `campaigns/<campaign-slug>/characters/` for a campaign child. Then use:
 
 ```text
-Review these player-supplied characters against `ADVENTURE.md`. Check Rank, allowed sources, setting compatibility, historical equipment, mission hooks, powers, Edges, and special abilities. Identify adaptation needs, but do not change the characters without my approval.
+Review these player-supplied characters against `ADVENTURE.md`, and against `CAMPAIGN.md` as well if this adventure is a campaign child. Check Rank, allowed sources, setting compatibility, historical equipment, mission hooks, powers, Edges, and special abilities. Identify adaptation needs, but do not change the characters without my approval.
+
+Keep the approved full sheets in the owning `characters/` directory. For a campaign child that is `campaigns/<campaign-slug>/characters/`; the child's `characters.md` may only add night hooks and links.
 ```
 
 ### Supporting both
@@ -246,7 +357,7 @@ Prepare a re-entry option:
 Review the adventure for early character removal. Prepare a fictionally appropriate reserve PC, replacement entry point, or temporary allied character so a player can return promptly if removal still occurs.
 ```
 
-## 7. Verify Savage Worlds mechanics
+## 9. Verify Savage Worlds mechanics
 
 Before final preparation, use:
 
@@ -267,7 +378,7 @@ Do not invent mechanics and do not reproduce long passages from the books.
 
 When a decision is required, make the ruling as GM. Record situational decisions in `rules/rulings.md`. Add something to `rules/house-rules.md` only when you deliberately want a reusable standing override.
 
-## 8. Verify historical material
+## 10. Verify historical material
 
 If the adventure declares `cinematic`, `researched`, or `strict` historical accuracy, add relevant maps, books, articles, images, and texts under:
 
@@ -275,10 +386,11 @@ If the adventure declares `cinematic`, `researched`, or `strict` historical accu
 sources/background/
 ```
 
-or:
+or with the owning adventure:
 
 ```text
-adventures/<adventure-name>/sources/
+adventures/<adventure-slug>/sources/
+campaigns/<campaign-slug>/<adventure-slug>/sources/
 ```
 
 Then use:
@@ -291,7 +403,7 @@ Separate verified fact, plausible inference, intentional alteration, and unresol
 
 Record provenance and usage rights for maps, photographs, and handouts when known.
 
-## 9. Compile `RUN.md`
+## 11. Compile `RUN.md`
 
 The modular adventure files are the maintainable preparation sources. `RUN.md` is the compiled table document.
 
@@ -335,23 +447,25 @@ Before play, review the finished `RUN.md` yourself. Confirm that:
 - end states include a complete ending and rewards or a clear stop;
 - planned events are not described as though they already happened.
 
-At the table, you should be able to run most of the session from:
+At the table, you should be able to run most of the session from the adventure's own `RUN.md`:
 
 ```text
-adventures/<adventure-name>/RUN.md
+adventures/<adventure-slug>/RUN.md
+campaigns/<campaign-slug>/<adventure-slug>/RUN.md
 ```
 
-To print that file as an A4 two-column packet:
+There is no campaign-root `RUN.md`. To print the file as an A4 two-column packet:
 
 ```text
-python3 tools/print-run/render.py adventures/<adventure-name>/RUN.md --pdf
+python3 tools/print-run/render.py adventures/<adventure-slug>/RUN.md --pdf
+python3 tools/print-run/render.py campaigns/<campaign-slug>/<adventure-slug>/RUN.md --pdf
 ```
 
 Keep the SWADE PDF available for unexpected rules questions.
 
-## 10. Record what happened after play
+## 12. Record what happened after play
 
-Do not edit `RUN.md` into a historical record. Create a separate dated recap from your notes or transcript.
+Do not edit `RUN.md` into a historical record. Create a separate dated recap from your notes or transcript. In linked play the recap belongs to the child adventure that was actually played, not to the campaign root.
 
 Use:
 
@@ -360,7 +474,7 @@ The session is finished. Here are my notes:
 
 [Paste your notes or transcript]
 
-Create a dated session recap using `templates/session-recap.md`.
+Create a dated session recap using `templates/session-recap.md`. Store it in the adventure that was played: the standalone adventure folder, or `campaigns/<campaign-slug>/<adventure-slug>/` for a campaign child. Never in the campaign root.
 
 Clearly separate:
 
@@ -373,30 +487,43 @@ Clearly separate:
 - unresolved threads;
 - facts that are candidates for permanent canon.
 
-Then propose the necessary repository updates. Do not change world canon until I approve the proposed canon changes. Prepared material that never occurred must not be recorded as history.
+Then propose the necessary repository updates, naming the exact destination file for each one. Do not change world canon until I approve the proposed canon changes. Prepared material that never occurred must not be recorded as history.
 ```
 
 Review the proposed canon changes. When they are correct, use:
 
 ```text
-I approve the proposed canon and state changes. Update the affected world, NPC, faction, location, timeline, ruling, and active-thread files. Preserve the session recap as the record of what happened. Do not promote unused preparation into canon.
+I approve the proposed canon and state changes. Apply them to these destinations:
+
+- Linked play: this table's established locations, factions, recurring NPCs, lore, and timeline go in `campaigns/<campaign-slug>/world/`, and party or index changes go in `campaigns/<campaign-slug>/characters/` and `CAMPAIGN.md`.
+- Standalone play: keep adventure-local state in that adventure's own files.
+- Repository-root `world/`: change it only for facts I deliberately declare setting-wide and shared across tables.
+- Rulings go in `rules/rulings.md`; a standing override goes in `rules/house-rules.md` only if I ask for one.
+
+Leave the session recap in the child adventure that was played as the record of what happened. Do not promote unused preparation into canon.
 ```
 
-## 11. Continue a campaign or short arc
+## 13. Continue a campaign or short arc
 
 Before preparing the next session, use:
 
 ```text
-Prepare the next session of this adventure or campaign.
+Prepare the next session of this campaign.
 
-First review `GM.md`, `ADVENTURE.md`, established world canon, the latest session recap, affected NPC and faction states, open threads, and recorded rulings.
+First review `GM.md`, the campaign's `CAMPAIGN.md`, the campaign's `world/` canon, the setting-wide root `world/` canon, the relevant child `ADVENTURE.md`, and the latest recap from that child adventure — plus affected NPC and faction states, open threads, and recorded rulings.
 
-Summarize the current state and propose the next session's focus before creating files. Build from what actually happened, not from unused preparation. Preserve the main throughline while allowing the players' previous decisions and failures to change circumstances.
+Summarize the current state and propose the next session's focus before creating files. Build from what actually happened, not from unused preparation. Preserve the campaign throughline while allowing the players' previous decisions and failures to change circumstances.
+
+The next session is a child adventure folder under `campaigns/<campaign-slug>/` — either a new `<adventure-slug>/` or a continuation of an existing one. Do not compile a campaign-root `RUN.md`.
 ```
 
-Create a new dated session-preparation file or session directory when the continuing adventure needs it. Recompile `RUN.md` for the upcoming session rather than assuming the previous table document remains current.
+The next session's playable material always lives in a child adventure folder. Continuing an existing child means recompiling that child's `RUN.md` rather than assuming the previous table document is still current. Starting a fresh chapter means creating a new child with the steps in "Add a child adventure to the campaign" (section 2): copy `templates/adventure/` except `SKELETON.md` into `campaigns/<campaign-slug>/<adventure-slug>/`, repeat the campaign's shared configuration in its `ADVENTURE.md`, link the campaign `characters/` sheets instead of copying them, and add the child to the adventure index in `CAMPAIGN.md`.
 
-## 12. Recommended first test
+Create a dated session-preparation file or session directory inside the child adventure when the continuing story needs one.
+
+After play, return to section 12: the recap stays in the child adventure that was played, and campaign state changes only after you approve the reconciliation and its named destinations.
+
+## 14. Recommended first test
 
 Test the framework with one concrete Weird War II one-shot rather than trying to perfect every template in advance.
 

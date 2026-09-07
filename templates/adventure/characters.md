@@ -17,8 +17,18 @@ For each pregen include concept, complete source-verified game statistics, gear,
 Print A4 sheets with the workspace tool [`tools/print-sheets/`](../../tools/print-sheets/README.md) (HTML/PDF printer, not a generator). Keep one `.md` file per pregen as the mechanical source of truth. Put the print extract in `characters/print/chars.json` and rebuild:
 
 ```text
-python3 tools/print-sheets/render.py adventures/<slug>/characters/print/chars.json
+python3 tools/print-sheets/render.py adventures/<slug>/characters/print/chars.json --pdf
 ```
+
+In a campaign, the party is canonical at the campaign root, so print from there instead:
+
+```text
+python3 tools/print-sheets/render.py campaigns/<campaign-slug>/characters/print/chars.json --pdf
+```
+
+Either way the sheets are written beside the `chars.json` you passed, in that same character `print/` directory.
+
+If this file belongs to a child adventure under `campaigns/`, keep it to night hooks and links to the campaign's canonical sheets. Do not copy full mechanical sheets down into the child.
 
 ### <Name>
 

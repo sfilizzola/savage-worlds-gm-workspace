@@ -1,6 +1,8 @@
 # Adventures
 
-Each subdirectory is a self-contained one-shot, arc, or campaign unit. Copy `templates/adventure/` to start, except `SKELETON.md`, which stays in `templates/adventure/` as the compile contract. Complexity should emerge from need: a small one-shot may use only `ADVENTURE.md`, `characters.md`, `locations.md`, `QUALITY.md`, and `RUN.md`; a larger work may add the other templates plus `handouts/`, `maps/`, `sources/`, and `sessions/`.
+Each subdirectory is a **standalone** adventure: a self-contained one-shot or any other unit that stays in a single folder rather than being split across linked sessions. Copy `templates/adventure/` to start, except `SKELETON.md`, which stays in `templates/adventure/` as the compile contract. Complexity should emerge from need: a small one-shot may use only `ADVENTURE.md`, `characters.md`, `locations.md`, `QUALITY.md`, and `RUN.md`; a larger work may add the other templates plus `handouts/`, `maps/`, `sources/`, and `sessions/`.
+
+For linked play — a short arc or campaign whose sessions share canon and a canonical party — see [`../campaigns/README.md`](../campaigns/README.md). Those adventures are ordinary adventure folders, but they live under `campaigns/<campaign-slug>/` beside the campaign's `world/` and `characters/`. A standalone adventure here may be adopted into a campaign later.
 
 ## Required lifecycle
 
@@ -22,7 +24,7 @@ adventures/<slug>/
 ├── QUALITY.md      # scored five-beat map, Coherence (prep), and 120-point checklist
 ├── plot.md
 ├── characters.md
-├── characters/     # optional pregen .md sheets + print/
+├── characters/     # standalone: optional pregen .md sheets + print/
 ├── locations.md
 ├── encounters.md
 ├── secrets.md
@@ -32,6 +34,8 @@ adventures/<slug>/
 ├── sources/        # optional adventure-specific background
 └── sessions/       # recaps and ongoing state
 ```
+
+A child adventure under `campaigns/<campaign-slug>/<adventure-slug>/` follows the same lifecycle and the same prep layout (`ADVENTURE.md`, `QUALITY.md`, `RUN.md`, situations, and so on). It does not own a second set of full mechanical sheets: link to the campaign's canonical `../characters/` and keep night hooks and party assumptions in that child's `characters.md`. Standalone adventures under this directory may still keep their own `characters/` sheets.
 
 Pregen A4 print uses the workspace sheet printer at `tools/print-sheets/`, not an adventure-local generator. Call letters and other handout builders stay with the adventure.
 
