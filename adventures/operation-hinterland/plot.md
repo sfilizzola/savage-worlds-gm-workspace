@@ -50,7 +50,7 @@ Pacing diagnostic. Not a visit order. Scores: `QUALITY.md` (98/120, 2026-08-31).
 
 - **Purpose:** thrill and the cause of the missed DZ. Spend little clock. No mechanical teeth.
 - **Reachable when:** the briefing is done (Story Point 0).
-- **Situation:** one transport, weather worse than briefed, west fields not readable, flak **en route** (not Dinkelsbühl’s). Each PC may roll `Athletics` once for chute flavor. They land **together**.
+- **Situation:** one transport, weather worse than briefed, west fields not readable, flak **en route** (not Dinkelsbühl’s). Each PC may roll `Athletics` once for chute flavor. WW2 parachuting (p.33) is rebuilt to Athletics in `RUN.md` SP0b as a second at-hand card — narrate only; outcome and LZ do not change. They land **together**.
 - **Essential information:** the drop did not go as rehearsed; they are still a stick of four.
 - **Independent vectors:** the aircraft; the weather; the dark DZ. No Notice gate to “be allowed to land.”
 - **Escalation:** none that changes Dinkelsbühl. The town stays asleep. Do not apply Wounds, Fatigue, lost gear, scatter, or a better LZ.

@@ -282,6 +282,31 @@ Circle the Rathaus. No radio icon.
 > ```
 >
 
+> [!TIP]
+> #### At-hand rules
+>
+> ```text
+> Authority: SWADE Fifth Printing (2023), p. 29 "Athletics"; p. 102 "Illumination";
+>   p. 118 "Occupants" (aircraft / parachute); p. 125 "Bumps & Bruises";
+>   p. 127 "Falling"; p. 122 Dramatic Task example only — do not run one
+> Setting: Weird War II p. 33 "Parachuting" (rebuild); p. 22 "Jump Qualified"
+>   (not used); p. 14 parachute kit
+> House rule: none
+> Summary: Period canopy, rebuilt. Roll Athletics, not Agility. Do not roll a d20
+>   for a failed main. WW2 landing is Agility −2, extra −2 at night, extra −2 in
+>   high wind; night here is already Dark — do not stack a second night penalty
+>   even as flavor math. Book outcomes you may narrate, not apply: success still
+>   drifts off the pin; a raise is a clean opening; a 1 on the Trait die is a
+>   tree, wire, or hard PLF; one round to cut the harness on the snow. SWADE
+>   wreck-with-chute is Bumps & Bruises on a fail, Falling on a Critical Failure.
+>   Ignore all of that for this night: no Wounds, Fatigue, lost gear, scatter,
+>   hanging that benches a player, or a better LZ. They land together, east face,
+>   same snow. Fail = ugly ride. Success = clean enough. Raise = a look at walls
+>   far off — still the same ditch.
+> Applied here: Story Point 0b flavor only. Outcome and LZ locked.
+> ```
+>
+
 ## Story Point 1 - Wrong face of the walls
 
 **Mood (table):** Paraphrase. Not a read-aloud. They do **not** know which face this is yet.
@@ -843,7 +868,7 @@ Ruling: RUL-2026-08-29-01 — helmet Armor +2 vs head Called Shots; no 50% save
 Applied here: whole night. Night/cold procedure: SP1.
 ```
 
-**Do not import:** SS / Fanatic / Hitler Jugend; Experienced / Elite infantry Edges (Dodge, Rock and Roll!, Élan); Sanity; Rank mechanical bonuses on NPCs; Demo Man, Medic!, Jump Qualified, National Identity; any Chapter 10 horror. Supernatural **none**. Jump `Athletics` in SP0b is flavor only.
+**Do not import:** SS / Fanatic / Hitler Jugend; Experienced / Elite infantry Edges (Dodge, Rock and Roll!, Élan); Sanity; Rank mechanical bonuses on NPCs; Demo Man, Medic!, Jump Qualified, National Identity; any Chapter 10 horror. Supernatural **none**. Jump `Athletics` in SP0b is flavor only (second at-hand card is the WW2 p.33 rebuild).
 
 **German weapons (WW2 p.152):** P38 12/24/48, 2d6−1, RoF 1, 8, Semi-Auto. MP40 12/24/48, 2d6−1, RoF 3, 32, AP 1, Auto. Kar 98K 24/48/96, 2d8, RoF 1, 5, AP 2, Snapfire, Min Str d6. Stielhandgranate 5/10/20, 3d6−2, MBT (Athletics). Knife Str+d4.
 

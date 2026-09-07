@@ -71,7 +71,7 @@ No one else is required to be on the street.
 - **GM-only truth:** flak is en route, not this garrison. Dinkelsbühl stays asleep. `Athletics` here is flavor only — ignore Wounds, Fatigue, lost gear, scatter, and any raise that would improve the LZ.
 - **What changes over time:** none on the objective map. Cut to snow.
 - **If violence begins:** do not. No AA gunners to fight. No chute failure that benches a player.
-- **Relevant mechanics:** deferred.
+- **Relevant mechanics:** `RUN.md` Story Point 0b at-hand rules. WW2 p.33 parachuting rebuilt to `Athletics` (SWADE p.29, p.118); flavor only. No d20 main-chute check. No Wounds, Fatigue, scatter, or a better LZ.
 - **Links:** Story Point 0b; Story Point 1.
 
 ## Snow cover, unplanned face of the walls

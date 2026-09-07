@@ -50,7 +50,7 @@ Skip the Rathaus: streets still pay (aerial, hum/lamp). Dummy wreck is not a win
 - Default **Dark (−4)** on attacks, Notice, and similar. No target visible past **10″ (20 yd)** without a lamp or a break. SWADE p.102.
 - 6–7 Jan, Last Quarter (moon ~midnight). First half stays Dark. After moonrise, a clear snow sky or a lamp/stove can be **Dim (−2)**.
 - **Pitch (−6)** only in an unlit cellar or sealed room.
-- Jump Athletics is flavor only: no Wounds, Fatigue, lost gear, scatter, or a better LZ. They land together.
+- Jump Athletics is flavor only: no Wounds, Fatigue, lost gear, scatter, or a better LZ. They land together. WW2 p.33 rebuilt procedure: `RUN.md` SP0b second at-hand card.
 - No hidden Fatigue at the LZ. If they linger exposed: Hazards p.125.
 - Ice / height / climb: Athletics. Rough ground: 1″ costs 2″.
 - Lang’s Woodsman +2 Stealth: fields / Wörnitz tree line only — not streets, indoors, or the wall-walk (p.50).
