@@ -1,0 +1,100 @@
+{
+  "sheet": {
+    "title_suffix": "No Further Action",
+    "op": "Ashgrove PD · 1986",
+    "file": "Personnel file · Lilly Dawson",
+    "meta": [
+      "Novice · Wild Card · Human · Size 0",
+      "SWADE Fifth Printing · January 1986 · HR-NFA-001 (15 skill points)"
+    ],
+    "skills_heading": "Skills · unskilled d4−2",
+    "skills_footnote": "* Core skill. Core skills start at d4. Investigator may apply to Notice or Research when the Edge says so.",
+    "weapons_heading": "Weapons",
+    "gear_heading": "Gear",
+    "you_label": "You",
+    "play_label": "At the table",
+    "footer_left": "Place beside the Savage Worlds player card",
+    "footer_right": "Not session history · 1986 sheet only",
+    "reserve_banner": "",
+    "team_kit": "",
+    "bennies": "Bennies · start 3 · tick when spent"
+  },
+  "characters": [
+    {
+      "id": "lilly",
+      "reserve": false,
+      "name": "Lilly Dawson",
+      "role": "Detective",
+      "tags": [
+        {
+          "label": "Dept",
+          "value": "Ashgrove PD"
+        },
+        {
+          "label": "Age",
+          "value": "24 (1986)"
+        },
+        {
+          "label": "Rank",
+          "value": "Novice"
+        }
+      ],
+      "attrs": [
+        ["Agility", "d8"],
+        ["Smarts", "d8"],
+        ["Spirit", "d6"],
+        ["Strength", "d4"],
+        ["Vigor", "d4"]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting d6",
+      "tough": "4",
+      "tough_note": "Vest not in this number",
+      "skills": [
+        ["Athletics*", "d8", ""],
+        ["Common Knowledge*", "d4", ""],
+        ["Notice*", "d6", "+2 Alertness"],
+        ["Persuasion*", "d4", ""],
+        ["Stealth*", "d4", ""],
+        ["Driving", "d4", ""],
+        ["Electronics", "d4", ""],
+        ["Fighting", "d6", ""],
+        ["Shooting", "d8", ""],
+        ["Research", "d8", "Investigator"],
+        ["Intimidation", "d4", ""],
+        ["Academics", "d4", ""]
+      ],
+      "hindrances": [
+        ["Curious", "Major", "Cannot leave a loose end alone."],
+        ["Night Terrors", "Major", "Violence and guilt she cannot place."]
+      ],
+      "edges": [
+        ["Investigator", "Notice and Research when the Edge applies."],
+        ["Alertness", "+2 Notice."],
+        ["Danger Sense", "Sense ambush and immediate danger."]
+      ],
+      "weapons": [
+        ["9mm service pistol", "12/24/48", "1", "2d6", "Semi-Auto · SWADE firearms"]
+      ],
+      "ammo": "Department issue. Count magazines at the table.",
+      "carried": "~12 lb (with vest)",
+      "limit": "20 lb (Str d4)",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "Torso: light Kevlar when worn (SWADE gear). Head/limbs: none.",
+      "gear": [
+        ["Light Kevlar vest (when worn)", "5"],
+        ["Badge and ID", "—"],
+        ["Handcuffs", "1"],
+        ["Flashlight", "1"],
+        ["Police radio", "1"],
+        ["Notebook", "—"]
+      ],
+      "you": "Methodical, controlled, always working a question. Athletic, not strong. Red hair, freckles, honey eyes.",
+      "play": "You are new. Whitley wants the file small. Doyle will not lie about the lake. Nancy knows people. The radio woman called you."
+    }
+  ]
+}
