@@ -79,24 +79,28 @@ Use one primary track. Add one alternate only when the route can reach two meani
 - **Source:** 102.3 FM / patrol-car radio
 - **Format:** contemporary pop and rock with local presentation
 
-These tracks were already charting in January 1986 and appear on the US Hot 100 for the week of 25 January, making them plausible national-rotation choices near the working window. The chart is a contemporaneous airplay snapshot, not the exact story date. Recheck availability when that date is fixed.
+These tracks were already charting in January 1986 and appear on the US Hot 100 for the week of 25 January, making them plausible national-rotation choices near the working window. Several also sat on Adult Contemporary that week, which fits a small-market FM hybrid. The chart is a contemporaneous airplay snapshot, not the exact story date. Recheck availability when that date is fixed.
 
-| Story moment | Primary track | Why it fits without solving the case |
-|---|---|---|
-| Arrival / first precinct morning | John Cougar Mellencamp — “Small Town” | Recognizable radio realism and a dry comment on Lilly's unwanted posting. |
-| Drive out of Ashgrove | Dire Straits — “Walk of Life” | Ordinary forward motion before the car scene becomes wrong. |
-| Precinct paperwork / Nancy's desk | Stevie Nicks — “Talk to Me” | A plausible major hit whose conversational tension quietly precedes the voices and unanswered contact. |
-| Loman's abandoned car | **No music cue** | The established metallic static and distorted voice own this scene. |
-| Road and water in the cold | The Dream Academy — “Life in a Northern Town” | Wintry distance and isolation without turning the lake supernatural. |
-| Approach before the fog closes (optional, parked patrol radio only) | Mike + The Mechanics — “Silent Running (On Dangerous Ground)” | Synth-driven unease; fade or cut it before the established metallic sound because the title is close to the fiction. |
-| Return to ordinary radio / closing call | Whitney Houston — “How Will I Know” | Bright contemporary rotation makes Abigail's troubling call feel like an intrusion into normal life. |
+| Story moment | Primary track | Alternate (same date window) | Why it fits without solving the case |
+|---|---|---|---|
+| Arrival / first precinct morning | John Cougar Mellencamp — “Small Town” | Bruce Springsteen — “My Hometown” (Hot 100 #6 that week) | Town self-image on the radio; Lilly did not choose to be here. |
+| Drive out of Ashgrove | Dire Straits — “Walk of Life” | Mr. Mister — “Kyrie” (Hot 100 #21, climbing) | Ordinary motion before the car scene becomes wrong. |
+| Precinct paperwork / Nancy's desk | Stevie Nicks — “Talk to Me” | Klymaxx — “I Miss You” (Hot 100 #8) | Conversational pop while the office is still mundane; later, absence without naming Frank. |
+| Loman's abandoned car | **No music cue** | — | The established metallic static and distorted voice own this scene. |
+| Road and water in the cold | The Dream Academy — “Life in a Northern Town” | — | Wintry distance without turning the lake supernatural. |
+| Approach before the fog closes (optional, parked patrol radio only) | Mike + The Mechanics — “Silent Running (On Dangerous Ground)” | — | Peak Mainstream Rock saturation that week; fade or cut it before the established metallic sound because the title is close to the fiction. |
+| Return to ordinary radio / closing call | Whitney Houston — “How Will I Know” | Klymaxx — “I Miss You” | Bright or dedicated-slot rotation makes Abigail's call feel like an intrusion into normal life. |
+
+Do **not** use John Mellencamp — “Rain on the Scarecrow” for this window: the single charts later in 1986. Elton John — “Nikita” is only a new AC add that week; treat it as unfamiliar, not as a known rotation staple.
 
 None of these tracks is established as having played in session one. They are reusable choices for a retrospective table recap, a campaign trailer, or a replay.
 
 ## Research sources
 
-- [Billboard Hot 100, week of 25 January 1986](https://www.billboard.com/charts/hot-100/1986-01-25/) — contemporary chart positions for “Talk to Me,” “Walk of Life,” “Small Town,” “Life in a Northern Town,” “How Will I Know,” and “Silent Running.”
-- [American Top 40, week of 25 January 1986](https://slicethelife.com/2021/01/26/american-top-40-the-80s-week-of-january-25-1986/) — contemporary top-40 ordering, including all six palette tracks.
-- [“Silent Running” US single information](https://www.connollyco.com/discography/mike_mechanics/silent7.html) — November 1985 US release and chart entry.
+- [Billboard Hot 100, week of 25 January 1986](https://www.billboard.com/charts/hot-100/1986-01-25/) — contemporary chart positions.
+- [Billboard Adult Contemporary, week of 25 January 1986](https://www.billboard.com/charts/adult-contemporary/1986-01-25/) — AC overlap for a small-market hybrid.
+- [American Top 40, week of 25 January 1986](https://slicethelife.com/2021/01/26/american-top-40-the-80s-week-of-january-25-1986/) — contemporary top-40 ordering.
+- [*Radio & Records*, 17 January 1986](https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1980s/1986/RR-1986-01-17.pdf) and [24 January 1986](https://www.worldradiohistory.com/Archive-All-Music/Archive-RandR/1980s/1986/RR-1986-01-24.pdf) — national airplay charts for the working weeks.
+- [“Silent Running” US single information](https://www.connollyco.com/discography/mike_mechanics/silent7.html) — autumn 1985 US release; Mainstream Rock #1 from late December 1985 through 25 January 1986.
 
 For future adventures, store additional date-specific sources in that child's `sources/` or Radio brief rather than expanding this file into twelve playlists.
