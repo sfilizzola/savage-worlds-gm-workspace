@@ -142,20 +142,20 @@ Challenge the draft if any answer is yes:
 
 ## Compiling `RUN.md`
 
-`RUN.md` is a deliberate build artifact for table use. It may duplicate runtime information from authoritative files. Compilation must satisfy `templates/adventure/SKELETON.md`. Omit a required block and the compile is incomplete.
+`RUN.md` is a deliberate build artifact for table use. It may duplicate runtime information from authoritative modular files. It must not duplicate the same payload *inside* itself. Compilation must satisfy `templates/adventure/SKELETON.md`, including **Table flow (one home)**. Omit a required block and the compile is incomplete.
 
 - Follow the situation-block order in the skeleton: mood, live situation, quoted lines, Trait / fail / success / raise, GM Note, at-hand stats, boxed recurring rules.
 - First appearance of an NPC or named creature in ALL-CAPS. Write Trait tests as `Notice (-2)` and state fail, success, and raise when the roll reveals information.
-- Put relevant stats, gear, hazards, short rule reminders, clues, and consequences directly beside the situation where they matter. Use the published stat-block layout from the skeleton.
+- Put relevant stats, gear, hazards, short rule reminders, clues, and consequences directly beside the situation where they matter — **once**. Use the published stat-block layout from the skeleton.
 - Include exact source pointers for mechanics; paraphrase rather than copying long passages.
-- Lead with the current situation, objective, stakes, and starting state.
+- Lead with the current situation, objective, stakes, and starting state. Current situation is the table-start clock; phase later boards if the start then jumps.
 - Define any adventure-specific shorthand once near the top (throat, fuse, node, and similar). Do not assume the GM already knows the term.
-- Put the first 10–15 minutes of play in one obvious block: what the players are handed, where they are, what trouble is already in motion, and the first decision. A map-only briefing is not the opening.
+- Put the first 10–15 minutes of play in one obvious **checklist** (First 15 minutes): what the players are handed, where they are, what trouble is already in motion, the first decision, and which story points to open. A map-only briefing is not the opening. Do not put briefing speech or at-hand boards in that checklist; those belong in the opening story point.
 - Include a five-beat dashboard that maps beats onto story points without turning them into a visit order. A one-shot GM should see opening, investigation, escalation, climax situation, and closure at a glance.
 - After the opening and after each story-point header, include a **Mood (table)** the GM can paraphrase to the players: Climate, See, Hear, Feel. Player-perceivable only. This is not a read-aloud script and not a required recitation. Do not put secrets, unearned names, or GM editorials in Mood. Flavor must not overrule predetermined truths or rules authority. The document **Opening mood** is a GM throughline of the night; do not speak it as the landing.
-- Organize by story points and locations, not a mandatory scene sequence.
-- Prepare the climax as a situation with opposition, environment, urgency, and at least one objective beyond defeating everyone. Do not reduce it to "the last fight" or treat extraction as an automatic cut unless a shorter cut is labeled.
-- Repeat frequently used NPC and rules references in quick-reference appendices.
+- Organize by story points and locations, not a mandatory scene sequence. Extra GM lookups (knowledge, finding a target, travel) sit after the story points.
+- Prepare the climax as a situation with opposition, environment, urgency, and at least one objective beyond defeating everyone. The front **Climax situation** block is an index; speech and stats live in the story point that delivers it. Do not reduce it to "the last fight" or treat extraction as an automatic cut unless a shorter cut is labeled.
+- NPC and rules appendices are indexes and night-wide constants, not second copies of situation speech or stat blocks.
 - Clearly label GM-only secrets.
 - Include failure consequences, escalation, end states, rewards or advancement, pacing cuts, and re-entry options.
 - Compile only from reviewed source files, including a scored `QUALITY.md` whose Coherence (prep) block passed and includes a logic summary. A failed or missing coherence block blocks ready compile. If a source changes, rebuild and recheck `RUN.md`.

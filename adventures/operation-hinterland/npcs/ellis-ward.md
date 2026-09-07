@@ -21,7 +21,7 @@ Write as a person with limited knowledge, a current objective, and a fear. Lines
   - “That’s the pack. That’s what you jump with.”
   - “The Rathaus is the exchange. The aerial is a second head. You find it in town.”
   - If they dawdle: “The strip won’t wait on a better map.”
-  - Full four briefing beats (hydra rule, map marks, Stein and Keller named, no second mission): `RUN.md` First 15 minutes. Do not ad-lib the east LZ or any live head.
+  - Full four briefing beats (hydra rule, map marks, Stein and Keller named, no second mission): `RUN.md` Story Point 0. Do not ad-lib the east LZ or any live head.
 - Avoid: live pins (Altrathausplatz, Grüner Turm, Brandt); admitting the Rathaus might be wrong; a fight in this room; a second mission.
 - Pressure variants (one short line or action-plus-line each; same person, not a second personality):
   - Cooperate: he answers a kit or weather ask from what a rear officer actually has. “Ordinary extras. That’s what the shed has. Then the truck.”

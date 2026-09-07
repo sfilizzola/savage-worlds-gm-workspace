@@ -38,7 +38,7 @@ January truth: the 468 numbers are gone or scraped. Hollow town. Officers may st
 
 ---
 
-**At the table:** `RUN.md` First 15 minutes / Story Point 0 is the briefing. Mark **planned DZ** and **Rathaus** there. Do **not** mark the actual LZ until they have oriented on the ground (Story Point 1).
+**At the table:** `RUN.md` Story Point 0 is the briefing. Mark **planned DZ** and **Rathaus** there. Do **not** mark the actual LZ until they have oriented on the ground (Story Point 1).
 
 ## Where to mark — player copy
 
@@ -80,7 +80,11 @@ These are **prep fiction** pinned to real geography so the dummy site can still 
 
 **Altrathausplatz cluster**, **inside** the wall, **east of Münster St. Georg**, on the walk **from Wörnitztor toward the market**.
 
+**The square is not labeled on this sheet.** Find it by landmark: start at the `Posten Wörnitz Tor` circle, go inward, and take the first open square — the Münster's choir stands across it, the church mass is between the square and the Weinmarkt, and the red Rathaus box is further on. Roughly a third of the way from that gate to the Rathaus box. (Real anchor if you check a modern map: Alte Rathaus / Haus der Geschichte, Altrathausplatz 14.)
+
 Modern post sits on Altrathausplatz; use that *kind* of place (old post / telephone rooms), not a claim that a Fernmeldeamt is documented there in January 1945.
+
+Never say the name to the players. It is the old town-hall square behind the church.
 
 If they come in Wörnitztor they may pass near the real board without being handed it. A stub or note at the Rathaus can point **east**, not to the church.
 
@@ -94,7 +98,9 @@ Do **not** require Münster St. Georg as a head. The church stays civilian press
 
 A house on **Nördlinger Straße** (SE), **not** on Altrathausplatz and **not** in the Rathaus. Board and papers must not share one cluster or “any two of three” collapses.
 
-The bag can move. This is a starting pin, not a unique lock.
+**The street is not labeled on this sheet.** Find it by landmark: from the `Posten Nördlinger Tor` circle (bottom right), follow the wide street inward toward the church and the Weinmarkt. Put the billet on the **gate half** of that run, past the `4/I.R. 468` overlay marker and well short of the market — an ordinary house block, not a civic building. Keep it a clear walk from the Wörnitz Tor circle so the board and the books stay two trips.
+
+The bag can move. This is a starting pin, not a unique lock. If it leaves, re-pin it at one of four places: the Altrathausplatz board, a gate (Nördlinger is his nearest), a stove in the billet, or Stein’s office at the Rathaus.
 
 ### D. Officers (fuse)
 
@@ -113,9 +119,9 @@ If you show remnant posts at all, use **2–3 people** at the gate they actually
 | Planned DZ | Player (briefing) | West, outside Segringer Tor |
 | Target | Player (briefing) | Rathaus (existing HQ outline) |
 | Actual LZ / you are here | Player (after they orient) | East, outside, water, south of Wörnitztor, off the station |
-| Switchboard | GM only | Altrathausplatz, east of the Münster, inside |
+| Switchboard | GM only | Altrathausplatz (unlabeled): first square inward from the Wörnitz Tor circle, choir of the Münster across it, church between it and the Weinmarkt |
 | Loft | GM only | Grüner Turm |
-| Papers start | GM only | Nördlinger Straße, SE, not Rathaus, not the board |
+| Papers start | GM only | Nördlinger Straße (unlabeled): gate half of the street inward from the Nördlinger Tor circle, past the `4/I.R. 468` marker, short of the market. Not Rathaus, not the board |
 | Officers | GM only | Rathaus still plausible |
 
 When the PNG changes, keep this file in sync and rebuild `RUN.md` only after a compile pass.

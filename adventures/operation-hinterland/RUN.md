@@ -16,11 +16,13 @@
 | Historical accuracy    | researched (BG-OH-002–012; local station log and 1:25k scan not on disk)                                                                                                                                                                           |
 | House rules            | none                                                                                                                                                                                                                                               |
 | Expected runtime       | 6 hours                                                                                                                                                                                                                                            |
-| Compilation date       | 2026-08-31                                                                                                                                                                                                                                         |
-| Verified by            | co-GM recompile (hydra: three heads, two to kill; briefing-before-drop) against `templates/adventure/SKELETON.md` from reviewed `plot.md`, `locations.md`, `characters.md`, `encounters.md`, `secrets.md`, `maps/README.md`, `QUALITY.md` (98/120) |
+| Compilation date       | 2026-09-07                                                                                                                                                                                                                                         |
+| Verified by            | co-GM table-flow recompile against `templates/adventure/SKELETON.md` from reviewed `plot.md`, `locations.md`, `characters.md`, `encounters.md`, `secrets.md`, `maps/README.md`, `QUALITY.md` (98/120) |
 
 
 **Not a scene script.** Jump to the situation they are in. Track heads and the fuse; do not force a visit order.
+
+**Open:** SP0 briefing · SP0b jump · SP1 east face · SP2 Rathaus *(optional)* · SP3 board · SP4 loft · SP5 books · SP6 fuse/exit. **Lookups after SP6:** what they know · finding the heads · gates.
 
 ## Table terms
 
@@ -50,7 +52,7 @@ Shorthand used in this file. Not player-facing unless you choose to say it.
 | First NPC / named creature mention | ALL-CAPS in that situation, then title case                       |
 | Trait tests                        | `Notice (-4)`, `Persuasion`, `Survival` — no invented skill names |
 | Information rolls                  | Fail, success, and raise are always stated                        |
-| Quoted speech                      | Lines the GM can speak; not a read-aloud script                   |
+| Quoted speech                      | Lines the GM can speak; not a read-aloud script. Carry speech in **Spoken lines** or a blockquote that opens with `"` |
 | Mood                               | **Mood (table):** Climate / See / Hear / Feel. Player-perceivable only. Not a read-aloud. No secrets |
 | GM Note                            | Secret; never player-facing                                       |
 | Optional material                  | Labeled Optional; does not gate the main objective                |
@@ -59,55 +61,7 @@ Shorthand used in this file. Not player-facing unless you choose to say it.
 
 World rule, say once: gender is not a question. No gendered cover assignment.
 
-## What the players know, and when
-
-Do not hide the hydra rule. Hand the **three types** at briefing. Do not dump the three real **locations**.
-
-
-| When                           | They are told / they learn                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Still secret                                                                          |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| **SP0 — briefing**             | Operation Hinterland. Night of 6–7 Jan. Nordwind is the clock; Dinkelsbühl is the target. November sheet: walls, east water, four gates. West DZ / Segringer Tor. Thin rear garrison. The station is a **hydra**. **Three heads:** the **board** (landline exchange), the **aerial**, and the **books** (traffic). **Cut two and it dies** (one still talks). HQ pinned the **Rathaus as the exchange**. Find the aerial and the books on the ground. Stein and Keller named, not the objective. No second mission. Extraction after two heads are off. | The Rathaus is a **false head** (not the exchange). Where the live board, loft, and books actually sit. They will land east. |
-| **SP1 — landing**              | They are on the east / water face, not the rehearsed west. An aerial on the north wall is a head if they spot it (`Notice` raise at the LZ, or success from a north/high view in town).                                                                                                                                                                                                                                                                                         | Same secrets as above, minus the east face.                                           |
-| **SP2 or they read the town**  | The Rathaus is not the exchange. They came here for the **board**. Leftover / Hofmann points the board **east** (old post / Altrathausplatz) and the books toward **Nördlinger**. Loft is still the aerial they can see.                                                                                                                                                                                                                                                         | Live pins until they find them.                                                       |
-| **When they find a real head** | That site is a head. If they forget the two-cut rule, **restate it**. One head off is not the job. They may skip the books if board + loft are already dead.                                                                                                                                                                                                                                                                                                                  | —                                                                                     |
-
-
-Ward believes the Rathaus is a real head. He is not lying. The false-head twist is on the ground, not in the classroom.
-
-## Finding the heads (GM)
-
-**Player picture after briefing (this is what they think they are doing):**
-
-1. Kill the **board** (landline exchange) at the **Rathaus** — that is HQ’s pin. They are **not** looking for papers in that building.
-2. Find the **aerial** in town — no pin. A `Notice` from a north or high angle can spot it (raise at the LZ under Dark −4; success once they have a closer north/high view).
-3. Find the **books** (traffic, codes) — no pin, no name. A type they know they still need unless two other heads are already dead.
-
-Locations stay GM-copy until found. They do **not** need the Rathaus. Not a visit order. Full rolls live in SP2–5.
-
-| Head | Where (GM copy) | How they find the *place* (need two channels; three is better) | After the Rathaus is empty of an exchange |
-|---|---|---|---|
-| **Board** | Altrathausplatz, east, on the walk in from Wörnitztor | They already know the **type**. The question at the dummy is “where did the board go?” (1) Hofmann / leftover: east, old post rooms. (2) Dead wire / cut-over **east**, not at the church. (3) Lamp or hum on Altrathausplatz; east walk from Wörnitztor; operator talk. | They came for the switchboard. Interrogating Hofmann is the natural next move. She is **not** the only vector. |
-| **Loft** | Grüner Turm, north wall | They already know the **type**. (1) Skyline from a north or high angle. (2) Feed line at the base. (3) Keller’s stretch is a **sighting**, not the key. | Dummy wreck **tell** if they already killed the aerial: a line still alive, or leftover still points at the board / books. If the aerial is still up, they can see it from the square. |
-| **Books** | Brandt’s billet, **Nördlinger Straße** (SE) at start; the satchel can move | They already know the **type**, not the man. (1) Hofmann / leftover: Feldwebel toward Nördlinger. (2) Operators at the live board: papers with Brandt. (3) Stein or Keller know who holds the books; satchel in motion. | They are not looking for papers *at the Rathaus*. They ask “who holds the traffic?” after they know the board is not here — or they skip this head if loft + board are already dead. |
-
-If they **skip** the Rathaus: streets still pay — aerial from a north/high angle, hum/lamp at Altrathausplatz. If they hit one humming room and stop: aerial still live and/or papers not in the room. One head is not the job; **restate the hydra rule**.
-
-Hofmann, Benoit, or one officer is **never** the only vector. Wire, skyline, and the live rooms still work if a person freezes or dies.
-
-## Gates and the circuit (GM)
-
-Hollow town. **Do not** put a Wörnitztor-style pair at every entrance. Closing from the east LZ is a short correction, not a travel scenario. A circuit = lost time (night shortens), then they are on another face. Play the gate they arrive at, not the walk. Same Extra profile as Wörnitztor if you place a sleeper; do not stack pairs.
-
-| Face | Start watch | If they contour / go there | Interaction |
-|---|---|---|---|
-| **Wörnitztor** (east, near LZ) | 2 extras, stove | Immediate close | Challenge a loud close. Talk, slip, or fight. Bypass still exists. |
-| **Nördlinger Tor** (SE) | Empty, or **1 sleeper** (same Extra, Notice d4; maybe no rifle) | South circuit from the LZ: shorter than west. Inside: Brandt’s street. | Quieter. A sleeper wants to be left alone. Noise still seeds a hunt. |
-| **Rothenburger Tor** (north) | Gate **empty**. **Keller** is on the wall-walk between this gate and Grüner Turm, not sitting in the passage. | North circuit: ice; possible Keller sighting; aerial may show. | The gate is not a fight. The walk is where Keller is (stats: SP4). First contact is a sighting, not a required fight. |
-| **Segringer Tor** (west, rehearsed) | Empty or **1 sleeper** | Long circuit north or south. Night shortens. Rathaus is just inside. | They get the briefing close late. Do not invent a company because this was the plan. |
-| **Postern / climb / short circuit** | No dedicated watch | `Survival` raise at the LZ: a close that does not stand in the gate passage. Ice. Not a death gate. | If they linger on the wall, Keller’s **north** stretch is the risk, not a sentry at every tower. |
-| **Bahnhof** | Empty or 1 sleeper. Map’s 15-man watch is stale. | Not a door into the Altstadt. **Not a fourth head.** | Ignore, or one tired man. |
-
-If the fuse is already lit, the gate they used becomes an obvious plug. Other faces stay thinner. Do not add a squad.
+Payload lives in the story point (or lookup) named. Do not hunt an earlier section for speech or stats.
 
 ## Opening mood
 
@@ -117,95 +71,18 @@ Calm briefing in Pont-à-Mousson, then a truck, then weather that is not the cla
 
 ## First 15 minutes
 
-## First 15 minutes
+Not a scene. Do not speak Ward here. Play **Story Point 0**, then **0b**, then **1**.
 
-A calm briefing is the start, not the opening trouble. Compress it. The jump is spectacle. Landing on the unplanned face and having to orient is the first decision that matters.
+A calm briefing is the start, not the opening trouble. Compress it (8–10 minutes including a kit ask). The jump is spectacle. Landing on the unplanned face and having to orient is the first decision that matters.
 
 - **Handed:** player copy of BG-OH-001 (`maps/garrison map.png`, Handout A). Team kit on the table. GM copy stays hidden or token-only.
-- **Where they are:** first a commandeered schoolroom in **Pont-à-Mousson**; then one transport; then together in cover, east / Wörnitz face, south of Wörnitztor, off the Bahnhof. Default light on the ground **Dark (−4)**. Short night of **6–7 January 1945**.
+- **Where they are:** first a commandeered schoolroom in **Pont-à-Mousson**; then one transport; then together in cover, east / Wörnitz face, south of Wörnitztor, off the Bahnhof.
 - **Trouble already in motion:** weather worse than briefed; west fields not readable; en-route flak; they come down on the unplanned face and must discover that. Stale Rathaus target is in the pack, not yet visible. Urgent-mission trouble, not an ambush. Do not add a fake opening fight. Do not let the jump Wound, split, or strip them.
-- **First decision:** after they orient — how to close from the water — Wörnitztor, postern, wall, or a circuit to another face. Other gates are thinner than Wörnitztor; a circuit costs time, not a travel map. See **Gates and the circuit**.
-- **If this block overruns:** skip the kit ask and extra PC chat; green light; they are in the door; token on the east LZ; ask them to read the map against the water.
+- **First decision:** after they orient — how to close from the water — Wörnitztor, postern, wall, or a circuit to another face. Other gates are thinner than Wörnitztor; a circuit costs time, not a travel map. **Gates and the circuit** (after SP6).
+- **If this block overruns:** skip the kit ask and extra PC chat; green light; they are in the snow; ask them to read the map against the water.
 
-**At briefing, mark the player copy** (Story Point 0). Full pin list: `maps/README.md`.
+Stats: Ward in SP0; jump rule in SP0b; night and Wörnitztor in SP1.
 
-1. **Planned DZ.** West, outside Segringer Tor. That is where Ward says they will come down.
-2. **Named target.** Circle the **Rathaus**. No radio icon. No live heads.
-
-**Do not mark** the actual east LZ, switchboard, Grüner Turm loft, papers, or NCO on this copy at briefing.
-
-**Spoken lines (CAPT. ELLIS WARD):** speak these four beats while you mark the player copy. He is briefing a raid, not reciting a code. Do not ad-lib the east LZ or any live head.
-
-> “This is Operation Hinterland. You jump tonight — sixth into the seventh of January. Nordwind is on in Alsace. That is the clock. You are not going to that front. You are going into German rear, to Dinkelsbühl, a walled town in Franconia, two hundred and fifty kilometres and more from the fighting. There is a signals station there still passing traffic toward Alsace. If it keeps talking, their movement on the southern front stays coordinated. Your job is to shut that station down.”
-
-Hand the November sheet. Point as you talk. Then mark the west DZ.
-
-> “This sheet is what HQ has. Garnisonsplan. Face date November forty-four — not tonight’s photograph, but the walls, the water, and the gates have not moved. Closed wall. Four gates. River and ponds drawn on the east of the picture: that is the Wörnitz. West face is dry fields, road out toward Segringen. That west gate is Segringer Tor. You drop west of the walls, outside that gate. Rehearsed close is Segringer Tor. Rear-area town: civilians in their houses, a thin garrison, not a fortress. You are not there to fight the garrison or empty the houses.”
-
-Circle the Rathaus. No radio icon.
-
-> “The station is not one radio shack. HQ calls it a hydra. Three heads: the landline board — the exchange — an aerial that talks over the air, and the books, the traffic they still pass. Cut two and it dies. Cut only one and it is wounded — the rest can still talk. We have one pin: the Rathaus, here, center, Segringer Straße at the Weinmarkt. That is the exchange as HQ has it. Find the aerial and the books on the ground. Any two down, the hydra is dead. Wrecking masonry is not the mission. The hydra is.”
-
-> “The officers named as responsible are Hauptmann Stein and Oberleutnant Keller. They are people, not the objective. There is no second mission: no prisoners, no photographs, no side errand. Extraction is yours after two heads are off. Questions, then the truck.”
-
-**Spoken lines (answers, only if asked):** If they dawdle: “The strip won’t wait on a better map.” If they ask where the aerial or the books sit, or for a room that kills the hydra: “That’s the pack. That’s what you jump with.” If they ask whether the Rathaus is the radio: “The Rathaus is the exchange. The aerial is a second head. You find it in town.”
-
-Then the truck. Then the jump (Story Point 0b). Then snow. **After they orient**, put the party token on the east LZ. That is Story Point 1.
-
-> [!IMPORTANT]
-> #### At-hand statistics — Capt. Ellis Ward (briefing only)
->
-> ```text
-> **Capt. Ellis Ward** — Extra
-> Attributes: Agility d6, Smarts d8, Spirit d6, Strength d6, Vigor d6
-> Skills: Athletics d4, Common Knowledge d8, Fighting d4, Notice d6, Persuasion d8, Shooting d6
-> Pace: 6; Parry: 4; Toughness: 5
-> Gear: M1911A1 in a holster (12/24/48, 2d6+1, RoF 1, 7 shots, AP 1, Semi-Auto), not drawn; winter coat; briefing folder
-> Special Abilities:
-> - Extra: one Wound Incapacitates (SWADE p.95)
-> Personality: calm, certain, wrong about the Rathaus; wants them in the air on time
-> Authority: SWADE pp. 87–88, 95, 202; Weird War II p.52 M1911A1, p.21 Rank NPC clause; house rule none
-> ```
->
-> Do not play a fight with Ward.
->
-
-> [!IMPORTANT]
-> #### At-hand statistics — Wörnitztor watch (if they close the near gate)
->
-> ```text
-> **Volkssturm / convalescent Extra** (×2) — Extra
-> Attributes: Agility d6, Smarts d6, Spirit d4, Strength d6, Vigor d6
-> Skills: Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d4
-> Pace: 6; Parry: 4; Toughness: 5
-> Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 (12/24/48, 2d6−1, RoF 1, 8, Semi-Auto) or no rifle; greatcoat; maybe a helmet; stove; lamp
-> Special Abilities:
-> - Extra: one Wound Incapacitates (SWADE p.95)
-> Personality: tired; they want the night to pass
-> Authority: SWADE pp. 87–88, 95, 202; p. 66 Snapfire; Weird War II p.144 Volkssturm, p.152 weapons; house rule none
-> ```
->
-
-> [!TIP]
-> #### At-hand rules — night, cold, and flavor jump
->
-> ```text
-> Authority: SWADE Fifth Printing (2023), p. 29 "Athletics"; p. 102 "Illumination"; p. 125 "Hazards"
-> Setting: none for light; BG-OH-009 for the night clock; BG-OH-012 for the briefing town
-> House rule: none
-> Summary: typical night is Dark (−4); targets not visible past 10″ (20 yards).
->   6 Jan 1945 is Last Quarter (moon up around midnight). First half stays Dark.
->   After moonrise, a clear snow sky or a lamp/stove can be Dim (−2). Pitch Darkness
->   (−6) only in an unlit cellar or sealed room. Cloud on the flight is worse than
->   briefed (fiction). Cloud over Dinkelsbühl that night is unknown.
->   Athletics on the jump is flavor only: ignore Wounds, Fatigue, lost gear, scatter,
->   and any raise that would improve the LZ. They land together.
-> Applied here: default Dark at the LZ. Do not apply a hidden Fatigue at the LZ.
->   If they linger exposed, then Hazards (p.125). Jump Qualified is not used.
-> ```
->
-> Lang’s Woodsman +2 Stealth applies in the wild (fields, Wörnitz tree line), **not** in streets or indoors (SWADE p.50).
->
 ## Mission in 30 seconds
 
 - **Premise:** Four Seasoned Allies briefed in Pont-à-Mousson, dropped onto Dinkelsbühl, early January 1945, winter night.
@@ -216,13 +93,9 @@ Then the truck. Then the jump (Story Point 0b). Then snow. **After they orient**
 
 ## Current situation
 
-Player map marked at briefing (planned DZ, Rathaus). Four have jumped and are together on the east / Wörnitz face, south of Wörnitztor. Night of 6–7 January 1945. Default light: **Dark (−4)**. Hollow town. No occult. They may not yet have marked the actual LZ.
+**Phase A — table start (SP0):** Keene, Krajewski, Vasseur, Lang and **CAPT. ELLIS WARD** in a commandeered schoolroom, Pont-à-Mousson. Voss missed this lift. Player copy unmarked until you pin planned DZ and Rathaus in SP0.
 
-### Tonight's board (prep, not history)
-
-**At briefing:** Keene, Krajewski, Vasseur, Lang and **CAPT. ELLIS WARD** in a commandeered schoolroom, Pont-à-Mousson. Voss missed this lift.
-
-**On the ground:**
+**Phase B — after the jump (SP1):** four together on the east / Wörnitz face, south of Wörnitztor. Night of 6–7 January 1945. Default light: **Dark (−4)**. Hollow town. No occult. Ward is off-map. They may not yet have marked the actual LZ.
 
 
 | Who                                             | Where                                               | Doing                                                                     |
@@ -263,9 +136,9 @@ Not a visit order. Jump to the situation they are in. Scores: `QUALITY.md` (98/1
 | Beat                      | Story point(s)                      | Table cue                                                                                      |
 | ------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Explosive opening         | SP0, SP0b, SP1                      | Calm briefing; flak and bad weather; wrong face they must discover. Not a fight.               |
-| Investigation and choices | SP2–5                               | Dummy vs town; any two heads; method of kill.                                                  |
+| Investigation and choices | SP2–5                               | Dummy vs town; any two heads; method of kill. Skip SP2 if they never go.                       |
 | Escalation or reversal    | SP2; clocks                         | Rathaus is a false head. Fuse, scream, dawn. One twist only. Missed DZ is not a second twist.  |
-| Climactic set piece       | Second head + live fuse (see below) | Opposition, ice/streets/height, scream or dawn clock, civilians or exit — not “kill everyone.” |
+| Climactic set piece       | Second head + live fuse (SP6)       | Opposition, ice/streets/height, scream or dawn clock, civilians or exit — not “kill everyone.” |
 | Consequences and closure  | End states                          | Hydra dead or not. 1 Advance only if the table continues.                                      |
 
 
@@ -273,35 +146,17 @@ Not a visit order. Jump to the situation they are in. Scores: `QUALITY.md` (98/1
 
 ## Climax situation
 
-Use this when they hit the **second head** or try to leave with the hydra still wounded and the fuse live. Not a scripted last stand. Not a required long chase. Full stat blocks live in the story point that is on the table; hunt pair uses the Wörnitztor Extra profile.
+Index only. Run the live head’s story point (SP3, 4, or 5) **and** **Story Point 6**. Do not script the outcome.
 
 - **Location:** whichever head is second (Altrathausplatz board, Grüner Turm loft, or Nördlinger papers) and the streets that feed it. If both heads are already dead, the climax is the way out under the hunt they earned.
-- **Opposition (Wild Cards / Extras):** remaining watch at that pin, plus **HPTM. FRIEDRICH STEIN** and/or **OBLT. MARTA KELLER** if the fuse is lit, plus **one hunt pair** (same extras as Wörnitztor). Move pins; do not add a battalion, MG42, or Experienced infantry.
+- **Opposition (Wild Cards / Extras):** remaining watch at that pin (SP3–5), plus **HPTM. FRIEDRICH STEIN** (SP2) and/or **OBLT. MARTA KELLER** (SP4) if the fuse is lit, plus **one hunt pair** (SP6). Move pins; do not add a battalion, MG42, or Experienced infantry.
 - **Environment and interactive features:** ice and tight lanes; height and feed line if the loft; civilian houses and fire risk if the board; satchel/stove/street door if papers; sound carries in the cold.
 - **Urgency / countdown:** if only one head is dead, the hydra can still **scream**. Dawn puts more eyes on the same map. A hunt closes the gate they already used.
 - **Secondary objective besides defeating everyone:** finish the second head **or** stop the scream **and** get the four off the board. Civilians in the line are a cost, not a hidden auto-fail. Capture of an officer is optional.
-- **Spoken lines:** Stein, if directing: `"Hebt ab, wer noch antwortet." (Raise whoever still answers.)` Keller, if the hunt is hers: `"Paar auf die Gassen. Ausgangssperre. Holt sie." (Pair on the lanes. Curfew. Get them.)` A living board, shouting: “I still have a line—”
+- **Spoken lines, stats, rules:** the live head’s SP, plus SP6 (hunt pair, extraction).
 - **GM Note:** Out-of-town help needs a living path **and** time. This is still a hollow town. Dummy wreck was never success.
 - **If time is short:** still run this compressed — one location, the fuse on the table, the scream clock if it applies, then “you are out, at this cost.” Do not skip it in favor of a leftover room fight. A long vehicle chase is the cut.
 
-> [!IMPORTANT]
-> #### At-hand statistics — hunt pair (after the fuse)
->
-> Same profile as Wörnitztor watch (2 Extras). If Stein is within Command Range (5″ / 10 yards), Hold the Line! gives those extras +1 Toughness (SWADE p.45). They are still Extras. Natural Leader is not on either officer.
->
-
-> [!TIP]
-> #### At-hand rules
->
-> ```text
-> Authority: SWADE p.45 Command / Hold the Line!; p.102 Illumination; p.125 Hazards if still exposed
-> Setting: Weird War II p.21 Rank NPC bonuses not applied
-> House rule: none
-> Applied here: local hunt only. Do not import Experienced infantry, Dodge, Rock and Roll!, or MG42.
-> ```
->
-> ---
->
 ## Story Point 0 - Briefing in Pont-à-Mousson
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -312,8 +167,30 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 - **Feel:** Calm. Rear-area. The pressure is the clock, not incoming fire.
 
 - **Goal:** put HQ’s picture of the town in their hands, let the four talk, mark only what the briefing is allowed to know.
-- **Situation now:** first thing at the table. Commandeered schoolroom, Pont-à-Mousson. **CAPT. ELLIS WARD** believes the pack. Player copy of BG-OH-001. Kit on the table. Procedure is also in First 15 minutes.
-- **Spoken lines:** CAPT. ELLIS WARD — the four briefing beats in First 15 minutes, spoken while you mark. If they dawdle: “The strip won’t wait on a better map.” If they ask where the aerial or the books sit, or for a room that kills the hydra: “That’s the pack. That’s what you jump with.” If they ask whether the Rathaus is the radio: “The Rathaus is the exchange. The aerial is a second head. You find it in town.”
+- **Situation now:** first thing at the table. Commandeered schoolroom, Pont-à-Mousson. **CAPT. ELLIS WARD** believes the pack. Player copy of BG-OH-001. Kit on the table. One room. Optional short walk to a shed. Not a second map. Voss is not here. Do not play an attack on Ward.
+- **Spoken lines (CAPT. ELLIS WARD):** speak these four beats while you mark the player copy. He is briefing a raid, not reciting a code. Do not ad-lib the east LZ or any live head.
+
+**At briefing, mark the player copy.** Full pin list: `maps/README.md`.
+
+1. **Planned DZ.** West, outside Segringer Tor. That is where Ward says they will come down.
+2. **Named target.** Circle the **Rathaus**. No radio icon. No live heads.
+
+**Do not mark** the actual east LZ, switchboard, Grüner Turm loft, papers, or NCO on this copy at briefing.
+
+> “This is Operation Hinterland. You jump tonight — sixth into the seventh of January. Nordwind is on in Alsace. That is the clock. You are not going to that front. You are going into German rear, to Dinkelsbühl, a walled town in Franconia, two hundred and fifty kilometres and more from the fighting. There is a signals station there still passing traffic toward Alsace. If it keeps talking, their movement on the southern front stays coordinated. Your job is to shut that station down.”
+
+Hand the November sheet. Point as you talk. Then mark the west DZ.
+
+> “This sheet is what HQ has. Garnisonsplan. Face date November forty-four — not tonight’s photograph, but the walls, the water, and the gates have not moved. Closed wall. Four gates. River and ponds drawn on the east of the picture: that is the Wörnitz. West face is dry fields, road out toward Segringen. That west gate is Segringer Tor. You drop west of the walls, outside that gate. Rehearsed close is Segringer Tor. Rear-area town: civilians in their houses, a thin garrison, not a fortress. You are not there to fight the garrison or empty the houses.”
+
+Circle the Rathaus. No radio icon.
+
+> “The station is not one radio shack. HQ calls it a hydra. Three heads: the landline board — the exchange — an aerial that talks over the air, and the books, the traffic they still pass. Cut two and it dies. Cut only one and it is wounded — the rest can still talk. We have one pin: the Rathaus, here, center, Segringer Straße at the Weinmarkt. That is the exchange as HQ has it. Find the aerial and the books on the ground. Any two down, the hydra is dead. Wrecking masonry is not the mission. The hydra is.”
+
+> “The officers named as responsible are Hauptmann Stein and Oberleutnant Keller. They are people, not the objective. There is no second mission: no prisoners, no photographs, no side errand. Extraction is yours after two heads are off. Questions, then the truck.”
+
+**Spoken lines (answers, only if asked):** If they dawdle: “The strip won’t wait on a better map.” If they ask where the aerial or the books sit, or for a room that kills the hydra: “That’s the pack. That’s what you jump with.” If they ask whether the Rathaus is the radio: “The Rathaus is the exchange. The aerial is a second head. You find it in town.”
+
 - **Discoverable:**
 
 
@@ -325,23 +202,13 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 
 - **GM Note:** Do not mark the actual east LZ or the three real heads on the player copy. Ward is not lying: he believes the Rathaus is a head. It is a **false head**. The 468 overlay is stale or invented intel. The Rathaus *was* the imperial post house until 1855 — fair leftover, still not the exchange. Ordinary extras only. Time-box 8–10 minutes including a kit ask.
 - **Pressure/escalation:** none on Dinkelsbühl. If the room talks too long, skip kit and extra chat and put them on the truck.
-- **Essential information and vectors:** Operation Hinterland; Nordwind is the clock, Dinkelsbühl is the target; hydra; three **types** handed here — board (exchange), aerial, books; cut two (one still talks); Rathaus pinned as the **exchange**; find the aerial and the books on the ground; November sheet (walls, east water, four gates); west DZ / Segringer Tor; Stein and Keller named, not the objective; no second mission; extraction after two heads. **Handed here — do not wait for SP2 to name the types.** Vectors: Ward’s four briefing beats; the marks; the map’s east water (they will need it). Do not dump live locations.
+- **Essential information and vectors:** handed in Ward’s four beats and the two marks. Do not wait for SP2 to name the types. Do not dump live locations. Map’s east water is the later orient cue.
 - **Failure changes:** if marks skipped, stop and mark. A refused kit ask does not change the mission.
 - **Reachable next points:** Story Point 0b.
 - **PC hook — Keene:** Loyal / Stubborn — make sure the four have the same picture before they walk out. Not a unique key.
 - **PC hook — Krajewski:** counts charges aloud (Quirk) while the kit is on the table. Driven — he already hates wasting charges on the wrong masonry.
 - **PC hook — Vasseur:** Curious — the November date offends her trade. Cautious — she still jumps.
 - **PC hook — Lang:** names Segringer Tor (Quirk). Useful color; not the only way to know the planned west close.
-
-### Commandeered schoolroom
-
-- Sensory frame: as story-point Mood.
-- People and forces: Ward; the four. Voss is not here.
-- Environment/hazards: one room. Optional short walk to a shed. Not a second map.
-- Spoken lines: Ward as First 15 minutes.
-- Discoverable: table above.
-- GM Note: as story-point GM Note. Do not play an attack on Ward.
-- Changes if delayed: skip kit and chat; truck.
 
 > [!IMPORTANT]
 > #### At-hand statistics
@@ -373,8 +240,7 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 > Applied here: kit ask. No second satchel. No live-head intel.
 > ```
 >
-> ---
->
+
 ## Story Point 0b - The jump
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -385,7 +251,7 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 - **Feel:** Thrill. Not a fight. The drop is already worse than the briefing.
 
 - **Goal:** thrill, and the cause of the missed DZ. Spend little clock. No mechanical teeth.
-- **Situation now:** one transport. Weather worse than briefed. West DZ not readable. Flak **en route**, not Dinkelsbühl’s. Four in one stick. Ward is not aboard.
+- **Situation now:** one transport. Weather worse than briefed. West DZ not readable. Flak **en route**, not Dinkelsbühl’s. Four in one stick. Ward is not aboard. Crew is color. Do not fight gunners. Do not bench a chute.
 - **Spoken lines:** Crew, if you want a voice: “Green light. Go.” A PC can swear. No German voices from the dark.
 - **Discoverable:**
 
@@ -402,16 +268,6 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 - **Reachable next points:** Story Point 1.
 - **Optional / PC hook:** omit. Anyone may roll; no one must.
 
-### The aircraft
-
-- Sensory frame: as story-point Mood.
-- People and forces: the four. Crew is color.
-- Environment/hazards: spectacle only. Do not fight gunners. Do not bench a chute.
-- Spoken lines: “Green light. Go.”
-- Discoverable: table above.
-- GM Note: as story-point GM Note.
-- Changes if delayed: there is no delay. Cut to snow.
-
 > [!TIP]
 > #### At-hand rules
 >
@@ -425,8 +281,7 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 > Applied here: Story Point 0b. Dinkelsbühl stays asleep.
 > ```
 >
-> ---
->
+
 ## Story Point 1 - Wrong face of the walls
 
 **Mood (table):** Paraphrase. Not a read-aloud. They do **not** know which face this is yet.
@@ -437,8 +292,8 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 - **Feel:** The town is calm. They are the intrusion. Cold. Short night. Not a firefight.
 
 - **Goal:** they discover they are on the unplanned east face and choose a close. Spend little clock.
-- **Situation now:** together in cover, snow, short night, **east / Wörnitz face**, south of Wörnitztor, off the Bahnhof. They do **not** know that when they hit snow. Rehearsed close is **Segringer Tor** (west). After they orient, mark the actual LZ on the player copy.
-- **Spoken lines:** none required at the LZ (PCs). If they close Wörnitztor loud, the watch: `"Halt! Wer da?" (Halt! Who goes there?)` If they try to talk past the stove: `"Papiere. Schnell." (Papers. Quick.)`
+- **Situation now:** together in cover, snow, short night, **east / Wörnitz face**, south of Wörnitztor, off the Bahnhof. They do **not** know that when they hit snow. Rehearsed close is **Segringer Tor** (west). After they orient, mark the actual LZ on the player copy. Distant thin watch at Wörnitztor. No station company. Height and ice are **not** an opening death gate.
+- **Spoken lines:** none at the LZ (PCs). Gate and other faces: nested locations below.
 - **Discoverable:**
 
 
@@ -450,26 +305,16 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 | `Persuasion` at the gate (verbal skills Limited by Language, p.32) | They challenge; minutes later a runner or Keller. Postern / circuit / climb still exist.                     | Talked past.                                                                  | Someone still walks the north wall; east lanes run toward the old post.                                         |
 
 
-- **GM Note:** They can reach town from here (Wörnitztor, a postern, a short circuit, or a longer walk to another face). Other gates are thinner than this pair — see **Gates and the circuit**. The long way only costs time. The live switchboard sits inside on the east walk they may use anyway. A botched gate is noise and a hunt seed, not a failed mission. A failed Notice does not hide the water. The town did not hear this aircraft as a local raid.
-- **Pressure/escalation:** a circuit shortens the night. Freeze and cold/dawn do the work. If they linger, **OBLT. MARTA KELLER**’s round may reach the east wall later, not at the first minute. If they take the north walk, they can meet her as a sighting (stats: SP4).
+- **GM Note:** They can reach town from here (Wörnitztor, a postern, a short circuit, or a longer walk to another face). Other gates are thinner than this pair — **Gates and the circuit**. The long way only costs time. The live switchboard sits inside on the east walk they may use anyway. A botched gate is noise and a hunt seed, not a failed mission. A failed Notice does not hide the water. The town did not hear this aircraft as a local raid.
+- **Pressure/escalation:** a circuit shortens the night. Freeze and cold/dawn do the work. If they linger, **OBLT. MARTA KELLER**’s round may reach the east wall later, not at the first minute. If they take the north walk, they can meet her as a sighting (SP4).
 - **Essential information and vectors:** they are on the wet / east face, not the rehearsed west; they can reach town tonight from here; other entrances are not copies of this watch. Water on the map vs water here; rehearsed west gate absent; Lang can name Wörnitztor (not the only vector); a road, ditch, or postern; a distant sound or light from inside. No NPC guide required.
 - **Failure changes:** late, colder, more tired. They still reach a face of the town.
 - **Reachable next points:** dummy building, streets, any head, officer fuse if they make a loud approach.
 - **PC hook — Lang:** she names every gate (Quirk). Useful color; not the only way to know Wörnitztor from Segringer.
 - **PC hook — Keene:** Loyal / Heroic / Stubborn — keep the four together; do not spend them on a long scenic circuit. Not the only scout.
 
-### Snow cover, unplanned face of the walls
-
-- Sensory frame: as story-point Mood.
-- People and forces: the four. Distant thin watch at Wörnitztor. No station company. The town did not wake for this aircraft.
-- Environment/hazards: winter dark, cold, snow, ditch or tree line, water one side, masonry the other. Ice on the wall-walk. Height and ice are **not** an opening death gate. Wind off the water.
-- Spoken lines: none at the LZ.
-- Discoverable: table above.
-- GM Note: as story-point GM Note.
-- Changes if delayed: cold, fatigue, less night.
-
 > [!TIP]
-> #### At-hand rules
+> #### At-hand rules — night and cold
 >
 > ```text
 > Authority: SWADE Fifth Printing (2023), p. 102 "Illumination"; p. 125 "Hazards";
@@ -486,6 +331,7 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 >   If they linger exposed, then Hazards (p.125).
 > ```
 >
+
 ### Wörnitztor
 
 - Sensory frame:
@@ -508,7 +354,7 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 > Attributes: Agility d6, Smarts d6, Spirit d4, Strength d6, Vigor d6
 > Skills: Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d4
 > Pace: 6; Parry: 4; Toughness: 5
-> Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 or no rifle; greatcoat; maybe a helmet; stove; lamp
+> Gear: Kar 98K (24/48/96, 2d8, RoF 1, 5 shots, AP 2, Snapfire, Min Str d6); one may have only a P38 (12/24/48, 2d6−1, RoF 1, 8, Semi-Auto) or no rifle; greatcoat; maybe a helmet; stove; lamp
 > Special Abilities:
 > - Extra: one Wound Incapacitates (SWADE p.95)
 > Personality: they want the night to pass; they will challenge a loud close; they will not sortie as a fortress
@@ -517,27 +363,20 @@ Use this when they hit the **second head** or try to leave with the hydra still 
 >
 > Early-removal mitigated: break-contact is available. Civilians in nearby houses. Do not add a squad.
 >
+> Same Extra profile for a sleeper at another face (maybe no rifle). **Gates and the circuit.** Keller: Story Point 4.
+>
+
 ### Other gates and the circuit
 
-Full table: **Gates and the circuit** (near the top). Hollow town. Do not clone this pair.
+Do not clone the Wörnitztor pair. Full face table: **Gates and the circuit**.
 
-- Sensory frame:
-  - **Climate:** Same winter. Ice. Dark (−4). The walk is not a second map.
-  - **See:** Quieter faces than the east stove-gate. Empty arch, or one sleeper. North walk may show a figure or an aerial if they take it.
-  - **Hear:** Wind. Their own steps. A sleeper’s breath if someone is there.
-  - **Feel:** Thin. Time is the cost, not a company.
-- People and forces: **Nördlinger** / **Segringer** — empty or 1 sleeper (same Extra profile as Wörnitztor; maybe no rifle). **Rothenburger** — gate empty; **OBLT. MARTA KELLER** is on the wall-walk toward Grüner Turm (stats: SP4), not in the passage. Postern / climb: no dedicated watch.
-- Environment/hazards: ice, Dark (−4), civilian houses inside. Height is not a death gate.
-- Spoken lines: a sleeper, if woken: `"Lass mich. Die Nacht." (Leave me. The night.)` Keller, if they take the north walk: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)`
-- Discoverable: circuit costs time, not a fortress. South face feeds Brandt’s street. North face can show the aerial. West face is the briefing close, late.
-- GM Note: Play the gate they arrive at. A sleeper wants to be left alone. Do not add a squad because they walked. If they meet Keller here, first contact is a sighting — use her SP4 block only if the fiction makes her a fight.
-- Changes if delayed: night shortens; Keller may leave her stretch; dawn puts more eyes on every face.
+- Play the gate they arrive at. A sleeper, if woken: `"Lass mich. Die Nacht." (Leave me. The night.)`
+- If they take the north walk and meet Keller: Story Point 4 (sighting first, not a required fight).
+- South face feeds Brandt’s street. North face can show the aerial. West face is the briefing close, late.
 
-Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
+## Story Point 2 - Rathaus (false head)
 
----
-
-## Story Point 2 - The briefing building is wrong
+Optional visit. Skip is allowed — **Finding the heads**.
 
 **Mood (table):** Paraphrase. Not a read-aloud. They came for the board. Do not tell them it is missing until they look.
 
@@ -547,7 +386,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 - **Feel:** A town that went to bed. An officers’ building, quiet, not a keep.
 
 - **Goal:** the real improvisation. They came for the **board**. The Rathaus is a **false head**.
-- **Situation now:** optional visit. Must pay if they come. They are looking for the landline exchange, **not** papers and not the aerial. Reachable by checking the site, overhearing, watching wire, asking, or never going there and reading the town.
+- **Situation now:** they are looking for the landline exchange, **not** papers and not the aerial. Hofmann on the ground floor with a lamp, stove, old paper if they come in quiet hours. Stein in nearby quarters unless noise or a runner fetches him. Brandt is not here. A habit check at the door is possible (one person). Keller only if her round has been pulled here. Offices, stair, winter blackout, a yard or side door. Not a dungeon.
 - **Spoken lines:** **GEFR. LINA HOFMANN**, if she talks: `"Die Vermittlung ist nicht hier. Die haben umgelegt. Ostzimmer. Ich mache Papier. Ich fahre das Netz nicht." (The exchange isn’t here. They cut it over. East rooms. I do paper. I don’t run the net.)` If they ask about a tower, a radio, or why the building is dead: `"Der Nordturm redet noch. Das ist nicht dieses Haus." (The north tower still talks. That’s not this house.)` If they press the books: `"Die Bücher hat der Feldwebel. Richtung Nördlinger." (The Feldwebel has the books. Toward Nördlinger.)` Stein, if woken: `"Das ist noch immer mein Gebäude. Wer ist in meinem Haus?" (This is still my building. Who is in my house?)`
 - **Discoverable:**
 
@@ -559,21 +398,11 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 
 
 - **GM Note:** The Rathaus is a **false head**. They came for the switchboard. Cutting this building does not count. It can light the fuse. Give a **tell** if they treat it as a win: if the aerial still lives, it is still on the north wall; if they already killed the loft, a line still alive or leftover still points at board / books. Hofmann is one leftover, not the only one. HQ’s circle is explainable (old post house until 1855) and still wrong. Brandt is **not** here. If they forget they need two heads, **restate the hydra rule**.
-- **Pressure/escalation:** time here is time the watch can move papers or wake a stronger eye. Loud work brings Stein downstairs and Keller off her round.
-- **Essential information and vectors:** they came for the **board**. This building is a **false head**; leftover still points the board east (Altrathausplatz) and the books toward Nördlinger. Loft is the aerial they can **see** if they look, or a wreck-tell if they already killed it. Dummy leftover; street observation; civilians or a clerk; officers’ routines; cut or followed wire. Skip is allowed — streets still pay (Finding the heads). They may skip the books if loft + board are already dead.
+- **Pressure/escalation:** time here is time the watch can move papers or wake a stronger eye. Loud work brings Stein downstairs and Keller off her round. Dawn fills the square with ordinary eyes.
+- **Essential information and vectors:** they came for the **board**. This building is a **false head**; leftover still points the board east (Altrathausplatz) and the books toward Nördlinger. Loft is the aerial they can **see** if they look, or a wreck-tell if they already killed it. Dummy leftover; street observation; civilians or a clerk; officers’ routines; cut or followed wire. They may skip the books if loft + board are already dead.
 - **Failure changes:** time or noise at the wrong door. The three real heads remain findable.
 - **Reachable next points:** any of the three heads; officer attention if they were loud.
 - **Optional / PC hook:** visiting the dummy building is optional. **PC hook — Krajewski:** Driven — wreck what actually passes traffic, not masonry for its own sake. **PC hook — Vasseur:** Curious — the stale package offends her trade; she wants the real net.
-
-### The briefing building (dummy site) — Rathaus
-
-- Sensory frame: as story-point Mood.
-- People and forces: Hofmann on the ground floor with a lamp, stove, old paper if they come in quiet hours. Stein in nearby quarters unless noise or a runner fetches him. Brandt is not here. A habit check at the door is possible (one person). Keller only if her round has been pulled here.
-- Environment/hazards: offices, stair, winter blackout, a yard or side door. Not a dungeon.
-- Spoken lines: Hofmann and Stein as above.
-- Discoverable: table above.
-- GM Note: as story-point GM Note.
-- Changes if delayed: dawn fills the square with ordinary eyes.
 
 > [!IMPORTANT]
 > #### At-hand statistics — Hofmann (Extra)
@@ -605,18 +434,9 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 > Authority: SWADE pp. 44–45, 87–89, 95, 202; Weird War II pp. 144, 21 (Rank NPC clause), 152; house rule none
 > ```
 >
-> Hold the Line! applies once he is directing a hunt: extras in Command Range (5″ / 10 yards) get +1 Toughness. They are still Extras. No off-map battalion. Rank (Officer) extra Benny **not** applied (WW2 p.21). Natural Leader is **not** on either officer, so Leadership Edges do not buff player Wild Cards.
+> Hold the Line! applies once he is directing a hunt: extras in Command Range (5″ / 10 yards) get +1 Toughness. They are still Extras. No off-map battalion. Rank (Officer) extra Benny **not** applied (WW2 p.21). Natural Leader is **not** on either officer, so Leadership Edges do not buff player Wild Cards. Four Seasoned should win a straight fight and pay in noise. Use this block again if he appears in SP6.
 >
-> ```text
-> Authority: SWADE pp. 44–45, 87–89, 95, 202
-> Setting: Weird War II pp. 144, 21, 152
-> House rule: none
-> Summary: Hofmann is talk/scare. Stein woken is one Wild Card plus whoever arrives in minutes.
-> Applied here: dummy site. Four Seasoned should win a straight fight and pay in noise.
-> ```
->
-> ---
->
+
 ## Story Point 3 - Switchboard
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -627,7 +447,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 - **Feel:** This room is awake. The square outside is not. Civilians are next door.
 
 - **Goal:** one head. Killing it is one of the two hits needed.
-- **Situation now:** in town, watched by the signals detachment more than by street garrison. Civilians live nearby. Brandt is **not** in this square.
+- **Situation now:** in town, watched by the signals detachment more than by street garrison. Civilians live nearby. Brandt is **not** in this square. Two signals Extras. A runner only after trouble. Stein / Keller only after the fuse. Benoit’s cellar is near, not in the exchange. Interior, cables, a back door to the lanes. **Fire here is a civilian problem.**
 - **Spoken lines:** An operator, if they come in loud: “Board’s live — don’t cut that.” If they try to scream: “I still have a line—”
 - **Discoverable:**
 
@@ -639,21 +459,12 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 
 
 - **GM Note:** Killing this is one hit. Loft + papers still complete the job. Coming through Wörnitztor can put them nearby without handing them the room. Fire here is a civilian problem.
-- **Pressure/escalation:** if left intact while another part dies, operators can patch or scream. If hit first and loudly, officers start the local hunt.
+- **Where to pin it:** the square is **not labeled** on BG-OH-001. Inside the wall, first open square inward from the `Posten Wörnitz Tor` circle, the Münster’s choir across it, the church mass between it and the Weinmarkt, the red Rathaus box further on. Do not say the name to the players — it is the old town-hall square behind the church.
+- **Pressure/escalation:** if left intact while another part dies, operators can patch or scream. If hit first and loudly, officers start the local hunt. Dawn → more traffic, more people.
 - **Essential information and vectors:** this is the switchboard; it can still pass landline traffic if loft and papers live. Cut-over / wire from the Rathaus east; lamp or hum on Altrathausplatz; Wörnitztor east walk; operator or leftover talk. Not “enter Wörnitztor or the night stops.”
 - **Failure changes:** failed entry, alarm, or a botched wreck leaves the board wounded or still up. Other heads remain.
 - **Reachable next points:** loft, papers, extraction, fuse.
 - **PC hook — Vasseur / Krajewski:** both can wreck a set (Repair d8, Mr. Fix It). Smash and fire still work if Repair fails. Not unique keys.
-
-### Switchboard (real exchange) — Altrathausplatz  **GM-only pin**
-
-- Sensory frame: as story-point Mood.
-- People and forces: two signals Extras. A runner only after trouble. Stein / Keller only after the fuse. Benoit’s cellar is near, not in the exchange.
-- Environment/hazards: interior, cables, a back door to the lanes, dwellings against the walls. **Fire here is a civilian problem.**
-- Spoken lines: operators as above.
-- Discoverable: table above.
-- GM Note: as story-point GM Note.
-- Changes if delayed: one other head dead → they try to patch or call. Alarm → they shout for Brandt or try the loft. Dawn → more traffic, more people.
 
 > [!IMPORTANT]
 > #### At-hand statistics — 2 operators (Extras)
@@ -672,6 +483,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 >
 > Recoil −2 on Auto unless the shooter does not move and has Rock and Roll! (these extras do not). Do not add Brandt to this room.
 >
+
 ### Pvt. Louis Benoit (cellar) — Optional, same east cluster
 
 - Sensory frame:
@@ -708,8 +520,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 >
 > If promoted to a temporary PC: Wild Die and 3 Bennies (SWADE p.87). Prefer **CPL. PIETER VOSS** if you want a finished Seasoned sheet.
 >
-> ---
->
+
 ## Story Point 4 - Aerial or radio loft
 
 **Mood (table):** Paraphrase. Not a read-aloud. Do not place Keller in the description unless they can already see her.
@@ -720,8 +531,8 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 - **Feel:** Exposed. One watch, not a fortress roof. Sound will travel.
 
 - **Goal:** second head. **Grüner Turm**, north wall. Aerial visible in principle.
-- **Situation now:** more exposed than the switchboard; winter wind and height; a small watch, not a fortress roof.
-- **Spoken lines:** Loft watch, if they come up the stair: “Stay off the set.” Keller, if she sees them on the walk: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)`
+- **Situation now:** more exposed than the switchboard; winter wind and height; a small watch, not a fortress roof. One Extra at start. Keller’s round passes this stretch. Feed line runs down the masonry to a join reachable from the wall-walk or the base.
+- **Spoken lines:** Loft watch, if they come up the stair: “Stay off the set.”
 - **Discoverable:**
 
 
@@ -732,21 +543,12 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 
 
 - **GM Note:** Loft and feed are one head. Switchboard + papers still complete the job. Keller’s round is a sighting, not the key to the tower. Climbing is not the only method (feed line at the base, fire from below, cutting stays).
+- **Where to pin it:** **Grüner Turm**, north wall. Board dead → they still try radio. Papers gone → less useful traffic.
 - **Pressure/escalation:** a living loft can call out of town once the watch believes the raid is real. Fuse → Keller arrives with a pair, not a company.
 - **Essential information and vectors:** this is the radio loft / aerial; killing it guts air traffic; landline may still live. Skyline; wire run; sentry pattern; someone who hates the noise or the light.
 - **Failure changes:** fall, noise, or a missed charge. Other two heads remain.
 - **Reachable next points:** switchboard, papers, extraction, fuse.
 - **PC hook — Lang:** Woodsman does **not** apply on the wall-walk or indoors. Extraction can get someone off a tight stair. Not the only way to kill the feed.
-
-### Aerial or radio loft — Grüner Turm  **GM-only pin**
-
-- Sensory frame: as story-point Mood.
-- People and forces: one Extra at start. Keller’s round passes this stretch.
-- Environment/hazards: height, ice, wind, a tight stair. Feed line runs down the masonry to a join reachable from the wall-walk or the base.
-- Spoken lines: loft watch and Keller as above.
-- Discoverable: table above.
-- GM Note: as story-point GM Note.
-- Changes if delayed: board dead → they still try radio. Papers gone → less useful traffic.
 
 > [!IMPORTANT]
 > #### At-hand statistics — loft watch (1 Extra)
@@ -763,11 +565,12 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 >
 > Novice, not Experienced (no Dodge / Rock and Roll!). Voss / Benoit if someone still goes down.
 >
+
 ### Keller’s night round (north wall)
 
-- Trigger: they are seen on the north wall-walk, at Grüner Turm, or a shout pulls her off her stretch.
-- Spoken lines: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)` After the fuse she may pick up an MP40.
-- **GM Note:** She orders the thin watch. She is a possible loft sighting, not the key to the tower. She can reach the east face later if they linger. She does **not** have Hold the Line! — that sits on Stein.
+- Trigger: they are seen on the north wall-walk, at Grüner Turm, or a shout pulls her off her stretch. First contact is a sighting, not a required fight.
+- Spoken lines: `"Die Wache ist heute Nacht meine. Runter von der Mauer." (The watch is mine tonight. Off the wall.)` After the fuse she may pick up an MP40. Hunt shout: Story Point 6.
+- **GM Note:** She orders the thin watch. She is a possible loft sighting, not the key to the tower. She can reach the east face later if they linger. She does **not** have Hold the Line! — that sits on Stein (SP2). World rule: gender is not a question. A pair of extras only after the fuse, not a company.
 
 > [!IMPORTANT]
 > #### At-hand statistics — Keller (Wild Card)
@@ -785,10 +588,9 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 > Authority: SWADE pp. 41, 45, 87–89; Weird War II p.144 officer, p.152; house rule none
 > ```
 >
-> World rule: gender is not a question. Rank Benny omitted. A pair of extras only after the fuse, not a company.
+> Rank Benny omitted. Use this block again if she appears in SP6.
 >
-> ---
->
+
 ## Story Point 5 - Papers and the signals NCO
 
 **Mood (table):** Paraphrase. Not a read-aloud. No secrets.
@@ -799,7 +601,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 - **Feel:** Domestic. One NCO and a bag. Not a fortress.
 
 - **Goal:** third head. Codebooks and traffic. The NCO is a person, not a locked box.
-- **Situation now:** papers move. Default start: **Brandt’s billet on Nördlinger Straße**, not on Altrathausplatz and not in the Rathaus. The bag may be on him, in the room, or in motion.
+- **Situation now:** papers move. Default start: **Brandt’s billet on Nördlinger Straße**, not on Altrathausplatz and not in the Rathaus. The bag may be on him, in the room, or in motion. A runner only after trouble. Stein and Keller know he holds the books; they are not standing over him. One or two rooms, a street door, a way toward Wörnitztor or the board.
 - **Spoken lines:** **FW. OTTO BRANDT**: `"Die Bücher bleiben bei mir." (The books stay with me.)` If he runs: he does not speechify; he moves the satchel toward a gate, the board, a stove, or Stein’s office.
 - **Discoverable:**
 
@@ -811,22 +613,13 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 | `Repair` / smash / fire | A botch is noise or an unconfirmed burn. Give a sign if *he* burns the books (smoke, empty drawer, his flight). Do not hide a silent auto-success. | Papers useless.                                                      | Confirmed kill of this head.                                                                                |
 
 
-- **GM Note:** Steal, burn, or scatter can kill this head. Brandt need not die. If the bag leaves, it is still findable (board, gate, stove, Stein’s office). Switchboard + loft still complete the job without him. Chase: SWADE p.113 only if you actually run it; otherwise a short street situation.
+- **GM Note:** Steal, burn, or scatter can kill this head. Brandt need not die. If the bag leaves, it is still findable (board, gate, stove, Stein’s office). Switchboard + loft still complete the job without him. Chase: SWADE p.113 only if you actually run it; otherwise a short street situation. Rank (NCO) +2 Toughness **not** applied. He stays an Extra. Early capture of a *PC* here is recoverable the same night (Benoit or Voss).
+- **Where to pin it:** the street is **not labeled** on BG-OH-001. From the `Posten Nördlinger Tor` circle (bottom right), follow the wide street inward toward the church; the billet sits on the **gate half** of that run, past the `4/I.R. 468` marker, well short of the market. An ordinary house block. Keep it a clear walk from the Wörnitz Tor circle — board and books are two trips, not one cluster. Tell the players a direction, not a street name. If the bag moves: re-pin at the Altrathausplatz board, a gate (Nördlinger is his nearest), the billet stove, or Stein’s office at the Rathaus.
 - **Pressure/escalation:** if the raid is loud, papers try to leave town or burn on German terms. If ignored, they keep the hydra useful even after a smashed set. Dawn → he may walk to the exchange.
 - **Essential information and vectors:** where the live papers are tonight. NCO’s habits; a clerk; a satchel; dummy-site leftover; an officer who knows who holds the books.
 - **Failure changes:** NCO escapes with the bag, or the bag is destroyed where the PCs cannot confirm. Other heads remain. The NCO is not the only path to the main plot.
 - **Reachable next points:** remaining heads, fuse, extraction.
 - **Optional:** capturing Brandt. **PC hook — Krajewski:** counts charges aloud (Quirk) if they blow a stove or a drawer; smash still works.
-
-### Papers / Fw. Otto Brandt  **GM-only starting pin**
-
-- Sensory frame: as story-point Mood.
-- People and forces: Brandt. A runner only after trouble. Stein and Keller know he holds the books; they are not standing over him.
-- Environment/hazards: one or two rooms, a street door, a way toward Wörnitztor or the board.
-- Spoken lines: Brandt as above.
-- Discoverable: table above.
-- GM Note: as story-point GM Note.
-- Changes if delayed: alarm → bag toward a car, a gate, the board, or a stove.
 
 > [!IMPORTANT]
 > #### At-hand statistics — Brandt (Extra)
@@ -841,10 +634,7 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 > Authority: SWADE pp. 87–88, 95, 202; Chase p.113 only if you run a chase; Weird War II p.21 Rank NPC clause; house rule none
 > ```
 >
-> Rank (NCO) +2 Toughness **not** applied. He stays an Extra. Early capture of a *PC* here is recoverable the same night (Benoit or Voss).
->
-> ---
->
+
 ## Story Point 6 - Fuse and extraction
 
 **Mood (table):** Paraphrase. Not a read-aloud. Fork on the clocks.
@@ -855,8 +645,8 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 - **Feel:** The night they earned — still thin, or a hunt. Not a second map.
 
 - **Goal:** end the night under the cost they earned.
-- **Situation now:** hollow town becoming a hunt or a waking street. Named officers act as the fuse, not as a battalion arriving by teleport. Reachable after noise, dawn, a wounded hydra scream, or they choose to leave.
-- **Spoken lines:** Stein: `"Hebt ab, wer noch antwortet." (Raise whoever still answers.)` Keller: `"Paar auf die Gassen. Ausgangssperre. Holt sie." (Pair on the lanes. Curfew. Get them.)` A civilian shutter, if dragged in: they want to survive the winter, not solve the hydra.
+- **Situation now:** hollow town becoming a hunt or a waking street. Named officers act as the fuse, not as a battalion arriving by teleport. Reachable after noise, dawn, a wounded hydra scream, or they choose to leave. Civilians behind shutters; thin street watch only if already woken; a signals runner if the hydra is busy or wounded; Benoit only if they find that cellar. Keller is on the north wall at start, not every street. Ice, corners, wall-walk access at towers, almost no motors.
+- **Spoken lines:** Stein, if directing: `"Hebt ab, wer noch antwortet." (Raise whoever still answers.)` Keller, if the hunt is hers: `"Paar auf die Gassen. Ausgangssperre. Holt sie." (Pair on the lanes. Curfew. Get them.)` A civilian shutter, if dragged in: they want to survive the winter, not solve the hydra. Woken-building Stein and wall Keller: SP2 and SP4.
 - **Discoverable:**
 
 
@@ -866,39 +656,80 @@ Use the Wörnitztor Extra block above for a sleeper. Keller: Story Point 4.
 | `Stealth` in streets (no Woodsman) | Spotted; hunt seed. Other exits remain. | They use a gate or wall they already know. | They leave by a quieter face. None of these is the only exit. |
 
 
-- **GM Note:** An alarm is a hunt in these streets first. Out-of-town help needs a living hydra or a long delay. They can leave by more than one face. A long chase is a pacing cut. Standing constraint: torching the civilian town or a massacre is a costly outcome (hunt, officers, conscience, extraction), not a hidden automatic fail.
-- **Pressure/escalation:** dawn; a successful out-of-town call if two heads still live or landline still speaks; hostage or curfew if officers are provoked.
-- **Essential information and vectors:** whether the hydra can still call; which way out is still open; what the civilian constraint has already cost. Their own route; a gate or wall they already used; stolen transport; hiding until another hour.
+- **GM Note:** An alarm is a hunt in these streets first. Out-of-town help needs a living hydra or a long delay. They can leave by more than one face. A long chase is a pacing cut. Standing constraint: torching the civilian town or a massacre is a costly outcome (hunt, officers, conscience, extraction), not a hidden automatic fail. First light; a successful out-of-town call only if two heads still live or landline still speaks. Wörnitztor thin at start; other faces quieter. Map numbers are false. Gate-name corrections: Rules quick reference.
+- **Pressure/escalation:** dawn; a successful out-of-town call if two heads still live or landline still speaks; hostage or curfew if officers are provoked. Fuse → pairs on lanes, a curfew shout, papers in motion. Dawn → more windows, more witnesses.
+- **Essential information and vectors:** whether the hydra can still call; which way out is still open; what the civilian constraint has already cost. Their own route; a gate or wall they already used; stolen transport; hiding until another hour. Streets can also show: aerial on Grüner Turm from a north or high angle; hum or lamp at Altrathausplatz; empty feel at the Rathaus as an exchange.
 - **Failure changes:** costly exit, capture of gear, a PC down after they have already played. Mission result (hydra dead or not) is already decided by then or still decidable in flight.
 - **Reachable next points:** end states.
 
-### Dinkelsbühl streets (lived-in town)
+Hunt extras after the fuse: still a hollow town. Start with **one pair** of Volkssturm / convalescent extras (same block as Wörnitztor, SP1). Add Keller (SP4) and/or Stein (SP2) when the fiction puts them there. Do not empty other pins — **move** them. Do not add Experienced Wehrmacht, Dodge, Rock and Roll!, or MG42 teams. After they have acted in town, lethality is on. Communicate it. Four Seasoned vs two extras is still favored; vs two extras + a Wild Card officer it is a real fight. If violence begins at a gate: delaying action, not a required last stand.
 
-- Sensory frame: as story-point Mood (SP6). If they are here before the fuse: blackout, wood smoke, tight lanes, a sleeping town.
-- People and forces: civilians behind shutters; thin street watch only if already woken; a signals runner if the hydra is busy or wounded; Benoit only if they find that cellar. Keller is on the north wall at start, not every street.
-- Environment/hazards: ice, corners, wall-walk access at towers, almost no motors. Sound carries in the cold.
-- Spoken lines: curfew shout if the fuse is lit.
-- Discoverable: aerial on Grüner Turm from a north or high angle; hum or lamp at Altrathausplatz; empty feel at the Rathaus as an exchange; who holds the town (Stein / Keller); November companies on the map are not in these streets. Use the `Notice` row above when they are reading the town in flight.
-- GM Note: as story-point GM Note.
-- Changes if delayed: fuse → pairs on lanes, a curfew shout, papers in motion. Dawn → more windows, more witnesses.
+> [!IMPORTANT]
+> #### At-hand statistics — hunt pair (after the fuse)
+>
+> Same profile as Wörnitztor watch (2 Extras, SP1). If Stein is within Command Range (5″ / 10 yards), Hold the Line! gives those extras +1 Toughness (SWADE p.45). They are still Extras. Natural Leader is not on either officer.
+>
 
-### Gates, dawn, and the way out
+> [!TIP]
+> #### At-hand rules
+>
+> ```text
+> Authority: SWADE p.45 Command / Hold the Line!; p.102 Illumination; p.125 Hazards if still exposed
+> Setting: Weird War II p.21 Rank NPC bonuses not applied
+> House rule: none
+> Applied here: local hunt only. Do not import Experienced infantry, Dodge, Rock and Roll!, or MG42.
+> ```
+>
 
-- Sensory frame: as story-point Mood (SP6). Same walls, the eyes they earned.
-- Current situation at start: Wörnitztor thin; Segringer, Rothenburger, Nördlinger quieter still. Map numbers are false. Gate names: Kohlenburger Tor → **Rothenburger Tor** (north); Sägringer Tor → **Segringer Tor** (west).
-- GM Note: First light; a successful out-of-town call only if two heads still live or landline still speaks.
-- If violence begins: delaying action, not a required last stand. Civilian constraint still applies.
+## What the players know, and when
 
-### Hunt extras (after the fuse)
+Do not hide the hydra rule. Hand the **three types** at briefing. Do not dump the three real **locations**.
 
-Use when Stein or Keller has lit a local hunt. Still a hollow town.
 
-- Scaling: start with **one pair** of Volkssturm / convalescent extras (same block as Wörnitztor). Add Keller and/or Stein when the fiction puts them there. Do not empty other pins — **move** them. Do not add Experienced Wehrmacht, Dodge, Rock and Roll!, or MG42 teams.
-- If Stein is within Command Range, Hold the Line! applies to those extras. Command helps them recover from Shaken / Stunned (SWADE p.45).
-- After they have acted in town, lethality is on. Communicate it.
-- Four Seasoned vs two extras is still favored; vs two extras + a Wild Card officer it is a real fight.
+| When                           | They are told / they learn                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Still secret                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| **SP0 — briefing**             | Operation Hinterland. Night of 6–7 Jan. Nordwind is the clock; Dinkelsbühl is the target. November sheet: walls, east water, four gates. West DZ / Segringer Tor. Thin rear garrison. The station is a **hydra**. **Three heads:** the **board** (landline exchange), the **aerial**, and the **books** (traffic). **Cut two and it dies** (one still talks). HQ pinned the **Rathaus as the exchange**. Find the aerial and the books on the ground. Stein and Keller named, not the objective. No second mission. Extraction after two heads are off. | The Rathaus is a **false head** (not the exchange). Where the live board, loft, and books actually sit. They will land east. |
+| **SP1 — landing**              | They are on the east / water face, not the rehearsed west. An aerial on the north wall is a head if they spot it (`Notice` raise at the LZ, or success from a north/high view in town).                                                                                                                                                                                                                                                                                         | Same secrets as above, minus the east face.                                           |
+| **SP2 or they read the town**  | The Rathaus is not the exchange. They came here for the **board**. Leftover / Hofmann points the board **east** (old post / Altrathausplatz) and the books toward **Nördlinger**. Loft is still the aerial they can see.                                                                                                                                                                                                                                                         | Live pins until they find them.                                                       |
+| **When they find a real head** | That site is a head. If they forget the two-cut rule, **restate it**. One head off is not the job. They may skip the books if board + loft are already dead.                                                                                                                                                                                                                                                                                                                  | —                                                                                     |
 
----
+
+Ward believes the Rathaus is a real head. He is not lying. The false-head twist is on the ground, not in the classroom.
+
+## Finding the heads (GM)
+
+**Player picture after briefing (this is what they think they are doing):**
+
+1. Kill the **board** (landline exchange) at the **Rathaus** — that is HQ’s pin. They are **not** looking for papers in that building.
+2. Find the **aerial** in town — no pin. A `Notice` from a north or high angle can spot it (raise at the LZ under Dark −4; success once they have a closer north/high view).
+3. Find the **books** (traffic, codes) — no pin, no name. A type they know they still need unless two other heads are already dead.
+
+Locations stay GM-copy until found. They do **not** need the Rathaus. Not a visit order. Rolls live in SP2–5.
+
+| Head | Where (GM copy) | How they find the *place* (need two channels; three is better) | After the Rathaus is empty of an exchange |
+|---|---|---|---|
+| **Board** | Altrathausplatz, east, on the walk in from Wörnitztor | They already know the **type**. The question at the dummy is “where did the board go?” (1) Hofmann / leftover: east, old post rooms. (2) Dead wire / cut-over **east**, not at the church. (3) Lamp or hum on Altrathausplatz; east walk from Wörnitztor; operator talk. | They came for the switchboard. Interrogating Hofmann is the natural next move. She is **not** the only vector. |
+| **Loft** | Grüner Turm, north wall | They already know the **type**. (1) Skyline from a north or high angle. (2) Feed line at the base. (3) Keller’s stretch is a **sighting**, not the key. | Dummy wreck **tell** if they already killed the aerial: a line still alive, or leftover still points at the board / books. If the aerial is still up, they can see it from the square. |
+| **Books** | Brandt’s billet, **Nördlinger Straße** (SE) at start; the satchel can move | They already know the **type**, not the man. (1) Hofmann / leftover: Feldwebel toward Nördlinger. (2) Operators at the live board: papers with Brandt. (3) Stein or Keller know who holds the books; satchel in motion. | They are not looking for papers *at the Rathaus*. They ask “who holds the traffic?” after they know the board is not here — or they skip this head if loft + board are already dead. |
+
+If they **skip** the Rathaus: streets still pay — aerial from a north/high angle, hum/lamp at Altrathausplatz. If they hit one humming room and stop: aerial still live and/or papers not in the room. One head is not the job; **restate the hydra rule**.
+
+Hofmann, Benoit, or one officer is **never** the only vector. Wire, skyline, and the live rooms still work if a person freezes or dies.
+
+## Gates and the circuit (GM)
+
+Hollow town. **Do not** put a Wörnitztor-style pair at every entrance. Closing from the east LZ is a short correction, not a travel scenario. A circuit = lost time (night shortens), then they are on another face. Play the gate they arrive at, not the walk. Same Extra profile as Wörnitztor (SP1) if you place a sleeper; do not stack pairs.
+
+| Face | Start watch | If they contour / go there | Interaction |
+|---|---|---|---|
+| **Wörnitztor** (east, near LZ) | 2 extras, stove | Immediate close | Challenge a loud close. Talk, slip, or fight. Bypass still exists. |
+| **Nördlinger Tor** (SE) | Empty, or **1 sleeper** (same Extra, Notice d4; maybe no rifle) | South circuit from the LZ: shorter than west. Inside: Brandt’s street. | Quieter. A sleeper wants to be left alone. Noise still seeds a hunt. |
+| **Rothenburger Tor** (north) | Gate **empty**. **Keller** is on the wall-walk between this gate and Grüner Turm, not sitting in the passage. | North circuit: ice; possible Keller sighting; aerial may show. | The gate is not a fight. The walk is where Keller is (stats: SP4). First contact is a sighting, not a required fight. |
+| **Segringer Tor** (west, rehearsed) | Empty or **1 sleeper** | Long circuit north or south. Night shortens. Rathaus is just inside. | They get the briefing close late. Do not invent a company because this was the plan. |
+| **Postern / climb / short circuit** | No dedicated watch | `Survival` raise at the LZ: a close that does not stand in the gate passage. Ice. Not a death gate. | If they linger on the wall, Keller’s **north** stretch is the risk, not a sentry at every tower. |
+| **Bahnhof** | Empty or 1 sleeper. Map’s 15-man watch is stale. | Not a door into the Altstadt. **Not a fourth head.** | Ignore, or one tired man. |
+
+If the fuse is already lit, the gate they used becomes an obvious plug. Other faces stay thinner. Do not add a squad.
 
 ## Escalation and clocks
 
@@ -975,48 +806,28 @@ Full builds: `characters.md` (party) and `characters/` (one WW2-style sheet per 
 
 ## NPC quick reference
 
+Index only. Full blocks live in the story point.
 
-| Name          | Type  | Parry | Tough. | Pace | Key Traits                                        | Gear now                 | Start pin                  |
-| ------------- | ----- | ----- | ------ | ---- | ------------------------------------------------- | ------------------------ | -------------------------- |
-| **Ward**      | Extra | 4     | 5      | 6    | Persuasion d8, Smarts d8                          | M1911 holstered          | Pont-à-Mousson, then gone  |
-| **Stein**     | WC    | 5     | 5      | 6    | Battle d8, Persuasion d8, Command, Hold the Line! | P38                      | Weinmarkt quarters         |
-| **Keller**    | WC    | 5     | 5      | 6    | Notice d8, Combat Reflexes, Command               | P38 (MP40 after fuse)    | North wall-walk            |
-| **Brandt**    | Extra | 4     | 5      | 6    | Smarts d8, Electronics d6, Repair d6              | P38, satchel             | Nördlinger Straße          |
-| **Hofmann**   | Extra | 4     | 5      | 6    | Notice d6, Persuasion d6                          | lamp; P38 in a drawer    | Rathaus ground floor       |
-| Gate watch ×2 | Extra | 4     | 5      | 6    | all relevant d4, Spirit d4                        | Kar 98K / P38            | Wörnitztor only            |
-| Operators ×2  | Extra | 4     | 5      | 6    | Electronics d6, Shooting d6                       | P38; one MP40 on a hook  | Altrathausplatz            |
-| Loft watch    | Extra | 5     | 5      | 6    | Athletics d6, Fighting d6                         | Kar 98K or MP40, grenade | Grüner Turm                |
-| Benoit        | Extra | 4     | 5      | 6    | Stealth d6, French d8                             | knife, maybe empty P38   | Cellar off Altrathausplatz |
-
-
-### When you meet them
-
-Not a combat menu. Default is talk, freeze, or get through the night. Fight only if the fiction puts a weapon in play.
-
-| Who | Role | Default interaction | Combat? |
-|---|---|---|---|
-| **Ward** | Briefing officer | Speaks the pack. Does not jump. | No |
-| **Wörnitztor ×2** | Tired east-gate watch | “Halt / Papiere.” Want the night to pass. Talk or slip. | Only if they stand in the passage and shoot, or a loud close is challenged |
-| **Other-gate sleeper** | Same type, thinner | “Lass mich. Die Nacht.” Wants to be left alone | Same Extra profile; **one** man, not a pair; do not stack |
-| **Hofmann** | Clerk leftover at the false head | Talk/scare. Freeze on failed Persuasion. Points **east** (board) and **Nördlinger** (books). North tower only if they ask. | Not a fight unless cornered. P38 is in a drawer |
-| **Stein** | Ortskommandant; the **fuse** | Off the floor until noise or a runner. `"Das ist noch immer mein Gebäude."` Directs a hunt; extras in 5″ get +1 Toughness | Wild Card if woken or on the hunt. Four Seasoned should win and pay in noise |
-| **Keller** | Night duty / deputy | North wall-walk. `"Die Wache ist heute Nacht meine."` Sighting, not the key to the loft | Wild Card if they meet her on the walk or after the fuse. A pair of extras only after the fuse |
-| **Operators ×2** | Keep the board useful | “Board’s live — don’t cut that.” Will try a landline scream if they believe the raid | Yes if the room is hit. Two extras; one MP40 on a hook. Brandt is **not** here |
-| **Loft watch** | Keep the set live | “Stay off the set.” Will try to raise out of town | One extra; height; Keller may arrive later, not a company |
-| **Brandt** | Papers NCO; one head is the **satchel** | `"Die Bücher bleiben bei mir."` Runs; does not speechify. Steal / burn / scatter counts | Extra, not a boss. He need not die. Bag still findable if he leaves |
-| **Hunt pair** | Fuse extras | `"Paar auf die Gassen. Ausgangssperre."` | Same profile as Wörnitztor. **Move** pins; do not add a battalion |
-| **Benoit** | Re-entry; extra eyes | `"Ne tirez pas. Français."` Not a required guide | Not a combat solution. Not an enemy |
-| **Civilians** | Pressure, not a puzzle | Survive the winter. Shutters, wood smoke | Not enemies. Standing constraint if the town is torched or massacred |
+| Name | Type | Start pin | Block |
+| --- | --- | --- | --- |
+| **Ward** | Extra | Pont-à-Mousson, then gone | SP0 |
+| **Stein** | WC | Weinmarkt quarters | SP2 (hunt lines: SP6) |
+| **Keller** | WC | North wall-walk | SP4 (hunt lines: SP6) |
+| **Brandt** | Extra | Nördlinger Straße | SP5 |
+| **Hofmann** | Extra | Rathaus ground floor | SP2 |
+| Gate watch ×2 | Extra | Wörnitztor only | SP1 |
+| Operators ×2 | Extra | Altrathausplatz | SP3 |
+| Loft watch | Extra | Grüner Turm | SP4 |
+| Benoit | Extra | Cellar off Altrathausplatz | SP3 |
+| Hunt pair | Extra | After fuse | SP6; profile SP1 |
 
 **Agendas:** Ward wants them in the air with the plan he believes. Stein wants order in his town. Keller wants the night watch to work. Brandt wants papers useful and in German hands. Hofmann wants the night to pass. Signals want the net up. Civilians want to survive. Dawn and weather do not negotiate.
 
-**German weapons (WW2 p.152):** P38 12/24/48, 2d6−1, RoF 1, 8, Semi-Auto. MP40 12/24/48, 2d6−1, RoF 3, 32, AP 1, Auto. Kar 98K 24/48/96, 2d8, RoF 1, 5, AP 2, Snapfire, Min Str d6. Stielhandgranate 5/10/20, 3d6−2, MBT (Athletics). Knife Str+d4.
-
-Helmets: Armor +2 vs Called Shots to the head only. No 50% save. Face of an open-faced helmet is −5 and bypasses the helmet (SWADE pp. 98–99; RUL-2026-08-29-01).
+Default is talk, freeze, or get through the night. Fight only if the fiction puts a weapon in play. Civilians are pressure, not a puzzle. Standing constraint if the town is torched or massacred.
 
 ## Rules quick reference
 
-Recurring only. PDF remains authoritative. No unverified paraphrases.
+Recurring only. PDF remains authoritative. Situation procedure lives in the SP that uses it (kit: SP0; jump: SP0b; night/cold/Woodsman: SP1; Command / Hold the Line!: SP2 and SP6).
 
 ```text
 Authority: SWADE Fifth Printing (2023), p. 65 Armor (torso unless Called Shot);
@@ -1029,13 +840,12 @@ Setting: Weird War II p. 14 steel helmet Armor +2; pp. 41, 52, 60, 152 weapons;
   p. 21 Rank extra Benny / +2 Toughness — NPCs do not get these
 House rule: none
 Ruling: RUL-2026-08-29-01 — helmet Armor +2 vs head Called Shots; no 50% save
-Summary: Dark −4 default. Dim −2 after moonrise on a clear snow sky or at a lamp.
-  Pitch Darkness −6 only in unlit cellar / sealed room. Cold: Hazards p.125 if
-  they linger exposed; not a hidden Fatigue at the LZ.
-Applied here: whole night
+Applied here: whole night. Night/cold procedure: SP1.
 ```
 
 **Do not import:** SS / Fanatic / Hitler Jugend; Experienced / Elite infantry Edges (Dodge, Rock and Roll!, Élan); Sanity; Rank mechanical bonuses on NPCs; Demo Man, Medic!, Jump Qualified, National Identity; any Chapter 10 horror. Supernatural **none**. Jump `Athletics` in SP0b is flavor only.
+
+**German weapons (WW2 p.152):** P38 12/24/48, 2d6−1, RoF 1, 8, Semi-Auto. MP40 12/24/48, 2d6−1, RoF 3, 32, AP 1, Auto. Kar 98K 24/48/96, 2d8, RoF 1, 5, AP 2, Snapfire, Min Str d6. Stielhandgranate 5/10/20, 3d6−2, MBT (Athletics). Knife Str+d4.
 
 **Gate names** (if the map is wrong): Kohlenburger Tor → **Rothenburger Tor** (north). Sägringer Tor → **Segringer Tor** (west). Keep Nördlinger, Wörnitztor, Grüner Turm.
 

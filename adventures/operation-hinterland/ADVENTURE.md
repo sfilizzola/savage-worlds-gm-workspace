@@ -25,7 +25,7 @@ house_rules: none
 
 # Operation Hinterland
 
-Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31). `RUN.md` recompiled 2026-08-31 against `templates/adventure/SKELETON.md`. Rebuild if source files change. Review that file at the table before play.
+Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31). `RUN.md` recompiled 2026-09-07 against `templates/adventure/SKELETON.md` (table-flow pass). Rebuild if source files change. Review that file at the table before play.
 
 ## One-sentence premise
 
@@ -37,7 +37,7 @@ A winter infiltration of a real walled town: a calm briefing, a rough jump, then
 
 ## Player-facing mission
 
-**At briefing (SP0), Ward tells them this in so many words:** He names **Operation Hinterland**. Night of **6–7 January**. Nordwind in Alsace is the clock; they are not going to that front. The target is **Dinkelsbühl**, deep German rear, ~250–300 km from the fighting: a signals station still passing traffic toward Alsace. November *Garnisonsplan* (BG-OH-001): walls, **east water (Wörnitz)**, four gates. Rehearsed drop: **west / Segringer Tor**. Rear-area town, thin garrison, not a fortress; they are not there to fight the garrison or empty the houses. The station is a **hydra**, not one shack. **Three heads:** the **board** (landline exchange), an **aerial**, and the **books** (traffic). **Cut two and it dies.** Cut one and it can still talk. HQ has one pin: the **Rathaus as the exchange**. Find the aerial and the books on the ground. Stein and Keller named as responsible, not the objective. Extraction is theirs after two heads are off. There is no second mission (no POW snatch, no photos). HQ does not tell them they will land east, and Ward does not know the Rathaus is a **false head**. He does not know the live pins (Altrathausplatz, Grüner Turm, Brandt). Full spoken beats: `RUN.md` First 15 minutes.
+**At briefing (SP0), Ward tells them this in so many words:** He names **Operation Hinterland**. Night of **6–7 January**. Nordwind in Alsace is the clock; they are not going to that front. The target is **Dinkelsbühl**, deep German rear, ~250–300 km from the fighting: a signals station still passing traffic toward Alsace. November *Garnisonsplan* (BG-OH-001): walls, **east water (Wörnitz)**, four gates. Rehearsed drop: **west / Segringer Tor**. Rear-area town, thin garrison, not a fortress; they are not there to fight the garrison or empty the houses. The station is a **hydra**, not one shack. **Three heads:** the **board** (landline exchange), an **aerial**, and the **books** (traffic). **Cut two and it dies.** Cut one and it can still talk. HQ has one pin: the **Rathaus as the exchange**. Find the aerial and the books on the ground. Stein and Keller named as responsible, not the objective. Extraction is theirs after two heads are off. There is no second mission (no POW snatch, no photos). HQ does not tell them they will land east, and Ward does not know the Rathaus is a **false head**. He does not know the live pins (Altrathausplatz, Grüner Turm, Brandt). Full spoken beats: `RUN.md` Story Point 0.
 
 ## Predetermined truths
 
@@ -74,7 +74,7 @@ None. Civilians and named officers are pressures and stakes, not extra victory c
 
 ## Starting state
 
-**Table start:** a calm briefing in Pont-à-Mousson (`RUN.md` First 15 minutes / Story Point 0). Mark the player copy of BG-OH-001 with the **planned DZ** (west / Segringer Tor) and the **Rathaus** only — not the actual east LZ. Then the jump (Story Point 0b, thrill only). Then they are together in cover outside the **east** walls (Wörnitz side), in snow and a short winter night, and must discover they are on the wrong face. Immediate decision after they orient: how to close from the water side. Insertion cannot kill or split the party.
+**Table start:** a calm briefing in Pont-à-Mousson (`RUN.md` Story Point 0). Mark the player copy of BG-OH-001 with the **planned DZ** (west / Segringer Tor) and the **Rathaus** only — not the actual east LZ. Then the jump (Story Point 0b, thrill only). Then they are together in cover outside the **east** walls (Wörnitz side), in snow and a short winter night, and must discover they are on the wrong face. Immediate decision after they orient: how to close from the water side. Insertion cannot kill or split the party.
 
 ## Character integration
 

@@ -18,7 +18,9 @@
 | Compilation date | |
 | Verified by | |
 
-**Not a scene script.** Jump to the situation they are in.
+**Not a scene script.** Jump to the situation they are in. Optional jumplist of story points and lookups.
+
+Payload lives in the story point (or lookup) named. Do not hunt an earlier section for speech or stats.
 
 ## Table terms
 
@@ -48,16 +50,14 @@ Story-point **Mood (table)** is separate: Climate / See / Hear / Feel, player-pe
 
 ## First 15 minutes
 
-Map-only briefing does not count as the opening. State what they are handed, where they are, what trouble is already in motion, and the first decision they must make.
+GM intro, not a scene. Map-only briefing does not count as the opening. Point at the opening story point(s). Do **not** put Spoken lines, marks to speak, or at-hand boards here.
 
+- **Play:** Story Point(s) ___ then ___
 - **Handed:**
 - **Where they are:**
 - **Trouble already in motion:**
 - **First decision:**
-- **Spoken lines:**
 - **If this block overruns:** skip optional briefing color; start the trouble.
-
-Put the opening at-hand statistics here when the first 15 minutes can become a test or a fight.
 
 ## Mission in 30 seconds
 
@@ -69,7 +69,9 @@ Put the opening at-hand statistics here when the first 15 minutes can become a t
 
 ## Current situation
 
-Summarize factions, weather/environment, clocks, threats, and facts already in motion.
+Table-start clock. If play later jumps, use **Phase A** (now) and **Phase B** (after the jump). Do not describe Phase B as if it has already happened at minute zero.
+
+Summarize who is where **at table start**, then the later board if needed.
 
 ## Pacing dashboard
 
@@ -96,18 +98,16 @@ Not a visit order. Jump to the situation they are in.
 
 ## Climax situation
 
-Prepare this even if the players reach it from another direction. Do not script the outcome.
+Index only. Prepare this even if the players reach it from another direction. Do not script the outcome. Speech, stats, and rules live in the story point named below.
 
 - **Location:**
-- **Opposition (Wild Cards / Extras):**
+- **Opposition (Wild Cards / Extras):** name who; **block lives in SP __**
 - **Environment and interactive features:**
 - **Urgency / countdown:**
 - **Secondary objective besides defeating everyone:**
-- **Spoken lines:**
+- **Spoken lines, stats, rules:** Story Point __
 - **GM Note:**
 - **If time is short:** still run this compressed; do not skip it in favor of a leftover room fight.
-
-Repeat at-hand statistics in the story point that delivers this climax if they are not already here.
 
 ## Story Point 1 - <Name>
 
@@ -136,11 +136,13 @@ Repeat at-hand statistics in the story point that delivers this climax if they a
 
 ### <Location or immediate situation>
 
-- Sensory frame: same four lines as Mood if this is a different door or room; otherwise `as story-point Mood`.
+Omit if this is the same space as the story point. Different door only. Fill only new fields.
+
+- Sensory frame: four Mood lines for this door
 - People and forces:
 - Environment/hazards:
-- Spoken lines:
-- Discoverable: Trait / fail / success / raise
+- Spoken lines: only lines that belong to this door
+- Discoverable: unique rolls, or point at the parent table
 - GM Note:
 - Changes if delayed:
 
@@ -170,7 +172,11 @@ Quick reminder: <short verified paraphrase>
 Applied modifier/procedure here: <specific application>
 ```
 
-Copy the story-point and situation sections as needed. Do not convert them into a mandatory sequence.
+Copy the story-point section as needed. Add a nested location heading only for a **different** door or room; fill only new fields. Do not convert story points into a mandatory sequence.
+
+## Optional GM lookups
+
+Omit this heading if none. Place **after** the last story point, never before Opening mood. Examples: what the players know and when; how to find a target; travel / gates / circuit.
 
 ## Escalation and clocks
 
@@ -193,11 +199,11 @@ Copy the story-point and situation sections as needed. Do not convert them into 
 
 ## NPC quick reference
 
-Repeat only information frequently needed across several situations: agenda, voice cue, Wild Card/Extra, Parry, Toughness, Pace, key Traits/abilities, gear, and current state. Verify every mechanic.
+Index: name, Wild Card/Extra, start pin, which story point holds the full block. Do not reprint spoken lines or full stat blocks.
 
 ## Rules quick reference
 
-Include only rules likely to recur. Use short paraphrases plus source pointers. The core PDF remains authoritative.
+Night-wide constants only (Called Shots, Recoil, do-not-import). Situation procedure lives in the SP that rolls it. Short paraphrases plus source pointers. The core PDF remains authoritative.
 
 ## Handouts index
 
@@ -236,7 +242,8 @@ Clearly separate secrets from player-facing information.
 - [ ] Essential information has independent discovery vectors.
 - [ ] Failure consequences preserve meaningful play.
 - [ ] Early PC removal has mitigation and re-entry.
-- [ ] First 15 minutes contain actual trouble, not only briefing.
+- [ ] First 15 minutes contain actual trouble, not only briefing (checklist pointing at opening SPs; no speech or stats in that block).
+- [ ] Table flow: one home per payload inside this file (see `templates/adventure/SKELETON.md`).
 - [ ] Five-beat dashboard is filled and is not a visit order.
 - [ ] Climax situation has opposition, environment, urgency, and a secondary objective.
 - [ ] Pacing cuts are identified, including a 3–4 hour core for a one-shot.
