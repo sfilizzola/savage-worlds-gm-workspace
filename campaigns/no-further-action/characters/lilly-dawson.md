@@ -13,7 +13,7 @@ Player sheet. Print this. Not session history. Canonical for **1986 / Novice** i
 | **Born** | 1962 (24 in January 1986) |
 | **Ancestry** | Human |
 | **Rank (SWADE)** | Novice |
-| **Portrait (1986)** | `lily_portrait_1986.png` |
+| **Portrait (1986)** | `lilly-1986-id.png` — head-and-shoulders ID crop of `lily_pic 1986.png` |
 
 ---
 
@@ -71,7 +71,7 @@ Unskilled checks: d4−2.
 | Hindrance | Type | Notes |
 |---|---|---|
 | Curious | Major | SWADE Hindrances |
-| Night Terrors | Major | SWADE Hindrances. Nightmares after the discovery about her biological father. |
+| Night Terrors | Major | SWADE Hindrances. Nightmares since the private investigator's report on her biological father. She knows the official story; the dreams tell her nothing she has not already read. |
 
 ---
 
@@ -117,6 +117,10 @@ Do not print GM Correction material on this sheet.
 
 ## Print
 
-A4 print extract: `print/chars.json`, rendered by `tools/print-sheets/`. It prints as an Ashgrove PD personnel file with the 1986 portrait, description-and-service fields, ruled case notes, and blank open-thread checkboxes for the player to fill at the table.
+A4 print extract: `print/chars.json`, rendered by `tools/print-sheets/`. It prints as an Ashgrove PD personnel file with the 1986 ID photo, description-and-service fields, ruled case notes, and blank open-thread checkboxes for the player to fill at the table.
 
 Fields the campaign has not established — height, shield number, assigned partner — print as blank lines to fill in by hand. Do not invent values for them here or in the extract. The threads list is empty write-in rows; do not pre-fill plot or GM Correction material.
+
+The sheet's **At the table** line stays true for all of 1986: the transfer, Keane's bargain, and what she wants. Tonight's people and pressures belong in the child adventure's `characters.md`, because this sheet is reprinted for unrelated 1986 jobs.
+
+A Brazilian Portuguese table copy prints from `print/chars.pt-BR.json` as `print/lilly-pt.html` / `.pdf`. This English file remains the source of truth; a mechanical change here must be carried into **both** print extracts, and both sheets re-measured. See `characters/README.md` for the PT/EN glossary and which translated terms still need a GM ruling.

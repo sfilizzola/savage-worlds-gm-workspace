@@ -36,7 +36,7 @@
       "name": "Lilly Dawson",
       "role": "Detective",
       "portrait": {
-        "src": "../lily_portrait_1986.png",
+        "src": "../lilly-1986-id.png",
         "caption": "Dawson, Lilly",
         "sub": "Ashgrove PD · 1986"
       },
@@ -77,7 +77,7 @@
           "value": "24 (1986)"
         },
         {
-          "label": "Rank",
+          "label": "Trait rank",
           "value": "Novice"
         }
       ],
@@ -111,7 +111,7 @@
       ],
       "hindrances": [
         ["Curious", "Major", "Cannot leave a loose end alone."],
-        ["Night Terrors", "Major", "Violence and guilt she cannot place."]
+        ["Night Terrors", "Major", "Nightmares since the PI's report on her father."]
       ],
       "edges": [
         ["Investigator", "Notice and Research when the Edge applies."],
@@ -136,7 +136,7 @@
         ["Notebook", "—"]
       ],
       "you": "Methodical, controlled, always working a question. Athletic, not strong. Red hair, freckles, honey eyes.",
-      "play": "You are new. Whitley wants the file small. Doyle will not lie about the lake. Nancy knows people. The radio woman called you."
+      "play": "New detective, sent west to cool off. Keane's terms: work inside the chain and the Bureau stays possible. Earn your way back east."
     }
   ]
 }

@@ -84,6 +84,31 @@ In `sheet`:
 | `threads_heading` | Heading above the `threads` list. |
 | `signature` | List of labels, each printed as a signature rule (for example `Detective (signature)`, `Reviewed by`, `Date`). |
 
+## Translated sheets
+
+The printer's structural labels default to English and can be overridden in `sheet`, so a table can print the same character in another language without a second renderer. The markdown character file stays the mechanical source of truth, and numbers are never translated.
+
+| Key | Default |
+|---|---|
+| `lang` | `en` — sets the `<html lang>` attribute |
+| `attributes_heading` | `Attributes` |
+| `hindrances_heading` | `Hindrances` |
+| `edges_heading` | `Edges` |
+| `derived_labels` | `["Pace", "Parry", "Toughness"]` |
+| `track_labels` | `["Wounds", "Fatigue"]` |
+| `incap_label` | `INC` |
+| `weapon_columns` | `["Weapon", "Range", "RoF", "Dmg", "Notes"]` |
+| `load_labels` | `["Carried", "Limit", "Encumbrance"]` |
+| `bennies_word` | `Bennies` — the word the three tick boxes follow in `bennies` |
+
+Keep the translation in its own extract beside the English one and give its characters distinct ids, so the two sheets do not overwrite each other:
+
+```text
+python3 tools/print-sheets/render.py campaigns/no-further-action/characters/print/chars.pt-BR.json --pdf
+```
+
+Translated prose runs longer than English and can push a one-page sheet onto a second page. Measure the translated sheet separately.
+
 ## Checking that a sheet still fits one page
 
 A4 portrait with the stylesheet's 7mm margins leaves **283mm** of printable height. Adding a portrait or case-file blocks can push a sheet onto a second page, and the overflow is easy to miss in a PDF viewer.

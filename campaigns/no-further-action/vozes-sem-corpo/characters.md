@@ -32,6 +32,16 @@ Canonical PC: [Lilly Dawson](../characters/lilly-dawson.md).
 - **Choice pressure:** preserving a body, an original record, arresting two men, and protecting Abigail may not all be possible.
 - **Boundary:** Lilly knows nothing about a larger hidden organization and cannot derive it from this night's muddy paperwork.
 
+## At the table tonight
+
+Player-facing orientation for this night only. The canonical sheet carries the era, not these names.
+
+- She is still the new detective; nobody in this building owes her the benefit of the doubt yet.
+- Whitley wants the Loman file small, and he shelved it hours ago.
+- Doyle will not pretend the lake sound did not happen.
+- Nancy knows who is related to whom, and will talk to the new face.
+- Abigail Carr called and asked for Lilly by name, not for the chief.
+
 ## Early removal mitigation
 
 - **Opening risks that could hard-remove a PC:** none; Ray flees rather than attacks at the station.

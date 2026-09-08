@@ -1,0 +1,168 @@
+{
+  "sheet": {
+    "lang": "pt-BR",
+    "title_suffix": "No Further Action",
+    "op": "Ashgrove PD · 1986",
+    "file": "Ficha pessoal · Lilly Dawson",
+    "meta": [
+      "Novato · Coringa · Humano · Tamanho 0",
+      "SWADE Quinta Impressão · janeiro de 1986 · HR-NFA-001 (15 pontos de perícia)"
+    ],
+    "classification": "Confidencial · Divisão de Investigações",
+    "dossier_heading": "Descrição e serviço",
+    "notes_heading": "Anotações do caso",
+    "notes_lines": 4,
+    "threads_heading": "Pontas soltas · suas",
+    "signature": [
+      "Detetive (assinatura)",
+      "Revisado por",
+      "Data"
+    ],
+    "attributes_heading": "Atributos",
+    "hindrances_heading": "Complicações",
+    "edges_heading": "Vantagens",
+    "derived_labels": [
+      "Movimentação",
+      "Aparar",
+      "Resistência"
+    ],
+    "track_labels": [
+      "Ferimentos",
+      "Fadiga"
+    ],
+    "weapon_columns": [
+      "Arma",
+      "Alcance",
+      "CdT",
+      "Dano",
+      "Notas"
+    ],
+    "load_labels": [
+      "Carregado",
+      "Limite",
+      "Sobrecarga"
+    ],
+    "skills_heading": "Perícias · sem perícia d4−2",
+    "skills_footnote": "* Perícia básica, começa em d4. Investigador pode se aplicar a Perceber ou Pesquisar quando a Vantagem permitir.",
+    "weapons_heading": "Armas",
+    "gear_heading": "Equipamento",
+    "you_label": "Você",
+    "play_label": "Na mesa",
+    "footer_left": "Coloque ao lado da carta de referência do Savage Worlds",
+    "footer_right": "Tradução · não é histórico de sessão · ficha de 1986",
+    "reserve_banner": "",
+    "team_kit": "",
+    "bennies_word": "Benes",
+    "bennies": "Benes · começa com 3 · marque ao gastar"
+  },
+  "characters": [
+    {
+      "id": "lilly-pt",
+      "reserve": false,
+      "name": "Lilly Dawson",
+      "role": "Detetive",
+      "portrait": {
+        "src": "../lilly-1986-id.png",
+        "caption": "Dawson, Lilly",
+        "sub": "Ashgrove PD · 1986"
+      },
+      "stamp": {
+        "text": "No Further Action",
+        "sub": "Despacho"
+      },
+      "dossier": [
+        ["Nº distintivo", ""],
+        ["Cargo", "Detetive de 3ª Classe"],
+        ["Unidade", "Investigações"],
+        ["Nomeada", "10 jan 1986"],
+        ["Posto anterior", "New Jersey"],
+        ["Altura", ""],
+        ["Cabelo", "Ruivo"],
+        ["Olhos", "Mel"],
+        ["Marcas", "Sardas"],
+        ["Físico", "Atlética"],
+        ["Ambição", "FBI"],
+        ["Parentes", "Medrick, Simon, Ashley"],
+        ["Nascida", "1962"],
+        ["Parceiro", ""]
+      ],
+      "threads": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "tags": [
+        {
+          "label": "Depto",
+          "value": "Ashgrove PD"
+        },
+        {
+          "label": "Idade",
+          "value": "24 (1986)"
+        },
+        {
+          "label": "Rank SWADE",
+          "value": "Novato"
+        }
+      ],
+      "attrs": [
+        ["Agilidade", "d8"],
+        ["Astúcia", "d8"],
+        ["Espírito", "d6"],
+        ["Força", "d4"],
+        ["Vigor", "d4"]
+      ],
+      "pace": "6",
+      "pace_note": "12 jardas / rodada",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + metade de Lutar d6",
+      "tough": "4",
+      "tough_note": "Sem o colete",
+      "skills": [
+        ["Atletismo*", "d8", ""],
+        ["Conhecimento Geral*", "d4", ""],
+        ["Perceber*", "d6", "+2 Alerta"],
+        ["Persuadir*", "d4", ""],
+        ["Furtividade*", "d4", ""],
+        ["Dirigir", "d4", ""],
+        ["Eletrônica", "d4", ""],
+        ["Lutar", "d6", ""],
+        ["Atirar", "d8", ""],
+        ["Pesquisar", "d8", "Investigador"],
+        ["Intimidar", "d4", ""],
+        ["Conhecimento Acadêmico", "d4", ""]
+      ],
+      "hindrances": [
+        ["Curioso", "Maior", "Não deixa uma ponta solta em paz."],
+        ["Terrores Noturnos", "Maior", "Pesadelos desde o relatório do detetive particular."]
+      ],
+      "edges": [
+        ["Investigador", "Perceber e Pesquisar quando a Vantagem se aplica."],
+        ["Alerta", "+2 em Perceber."],
+        ["Sentido de Perigo", "Percebe emboscada e perigo imediato."]
+      ],
+      "weapons": [
+        ["Pistola 9mm de serviço", "12/24/48", "1", "2d6", "Semiautomática · armas SWADE"]
+      ],
+      "ammo": "Arma do departamento. Conte os carregadores na mesa.",
+      "carried": "12 lb",
+      "limit": "20 lb",
+      "penalty": "Nenhuma",
+      "encumbered": false,
+      "armor": "Tronco: Kevlar leve quando usado (SWADE). Cabeça/membros: nada. Carga máx.: Força d4 × 5.",
+      "gear": [
+        ["Colete de Kevlar leve (quando usado)", "5"],
+        ["Distintivo e identificação", "—"],
+        ["Algemas", "1"],
+        ["Lanterna", "1"],
+        ["Rádio policial", "1"],
+        ["Caderno", "—"]
+      ],
+      "you": "Metódica, controlada, sempre trabalhando uma pergunta. Atlética, não forte. Cabelo ruivo, sardas, olhos mel.",
+      "play": "Detetive nova, exilada para o oeste. Acordo de Keane: fique na hierarquia e o FBI segue possível. Volte para o leste por mérito."
+    }
+  ]
+}

@@ -49,11 +49,31 @@ SHEET_DEFAULTS = {
     "notes_lines": 0,
     "threads_heading": "Open threads",
     "signature": [],
+    # Structural labels. Override them to print a translated sheet; the
+    # markdown character file stays the mechanical source of truth.
+    "lang": "en",
+    "attributes_heading": "Attributes",
+    "hindrances_heading": "Hindrances",
+    "edges_heading": "Edges",
+    "bennies_word": "Bennies",
+    "derived_labels": ["Pace", "Parry", "Toughness"],
+    "track_labels": ["Wounds", "Fatigue"],
+    "incap_label": "INC",
+    "weapon_columns": ["Weapon", "Range", "RoF", "Dmg", "Notes"],
+    "load_labels": ["Carried", "Limit", "Encumbrance"],
 }
 
 
 def e(value: object) -> str:
     return html.escape(str(value), quote=False)
+
+
+def label(sheet: dict, key: str, index: int) -> str:
+    """One structural label, falling back to the English default."""
+    values = sheet.get(key) or SHEET_DEFAULTS[key]
+    if index >= len(values):
+        values = SHEET_DEFAULTS[key]
+    return e(values[index])
 
 
 def track(die: str) -> str:
@@ -209,6 +229,10 @@ def render(ch: dict, sheet: dict, href) -> str:
         f"<td>{e(dmg)}</td><td>{e(notes)}</td></tr>"
         for w, r, rof, dmg, notes in ch["weapons"]
     )
+    weap_head = "".join(
+        f"<th>{label(sheet, 'weapon_columns', i)}</th>" for i in range(5)
+    )
+    incap = e(sheet.get("incap_label") or SHEET_DEFAULTS["incap_label"])
     gear = "".join(
         f'<li><span>{e(n)}</span><span class="w">{e(w)}</span></li>'
         for n, w in ch["gear"]
@@ -255,7 +279,7 @@ def render(ch: dict, sheet: dict, href) -> str:
     </div>"""
 
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{e(sheet.get("lang") or SHEET_DEFAULTS["lang"])}">
 <head>
   <meta charset="utf-8" />
   <title>{e(title)}</title>
@@ -287,34 +311,34 @@ def render(ch: dict, sheet: dict, href) -> str:
 
     <div class="row-stats">
       <div class="panel">
-        <h2>Attributes</h2>
+        <h2>{e(sheet.get("attributes_heading") or SHEET_DEFAULTS["attributes_heading"])}</h2>
         <div class="body">{attrs}</div>
       </div>
       <div>
         <div class="derived">
-          <div class="statbox"><div class="lbl">Pace</div><div class="val">{e(ch["pace"])}</div><div class="note">{e(pace_note)}</div></div>
-          <div class="{parry_cls}"><div class="lbl">Parry</div><div class="val">{e(ch["parry"])}</div><div class="note">{e(ch["parry_note"])}</div></div>
-          <div class="statbox"><div class="lbl">Toughness</div><div class="val">{e(ch["tough"])}</div><div class="note">{e(ch["tough_note"])}</div></div>
+          <div class="statbox"><div class="lbl">{label(sheet, "derived_labels", 0)}</div><div class="val">{e(ch["pace"])}</div><div class="note">{e(pace_note)}</div></div>
+          <div class="{parry_cls}"><div class="lbl">{label(sheet, "derived_labels", 1)}</div><div class="val">{e(ch["parry"])}</div><div class="note">{e(ch["parry_note"])}</div></div>
+          <div class="statbox"><div class="lbl">{label(sheet, "derived_labels", 2)}</div><div class="val">{e(ch["tough"])}</div><div class="note">{e(ch["tough_note"])}</div></div>
         </div>
-        <div class="bennies">{bennies_html(sheet["bennies"])}</div>
+        <div class="bennies">{bennies_html(sheet["bennies"], sheet.get("bennies_word"))}</div>
       </div>
       <div>
         <div class="tracks-row">
           <div class="woundbox">
-            <div class="lbl">Wounds</div>
+            <div class="lbl">{label(sheet, "track_labels", 0)}</div>
             <div class="boxes">
               <div class="tick"><span class="cap">−1</span><span class="box"></span></div>
               <div class="tick"><span class="cap">−2</span><span class="box"></span></div>
               <div class="tick"><span class="cap">−3</span><span class="box"></span></div>
-              <div class="tick"><span class="cap warn">INC</span><span class="box inc"></span></div>
+              <div class="tick"><span class="cap warn">{incap}</span><span class="box inc"></span></div>
             </div>
           </div>
           <div class="woundbox">
-            <div class="lbl">Fatigue</div>
+            <div class="lbl">{label(sheet, "track_labels", 1)}</div>
             <div class="boxes">
               <div class="tick"><span class="cap">−1</span><span class="box"></span></div>
               <div class="tick"><span class="cap">−2</span><span class="box"></span></div>
-              <div class="tick"><span class="cap warn">INC</span><span class="box inc"></span></div>
+              <div class="tick"><span class="cap warn">{incap}</span><span class="box inc"></span></div>
             </div>
           </div>
         </div>
@@ -331,9 +355,9 @@ def render(ch: dict, sheet: dict, href) -> str:
         <p class="armor" style="margin-top:1.4mm">{e(sheet["skills_footnote"])}</p>
       </div>
       <div class="panel">
-        <h2>Hindrances</h2>
+        <h2>{e(sheet.get("hindrances_heading") or SHEET_DEFAULTS["hindrances_heading"])}</h2>
         <div class="body">{hind}</div>
-        <h2 style="margin-top:1.8mm">Edges</h2>
+        <h2 style="margin-top:1.8mm">{e(sheet.get("edges_heading") or SHEET_DEFAULTS["edges_heading"])}</h2>
         <div class="body">{edges}</div>
       </div>
     </div>
@@ -343,7 +367,7 @@ def render(ch: dict, sheet: dict, href) -> str:
         <h2>{e(sheet["weapons_heading"])}</h2>
         <div class="body">
           <table>
-            <thead><tr><th>Weapon</th><th>Range</th><th>RoF</th><th>Dmg</th><th>Notes</th></tr></thead>
+            <thead><tr>{weap_head}</tr></thead>
             <tbody>{weap}</tbody>
           </table>
           <p class="team">{e(team)}</p>
@@ -353,9 +377,9 @@ def render(ch: dict, sheet: dict, href) -> str:
         <h2>{e(sheet["gear_heading"])}</h2>
         <ul class="gear-list">{gear}</ul>
         <div class="{load_cls}">
-          <div>Carried<strong>{e(ch["carried"])}</strong></div>
-          <div>Limit<strong>{e(ch["limit"])}</strong></div>
-          <div>Encumbrance<strong>{e(ch["penalty"])}</strong></div>
+          <div>{label(sheet, "load_labels", 0)}<strong>{e(ch["carried"])}</strong></div>
+          <div>{label(sheet, "load_labels", 1)}<strong>{e(ch["limit"])}</strong></div>
+          <div>{label(sheet, "load_labels", 2)}<strong>{e(ch["penalty"])}</strong></div>
         </div>
         <p class="armor">{e(ch.get("armor", ""))}</p>
         <p class="team">{e(team_kit)}</p>
@@ -372,14 +396,15 @@ def render(ch: dict, sheet: dict, href) -> str:
 """
 
 
-def bennies_html(text: str) -> str:
-    """Keep the three tick boxes immediately after the word Bennies."""
+def bennies_html(text: str, word: str | None = None) -> str:
+    """Keep the three tick boxes immediately after the word for Bennies."""
     pips = '<span class="pip"></span><span class="pip"></span><span class="pip"></span>'
-    if text.lower().startswith("bennies"):
-        rest = text[len("Bennies") :].lstrip(" ·")
+    word = word or SHEET_DEFAULTS["bennies_word"]
+    if text.lower().startswith(word.lower()):
+        rest = text[len(word) :].lstrip(" ·")
         if rest:
-            return f"Bennies {pips} · {e(rest)}"
-        return f"Bennies {pips}"
+            return f"{e(word)} {pips} · {e(rest)}"
+        return f"{e(word)} {pips}"
     return e(text)
 
 
