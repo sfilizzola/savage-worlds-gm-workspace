@@ -28,5 +28,6 @@ This `world/` directory holds facts established as true **for this table**. Root
 ### Lore
 
 - [Timeline](lore/timeline.md)
+- [Between 1986 and 1998](lore/between-1986-and-1998.md) (fill after four 1986 recaps; required before planning `federal-in-ashgrove`)
 - [The Correction (GM)](lore/the-correction.md)
 - [Revelation ladder (GM; planned delivery)](lore/revelation-ladder.md)

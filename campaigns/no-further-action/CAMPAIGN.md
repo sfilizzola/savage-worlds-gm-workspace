@@ -69,6 +69,7 @@ Facts that are true for this table regardless of player action. Distinct from pl
 - **1986 connection rule:** nights 1 and 2 share a thread (Abigail Carr’s call). Nights 3 and 4 are separate jobs on the calendar. Any “these were results of the Correction” beat is **closing information of arc 1** (night 4), not a serial in night 3.
 - **Frank Loman** is missing as of the end of night 1. What happened to him is **not** established.
 - One **personal bruise** per era (nights 4 / 7 / 11 in the index). Full lock of origin + Correction waits for 2016.
+- **Chief Whitley** is locally corrupt (payoffs, quiet files). He is **not** Correction and does not know the consortium. By the **1998** calendar he is no longer Ashgrove PD; Lilly’s 1986 work is why he blames her. At least one 1998 night requires her to ask him something as a resentful civilian. Sitting-chief status ends before that era even if night 3 does not finish him on-screen.
 
 GM-only detail: [`world/lore/the-correction.md`](world/lore/the-correction.md). Planned delivery, not history: [`world/lore/revelation-ladder.md`](world/lore/revelation-ladder.md).
 
@@ -86,9 +87,9 @@ Child folders sit beside `world/` and `characters/`. Night 1 is played; night 2 
 |------|-------|--------|----------|-------|
 | `neblina-sobre-o-lago` | Neblina sobre o Lago | played | Jan 1986 | Loman / Lake Barrow. Recap in the child folder. Ends with Abigail Carr’s call. |
 | `vozes-sem-corpo` | Vozes sem Corpo | drafting | morning after night 1 (Jan 1986) | Only 1986 sequel. The fresh call / recording becomes a case; prepared outcomes are not history. Not the empire. |
-| `ashgrove-shots-1986` | (untitled; working) | concept | months later in 1986 | Unrelated **action** cop case — shots, live danger, not investigation-only. |
+| `ashgrove-shots-1986` | (untitled; working) | concept | months later in 1986 | Unrelated **action** cop case — shots, live danger. Discovery trail can reach Whitley’s local graft (not Loman, not the consortium). Intended: her work costs him the job. |
 | `ashgrove-puzzle-1986` | (untitled; working) | concept | later 1986, weeks/months after night 3 | **Puzzle** night. Arc-1 finishing rhyme. 1986 personal bruise in the paperwork if she looks. |
-| `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | FBI in her town. She is still Ashgrove PD + consultant. First concrete Correction language. |
+| `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | **Do not plan this night until** [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is filled from the four 1986 recaps. FBI in her town. She is still Ashgrove PD + consultant. First concrete Correction language. New chief in the chair. Former Chief Whitley is a civilian; a 1998 night (this one unless another child owns it) may require asking him something he resents giving. |
 | `rhyme-out-of-town` | (untitled; working) | concept | 1998, weeks/months after previous | Leaves Ashgrove; same correction, different zip code. |
 | `sealed-paper` | (untitled; working) | concept | 1998 | 1998 personal bruise (prison / blood / Medrick / old PI). Not the 2016 lock. |
 | `dead-letterhead` | (untitled; working) | concept | 1998 | A shell that died and came back. One durable fact she can keep. |
@@ -99,10 +100,12 @@ Child folders sit beside `world/` and `characters/`. Night 1 is played; night 2 
 
 **Calendars:** Night 2 begins the morning after night 1. Later 1986 and 1998 files are weeks or months apart; night 3 remains months later and unrelated. 2016 is one big case with gaps of hours or days; stalling lets the Correction move.
 
+**Era gap (1986 → 1998):** After the four 1986 nights are played and recapped, write “what happened in those years” in [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) **before** designing `federal-in-ashgrove` or rebuilding Lilly to Seasoned. Do not fill that file from unused prep.
+
 ## Rank and sheets
 
 - 1986: Novice (current Lilly sheet). Small advances inside the era only.
-- 1998: rebuild **Seasoned** before that era (same woman, twelve years in Ashgrove, FBI consultant).
+- 1998: rebuild **Seasoned** before that era (same woman, twelve years in Ashgrove, FBI consultant). The twelve years are not a blank; they come from the interstitial file above, written after the 1986 recaps.
 - 2016: rebuild **Veteran** (senior, retired or about to retire).
 
 ## Canon boundaries

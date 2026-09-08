@@ -7,7 +7,7 @@
 - **Fear:** Being the cop who cried wolf — or the cop who ignored something that got someone killed.
 - **Leverage/resources:** Rank, local memory, the radio and the road.
 - **Secret:** none established
-- **Relationships:** Watches Lilly; not her enemy. Will not pretend the lake sound did not happen. Works under Whitley.
+- **Relationships:** Watches Lilly; not her enemy. Will not pretend the lake sound did not happen. Works under Whitley in 1986. Does not own Whitley’s graft; do not make Doyle the only vector to it. By 1998 the chair has changed — write that era’s chain when the night is designed.
 - **If ignored:** He keeps doing his shift. He does not chase Lilly down with a briefing.
 - **What can change their behavior:** Proof she can work a scene; a chief order he cannot dodge; something that matches what he already heard.
 

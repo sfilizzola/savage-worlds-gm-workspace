@@ -9,7 +9,7 @@
 - **Secret:** none established
 - **Relationships:** Warm to Lilly as the new face. Informal social map, not a quest kiosk.
 - **If ignored:** She talks to someone else. The town’s news still moves.
-- **What can change their behavior:** A confidence she promised to keep; a look from the chief; a story too ugly to repeat.
+- **What can change their behavior:** A confidence she promised to keep; a look from the sitting chief; a story too ugly to repeat. She may have gossip about Whitley the way she has gossip about anyone; she does not have the graft ledger unless a night puts it in her reach.
 
 ## Portrayal
 
