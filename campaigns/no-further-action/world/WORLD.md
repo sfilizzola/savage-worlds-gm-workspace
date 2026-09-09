@@ -16,12 +16,22 @@ This `world/` directory holds facts established as true **for this table**. Root
 - [Ashgrove, Oregon](locations/ashgrove.md)
 - [Lake Barrow](locations/lake-barrow.md)
 - [Ashgrove Police Precinct](locations/ashgrove-precinct.md)
+- [Daisy’s](locations/daisys.md)
+- [Cinder Creek Lumber](locations/cinder-creek-lumber.md)
 
 ### NPCs
 
-- [Sgt. Doyle](npcs/sgt-doyle.md)
+- [Sgt. Tom Doyle](npcs/sgt-doyle.md)
 - [Chief Whitley](npcs/chief-whitley.md)
-- [Nancy](npcs/nancy.md)
+- [Nancy Iverson](npcs/nancy.md)
+- [Walt Kearney](npcs/walt-kearney.md)
+- [Don Halvorsen](npcs/don-halvorsen.md)
+- [Andy Foyle](npcs/andy-foyle.md)
+- [Earl Voss](npcs/earl-voss.md)
+- [Kevin Alder](npcs/kevin-alder.md)
+- [Daisy Pell](npcs/daisy-pell.md)
+- [Len Pell](npcs/len-pell.md)
+- [Art Lindstrom](npcs/art-lindstrom.md)
 - [Abigail Carr](npcs/abigail-carr.md)
 - [Frank Loman](npcs/frank-loman.md) (missing; not a speaker)
 

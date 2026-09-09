@@ -1,16 +1,27 @@
 # Ashgrove, Oregon
 
-- **Canon status:** established
+- **Canon status:** established as Lilly’s posting and the table’s town; named shops, schools, and civic people below are **authored as true for this table** and not yet required by play
 - **Region/time period:** Pacific Northwest, United States; play starts January 1986
-- **Function:** Small, wet, isolated town. Lilly’s posting. Ground zero for this table, not a published map.
-- **First impression:** Climate / See / Hear / Feel — rain, forest, hills, a town that does not owe an outsider an explanation.
+- **Function:** Small, wet, isolated mill town. Lilly’s posting. Ground zero for this table, not a published map.
+- **First impression:** Climate / See / Hear / Feel — rain, forest, hills, a Main Street that still has mill clocks on the walls, a town that does not owe an outsider an explanation.
 - **Persistent truths:**
   - Fictional. Cinematic 1986 texture (paper files, local radio, payphones).
-  - Lilly transferred here from elsewhere (New Jersey in her background). She is new in January 1986.
-- **Current state:** Frank Loman is a local missing-person file the chief would rather keep small.
-- **People/factions:** Ashgrove PD (1986: Whitley, Doyle, Nancy). Local radio (Abigail Carr). By 1998 Whitley is a civilian.
-- **Resources and hazards:** Distance, weather, lake road, gossip.
+  - About **900–1,200** people in town proper. One Main Street. Faces and plates are known.
+  - **Cinder Creek Lumber** closed about **1982–84**. Stacks still up. People commute one county over or hang on at shops and county work.
+  - Lilly transferred here from New Jersey. She is new in January 1986.
+  - Municipal public-worker housing: **14 Cedar Street**, a small old town house, **one year** then find another place. Last tenant: teacher **Helen Broome**, left 1984. Oil heat, town furniture.
+  - **Daisy’s** — booths, pie, a Cinder Creek clock. **Daisy Pell** (~60, mill-widow) on the register at breakfast.
+  - Main Street doors: **Iverson’s Market**, **Pell’s Hardware** (late husband’s shop; a nephew runs it), **West End Fuel**, **The Hoot Owl** (mill bar, quieter now), leftover **Ashgrove Arms** (old mill hotel).
+  - **Barrow Bait & Tackle** on the lake road, not Main Street.
+  - Faith: **Zion Lutheran** in town; tiny **St. Brigid** with a visiting priest.
+  - Schools are a **valley district**, not a city system. **Ashgrove Middle** in town. **West End Middle** at the old mill camp (half empty; politics will not close it). **Ashgrove High** — one campus for the valley; big *here* (a few hundred kids), not a city school.
+  - Civic: Mayor **Art Lindstrom** (~58). Leftover mill pride. Wants the town to look fine. Likes quiet headlines. Not Correction.
+  - Radio: **KCRK 102.3 FM** (Abigail Carr). Frequency and calls are campaign continuity authored after session one.
+  - Ashgrove PD covers **town plus rural beat**: Main Street, mill yard, Lake Barrow road, two-lane to county. See [ashgrove-precinct.md](ashgrove-precinct.md).
+- **Current state:** Frank Loman is a local missing-person file the chief would rather keep small. Two unfamiliar men and an out-of-county truck are the kind of thing people notice.
+- **People/factions:** Ashgrove PD (1986 roster in the precinct file). Daisy Pell. Mayor Lindstrom. Local radio (Abigail Carr). By 1998 Whitley is a civilian.
+- **Resources and hazards:** Distance, weather, lake road, gossip, empty mill yard, a high school Friday that pulls the valley in.
 - **Secrets:** GM — this is where Lilly first hits *results* of the Correction. The town is not required to know.
-- **How it changes if ignored:** The official story wins by default (shelved files).
+- **How it changes if ignored:** The official story wins by default (shelved files). Main Street keeps serving coffee.
 - **Historical/background sources:** none (invented)
 - **Maps/handouts:** none yet

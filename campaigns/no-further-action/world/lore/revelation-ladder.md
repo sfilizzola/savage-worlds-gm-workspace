@@ -16,7 +16,7 @@ When an adventure is written, every essential revelation inside that night recei
 - Frank Loman vanishes near Lake Barrow.
 - Radio/static phenomena appear to know Lilly's name.
 - Chief Whitley shelves the case; Doyle admits he heard the sound.
-- Abigail Carr calls about something her station recorded at the time of the disappearance. Ongoing continuity names the station 102.3 FM; that frequency was not spoken in play.
+- Abigail Carr calls about something her station recorded at the time of the disappearance. Ongoing continuity names the station **KCRK 102.3 FM**; that frequency was not spoken in play.
 - **Boundary:** ClearWave, Walter Greene, and the Water Authority were not discovered in this session.
 
 ### 2. Vozes sem Corpo — first seam
@@ -32,7 +32,7 @@ When an adventure is written, every essential revelation inside that night recei
 - The night is a genuine armed police case with live danger and shots.
 - The perpetrators and motive are unrelated to the Loman/radio case.
 - The live trail can reach **Chief Whitley’s** local graft (protection, quiet files, people who work for him). He is not the consortium and must not lecture the machine.
-- Intended destination: Lilly’s work makes his job untenable. If the night fails to remove him, he is still out of the PD by 1998 by another route and still blames her.
+- Intended destination **by the end of the 1986 arc** (this night and/or night 4): he is off the force. Default from Lilly’s seat: she puts the proof up the chain; he may sit a short hold or an investigation; political connections let him **walk** (resign/retire) instead of prison. Local politics, not Correction. If this night fails to prove him, he is still out by 1998 by a quieter deal and still blames her.
 - Behind the screen, custodians alter part of the official aftermath to protect an institution with a consortium connection. That alteration is not Whitley’s racket and must not require him as the only clue.
 - Do not reveal the cross-case pattern here. Lilly may preserve an original without knowing its later importance.
 
@@ -42,8 +42,9 @@ When an adventure is written, every essential revelation inside that night recei
 - Comparing independent files can reveal the same precise missing interval.
 - The conclusion is administrative: unrelated events were standardized by the same process.
 - If Lilly compares what she learned with her private investigator's old report, a routing mark there supplies the era's personal bruise. It links a process, not Ashgrove, to her family and does not name her father as part of the machine.
+- Whitley is intended **out of the chair** by this night’s calendar or immediately after the arc: under investigation, already walked, or the unfair stamp lands in the paperwork. He is not the puzzle’s consortium rhyme.
 
-**1986 end state:** Lilly has evidence of a repeatable process, not an organization. Ashgrove's cases remain different crimes.
+**1986 end state:** Lilly has evidence of a repeatable process, not an organization. Ashgrove's cases remain different crimes. Whitley is off the force; the graft case did not become a prison ending.
 
 **Before 1998 design:** After nights 1–4 are played and recapped, fill [`between-1986-and-1998.md`](between-1986-and-1998.md). That interstitial is required before writing `federal-in-ashgrove`. Do not treat 1986 concept notes as the twelve-year history.
 
@@ -56,7 +57,7 @@ When an adventure is written, every essential revelation inside that night recei
 - Lilly remains an Ashgrove detective and becomes an FBI consultant.
 - A supposed interstate pattern brings federal attention into her town.
 - The evidence looks assembled into a serial narrative rather than discovered from common behavior.
-- **Chief Whitley is gone from the PD.** Someone else holds the chair. At least one 1998 night (this child unless another owns it) requires Lilly to ask the former chief something only he would know. He is a civilian with resentment; he does not brief the Correction. Failure to get his help changes cost and vectors, not the existence of the federal case.
+- **Chief Whitley is already gone from the PD** — walked, not convicted. Someone else holds the chair. At least one 1998 night (this child unless another owns it) requires Lilly to ask the former chief something only he would know. He is a civilian with resentment; she already knows the walk was unfair. He does not brief the Correction. Failure to get his help changes cost and vectors, not the existence of the federal case.
 
 ### 6. Rhyme out of town — vendor layer
 

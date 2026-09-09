@@ -22,7 +22,7 @@ Do not promote night-2–4 **preparation** into this file. Unplayed outcomes sta
 Player-known career and town (what Lilly and a coworker could say in 1998):
 
 - Rank / desk / how she became an FBI consultant
-- Who sits in the chief’s chair; where Whitley lives and how the town talks about why he left
+- Who sits in the chief’s chair; where Whitley lives; how the town tells why he left versus what Lilly proved (the unfair walk)
 - Doyle, Nancy, Abigail, and any other 1986 people still in play
 - What the official record of the four 1986 jobs is allowed to say
 - Personal life that is true at the table without locking 2016
@@ -30,7 +30,7 @@ Player-known career and town (what Lilly and a coworker could say in 1998):
 GM-only:
 
 - What the Correction did or did not touch in the gap
-- What Whitley actually lost and still resents
+- What Whitley actually lost (the job, not years inside) and still resents; whether any investigation is still a rumor in 1998
 - Open threads from the four recaps that 1998 may pick up (Loman, gap, bruise) vs threads that stay cold
 
 ## Reminder

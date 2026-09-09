@@ -1,17 +1,21 @@
 # Ashgrove Police Precinct
 
-- **Canon status:** established
+- **Canon status:** established as Lilly’s workplace; building scale, empty lab, and 1986 patrol roster are **authored as true for this table** (patrol not yet in play)
 - **Region/time period:** Ashgrove, January 1986–
-- **Function:** Lilly’s workplace. Small-town PD.
-- **First impression:** A building that wants quiet headlines more than open files.
+- **Function:** Lilly’s workplace. Small-town PD in a building that remembers a richer mill town.
+- **First impression:** Old town hall, one floor, too many rooms. Cloakroom and floor wax. A radio room that still sounds like 1958. Empty offices used for dead paper.
 - **Persistent truths:**
-  - 1986 chain: Chief Whitley, Sgt. Doyle, secretary Nancy, detective Lilly Dawson (new).
+  - The building is the **former town hall**, one floor, raised in the **1950s** when Cinder Creek money made Ashgrove look complete. Enough rooms for **three times** the 1986 headcount. **Two cells.** **Radio room.** An **old forensic lab** (period gear, not a modern unit). County does real forensics. Kearney’s carbon process, envelopes, and a cork board still live in the extra rooms.
+  - **1986 chain:** Chief Whitley; **Sgt. Tom Doyle** (sergeant-detective, ~44); detective Lilly Dawson (new); secretary **Nancy Iverson**.
+  - **Day patrol (decent, not in on Whitley’s graft):** **Don Halvorsen** (53) and **Andy Foyle** (~34). They complain about the night logs and drink Nancy’s coffee. Hiring is rare; Andy is only “junior” relative to Don.
+  - **Night patrol:** **Earl Voss** (56) sleeps because “nothing happens after eleven.” **Kevin Alder** (31) actually runs the beat. Town knows. Whitley does not care if headlines stay down. Kevin was the last badge issued before Lilly.
+  - **Walt Kearney** (~63) retired by 1986 and still lives in town. Daisy’s at 7am. Doyle still defers. His tabs and triplicate still run how paper is supposed to look. Lilly is the other working detective with Doyle because of the NJ transfer, not because Walt picked her.
   - Whitley can shelf a case. Doyle still works it like a cop. Nancy hears the town.
-  - By **1998** Whitley is not in the chair. A later chief (unnamed until that era is designed) holds command; Doyle/Nancy may still be the house.
+  - By the **end of the 1986 arc** Whitley is intended off the force (unfair walk after channels, not prison). By **1998** he is already a civilian. A later chief (unnamed until that era is designed) holds command; Doyle/Nancy may still be the house.
 - **Current state:** Loman is shelved officially; Abigail Carr’s call is the live thread into the next night. (January 1986.)
-- **People/factions:** See NPC files.
-- **Resources and hazards:** Radio, cars, files, local knowledge, political pressure from the sitting chief.
-- **Secrets:** GM — Whitley’s quiet is partly bought (local graft, not Correction). Ordinary small-town self-protection remains true on the surface.
+- **People/factions:** See NPC files. Mill yard after dark: **Len Pell** (not PD).
+- **Resources and hazards:** Radio, cars, files, local knowledge, political pressure from the sitting chief, empty rooms that keep old process, a lab nobody is qualified to treat as CSI.
+- **Secrets:** GM — Whitley’s quiet is partly bought (local graft, not Correction). Ordinary small-town self-protection remains true on the surface. Earl sleeping is an open secret, not a mystery.
 - **How it changes if ignored:** The precinct’s default is **no further action**.
 - **Historical/background sources:** none
 - **Maps/handouts:** none yet

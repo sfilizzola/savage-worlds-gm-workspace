@@ -23,9 +23,9 @@ Do not select a song because its title gives away the answer. Do not quote lyric
 
 Music is atmosphere unless an adventure explicitly establishes a recording or broadcast as evidence. There is no recurring haunted song. The campaign's technical fingerprint is the **synchronization gap**, not a melody.
 
-## 102.3 FM
+## KCRK 102.3 FM
 
-Abigail Carr works at fictional **102.3 FM** in Ashgrove. In 1986 it is a small-market music station with local announcements and a contemporary pop/rock rotation broad enough to carry national hits, adult contemporary, and selected album-rock singles. A child adventure may narrow Abigail's show and schedule when it is designed.
+Abigail Carr works at fictional **KCRK 102.3 FM** in Ashgrove. In 1986 it is a small-market music station with local announcements and a contemporary pop/rock rotation broad enough to carry national hits, adult contemporary, and selected album-rock singles. A child adventure may narrow Abigail's show and schedule when it is designed.
 
 The frequency is campaign continuity authored after session one. Do not claim the player heard “102.3 FM” during *Neblina sobre o Lago*.
 

@@ -18,7 +18,7 @@
 
 - **Morning after night 1, January 1986:** *Vozes sem Corpo* begins only hours after Whitley shelves the Loman file. Adventure preparation exists; outcomes remain unplayed.
 - **Months later, 1986:** action cop case (shots). Prepared trail can reach Chief Whitley’s local graft; outcomes are not history.
-- **Later 1986:** puzzle case; arc-1 rhyme. Whitley is intended to be out of the PD by 1998 even if this calendar is still 1986.
+- **Later 1986:** puzzle case; arc-1 rhyme. Intended: Whitley is off the force by the end of the 1986 arc (unfair walk after Lilly went through channels; maybe a short hold or dead investigation, not prison).
 - **After all four 1986 nights have recaps:** write [`between-1986-and-1998.md`](between-1986-and-1998.md) before planning the first 1998 story. That file is empty until then.
 - **1998:** four files, weeks or months apart; she is still Ashgrove PD when the year opens; FBI consultancy. Whitley is a resentful civilian; at least one night may require asking him something.
 - **2016:** one urgent case in four movements, hours or days apart; she is 54, senior / retiring.

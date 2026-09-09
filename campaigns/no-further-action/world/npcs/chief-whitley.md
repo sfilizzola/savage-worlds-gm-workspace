@@ -13,7 +13,7 @@
   - 1986: He can shelf a case. He assigns work. Local favors, cash, and people who like the town boring.
   - 1998: Memory of old dispositions, who owed whom, which files never left his desk. No command. A few people still take his calls.
 - **Secret:** Local graft — protection, quiet closures, overtime and evidence that never quite get written. **Not** Correction; he is not a mastermind and does not know the consortium. He shelves Loman because spectacle is bad for the town and for the people who pay for quiet.
-- **Relationships:** Lilly’s institutional obstacle in 1986. Gave her Loman. Would rather it be a drowning/disappearance than a hunt. By 1998 he blames her for the heat that took the job; he will not grant her the courtesy of a colleague.
+- **Relationships:** Lilly’s institutional obstacle in 1986. Gave her Loman. Would rather it be a drowning/disappearance than a hunt. Mayor **Art Lindstrom** likes the same quiet headlines; they are civic allies, not a conspiracy lecture. By 1998 he blames her for the heat that took the job; she already lived the unfair walk. He will not grant her the courtesy of a colleague.
 - **If ignored:**
   - 1986: He assumes the file stays quiet.
   - 1998: He does not call her. The resentment sits.
@@ -31,7 +31,7 @@
   - 1986: “We’re not turning a missing fisherman into a circus.”
   - 1986: “You wrote it up. That’s enough for now.”
   - 1998: “You don’t get to come here with a pad. You already used the badge on me.”
-  - 1998: “Ask the ones who kept the job.”
+  - 1998: “They didn’t put me in a cell. You still took the chair.”
 - Avoid: Confession of a national machine, occult lectures, “as you know,” briefing her on how to investigate him, a clean apology.
 - Pressure variants:
   - Cooperate:
@@ -50,8 +50,8 @@
 ## Era notes (planned, not history)
 
 - **Nights 1–2 (January 1986):** Still the sitting chief. Play the political shelf, not a takedown.
-- **Night 3 (`ashgrove-shots-1986`):** The action case can trail into his racket. Intended destination: her work makes the job untenable. If that night fails to remove him, he is still **out of the PD by the 1998 calendar** (quiet deal, county, later paper) and still blames her for the heat. Do not make one arrest the only route to 1998.
-- **1998:** At least one child requires her to ask him something only a former chief would know. He is reachable and hostile. The question belongs to that adventure when it is written; he does not volunteer campaign secrets. Where he lives, how the town tells the story of his exit, and what she already knows going in belong in [`../lore/between-1986-and-1998.md`](../lore/between-1986-and-1998.md) after the 1986 recaps — fill that before planning `federal-in-ashgrove`.
+- **1986 discovery (nights 3–4):** The shots case can trail into his racket. Intended destination **by the end of the 1986 arc:** he is off the force. Default flavor from Lilly’s seat is **unfair:** she proves graft and gives it to superiors; he may be held briefly or sit an investigation; political connections let him resign or retire instead of prison. That walk is **local politics**, not the Correction. Do not make one arrest the only route. If she never lands the proof, he is still out by 1998 by a quieter deal and still blames her.
+- **1998:** Already gone. Not serving a sentence. The old investigation is dead or was never a conviction. At least one child requires her to ask him something only a former chief would know. He is reachable and hostile. The question belongs to that adventure when it is written; he does not volunteer campaign secrets. Where he lives, how the town tells the walk versus what she proved, belong in [`../lore/between-1986-and-1998.md`](../lore/between-1986-and-1998.md) after the 1986 recaps — fill that before planning `federal-in-ashgrove`.
 
 ## Mechanics
 

@@ -1,11 +1,11 @@
-# Nancy
+# Nancy Iverson
 
-- **Canon status:** established
+- **Canon status:** established (last name authored after play; treat as true)
 - **Visibility:** player-known
-- **Role:** Precinct secretary
+- **Role:** Precinct secretary; kin to Iverson’s Market
 - **Current objective:** Keep the office running; stay in the flow of who-said-what.
 - **Fear:** Being blamed for a leak — and missing a piece of gossip that mattered.
-- **Leverage/resources:** Names, marriages, old calls, who is related to whom. She is not an oracle and does not have GM secrets.
+- **Leverage/resources:** Names, marriages, old calls, who is related to whom. Grocery-counter gossip behind the secretary desk. She is not an oracle and does not have GM secrets.
 - **Secret:** none established
 - **Relationships:** Warm to Lilly as the new face. Informal social map, not a quest kiosk.
 - **If ignored:** She talks to someone else. The town’s news still moves.
@@ -16,7 +16,7 @@
 - First impression: Friendly, talkative, gossipy, welcoming.
 - Voice/manner cue: Specific people, not summaries of the mystery.
 - Spoken lines:
-  - “Frank? Everybody knew Frank. You want his sister’s number or the bait shop?”
+  - “Frank? Everybody knew Frank. You want his sister’s number or Barrow Bait?”
   - “Don’t tell the chief I said, but—”
 - Avoid: Reciting Lake Barrow’s secrets, ClearWave, or Lilly’s backstory.
 - Pressure variants:
