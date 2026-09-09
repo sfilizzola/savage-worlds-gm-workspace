@@ -16,7 +16,8 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 ### Locations
 
 - [Ashgrove, Oregon](locations/ashgrove.md)
-- [1984 Rook County highway sheet](locations/ashgrove_map_1984.png) (table map)
+- [1984 Rook County highway sheet](locations/ashgrove_map_1984.png) (valley table map)
+- [1984 Ashgrove town inset](locations/ashgrove_town_map_1984.png) (street table map)
 - [Lake Barrow](locations/lake-barrow.md)
 - [Ashgrove Police Precinct](locations/ashgrove-precinct.md)
 - [Daisy’s](locations/daisys.md)

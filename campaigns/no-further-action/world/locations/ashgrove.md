@@ -2,7 +2,7 @@
 
 - **Canon status:** established as Lilly’s posting and the table’s town; named shops, schools, civic people, and valley geography below are **authored as true for this table** and not yet required by play (Lake Barrow itself was played)
 - **Region/time period:** Fictional **Rook County**, Cascades foothills, Oregon. Incorporated town on **ORE. 328**. Play starts January 1986.
-- **Function:** Small, wet mill town. Lilly’s posting. Ground zero for this table. The 1984 county highway sheet is the table map.
+- **Function:** Small, wet mill town. Lilly’s posting. Ground zero for this table. Table maps: 1984 county highway sheet plus the Ashgrove town inset (Sheet 2).
 - **First impression:** Climate / See / Hear / Feel — rain, forest, hills, a Main Street that still has mill clocks on the walls, a town that does not owe an outsider an explanation.
 - **Persistent truths:**
   - Fictional. Cinematic 1986 texture (paper files, local radio, payphones). Not a real Oregon municipality.
@@ -13,12 +13,13 @@
   - **Elk Creek Fork** is **14 miles** southwest of the mapped valley — a timber junction, off the Ashgrove sheet except as a mileage arrow. Not a suburb.
   - Terrain locals actually name: **Elk Ridge** (3,240 ft) northwest; **Pine Mountain** (2,880 ft) northeast; **Trapper Ridge** (2,120 ft) south across the river. Winter snow hangs on the ridges; the valley stays wet.
   - Water: **Ashgrove River** runs west to east along the **south** edge of the town grid. **Cinder Creek** feeds the **mill pond** at West End. **Clear Creek** feeds **Lake Barrow**. Also on the county sheet: Pine, Maple, and Beaver creeks. The fishing water is **Lake Barrow** (~5 km / ~3 mi **southwest** of the grid; the 1984 sheet may print **Barrow Lake**). **Barrow Bait & Tackle** is on that lake road, not Main Street.
-  - **Main Street is ORE. 328** through town (east–west). **Cedar Street** runs parallel **south** of Main, between the highway and the river. Municipal house: **14 Cedar Street**, one year then find another place. Last tenant: teacher **Helen Broome**, left 1984. Oil heat, town furniture. Lilly transferred here from New Jersey in January 1986.
-  - Main Street north side, west → east: **West End Fuel** (junction toward the mill) → **Daisy’s** → **Iverson’s Market** → **Pell’s Hardware** → **Town Hall / Police** → **The Hoot Owl** → leftover **Ashgrove Arms** (old mill hotel). Mile **0** on 328 sits just east of the Arms.
-  - Faith: **Zion Lutheran** north of Main, just east of Town Hall; tiny **St. Brigid** south of Main at Cedar, near the river, visiting priest.
-  - Schools are a **valley district**. **Ashgrove Middle** in town, north-west of the civic core. **West End Middle** at the mill camp (half empty; politics will not close it). **Ashgrove High** — one campus for the valley, **east edge of town** toward Lowater; a few hundred kids, Friday night pulls West End and Lowater in. Unlabeled or weak on the 1984 sheet; still true.
-  - Radio: **KCRK 102.3 FM** on a knoll just **south** of the grid (Abigail Carr). Frequency and calls are campaign continuity authored after session one. Ordinary **powerline easement** runs south from town, crossing the river into the Trapper Ridge timber — public-map utilities, not a labeled compound.
-  - A **rail spur** still comes from the lumber yard through West End and peters out toward the west end of the grid. No passenger service.
+  - **Street grid (town inset).** East–west, north → south: **Ridge Road** (unpaved north edge) → **Larch Street** → **Spruce Street** → **Main Street (ORE. 328)** → **Cedar Street** → **River Street** (gravel, along the north bank; flood-prone). North–south, west → east: **Mill Street** (west edge, mill and rail) → **Grange Street** → **Church Street** → **Pell Street** → **Bridge Street** (the in-town river crossing) → **Valley Road** (east edge). **Barrow Lake Rd** leaves the west end of town southwest toward the lake (3 mi) and crosses the river on its own bridge. Dashed **city limit** around the built grid; timber and Trapper Ridge sit immediately outside it.
+  - **Main Street is ORE. 328.** On the **town inset**, the numbered commercial row is the **south** side, west → east: **Daisy’s** (Grange–Church) → **Iverson’s Market** → **Pell’s Hardware** → **The Hoot Owl** → leftover **Ashgrove Arms** (Pell–Bridge) → a vacant lot east of the Arms. **West End Fuel** is the west gateway, south of Main at Mill Street, not in that numbered row. **Town Hall / Police** sits **north** of Main, west of Pell. The 1-inch county sheet is too coarse to hold this; if the two prints disagree on which curb a door occupies, **Sheet 2 wins for addresses**.
+  - Municipal house: **14 Cedar Street**, in the **Town Rentals** block south of Cedar between Church and Pell. One year then find another place. Last tenant: teacher **Helen Broome**, left 1984. Oil heat, town furniture. Lilly transferred here from New Jersey in January 1986.
+  - Faith: **Zion Lutheran** north of Main between Pell and Bridge. Tiny **St. Brigid** south of Cedar near Bridge Street, river side, visiting priest.
+  - Other labeled civic: **Cinder Creek Grange Hall** on Grange Street north of Main. **Ashgrove Middle** north-central between Larch and Ridge, with a yard. A **ball field** and **town water tank** at the northeast corner (Ridge and Valley). **Cinder Creek Lumber** sheds and the dead **rail spur** occupy the west edge at Mill Street.
+  - Schools are a **valley district**. **West End Middle** at the mill camp (half empty; politics will not close it). **Ashgrove High** — one campus for the valley, east toward Lowater; a few hundred kids, Friday night pulls West End and Lowater in. Weak or missing on both 1984 sheets; still true.
+  - Radio: **KCRK 102.3 FM** (Abigail Carr), south of the river on the Bridge Street / Trapper Ridge side of town. Frequency and calls authored after session one. Ordinary **powerline easement** runs north–south on the **east** side of the grid and continues south across the river — public-map utilities, not a labeled compound.
   - Civic: Mayor **Art Lindstrom** (~58). Leftover mill pride. Wants the town to look fine on 328. Likes quiet headlines. Not Concordance. County politics live in **Rookton**.
   - Ashgrove PD covers the **patrol tint** on the 1984 sheet: town grid, West End, the lake road, and 328 out through Lowater. Outside that line: **Rook County Sheriff**. See [ashgrove-precinct.md](ashgrove-precinct.md).
 - **Current state:** Frank Loman is a local missing-person file the chief would rather keep small. Two unfamiliar men and an out-of-county truck are the kind of thing people notice.
@@ -26,8 +27,8 @@
 - **Resources and hazards:** Distance, weather, the lake road, Trapper Ridge timber south of the river, gossip, empty mill yard, a high school Friday that pulls the valley in. County help is a 22-mile two-lane, not a button.
 - **Secrets:** GM — this is where Lilly first hits *results* of the Concordance. The town is not required to know. Public maps do not mark that.
 - **How it changes if ignored:** The official story wins by default (shelved files). Main Street keeps serving coffee.
-- **Historical/background sources:** none (invented). Visual geography from [`ashgrove_map_1984.png`](ashgrove_map_1984.png).
-- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — 1984 Rook County highway sheet; print landscape, A3 preferred. Player-facing.
+- **Historical/background sources:** none (invented). Visual geography from the two 1984 sheets below.
+- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — county highway sheet (valley). [`ashgrove_town_map_1984.png`](ashgrove_town_map_1984.png) — town inset, Sheet 2 (streets and doors). Print landscape, A3 preferred. Player-facing.
 
 ### 1984 highway sheet (reprint lock)
 
@@ -39,10 +40,24 @@ Visual source: [`ashgrove_map_1984.png`](ashgrove_map_1984.png). A later map mus
 
 **Terrain and water.** Elk Ridge 3,240 NW; Pine Mountain 2,880 NE; Trapper Ridge 2,120 south. Ashgrove River west–east along the south edge of town. Cinder Creek → mill pond. Clear Creek → Lake Barrow (sheet may say Barrow Lake). Pine, Maple, Beaver creeks as on the PNG. Lake southwest of the grid. Do not invent a second lake. Do not put a town on the water.
 
-**Ashgrove grid.** Main = ORE. 328. Cedar St parallel south. Main north side west → east: West End Fuel → Daisy’s → Iverson’s Mkt → Pell’s Hdwe → Town Hall / Police → Hoot Owl → Ashgrove Arms. Mile 0 just east of the Arms. Ashgrove Middle north-west of the civic core. Zion Lutheran north of Main, east of Town Hall. St. Brigid south of Main at Cedar. Patrol tint around West End, the grid, and 328 through Lowater.
+**Ashgrove on this sheet (schematic).** Main = ORE. 328. Cedar St parallel south. Doors at mile scale are schematic. **Street names, curb sides, and lot positions lock from Sheet 2**, not from this drawing.
 
-**True in files, missing or weak on this PNG — add if reprinting:** Ashgrove High (east edge toward Lowater), KCRK 102.3 FM (knoll south of the grid), Barrow Bait & Tackle on the lake road, 14 Cedar as a house not a label.
+**True in files, missing or weak on the county PNG — add if reprinting the valley sheet:** Ashgrove High, KCRK, Barrow Bait & Tackle, named cross streets.
 
 **Never draw on a public sheet:** inland tower compound, Concordance, ClearWave, case pins.
 
 **Do not restore the unused prompt compass.** An earlier draft put the lake due north of town. This PNG did not.
+
+### 1984 town inset (reprint lock)
+
+Visual source: [`ashgrove_town_map_1984.png`](ashgrove_town_map_1984.png). Sheet 2 of 2. Copy **this** plat, not the unused street-prompt if they fight. North at top. Same agency and 1984 edition as the county sheet. Scale on the PNG is town-plat, not 1 inch = 1 mile.
+
+**Streets.** E–W north→south: Ridge Road (unpaved) · Larch · Spruce · Main / ORE. 328 · Cedar · River Street (gravel, flood-prone). N–S west→east: Mill · Grange · Church · Pell · Bridge · Valley Road. Two river bridges: Barrow Lake Rd (southwest) and Bridge Street (in-town).
+
+**South side of Main, west → east (numbered index):** Daisy’s · Iverson’s Market · Pell’s Hardware · Hoot Owl · Ashgrove Arms · vacant lot. **West End Fuel** west gateway, south of Main at Mill. **Town Hall / Police** north of Main, west of Pell.
+
+**Other lots on this PNG:** Grange Hall on Grange north of Main. Ashgrove Middle between Larch and Ridge, north-central. Ball field and water tank, Ridge and Valley (NE). Zion Lutheran north of Main, Pell–Bridge. St. Brigid south of Cedar near Bridge. Town Rentals south of Cedar, Church–Pell (14 Cedar is a house in that block, not a map number). Cinder Creek Lumber and rail spur at the west edge. Powerline easement north–south on the east side, continuing south of the river. City-limit dash around the grid. Edge notes: West End / mill west; Lake Barrow 3 mi southwest; Lowater / Rookton 22 mi east; Elk Ridge / timber north; Trapper Ridge south.
+
+**True in files, missing or weak on this PNG — add if reprinting:** Ashgrove High (east / Valley Road toward Lowater), KCRK 102.3 FM (south of the river off Bridge Street), Barrow Bait & Tackle (off-sheet on the lake road), house number 14 on Cedar.
+
+**Never draw:** inland tower compound, Concordance, case pins, highlighting 14 Cedar.

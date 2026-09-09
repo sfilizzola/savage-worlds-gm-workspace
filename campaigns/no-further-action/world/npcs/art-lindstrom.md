@@ -7,7 +7,7 @@
 - **Fear:** Press, a circus missing-person story, looking like the mill town that died on his watch.
 - **Leverage/resources:** Ceremonies, the one-year town houses, a phone to Whitley, leftover mill civic clubs.
 - **Secret:** none established as Concordance. He likes Whitley’s quiet. That is civic, not a mastermind plot.
-- **Relationships:** Allied with Whitley’s “keep it small” reflex. Not Doyle’s friend particularly. Proud of 14 Cedar as proof Ashgrove “takes care of its people.”
+- **Relationships:** Allied with Whitley’s “keep it small” reflex. Not Doyle’s friend particularly. Proud of the **Town Rentals** on Cedar (14 Cedar among them) as proof Ashgrove “takes care of its people.”
 - **If ignored:** He does not call the detective. Ribbon-cuttings continue.
 - **What can change their behavior:** Reporters, a body, Rookton attention, a buyer sniffing the mill.
 

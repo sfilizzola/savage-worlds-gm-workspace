@@ -13,4 +13,4 @@
 - **Secrets:** none established as Concordance. Do not put the consortium in the mill office unless a later night proves a reason.
 - **How it changes if ignored:** The yard stays dark. Len still walks it.
 - **Historical/background sources:** none
-- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — West End mill yard on the 1984 county sheet.
+- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — West End on the county sheet. [`ashgrove_town_map_1984.png`](ashgrove_town_map_1984.png) — mill and rail spur at Mill Street, west edge of the town grid.
