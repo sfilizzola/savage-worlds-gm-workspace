@@ -1,7 +1,7 @@
 # Cinder Creek Lumber (mill yard)
 
 - **Canon status:** authored as true for this table; not yet required by play
-- **Region/time period:** West End mill camp, immediately west of the Ashgrove grid on ORE. 328; mill pond and a rail spur on the 1984 sheet; mill closed ~1982–84; play from January 1986
+- **Region/time period:** West End mill camp, **west of the Ashgrove city limit across Cinder Creek**; mill pond on the 1984 sheets; mill closed ~1982–84; play from January 1986
 - **Function:** Dead employer that still owns the skyline. Night-shift geography. West End Middle sits in the old mill-camp orbit.
 - **First impression:** Climate / See / Hear / Feel — stacks against rain, chain, puddles in a parking lot sized for a shift that does not come, a flashlight sometimes, a cruiser sometimes.
 - **Persistent truths:**
@@ -13,4 +13,4 @@
 - **Secrets:** none established as Concordance. Do not put the consortium in the mill office unless a later night proves a reason.
 - **How it changes if ignored:** The yard stays dark. Len still walks it.
 - **Historical/background sources:** none
-- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — West End on the county sheet. [`ashgrove_town_map_1984.png`](ashgrove_town_map_1984.png) — mill and rail spur at Mill Street, west edge of the town grid.
+- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — West End on the county sheet. [`ashgrove_town_map_1984.png`](ashgrove_town_map_1984.png) — mill west of the city-limit dash, across Cinder Creek.

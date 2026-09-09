@@ -2,7 +2,7 @@
 
 - **Canon status:** established as the caller at the end of January 1986; personality beyond that is **thin**
 - **Visibility:** player-known (the call); her full motives unknown
-- **Role:** Local radio host / DJ at **KCRK 102.3 FM** (frequency and calls authored after session one for ongoing continuity)
+- **Role:** Local radio host / DJ at **KCRK 102.3 FM**, south of the Ashgrove River off Bridge Street (Sheet 2). Frequency and calls authored after session one for ongoing continuity
 - **Current objective:** Unknown. Established act: she called Lilly because the station recorded something unusual at the time Frank disappeared.
 - **Fear:** unknown
 - **Leverage/resources:** KCRK 102.3, the recording, airtime, whoever else heard the log.
