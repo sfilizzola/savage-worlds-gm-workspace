@@ -22,7 +22,7 @@ house_rules:
 
 Navigation: [`INDEX.md`](INDEX.md) routes tasks to the right file and holds the current-state snapshot, canon tiers, and compact inventories.
 
-This file is campaign configuration and indexes. It is **not** `RUN.md` and must not be compiled as table flow. Campaigns have **no** `QUALITY.md`; each child adventure scores `QUALITY.md` and compiles its own `RUN.md` when that night is written.
+This file is campaign configuration and campaign truth; [`INDEX.md`](INDEX.md) owns task routing. It is **not** `RUN.md` and must not be compiled as table flow. Campaigns have **no** `QUALITY.md`; each child adventure scores `QUALITY.md` and compiles its own `RUN.md` when that night is written.
 
 Repository and file language is English. Some child titles are Portuguese (as played or planned at the table).
 

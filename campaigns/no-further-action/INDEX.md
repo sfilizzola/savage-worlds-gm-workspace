@@ -40,8 +40,8 @@ Navigation summary only. Not authoritative; each row links to the source that is
 | Active era and table date | January 1986, end of night 1, on Abigail Carr's call | [`neblina-sobre-o-lago/session-recap.md`](neblina-sobre-o-lago/session-recap.md), [`world/lore/timeline.md`](world/lore/timeline.md) |
 | Latest played night | Night 1, `neblina-sobre-o-lago` | [`neblina-sobre-o-lago/session-recap.md`](neblina-sobre-o-lago/session-recap.md) |
 | Next drafted night | Night 2, `vozes-sem-corpo` — prepared, unplayed; calendar is the morning after night 1 | [`vozes-sem-corpo/ADVENTURE.md`](vozes-sem-corpo/ADVENTURE.md) |
-| Established unresolved state | Frank Loman missing; Whitley has shelved the file; Abigail Carr's call about a recording is unanswered; the sound across the water, the barefoot prints, and the mud cassette are unexplained | [`neblina-sobre-o-lago/session-recap.md`](neblina-sobre-o-lago/session-recap.md), [`world/lore/timeline.md`](world/lore/timeline.md) |
-| Current gate | [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is an empty job ticket. It must be filled from four played 1986 recaps before `federal-in-ashgrove` is designed or Lilly is rebuilt to Seasoned. Only one 1986 recap exists. | [`CAMPAIGN.md`](CAMPAIGN.md), "Era gap (1986 → 1998)" |
+| Established unresolved state | Frank Loman missing; Whitley shelved the file; Abigail Carr's call unanswered. Full thread list: recap, "Unresolved questions and active threads" | [`neblina-sobre-o-lago/session-recap.md`](neblina-sobre-o-lago/session-recap.md), [`world/lore/timeline.md`](world/lore/timeline.md) |
+| Current gate | 1986 → 1998 interstitial file is an empty job ticket; one of four 1986 recaps exists. Conditions: [Gates](#8-gates-and-danger-zones) | [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md), [`CAMPAIGN.md`](CAMPAIGN.md) "Era gap (1986 → 1998)" |
 | Character rank | Novice 1986 sheet only; Seasoned and Veteran sheets do not exist | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) |
 
 ## 3. Canon and preparation ladder
@@ -102,7 +102,7 @@ All twelve jobs from [`CAMPAIGN.md`](CAMPAIGN.md), each listed once. Concept row
 | # | Slug | Title | Status | Calendar | Folder | Key artifacts | Purpose |
 |---|---|---|---|---|---|---|---|
 | 1 | `neblina-sobre-o-lago` | Neblina sobre o Lago | played | Jan 1986 | [exists](neblina-sobre-o-lago/ADVENTURE.md) | [`ADVENTURE.md`](neblina-sobre-o-lago/ADVENTURE.md), [`session-recap.md`](neblina-sobre-o-lago/session-recap.md), [`characters.md`](neblina-sobre-o-lago/characters.md); no `RUN.md`, no `QUALITY.md` | The Loman missing-person case at Lake Barrow; ends on Abigail Carr's call. |
-| 2 | `vozes-sem-corpo` | Vozes sem Corpo | drafting (preparation) | morning after night 1, Jan 1986 | [exists](vozes-sem-corpo/ADVENTURE.md) | [`ADVENTURE.md`](vozes-sem-corpo/ADVENTURE.md), [`plot.md`](vozes-sem-corpo/plot.md), [`locations.md`](vozes-sem-corpo/locations.md), [`encounters.md`](vozes-sem-corpo/encounters.md), [`secrets.md`](vozes-sem-corpo/secrets.md), [`characters.md`](vozes-sem-corpo/characters.md), [`npcs/`](vozes-sem-corpo/npcs/ray-holtz.md), [`QUALITY.md`](vozes-sem-corpo/QUALITY.md) (108/120, coherence passed), [`RUN.md`](vozes-sem-corpo/RUN.md), [`print/RUN.pdf`](vozes-sem-corpo/print/RUN.pdf) | The fresh call and the recording become a case. Only 1986 sequel. **Prepared outcomes are not history.** |
+| 2 | `vozes-sem-corpo` | Vozes sem Corpo | drafting (preparation) | morning after night 1, Jan 1986 | [exists](vozes-sem-corpo/ADVENTURE.md) | **config** [`ADVENTURE.md`](vozes-sem-corpo/ADVENTURE.md) · **prep** [`plot.md`](vozes-sem-corpo/plot.md), [`locations.md`](vozes-sem-corpo/locations.md), [`encounters.md`](vozes-sem-corpo/encounters.md), [`secrets.md`](vozes-sem-corpo/secrets.md), [`characters.md`](vozes-sem-corpo/characters.md) · **quality gate** [`QUALITY.md`](vozes-sem-corpo/QUALITY.md) (coherence passed) · **table document** [`RUN.md`](vozes-sem-corpo/RUN.md), [`print/RUN.pdf`](vozes-sem-corpo/print/RUN.pdf) · **local NPCs** [`ray-holtz.md`](vozes-sem-corpo/npcs/ray-holtz.md), [`cal-briggs.md`](vozes-sem-corpo/npcs/cal-briggs.md), [`helen-loman.md`](vozes-sem-corpo/npcs/helen-loman.md) | The fresh call and the recording become a case. Only 1986 sequel. **Prepared outcomes are not history.** |
 | 3 | `ashgrove-shots-1986` | (untitled; working) | concept | months later in 1986 | none | no files | Unrelated action cop case; its discovery trail can reach Whitley's local graft. |
 | 4 | `ashgrove-puzzle-1986` | (untitled; working) | concept | later 1986, after night 3 | none | no files | Puzzle night and arc-1 finishing rhyme; the 1986 personal bruise sits in the paperwork. |
 | 5 | `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | none | no files | FBI in her town; first concrete Concordance language. **Gated** on [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md). |
@@ -120,7 +120,9 @@ Calendar and era rules, the 1986 connection rule (nights 1–2 share Abigail's t
 
 Routing metadata only — role, era, and state tag. Objectives, fears, portrayal, dialogue, secrets, and location payload stay in the entity files.
 
-State tags: **played** (appeared in or promoted from play) · **authored — not played** (true for this table, unseen by the player) · **mixed** (part played, part authored or GM) · **GM-only** · **preparation** (proposed by a child adventure, not yet true).
+State tags: **played** · **authored — not played** · **mixed** (part played, part authored or GM) · **GM-only** · **preparation** (proposed by a child adventure, not yet true).
+
+**played** means established in this table's play — it appeared in a session or was promoted from a recap. **authored — not played** means true for this table but never yet seen by the player, so it is canon an agent may use and not an event that has happened.
 
 ### 7.1 Recurring campaign NPCs
 
@@ -194,32 +196,31 @@ Owned by `vozes-sem-corpo` and **not** campaign canon. They become persistent on
 
 | Entity | Kind | Owner | State |
 |---|---|---|---|
-| [Ray Holtz](vozes-sem-corpo/npcs/ray-holtz.md) | Person — signal equipment operator under a maintenance cover | `vozes-sem-corpo` | preparation — proposed adventure truth |
-| [Cal Briggs](vozes-sem-corpo/npcs/cal-briggs.md) | Person — the second man at the compound | `vozes-sem-corpo` | preparation — proposed adventure truth |
-| [Helen Loman](vozes-sem-corpo/npcs/helen-loman.md) | Person — Frank's sibling | `vozes-sem-corpo` | preparation — the sibling relationship becomes established only through play |
-| 102.3 FM (station interior) | Situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — the frequency is campaign continuity in [`MUSIC.md`](MUSIC.md); the station's interior and reel are night material |
-| Ashgrove Records and Social Map | Situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — draws on the played precinct, not a new place |
-| Inland Tower Compound | Situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — the prepared climax location |
-| Disposition Desk | Situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — evidence-defined closure, outcome not written |
+| [Ray Holtz](vozes-sem-corpo/npcs/ray-holtz.md) | adventure-local speaker (station) | `vozes-sem-corpo` | preparation — proposed adventure truth |
+| [Cal Briggs](vozes-sem-corpo/npcs/cal-briggs.md) | adventure-local speaker (tower compound) | `vozes-sem-corpo` | preparation — proposed adventure truth |
+| [Helen Loman](vozes-sem-corpo/npcs/helen-loman.md) | adventure-local speaker (family contact) | `vozes-sem-corpo` | preparation — proposed adventure-local person |
+| 102.3 FM (station interior) | night situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — the frequency itself is campaign continuity in [`MUSIC.md`](MUSIC.md) |
+| Ashgrove Records and Social Map | night situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — not campaign geography |
+| Inland Tower Compound | night situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — not campaign geography |
+| Disposition Desk | night situation | [`vozes-sem-corpo/locations.md`](vozes-sem-corpo/locations.md) | preparation — not campaign geography |
 
 `neblina-sobre-o-lago` has no child `npcs/` or `locations.md`; its people and places were promoted into `world/` by [`session-recap.md`](neblina-sobre-o-lago/session-recap.md).
 
 ### 7.7 Off-screen names with no campaign NPC file
 
-These people are named in play-adjacent material but have no entity file, and none is missing. Route to the owner below rather than creating a file.
+Named in play-adjacent material with **no campaign NPC file**. None is a missing file. Route to the owner and read the payload there.
 
-| Name | Currently owned by | Note |
+| Name | Owner (route here) | Status |
 |---|---|---|
-| Simon Dawson | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) (player-facing background) and [`world/lore/the-concordance.md`](world/lore/the-concordance.md) (GM) | The man who raised her; not her biological father, a fact Lilly learned from a PI. The GM file holds what he actually did and why he could leave. |
-| Medrick Dawson | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) and [`world/lore/the-concordance.md`](world/lore/the-concordance.md) | Lilly's mother; her repeated story is part of the harmonized origin paperwork. |
-| Capt. Harold M. Keane | [`characters/lilly-dawson.md`](characters/lilly-dawson.md), "Promotion and transfer"; also [`CAMPAIGN.md`](CAMPAIGN.md) and [`world/lore/timeline.md`](world/lore/timeline.md) | New Jersey captain who sent the private chain-of-command warning. Off-screen in 1986. |
-| Ashley (younger sister) | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) | Background only; nothing beyond the name is established. |
-| Lilly's biological father | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) (official story) and [`world/lore/the-concordance.md`](world/lore/the-concordance.md) (GM truth) | At campaign start Lilly knows only the official violent-offender story and has never contacted him. |
-| `ClearWave` | [`world/lore/the-concordance.md`](world/lore/the-concordance.md) and [`neblina-sobre-o-lago/session-recap.md`](neblina-sobre-o-lago/session-recap.md) | A project name, not a person. **Unused prep** — not on the record and not spoken in play. |
+| Simon Dawson | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) (player-facing) · [`world/lore/the-concordance.md`](world/lore/the-concordance.md) (GM) | no campaign NPC file; off-screen |
+| Medrick Dawson | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) (player-facing) · [`world/lore/the-concordance.md`](world/lore/the-concordance.md) (GM) | no campaign NPC file; off-screen |
+| Capt. Harold M. Keane | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) · [`CAMPAIGN.md`](CAMPAIGN.md) · [`world/lore/timeline.md`](world/lore/timeline.md) | no campaign NPC file; off-screen |
+| Ashley | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) | no campaign NPC file; off-screen |
+| Lilly's biological father | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) (player-facing) · [`world/lore/the-concordance.md`](world/lore/the-concordance.md) (GM) | no campaign NPC file; off-screen |
 
 ## 8. Gates and danger zones
 
-- **1986 → 1998 interstitial gate.** [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is empty and blocks both `federal-in-ashgrove` design and the Seasoned rebuild. It requires four played 1986 nights with recaps; one exists. Do not fill it from concept notes or unused prep.
+- **1986 → 1998 interstitial gate.** [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is empty and blocks both `federal-in-ashgrove` design and the Seasoned rebuild. Its fill conditions and its "do not invent from unplayed notes" rule are stated in that file and in [`CAMPAIGN.md`](CAMPAIGN.md), "Era gap (1986 → 1998)".
 - **Rank rebuilds are planned, not done.** Only the Novice 1986 sheet exists. Seasoned (1998) and Veteran (2016) rebuilds are described in [`CAMPAIGN.md`](CAMPAIGN.md) and have no files; the twelve years must come from the interstitial file.
 - **Whitley: planned exit versus played history.** Played: he is the 1986 chief and he shelved the Loman file. Planned only: local graft, being taken off the force by the end of the 1986 arc via an unfair walk, and civilian status by 1998. Do not narrate the exit as something that happened. See [`world/npcs/chief-whitley.md`](world/npcs/chief-whitley.md).
 - **KCRK 102.3 FM was authored after session one.** The call letters and frequency are continuity for future nights. Do not claim the player heard "102.3 FM" during night 1. See [`MUSIC.md`](MUSIC.md) and [`neblina-sobre-o-lago/session-recap.md`](neblina-sobre-o-lago/session-recap.md).
