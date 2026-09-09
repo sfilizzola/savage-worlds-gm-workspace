@@ -15,10 +15,10 @@
 | Historical accuracy | cinematic late-January 1986 texture; fictional Ashgrove |
 | House rules | HR-NFA-001, HR-NFA-002 |
 | Expected runtime | 3–5 hours |
-| Compilation date | 2026-09-07 |
+| Compilation date | 2026-09-09 |
 | Verified by | Co-GM source review; QUALITY 108/120, coherence passed |
 
-**Not a scene script.** Jump to the situation on the table: SP1 102.3 FM; SP2 Records; SP3 Town Witnesses; SP4 Water Authority; SP5 Tower Compound; SP6 Disposition.
+**Not a scene script.** Jump to the situation on the table: SP1 KCRK 102.3 FM; SP2 Records; SP3 Town Witnesses (Daisy’s / West End Fuel); SP4 Town Hall public works; SP5 Tower Compound; SP6 Disposition.
 
 Payload lives in the named story point or lookup. First 15 minutes and Climax situation are indexes only.
 
@@ -50,9 +50,9 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## First 15 minutes
 
-- [ ] **Play:** Story Point 1 — 102.3 FM.
+- [ ] **Play:** Story Point 1 — KCRK 102.3 FM.
 - [ ] **Handed:** Abigail's fresh call from the previous night, Lilly's notebook, badge, issue gear, and the still-shelved Loman file.
-- [ ] **Where they are:** arriving at 102.3 FM on the wet morning after session 1.
+- [ ] **Where they are:** arriving at KCRK (south of the river, Bridge Street continuation) on the wet morning after session 1. From 14 Cedar or Town Hall this is a short drive across the Bridge Street bridge, not a walk to the inland compound.
 - [ ] **Trouble already in motion:** a purported engineer is asking for the original reel and is ready to leave.
 - [ ] **First decision:** assert custody, copy first, question him, or let him go and follow.
 - [ ] **If this block overruns:** omit arrival color and begin with Ray reaching for the reel case.
@@ -67,7 +67,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Current situation
 
-- **Table start:** RAY HOLTZ is inside 102.3 FM under a maintenance cover, seeking the original reel. ABIGAIL CARR is delaying him. CAL BRIGGS is at the inland compound preparing Frank and the truck for movement, but he is not destroying records or wiping equipment. CHIEF WHITLEY shelved the file only hours ago.
+- **Table start:** RAY HOLTZ is inside KCRK 102.3 FM under a maintenance cover, seeking the original reel. ABIGAIL CARR is delaying him. CAL BRIGGS is at the inland compound off the lake road preparing Frank and the truck for movement, but he is not destroying records or wiping equipment. CHIEF WHITLEY shelved the file only hours ago.
 - **If Ray leaves unchallenged:** he takes the reel only if it is surrendered, attempts to warn Cal, then heads toward escape or the compound.
 - **If Lilly reaches the compound unalerted:** every evidence category is intact; she gets an observation/intervention beat before Cal detects police attention.
 - **If Ray warns Cal or attention reaches the crew:** Cal enters the alerted state and starts active cleanup. The alert itself does not erase a category.
@@ -92,11 +92,11 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 | Climactic set piece | SP5 | Two Extras, wet compound, live equipment, cleanup clock, body/record preservation. |
 | Consequences and closure | SP6 | Evidence retained determines the defensible disposition. |
 
-**3–4 hour core:** keep SP1, SP2, SP5, and SP6; compress SP3 to Nancy plus one witness and fold SP4's work-order facts into that witness/records pass.
+**3–4 hour core:** keep SP1, SP2, SP5, and SP6; compress SP3 to Nancy plus Daisy’s or West End Fuel and fold SP4's work-order facts into that witness/records pass.
 
 ## Climax situation
 
-- **Location:** inland tower compound; delivered in Story Point 5.
+- **Location:** inland tower compound off Barrow Lake Rd (not KCRK); delivered in Story Point 5.
 - **Opposition (Wild Cards / Extras):** Ray Holtz and Cal Briggs, both Extras; both complete profiles live in SP5.
 - **Environment and interactive features:** wet concrete/metal, low light, chain-link, truck, outbuilding, breakers, live rack, fire/bin, two exits.
 - **Urgency / countdown:** unalerted arrival begins with all categories intact and one observation/intervention beat. Once alerted, take one cleanup step after each round or substantial unopposed delay.
@@ -105,7 +105,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 - **Boundary note:** this index adds no secret payload; SP5 holds the compound truth, and no result identifies remote ownership.
 - **If time is short:** if alerted, begin with the paper log already lost; if unalerted, keep all categories and compress the observation to one decision before detection. Run the remaining clock; do not replace the climax with an automatic arrest.
 
-## Story Point 1 - 102.3 FM: Tape in Motion
+## Story Point 1 - KCRK 102.3 FM: Tape in Motion
 
 **Mood (table):** Paraphrase only what Lilly perceives now.
 
@@ -126,11 +126,11 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 | `Common Knowledge` on Ray's cover | The form looks plausible; Ray leaves after one pointed question. | His language does not fit a local station service call. | The form lacks a station equipment ID and its callback is absent from the station directory. |
 | `Persuasion` with Abigail | She refuses to surrender the original but permits a hurried cassette copy; trust cools. | She documents transfer of the original into Lilly's custody. | She adds the program log and Ray's arrival time. |
 
-- **GM Note:** Ray wants the original and an exit, not a fight. He knows the technical job and staging, but Cal killed Frank.
+- **GM Note:** Ray wants the original and an exit, not a fight. He knows the technical job and staging, but Cal killed Frank. This studio is KCRK on Trapper Ridge; Frank is not here.
 - **Pressure/escalation:** Ray exits through the service door. If exposed, detained then released, or visibly tailed, he attempts to warn Cal. A successful warning starts the alerted state but does not itself erase a category.
 - **Essential information and vectors:** the gap/traffic can come from this reel, Abigail/log, dispatch, timing log, optional mud cassette, or compound gear. Ray can be tracked through witnesses, paperwork, or a tail.
 - **Failure changes:** loss of original custody leaves a copy, testimony, logs, dispatch, timing evidence, compound evidence, and the optional cassette route. A burned tail reveals direction and alerts Cal without immediately erasing a category.
-- **Reachable next points:** SP2 Records, SP3 Town Witnesses, SP4 Water Authority, or SP5 by following Ray.
+- **Reachable next points:** SP2 Records, SP3 Town Witnesses, SP4 Town Hall public works, or SP5 by following Ray.
 - **PC hook — Lilly:** Alertness applies to Notice as recorded on her canonical sheet; Investigator may apply when the Edge's conditions are met. Neither bonus is required.
 
 **On the radio:** 102.3 FM monitor — Stevie Nicks, “Talk to Me” (1985). Ordinary morning rotation makes the disputed silence feel procedural rather than prophetic.
@@ -187,32 +187,34 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 **Mood (table):**
 
-- **Climate:** Fine rain turns awnings dark and keeps morning customers indoors.
-- **See:** One diner counter, one fuel island, carbon slips, and sightlines that cross half the town.
-- **Hear:** Cups, a bell over the door, and strangers described by where they sat.
+- **Climate:** Fine rain turns Daisy’s awning dark and keeps morning customers indoors.
+- **See:** A Cinder Creek clock, pie under a dome, and booths that remember who sat where.
+- **Hear:** Cups, a register bell, and strangers described by where they sat.
 - **Feel:** Anonymity measured in minutes.
 
-- **Goal:** use the town's social memory to establish two men, the truck, their split, and the inland route.
-- **Situation now:** **NANCY** can identify who worked early. Diner/fuel witnesses remember an out-of-county truck because it was unusual, not because they know the crime. **HELEN LOMAN** can establish Frank's habits if Lilly seeks her.
+- **Goal:** use the town's social memory to establish two men, the truck, their split, and the lake-road inland route.
+- **Situation now:** **NANCY IVERSON** can identify who worked early. **DAISY PELL** and the West End Fuel attendant remember an out-of-county truck because it was unusual, not because they know the crime. **WALT KEARNEY** may be in his 7am booth (plates, then he wants to stay retired). **DON HALVORSEN** or **ANDY FOYLE** may have seen the truck on the day beat. **HELEN LOMAN** can establish Frank's habits if Lilly seeks her. Helen Loman is not Helen Broome of 14 Cedar.
 - **Spoken lines (Nancy):** “If they ate breakfast here, start with what they ordered.”
-- **Spoken lines (witness):** “Didn't know either one. Knew the truck wasn't ours.”
+- **Spoken lines (Daisy):** “Didn't know either one. Knew the truck wasn't mill.”
+- **Spoken lines (fuel attendant):** “Filled 'em. They didn't take 328 toward Lowater.”
+- **Spoken lines (Walt, if present):** “County plate. Not mill, not sheriff. I'm retired.”
 - **Spoken lines (Helen, if consulted):** “Frank took his boots off at home. He didn't walk cold mud barefoot for anybody.”
 - **Discoverable:**
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Persuasion` with witnesses | Questions become gossip and warn the crew; one person still gives truck color and county. | Two witnesses establish the pair and their split. | Fuel time and a partial plate narrow the utility road. |
-| `Common Knowledge` using Nancy's map | She gives three calls, costing thirty minutes. | She identifies diner and fuel stop early shifts. | She names which witness notices county markings and which saw direction. |
-| `Notice` at the fuel stop | The bin was emptied; the clerk still remembers direction. | A carbon slip records fuel for the truck. | Parking mud matches the inland utility shoulder, not the lake bank. |
+| `Persuasion` with witnesses | Questions become gossip and warn the crew; one person still gives truck color and county. | Two witnesses establish the pair and their split. | Fuel time and a partial plate narrow the lake-road utility access. |
+| `Common Knowledge` using Nancy's map | She gives three calls, costing thirty minutes. | She identifies Daisy’s and West End Fuel early shifts. | She names who notices county markings and that Iverson’s heard it secondhand. |
+| `Notice` at West End Fuel | The bin was emptied; the attendant still remembers direction. | A carbon slip records fuel for the truck. | Parking mud matches the inland utility shoulder off the lake road, not the lake bank or KCRK’s lot. |
 
-- **GM Note:** Nobody here knows the crew's technical purpose or remote employer. Ashgrove's smallness is evidence and pressure, not quaint flavor.
+- **GM Note:** Nobody here knows the crew's technical purpose or remote employer. Ashgrove's smallness is evidence and pressure, not quaint flavor. Do not send her to Cinder Creek Lumber or the Rennicks for this night. Lowater gas is a time-cost miss.
 - **Pressure/escalation:** each public question makes the outsiders a town story. If that attention reaches the crew, Cal becomes alerted; after alert, additional elapsed time can advance cleanup.
-- **Essential information and vectors:** Nancy, diner staff, fuel clerk/slip, station workers, patrol observation, and access-key records independently establish the pair and route.
+- **Essential information and vectors:** Nancy, Daisy, Walt (optional), West End Fuel clerk/slip, station workers, day patrol, and access-key records independently establish the pair and route.
 - **Failure changes:** stealth and time are lost, but gossip itself produces a broad description and direction.
 - **Reachable next points:** SP2, SP4, SP5, SP6.
-- **Optional / PC hook:** Helen's testimony is optional corroboration of staging and never sole proof.
+- **Optional / PC hook:** Helen's testimony is optional corroboration of staging and never sole proof. Walt is optional plate/county color and never a briefing.
 
-**On the radio:** Diner radio — Dire Straits, “Walk of Life” (1985). Familiar motion sits under a town reconstructing who drove where.
+**On the radio:** Daisy’s radio — Dire Straits, “Walk of Life” (1985). Familiar motion sits under a town reconstructing who drove where.
 
 > [!TIP]
 > #### At-hand rules
@@ -221,30 +223,30 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 > Quick reminder: ordinary conversation needs no roll unless outcome is uncertain and consequential.
 > Applied here: rolls measure precision, time, and whether questions alert the crew—not whether Ashgrove noticed strangers at all.
 
-## Story Point 4 - Water Authority: Paper That Does Not Land
+## Story Point 4 - Town Hall public works: Paper That Does Not Land
 
 **Mood (table):**
 
 - **Climate:** Damp paper curls near a space heater.
-- **See:** Rows of local forms, labeled key hooks, stamped dates, pencils, and a telephone directory.
-- **Hear:** Telephone dialing, file drawers, radiator ticks, and clerks moving between counters.
+- **See:** A labeled key board, stamped dates, pencils, and a telephone directory in an extra mill-era room.
+- **Hear:** Telephone dialing, file drawers, radiator ticks, and precinct noise through the wall.
 - **Feel:** A small office protecting its routine.
 
 - **Goal:** establish paper-covered tower access while preserving the ownership boundary.
-- **Situation now:** a **WATER AUTHORITY CLERK** can explain normal procedure. A work order, callback, billing address, and access-key register are available to check; their significance is not established until Lilly questions the clerk or works the records.
-- **Spoken lines (clerk):** “Our crews put a valve, line, or meter on the form. ‘Continuity’ isn't a piece of water equipment.”
+- **Situation now:** a **PUBLIC-WORKS CLERK** can explain normal procedure in the same Town Hall as PD. A work order on **Water Authority** letterhead, an Eugene callback, a billing address, and an access-key register are available to check; their significance is not established until Lilly questions the clerk or works the records. Ashgrove has no Water Authority. Rookton Public Works is a 22-mile call and does not own this job.
+- **Spoken lines (clerk):** “We don't have a Water Authority. Keys for the creek and hydrants go on this board. Continuity isn't a valve.”
 - **Spoken lines (RAY HOLTZ, if detained and asked):** “The number was on my sheet. That's all the office gave me.”
 - **Discoverable:**
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
 | `Research` through paper | The callback dead-ends after an hour. If alerted, cleanup advances; if unalerted, Cal only advances movement preparations. Signed access remains. | Lilly links the work order, truck, and tower access. | A timing field carries the same interval before filing. |
-| `Persuasion` with the clerk | The clerk gives only normal procedure. | The clerk states the description is not locally meaningful. | The key register shows Cal collected access. |
+| `Persuasion` with the clerk | The clerk gives only normal procedure. | The clerk states the description is not locally meaningful and the letterhead is not theirs. | The key register shows Cal collected access. |
 | `Common Knowledge` on callback/box | They look like ordinary remote administration. | Neither resolves to a local operating company. | Formatting shows both were added to an older local form. |
 
 - **GM Note:** Even on a raise, the callback and PO box remain muddy local paperwork. They do not name or prove a larger organization.
 - **Pressure/escalation:** formal calls create a trace. If it reaches Ray or Cal, Cal becomes alerted; after alert, additional elapsed time can advance cleanup.
-- **Essential information and vectors:** work order, clerk procedure, key register, station service sheet, and truck paperwork establish access and inconsistency.
+- **Essential information and vectors:** work order, clerk procedure, key register, station service sheet, and West End Fuel truck paperwork establish access and inconsistency.
 - **Failure changes:** ownership stays unresolved and time is lost; authorized access and the inapt description still stand.
 - **Reachable next points:** SP2, SP3, SP5, SP6.
 
@@ -280,7 +282,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 | `Electronics` preserving the signal record | If alerted, the live head is lost; if unalerted, the failed handling alerts Cal but leaves the head for the first cleanup step. | Lilly secures the head or stops the wipe and preserves one original signal record. | She also preserves an independently timed machine state. |
 | `Fighting` or `Shooting` | Resolve normally; opposition gains time toward destruction or escape. | Resolve normally. | Resolve normally; a combat raise does not automatically preserve evidence. |
 
-- **GM Note:** Frank is dead in the outbuilding. Cal killed him; Ray helped stage the lake. Footwear/staging material, body location, and signal gear support the truth independently. Neither man fights to the death.
+- **GM Note:** Frank is dead in the outbuilding. Cal killed him; Ray helped stage the lake. This site is inland from Lake Barrow off the lake road — not KCRK and not the printed powerline easement. Footwear/staging material, body location, and signal gear support the truth independently. Neither man fights to the death.
 - **Pressure/escalation:** unalerted arrival begins with no category lost. Warning or detection is the single reversal and starts the clock without erasing a category. Once alerted, advance: (1) paper log destroyed; (2) signal head erased; (3) Frank loaded/truck starts; (4) crewmen with an open route escape. Skip prevented steps.
 - **Essential information and vectors:** body/injuries, staging kit/footwear, truck residue, machine/log, mud cassette match, Ray's narrow account, and Cal's acts.
 - **Failure changes:** each missed step costs one evidence category; protected evidence survives. Incapacitation brings delayed Doyle recovery and a degraded end state.
@@ -341,7 +343,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Persuasion` presenting the file | Whitley contests the conclusion but must retain listed evidence and statements. | He reopens Loman as suspicious death/homicide inquiry. | He signs immediate holds on station, dispatch, and Water Authority originals. |
+| `Persuasion` presenting the file | Whitley contests the conclusion but must retain listed evidence and statements. | He reopens Loman as suspicious death/homicide inquiry. | He signs immediate holds on station, dispatch, and the work-order/key-register originals. |
 | `Research` assembling custody/times | One seam remains challengeable; the strongest independent pair stands. | Facts, inference, and custody are clearly separated. | The interval comparison survives Whitley's first reduction attempt. |
 
 - **GM Note:** Do not introduce hidden-organization proof here. The file answers Frank, staging, local capture/replay, and the synchronization gap only as evidence permits.
@@ -363,15 +365,15 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ### Finding the compound
 
-Any one strong vector gives the broad utility road; two independent vectors give the correct compound without a roll. One weak vector costs time or begins approach farther away.
+Any one strong vector gives the lake-road utility access; two independent vectors give the correct compound without a roll. One weak vector costs time or begins approach farther away. Do not send her to KCRK's lot or the east-side easement as the compound.
 
 | Vector | Broad route | Precise access |
 |---|---|---|
-| Ray | Followed direction | Unburned tail to gate |
-| Town | Truck headed inland | Fuel time/partial plate plus road mud |
-| Paper | Tower work order | Key register/access time |
+| Ray | Followed direction away from the station | Unburned tail to the lake-road gate |
+| Town | Truck left West End Fuel toward Barrow Lake Rd, not Lowater | Fuel time/partial plate plus road mud |
+| Paper | Tower work order | Town Hall key register/access time |
 | Technical | Maintenance note near gap | Cassette/timing association with tower work |
-| Direct police work | Doyle remembers the possible tower direction | Patrol check after delay; cleanup advances only if the crew is alerted |
+| Direct police work | Doyle remembers the possible tower across the water | Patrol check after delay; cleanup advances only if the crew is alerted |
 
 ### Evidence categories
 
@@ -419,8 +421,10 @@ Only one major reversal exists: the crew changes to active body movement and era
 - **Helen Loman** — adventure-local civilian witness; optional SP3 and SP6; no contest/combat profile.
 - **Sgt. Doyle** — established police Extra, not statted; SP2/SP6 and possible delayed support.
 - **Chief Whitley** — established police Extra, not statted; pressure at SP2 and closure at SP6.
-- **Nancy** — established civilian Extra, not statted; SP3 social-map role.
-- **Water Authority clerk** — unnamed civilian; SP4 only.
+- **Nancy Iverson** — established civilian Extra, not statted; SP3 social-map role.
+- **Daisy Pell** — established civilian Extra, not statted; SP3 breakfast witness.
+- **Walt Kearney** — established civilian Extra, not statted; optional SP3 at Daisy’s ~7am.
+- **Public-works clerk** — unnamed civilian; SP4, same Town Hall as PD.
 
 ## Rules quick reference
 
@@ -439,7 +443,8 @@ Only one major reversal exists: the crew changes to active body movement and era
 - Barefoot tracks and the mud cassette are staging leftovers; the cassette is work media. Its exact post-session-1 custody/location was not recorded, so use the optional evidence-bag/property-area or Lake Barrow follow-up route that matches table continuity.
 - Lilly's name came from replayed local police traffic.
 - Independent records share one precise synchronization gap.
-- The work order allows access but does not resolve operating ownership.
+- The work order allows access but does not resolve operating ownership. The letterhead says Water Authority; Ashgrove's key board is town public works in Town Hall.
+- The inland compound sits off Barrow Lake Rd, not at KCRK and not on the printed powerline easement.
 - GM-only campaign boundary: no player-facing evidence here names ClearWave, the consortium, the Concordance, or a national organization. Ray and Cal cannot supply that proof.
 - Preparation is not history. Record only outcomes actually played.
 

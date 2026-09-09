@@ -21,7 +21,7 @@ This is flexible preparation, not a scene sequence or session history.
 ## Story Point 1 - Tape in Motion
 
 - **Purpose:** put evidence custody, Ray, and an immediate decision on the table.
-- **Reachable when:** play begins at 102.3 FM after Abigail's call.
+- **Reachable when:** play begins at KCRK 102.3 FM (south of the river, Bridge Street continuation) after Abigail's call.
 - **Situation:** Ray has presented himself as a maintenance engineer and wants the original reel. Abigail is reluctant to surrender it but fears causing a station problem. Ray leaves if challenged hard, taking the reel only if Lilly allows it.
 - **Spoken lines:** Abigail: “I called because I wanted somebody to hear it, not because I wanted the tape walking out the door.” Ray: “Station manager signs, I take it. Otherwise I write down that you refused service.”
 - **Essential information:** the reel holds ordinary programming, a precise gap, then police-traffic bleed; Ray's cover is thin; custody choices affect evidence quality but do not gate progress.
@@ -63,19 +63,19 @@ This is flexible preparation, not a scene sequence or session history.
 ## Story Point 3 - Two Outsiders
 
 - **Purpose:** make Ashgrove's size an active investigative instrument.
-- **Reachable when:** Lilly asks Nancy, station staff, a diner clerk, a fuel attendant, road workers, or patrol officers about unfamiliar men or a nonlocal truck.
-- **Situation:** people noticed two unfamiliar men and an out-of-county utility truck because Ashgrove rarely supplies anonymity. Ray and Cal arrived together, used the diner and fuel stop, then separated this morning. Ray went toward the station; Cal and the truck went inland toward the utility road.
-- **Spoken lines:** Nancy: “If they ate breakfast here, start with what they ordered.” A witness: “Didn't know either one. Knew the truck wasn't ours.”
+- **Reachable when:** Lilly asks Nancy, station staff, Daisy Pell, the West End Fuel attendant, Walt Kearney if he is in his 7am booth, Don Halvorsen or Andy Foyle on day patrol, or Iverson’s Market gossip about unfamiliar men or a nonlocal truck.
+- **Situation:** people noticed two unfamiliar men and an out-of-county utility truck because Ashgrove rarely supplies anonymity. They ate at **Daisy’s** (south side of Main, first numbered door east of Church) and fueled at **West End Fuel** (west of Mill, south of Main), then separated this morning. Ray went south across the river toward KCRK; Cal and the truck took the **lake road** (Barrow Lake Rd / Co. Rd. 12) toward inland utility access, not 328 east through Lowater. **Helen Broome** (last tenant at 14 Cedar) is not **Helen Loman**.
+- **Spoken lines:** Nancy: “If they ate breakfast here, start with what they ordered.” Daisy: “Didn't know either one. Knew the truck wasn't mill.” Fuel attendant: “Filled 'em. They didn't take 328 toward Lowater.” Walt, if present: “County plate. Not mill, not sheriff. I'm retired.”
 - **Essential information:** there are two men; they used an out-of-county truck; they split this morning; the truck headed toward the tower access road.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Persuasion` with town witnesses | Gossip spreads and Ray learns a detective is asking; one witness still gives the truck color and county. | Two independent witnesses establish the pair and their split. | A fuel chit time and a remembered partial plate narrow the utility road and truck. |
-| `Common Knowledge` using Nancy's social map | Nancy gives three places to call, costing thirty minutes. | She names the diner and fuel stop as likely fresh witnesses. | She recalls who works the early shift and which witness will distinguish county markings. |
-| `Notice` at the fuel stop/diner | The paper bin has been cleared; a clerk's memory still identifies the direction. | A carbon slip records fuel for the out-of-county truck. | Mud on its parking place matches the red utility-road shoulder rather than the lakeside bank. |
+| `Persuasion` with town witnesses | Gossip spreads and Ray learns a detective is asking; one witness still gives the truck color and county. | Two independent witnesses establish the pair and their split. | A fuel chit time and a remembered partial plate narrow the lake-road utility access and truck. |
+| `Common Knowledge` using Nancy's social map | Nancy gives three places to call, costing thirty minutes. | She names Daisy’s and West End Fuel as likely fresh witnesses. | She names who worked early at Daisy’s, who was on the fuel island, and that Iverson’s heard it secondhand. |
+| `Notice` at West End Fuel | The paper bin has been cleared; the attendant still identifies the direction. | A carbon slip records fuel for the out-of-county truck. | Parking mud matches the inland utility shoulder off the lake road rather than the lakeside bank or KCRK’s lot. |
 
-- **Independent vectors:** Nancy's social map; diner staff; fuel attendant/carbon slip; patrol observation; station staff seeing Ray arrive.
+- **Independent vectors:** Nancy's social map; Daisy Pell; Walt at 7am (optional; plates, not a briefing); West End Fuel attendant/carbon slip; Don or Andy on day patrol; station staff seeing Ray arrive. Do not send her to the mill yard or the Rennicks for this night.
 - **Escalation:** questions become town news. Once that attention reaches the crew, Cal becomes alerted and starts active cleanup; before that, time only advances his movement preparations.
 - **Failure consequences:** publicity costs stealth and time, but produces a broad truck description and route.
 - **Links forward:** Paper That Does Not Land, Tower Compound, Missing Interval, Disposition.
@@ -84,19 +84,19 @@ This is flexible preparation, not a scene sequence or session history.
 ## Story Point 4 - Paper That Does Not Land
 
 - **Purpose:** prove local access while enforcing the resolution boundary.
-- **Reachable when:** Lilly checks station paperwork, Water Authority records, dispatch maintenance notes, the truck description, or tower access.
-- **Situation:** a Water Authority clerk can distinguish a real local work order from the vague document. It authorizes continuity maintenance, gives an Eugene callback, and bills to a PO box. The callback fails or reaches an answering service; the PO box does not identify an operating owner.
-- **Spoken lines:** Clerk: “Our crews put a valve, line, or meter on the form. ‘Continuity’ isn't a piece of water equipment.” Ray, if cornered: “The number was on my sheet. That's all the office gave me.”
+- **Reachable when:** Lilly checks station paperwork, the Town Hall public-works key board, dispatch maintenance notes, the truck description, or tower access.
+- **Situation:** a town public-works clerk (same building as PD, extra rooms from the mill-era hall) can distinguish a real local work order from the vague document. The form names a **Water Authority**, authorizes continuity maintenance, gives an Eugene callback, and bills to a PO box. Ashgrove files creek, hydrant, and mill-pond keys on a board; it has no Water Authority. The callback fails or reaches an answering service; the PO box does not identify an operating owner. Rookton Public Works is a 22-mile call if she insists on county; it also does not own this job.
+- **Spoken lines:** Clerk: “We don't have a Water Authority. Keys for the creek and hydrants go on this board. Continuity isn't a valve.” Ray, if cornered: “The number was on my sheet. That's all the office gave me.”
 - **Essential information:** the crew had paper access; the stated maintenance does not fit local procedure; ownership and responsibility remain unresolved.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
 | `Research` through paper records | The callback dead-ends after an hour. If alerted, cleanup advances; if unalerted, Cal only advances movement preparations. The signed access date remains. | Lilly links the work order, truck, and tower access. | She also finds the same precise interval penciled in a timing field before the form was filed. |
-| `Persuasion` with the Water Authority clerk | The clerk protects the office and gives only normal procedure. | The clerk states the work description is not locally meaningful. | The clerk provides the access-key sign-out and remembers Cal, not Ray, collected it. |
+| `Persuasion` with the public-works clerk | The clerk protects the office and gives only normal procedure. | The clerk states the work description is not locally meaningful and the letterhead is not theirs. | The clerk provides the access-key sign-out and remembers Cal, not Ray, collected it. |
 | `Common Knowledge` on the callback/PO box | They look like ordinary remote administration. | Neither resolves to a local operating company. | Formatting differences show the callback and box were added to an older local form. |
 
-- **Independent vectors:** work order; clerk testimony; access-key register; station service sheet; truck/fuel paperwork.
+- **Independent vectors:** work order; clerk testimony; access-key register; station service sheet; truck/fuel paperwork from West End Fuel.
 - **Escalation:** formal calls create a trace. If the trace reaches Ray or Cal, it alerts Cal and triggers active cleanup; otherwise Cal remains in preparation.
 - **Failure consequences:** paperwork remains muddy but still proves authorized access and an inconsistent maintenance description.
 - **Links forward:** Tower Compound, Missing Interval, Two Outsiders, Disposition.
@@ -105,7 +105,7 @@ This is flexible preparation, not a scene sequence or session history.
 ## Story Point 5 - Tower Compound
 
 - **Purpose:** resolve Frank's location under pressure and let Lilly preserve physical truth.
-- **Reachable when:** the truck route, access log, maintenance timing, Ray's trail, cassette content, or direct return to the tower points Lilly inland.
+- **Reachable when:** the lake-road truck route, access log, maintenance timing, Ray's trail, cassette content, or Doyle's memory of the possible tower across the water points Lilly inland from Lake Barrow — not to KCRK.
 - **Situation — unalerted:** Cal is preparing Frank's wrapped body and the truck for movement but has not burned the log, started the wipe, or loaded Frank. Lilly arrives with every evidence category intact and gets an observation/intervention beat before Cal recognizes police attention. Ray may be absent, followed in, or approaching depending on prior choices.
 - **Situation — alerted:** Cal is actively destroying records and moving Frank. Ray may arrive from town or already be present. Wet metal, poor light, live equipment, and the cleanup clock create the action climax. Both men want escape and destroyed evidence more than a fight.
 - **Spoken lines:** Cal: “Badge stays outside. Turn around.” Ray: “Back away from the rack. You don't know what you're touching.”
@@ -136,7 +136,7 @@ This is flexible preparation, not a scene sequence or session history.
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Persuasion` presenting the file | Whitley contests the conclusion but must retain listed evidence and witness statements. | He reopens Loman as a suspicious death/homicide inquiry. | He also signs immediate holds on station, dispatch, and Water Authority originals. |
+| `Persuasion` presenting the file | Whitley contests the conclusion but must retain listed evidence and witness statements. | He reopens Loman as a suspicious death/homicide inquiry. | He also signs immediate holds on station, dispatch, and the work-order/key-register originals. |
 | `Research` assembling custody and times | One seam remains vulnerable to challenge; the strongest independent pair still stands. | The file clearly separates established facts from inference. | The synchronized interval and custody trail withstand Whitley's first attempt to reduce the matter. |
 
 - **Independent vectors:** body; station/dispatch comparison; town witnesses/truck; access paperwork; equipment/log; crew custody or statement.
@@ -161,8 +161,8 @@ This is flexible preparation, not a scene sequence or session history.
 | Essential revelation | Vector 1 | Vector 2 | Vector 3 | If all are missed |
 |---|---|---|---|---|
 | Records share one precise missing interval | Station + dispatch comparison | Maintenance timing log | Mud cassette leader/stop marks | A technician or Doyle aligns protected copies later at time cost |
-| Two outsiders split this morning | Diner witnesses | Fuel clerk/slip | Nancy/patrol/station observations | Work order and truck route identify two users; time advances, and cleanup advances only if the crew is alerted |
-| Tower access used a false/inapt cover | Water clerk | Access-key register | Station service sheet/callback | Compound equipment and truck paperwork establish unauthorized purpose |
+| Two outsiders split this morning | Daisy’s witnesses | West End Fuel clerk/slip | Nancy/patrol/station observations | Work order and truck route identify two users; time advances, and cleanup advances only if the crew is alerted |
+| Tower access used a false/inapt cover | Town public-works clerk | Access-key register | Station service sheet/callback | Compound equipment and truck paperwork establish unauthorized purpose |
 | Frank is at the inland compound | Truck route | Access timing/road mud | Ray's trail or optional cassette/tower association | Doyle follows the utility road after delay; a category is lost only if the crew was alerted |
 | Lake evidence was staged | Frank's body/injuries | Staging materials and footwear | Cal/Ray acts plus truck residue | The body location and signal evidence still make drowning untenable |
 | Police traffic produced Lilly's “voice” | Station reel | Dispatch recording | Compound replay equipment/mud cassette | A later comparison explains it; tonight's file can still prove murder |

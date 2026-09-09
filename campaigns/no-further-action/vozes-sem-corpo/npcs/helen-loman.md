@@ -24,7 +24,7 @@
   - **Cooperate:** “Ask me one thing at a time.”
   - **Refuse:** “Not if you're writing ‘drowning’ before you find him.”
   - **Threatened:** Stands, opens the door, and says, “We're done.”
-  - **Ignored:** Calls again, then tells Nancy and the diner that police stopped looking.
+  - **Ignored:** Calls again, then tells Nancy and Daisy’s that police stopped looking.
 
 ## Mechanics
 

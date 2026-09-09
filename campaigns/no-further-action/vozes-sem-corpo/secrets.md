@@ -32,12 +32,12 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 
 ## Secret VSC-03 - Frank Is Inland
 
-- **Truth:** Frank is dead in the inland utility outbuilding at the tower compound.
+- **Truth:** Frank is dead in the inland utility outbuilding at the tower compound off the lake road, not at KCRK.
 - **Who knows:** Ray and Cal.
 - **Why it matters:** the location defeats the staged drowning account and creates the preservation objective.
 - **Player-facing signs:** inland truck route, access-key record, dragging marks, body-movement preparation.
 - **Independent discovery vectors:**
-  1. Town witnesses and fuel/truck route.
+  1. Town witnesses (Daisy’s, West End Fuel) and fuel/truck route toward the lake road.
   2. Tower access paperwork and maintenance time.
   3. Ray's trail or the mud cassette's tower-work context.
 - **If never discovered:** Doyle can reach the site later, after cleanup costs the body or an original; Lilly retains other evidence.
@@ -60,13 +60,13 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 ## Secret VSC-05 - The Paper Ends Locally
 
 - **Truth:** the work order, Eugene callback, PO box, and vague continuity-maintenance description allow access but do not cleanly resolve ownership.
-- **Who knows:** Ray knows only the work sheet and contact instructions; Cal knows key pickup and route. The Water Authority clerk knows normal local procedure.
+- **Who knows:** Ray knows only the work sheet and contact instructions; Cal knows key pickup and route. The town public-works clerk knows normal local procedure and that Ashgrove has no Water Authority.
 - **Why it matters:** it prevents premature campaign-scale proof.
-- **Player-facing signs:** inapt description, dead callback, PO box, altered local form, key sign-out.
+- **Player-facing signs:** inapt Water Authority letterhead, dead Eugene callback, PO box, altered local form, Town Hall key sign-out.
 - **Independent discovery vectors:**
-  1. Water Authority work order.
+  1. Work order on the wrong letterhead.
   2. Clerk testimony and access-key register.
-  3. Station service sheet and truck paperwork.
+  3. Station service sheet and West End Fuel truck paperwork.
 - **If never discovered:** physical evidence still resolves Frank; access looks unauthorized rather than paper-covered.
 - **If discovered early:** Lilly can locate the compound and document planned access, but not a larger owner.
 

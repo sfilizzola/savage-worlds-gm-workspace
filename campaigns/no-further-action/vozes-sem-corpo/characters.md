@@ -39,8 +39,10 @@ Player-facing orientation for this night only. The canonical sheet carries the e
 - She is still the new detective; nobody in this building owes her the benefit of the doubt yet.
 - Whitley wants the Loman file small, and he shelved it hours ago.
 - Doyle will not pretend the lake sound did not happen.
-- Nancy knows who is related to whom, and will talk to the new face.
+- Nancy knows who is related to whom, and will talk to the new face. Breakfast gossip lives at Daisy’s; Iverson’s Market is her grocery kin, not a second briefing.
+- Lilly’s town rental is **14 Cedar**. Last tenant was teacher **Helen Broome** (left 1984). **Helen Loman** is Frank’s sister — not the same person.
 - Abigail Carr called and asked for Lilly by name, not for the chief.
+- Daisy’s and West End Fuel are open on this wet morning; the mill yard and the Rennicks are not this case.
 
 ## Early removal mitigation
 

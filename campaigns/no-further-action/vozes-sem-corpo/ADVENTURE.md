@@ -39,16 +39,16 @@ Hear Abigail's tape, find Frank Loman, and build a file that cannot honestly be 
 ## Predetermined truths
 
 - No supernatural event occurred. Lilly's name was captured from local police traffic and replayed through the crew's equipment.
-- Frank interrupted a two-man signal capture/replay job near the lakeside tower.
+- Frank interrupted a two-man signal capture/replay job at a utility tower **inland from Lake Barrow** (the metallic sound from across the water in session 1). That compound is **not** KCRK and is **not** the north–south powerline easement printed on Sheet 2.
 - Cal Briggs killed Frank. Ray Holtz helped stage the lake scene and operates the signal equipment.
-- Frank is dead in an inland utility outbuilding at the tower compound, not in Lake Barrow.
+- Frank is dead in an inland utility outbuilding at that tower compound, not in Lake Barrow and not at the radio station.
 - The barefoot tracks and mud cassette were staging leftovers. The cassette is work media from the capture job.
 - Lilly found the mud cassette in session 1, but its exact custody and current location were not recorded. If she seeks it, the GM places it in an evidence bag/property area or requires a short Lake Barrow scene follow-up, whichever fits table continuity. Either route succeeds with a time/custody cost instead of gating progress; the cassette is never mandatory.
 - Abigail's reel contains ordinary programming, a precise missing interval, then bleed from local police traffic.
 - The station reel and dispatch recorder share the same missing interval. A maintenance timing log and the mud cassette provide additional independent vectors.
-- Access paperwork runs through a Water Authority work order, a vague continuity-maintenance description, an Eugene callback, and a PO box that does not resolve cleanly. Ownership remains muddy local paperwork.
-- Ashgrove is tiny. Ray and Cal, unfamiliar men using an out-of-county truck, were noticed. They split this morning because appearing together again would become a town story.
-- Ray is at 102.3 FM at table start. Cal is at the inland tower compound, preparing to move Frank and later to wipe equipment once alerted.
+- Access paperwork is a **Water Authority** letterhead with a vague continuity-maintenance description, an Eugene callback, and a PO box that does not resolve cleanly. Ashgrove has no such agency. The local key board is **town public works**, same Town Hall building as the precinct (north of Main, Church–Pell). Ownership remains muddy local paperwork.
+- Ashgrove is tiny. Ray and Cal, unfamiliar men using an out-of-county truck, were noticed at **Daisy’s** and **West End Fuel**. They split this morning: Ray toward KCRK (south of the river, Bridge Street continuation); Cal and the truck toward the lake-road utility access, not east on 328 through Lowater toward Rookton.
+- Ray is at **KCRK 102.3 FM** at table start. Cal is at the inland tower compound, preparing to move Frank and later to wipe equipment once alerted.
 
 ## Objectives and stakes
 
@@ -72,7 +72,7 @@ Determine what happened to Frank and preserve independently supportable evidence
 
 ## Starting state
 
-It is the wet morning after session 1. Whitley shelved Frank's file only hours ago. Abigail's call is fresh. When Lilly reaches 102.3 FM, Ray Holtz is already inside under a maintenance cover, asking for the original reel. Abigail wants the recording heard without losing her job. Lilly's immediate decision is whether to assert custody, make a copy, question Ray, or let him leave and follow.
+It is the wet morning after session 1. Whitley shelved Frank's file only hours ago. Abigail's call is fresh. Lilly's municipal house is **14 Cedar** if she starts from home; Town Hall / Police is a short walk north of Main. **KCRK** is a short drive south across the Bridge Street bridge, on the Trapper Ridge side of the river. When she reaches the studio, Ray Holtz is already inside under a maintenance cover, asking for the original reel. Abigail wants the recording heard without losing her job. Lilly's immediate decision is whether to assert custody, make a copy, question Ray, or let him leave and follow.
 
 At table start, Cal is at the compound preparing Frank and the truck for movement, but he is not destroying records or wiping equipment. If Lilly arrives without alerting him, all evidence categories remain and she may observe or intervene before active cleanup. The adventure's single reversal occurs when Cal receives warning or unmistakably detects police attention: he begins active destruction and movement.
 
@@ -100,7 +100,7 @@ No opening danger is designed to remove Lilly. If she is incapacitated before th
 ## Radio brief
 
 - **Exact date / time window:** the morning after session 1, in the working late-January 1986 window; exact campaign date remains unset.
-- **Diegetic sources:** 102.3 FM studio/monitor, station office radio, patrol-car radio, diner radio, compound monitoring receiver.
+- **Diegetic sources:** KCRK 102.3 FM studio/monitor, station office radio, patrol-car radio, Daisy’s radio, compound monitoring receiver.
 - **Station or source format:** small-market contemporary pop/rock with local announcements, weather, ads, and human DJ presentation.
 - **Era texture:** reel logs, tape carts, cassette wear, FM hiss, handwritten times, telephone callbacks.
 - **Tracks available by this date:** Stevie Nicks, “Talk to Me”; Dire Straits, “Walk of Life”; Whitney Houston, “How Will I Know”; The Dream Academy, “Life in a Northern Town”; all supported for the working window by `../MUSIC.md` and its listed chart/airplay sources.
@@ -110,7 +110,7 @@ No opening danger is designed to remove Lilly. If she is incapacitated before th
 
 - **Essential story points:** Tape in Motion; Missing Interval; Two Outsiders; Paper That Does Not Land; Tower Compound; Disposition.
 - **Optional story points:** none; individual vectors inside investigative points may be skipped.
-- **Likely cuts if time runs short:** resolve Two Outsiders through Nancy plus one witness; fold Water Authority paperwork into Missing Interval; compare only station and dispatch originals.
+- **Likely cuts if time runs short:** resolve Two Outsiders through Nancy plus Daisy’s or West End Fuel; fold town public-works paperwork into Missing Interval; compare only station and dispatch originals.
 - **Expected climax window:** final 60–90 minutes.
 - **3–4 hour core:** Tape in Motion, Missing Interval, a compressed Two Outsiders/Paper comparison, Tower Compound, Disposition.
 - **Opening trouble in the first 10–15 minutes of play:** Ray is already asking Abigail to surrender the original reel and is ready to leave.

@@ -9,7 +9,7 @@ Scored before compiling `RUN.md`. The five beats diagnose pacing; they do not im
 | Adventure | Vozes sem Corpo |
 | Declared format | one-shot |
 | Declared runtime | 3–5 hours |
-| Scored date | 2026-09-07 |
+| Scored date | 2026-09-09 |
 | Scored by | Co-GM |
 | Total | 108/120 |
 | Band | Strong and ready to compile |
@@ -45,7 +45,7 @@ Problems already in play:
 
 Reachable paths:
 - The synchronized interval via station/dispatch comparison, maintenance timing, or the optional mud cassette.
-- The two-man crew and inland route via diner/fuel witnesses, Nancy/patrol knowledge, station observation, or access paperwork.
+- The two-man crew and inland lake-road route via Daisy’s / West End Fuel witnesses, Nancy/patrol knowledge, station observation, or access paperwork.
 - Compound access via truck route, key register, maintenance timing, Ray's trail, or tower context on the cassette.
 - Frank's murder and staged lake via the body, staging materials, crew conduct/statements, and signal equipment.
 
@@ -63,7 +63,7 @@ Conclusion: end states agree with these paths. This is not a visit order.
 | 6 | Useful opposition | ×2 | 4 | 8 | Extras provide fitting action and scale. | Two distinct Extras with escape/destruction goals; no inflated enemy Wild Card. |
 | 7 | Failure moves the story forward | ×2 | 5 | 10 | Failure changes cost, danger, or opportunity. | Every point names time/evidence/heat/relationship costs and fallback vectors. |
 | 8 | Player-character relevance | ×2 | 4 | 8 | Sheet and background have opportunities to matter. | Lilly's police role and investigative/technical Edges matter; one-PC format limits party contrast. |
-| 9 | Strong locations and imagery | ×1 | 4 | 4 | Recognizable interactive situations and player-facing Mood. | Re-audited after the Mood repair. Verified: in all six RUN Mood blocks and all four `locations.md` First impressions, Climate/See/Hear list only immediately perceivable detail, and cassette custody, the clean gap, paper inconsistency, the dead callback, and compound alert state appear in Situation now rather than Mood. Not claimed: three Feel clauses (SP1, SP3, SP6) are figurative rather than the plain tone word the skeleton describes, so this rank is scored 4 rather than 5. Studio, records room, town, office, compound, and disposition each have distinct imagery. |
+| 9 | Strong locations and imagery | ×1 | 4 | 4 | Recognizable interactive situations and player-facing Mood. | Re-audited after Ashgrove geography lock. SP3 now uses Daisy’s and West End Fuel; SP4 is Town Hall public works; KCRK and the inland compound are distinct sites. Three Feel clauses remain figurative, so this rank stays 4. |
 | 10 | Clean ending and rewards | ×1 | 5 | 5 | Consequences and complete closure are clear. | Five evidence-defined endings answer Frank's case; night 3 remains unrelated. |
 
 **Total (sum of Weighted):** 108/120
@@ -100,3 +100,4 @@ Not applicable.
 |---|---|---|---|
 | Pacing | Parallel investigation could sprawl beyond five hours. | Defined time costs and a 3–4 hour compression that folds paperwork into the records/town route. | yes |
 | Opposition | Solo combat could become too volatile. | Kept both opponents as lightly equipped Extras with escape/destruction goals; Ray may be absent or surrender. | yes |
+| Geography vs town lore | Generic diner/fuel/Water Authority could fight Sheet 2 (KCRK south of the river; Daisy’s; West End Fuel; no Water Authority building). | Locked the inland compound off the lake road; named Daisy’s and West End Fuel; moved the clerk to Town Hall public works; kept Water Authority as inapt letterhead. | yes |
