@@ -24,7 +24,7 @@ Navigation: [`INDEX.md`](INDEX.md) routes tasks to the right file and holds the 
 
 This file is campaign configuration and campaign truth; [`INDEX.md`](INDEX.md) owns task routing. It is **not** `RUN.md` and must not be compiled as table flow. Campaigns have **no** `QUALITY.md`; each child adventure scores `QUALITY.md` and compiles its own `RUN.md` when that night is written.
 
-Repository and file language is English. Some child titles are Portuguese (as played or planned at the table).
+Repository and file language is English. Child titles are **English from night 3 onward**. Nights 1 and 2 keep their Portuguese titles as established at the table; do not retitle them.
 
 `supernatural_level: subtle` is **presentation**: nights may flirt with the unnatural. **Canon is none** — there is no supernatural. See predetermined truths.
 
@@ -89,7 +89,7 @@ Child folders sit beside `world/` and `characters/`. Night 1 is played; night 2 
 |------|-------|--------|----------|-------|
 | `neblina-sobre-o-lago` | Neblina sobre o Lago | played | Jan 1986 | Loman / Lake Barrow. Recap in the child folder. Ends with Abigail Carr’s call. |
 | `vozes-sem-corpo` | Vozes sem Corpo | drafting | morning after night 1 (Jan 1986) | Only 1986 sequel. The fresh call / recording becomes a case; prepared outcomes are not history. Not the empire. |
-| `ashgrove-shots-1986` | (untitled; working) | concept | months later in 1986 | Unrelated **action** cop case — shots, live danger. Discovery trail can reach Whitley’s local graft (not Loman, not the consortium). |
+| `nothing-happens-after-eleven` | Nothing Happens After Eleven | concept | months later in 1986 | Unrelated **action** cop case — shots, live danger. Discovery trail can reach Whitley’s local graft (not Loman, not the consortium). Chosen premise (concept only, unwritten): stolen plant and blasting supply staged through the dark Cinder Creek yard; Earl Voss’s sleeping cruiser is bought, not lazy. |
 | `ashgrove-puzzle-1986` | (untitled; working) | concept | later 1986, weeks/months after night 3 | **Puzzle** night. Arc-1 finishing rhyme. 1986 personal bruise in the paperwork if she looks. Whitley is intended **out of the chair by the end of this arc** (unfair walk after she went through channels; not a prison ending). He may already be under investigation or gone when this night is designed. |
 | `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | **Do not plan this night until** [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is filled from the four 1986 recaps. FBI in her town. She is still Ashgrove PD + consultant. First concrete Concordance language. New chief in the chair. Former Chief Whitley is a civilian; a 1998 night (this one unless another child owns it) may require asking him something he resents giving. |
 | `rhyme-out-of-town` | (untitled; working) | concept | 1998, weeks/months after previous | Leaves Ashgrove; same practice, different zip code. |

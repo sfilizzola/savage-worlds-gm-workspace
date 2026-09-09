@@ -11,7 +11,7 @@ The 1986 arc is four jobs. 1998 opens twelve years later with a different textur
 
 ## Sources (in this order)
 
-1. Child recaps: `neblina-sobre-o-lago`, `vozes-sem-corpo`, `ashgrove-shots-1986`, `ashgrove-puzzle-1986`.
+1. Child recaps: `neblina-sobre-o-lago`, `vozes-sem-corpo`, `nothing-happens-after-eleven`, `ashgrove-puzzle-1986`.
 2. Promoted facts in this `world/` (NPCs, precinct, timeline).
 3. Only then: GM texture for the gap (career, precinct politics, what stayed quiet). Label inference vs play.
 
