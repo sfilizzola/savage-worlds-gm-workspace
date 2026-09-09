@@ -1,4 +1,4 @@
-# The Correction
+# The Concordance
 
 - **Canon status:** established as **GM predetermined truth** for this campaign; **not** player-known
 - **Visibility:** GM-only
@@ -9,9 +9,10 @@ Working GM name only. It is not a letterhead Lilly can find.
 
 - **Continuity consortium:** a private network of wealthy family offices and interlocking holdings.
 - **Custodial spine:** the small office able to see and authorize a complete operation.
-- **The Correction:** the enduring practice and capacity for making records agree with a permitted official story.
-- **Correction operation:** one use of that practice against one incident or cluster of incidents.
+- **The Concordance:** the enduring practice and capacity for making records agree with a permitted official story.
+- **Concordance operation:** one use of that practice against one incident or cluster of incidents.
 - **Machine:** GM shorthand for consortium, custodial spine, and compartmentalized vendors acting together.
+- **Harmonize / bring into concordance:** the verb for what an operation does to a set of records. Do not write "correct" as a term of art; keep it as ordinary English.
 
 ## Private origin
 
@@ -43,7 +44,7 @@ Simon works at a low level inside the evidence operation. He sees enough to know
 - an independent release arrangement makes killing Simon or harming the family riskier than honoring the bargain;
 - its exact form, patron, and storage remain open until the relevant adventure is designed.
 
-Simon uses that leverage to leave, protect Medrick and Lilly, and help construct an ordinary family identity. He later marries Medrick. Lilly's paternity and protective identity records are themselves corrected.
+Simon uses that leverage to leave, protect Medrick and Lilly, and help construct an ordinary family identity. He later marries Medrick. Lilly's paternity and protective identity records are themselves harmonized.
 
 ## How the machine survives
 
@@ -55,7 +56,7 @@ The custodial spine moves between rotating shells. Most workers see one defensib
 - a lawyer seals a file;
 - an archive contractor replaces original media.
 
-Street killing is enforcement, not the machine's identity. The consortium does not own every institution and cannot alter anything without access, time, and people. A local Correction can fail, leave evidence, or be resisted.
+Street killing is enforcement, not the machine's identity. The consortium does not own every institution and cannot alter anything without access, time, and people. A local Concordance operation can fail, leave evidence, or be resisted.
 
 ## The synchronization gap
 
@@ -71,7 +72,7 @@ The gap proves a common process. It does **not** identify the actor, motive, cli
 
 Lilly's assignment to Ashgrove is ordinary departmental exile and an extraordinary coincidence. The consortium did not place her there.
 
-Ashgrove is one of many old continuity nodes. A local Correction operation is already underway around Frank Loman before Lilly arrives; it is not waiting for her. Her investigation, not her identity, draws later attention.
+Ashgrove is one of many old continuity nodes. A local Concordance operation is already underway around Frank Loman before Lilly arrives; it is not waiting for her. Her investigation, not her identity, draws later attention.
 
 The apparent use of Lilly's name on the radio comes from an automated capture/replay of recent local police traffic, not advance knowledge of her or a supernatural voice. How and when Lilly can establish that remains adventure preparation.
 

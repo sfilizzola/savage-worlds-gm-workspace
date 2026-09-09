@@ -4,7 +4,7 @@ Approved in conversation 2026-09-07. Implementation is the campaign folder `camp
 
 ## Purpose
 
-A 12-adventure SWADE solo detective campaign about Lilly Dawson’s career (1986 / 1998 / 2016) in which she collides with a hard-to-catch function that owns official stories (the **Correction**). Deadlands Noir is investigation procedure only, not a setting.
+A 12-adventure SWADE solo detective campaign about Lilly Dawson’s career (1986 / 1998 / 2016) in which she collides with a hard-to-catch function that owns official stories (the **Concordance**). Deadlands Noir is investigation procedure only, not a setting.
 
 ## Locked decisions
 
@@ -43,7 +43,7 @@ In the early 1960s, several member families each need a different death containe
 
 Simon works at a low level inside the operation that gathers and replaces evidence. He learns that the serial case is manufactured, keeps leverage that proves one patron transferred one death into the pattern, and uses it to leave and protect Medrick and Lilly. He later marries Medrick. The leverage can damage one patron and one intermediary; it does not explain or expose the whole consortium. Whether and how he discloses this is planned delivery, not an event that has already occurred.
 
-Lilly's player-facing belief that her biological father is a convicted violent offender is the official story. Her paternity and protective family paperwork were also corrected to separate her from him. The deeper truth is not player-known at the campaign start.
+Lilly's player-facing belief that her biological father is a convicted violent offender is the official story. Her paternity and protective family paperwork were also harmonized to separate her from him. The deeper truth is not player-known at the campaign start.
 
 The custodial office survives by moving between rotating private shells and compartmentalized vendors. Most participants see one defensible task: relabel a sample, revise a disposition, seal a file, replace media, or follow a continuity instruction. The machine's enduring premise is:
 
@@ -53,8 +53,8 @@ Terminology:
 
 - **Continuity consortium:** the private network of wealthy clients and holdings.
 - **Custodial spine:** the small office that can see and authorize a complete operation.
-- **The Correction:** the enduring practice and capacity for harmonizing records into a permitted official story.
-- **Correction operation:** one use of that practice against a case.
+- **The Concordance:** the enduring practice and capacity for harmonizing records into a permitted official story.
+- **Concordance operation:** one use of that practice against a case.
 - **Machine:** informal GM shorthand for the consortium, custodial spine, and vendors acting together.
 
 ## Technical fingerprint
@@ -77,14 +77,14 @@ Except for rung 1, these are intended delivery jobs, not events or canon history
 5. The FBI arrives over an apparent interstate pattern. Lilly remains an Ashgrove detective while serving as a federal consultant and sees evidence being assembled into a serial narrative rather than discovered.
 6. Separate deaths lead through common laboratories, archives, insurers, or legal vendors; the synchronization gap survives the technology transition.
 7. Custody and historical records bring Lilly's father back into the case. Planned pressure: he dies in custody before the truth is complete. Simon gives a partial confession and his narrow proof. Exact timing and consequence remain subject to the designed situation and Lilly's choices.
-8. Lilly maps dead letterheads to a small custodial spine and rich clients. She can expose one corrected case, but the machine sacrifices a shell and survives.
+8. Lilly maps dead letterheads to a small custodial spine and rich clients. She can expose one harmonized case, but the machine sacrifices a shell and survives.
 
-### 2016 — one live correction
+### 2016 — one live Concordance operation
 
 9. Unrelated deaths are narrated as the work of a living, innocent network technician before the evidence supports that story.
 10. Lilly races to preserve original logs and samples while custodians escalate from administrative pressure to direct danger.
 11. The live case, Simon's leverage, and her father's records establish that his false serial case was an earlier model. Her fear of inherited violence was manufactured by paperwork.
-12. Ashgrove is one of many forgotten continuity nodes; its existence there predates and did not cause Lilly's random transfer. By 2016, the records Lilly disturbed have made this node uniquely dangerous to the custodians. They return to purge its archive fragment and finish the new scapegoat. Lilly can save the target, preserve independently verifiable proof, expose the authorization chain, and disable the Correction's capacity. The apparent haunting resolves into manipulated signals, staged evidence, and controlled rumor.
+12. Ashgrove is one of many forgotten continuity nodes; its existence there predates and did not cause Lilly's random transfer. By 2016, the records Lilly disturbed have made this node uniquely dangerous to the custodians. They return to purge its archive fragment and finish the new scapegoat. Lilly can save the target, preserve independently verifiable proof, expose the authorization chain, and disable the Concordance's capacity. The apparent haunting resolves into manipulated signals, staged evidence, and controlled rumor.
 
 ## Mystery resilience
 
@@ -93,7 +93,7 @@ Except for rung 1, these are intended delivery jobs, not events or canon history
 - Father's innocence: impossible chronology, one original record, and the 2016 mirror operation.
 - Human-made fear: technical evidence in several eras, with final confirmation in Ashgrove.
 
-Independent crimes do not become secretly coordinated plots merely because the Correction later alters their files.
+Independent crimes do not become secretly coordinated plots merely because the Concordance later alters their files.
 
 ## Out of scope for this pass
 

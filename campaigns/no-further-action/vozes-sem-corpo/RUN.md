@@ -440,7 +440,7 @@ Only one major reversal exists: the crew changes to active body movement and era
 - Lilly's name came from replayed local police traffic.
 - Independent records share one precise synchronization gap.
 - The work order allows access but does not resolve operating ownership.
-- GM-only campaign boundary: no player-facing evidence here names ClearWave, the consortium, the Correction, or a national organization. Ray and Cal cannot supply that proof.
+- GM-only campaign boundary: no player-facing evidence here names ClearWave, the consortium, the Concordance, or a national organization. Ray and Cal cannot supply that proof.
 - Preparation is not history. Record only outcomes actually played.
 
 ## End states

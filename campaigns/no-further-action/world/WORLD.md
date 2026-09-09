@@ -2,6 +2,8 @@
 
 This `world/` directory holds facts established as true **for this table**. Root `world/` stays setting-wide and empty of Ashgrove play state.
 
+Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure routes and canon tiers.
+
 ## Canon policy
 
 - Adventure preparation is not canon merely because it was written.
@@ -39,5 +41,5 @@ This `world/` directory holds facts established as true **for this table**. Root
 
 - [Timeline](lore/timeline.md)
 - [Between 1986 and 1998](lore/between-1986-and-1998.md) (fill after four 1986 recaps; required before planning `federal-in-ashgrove`)
-- [The Correction (GM)](lore/the-correction.md)
+- [The Concordance (GM)](lore/the-concordance.md)
 - [Revelation ladder (GM; planned delivery)](lore/revelation-ladder.md)

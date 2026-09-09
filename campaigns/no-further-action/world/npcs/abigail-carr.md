@@ -6,7 +6,7 @@
 - **Current objective:** Unknown. Established act: she called Lilly because the station recorded something unusual at the time Frank disappeared.
 - **Fear:** unknown
 - **Leverage/resources:** KCRK 102.3, the recording, airtime, whoever else heard the log.
-- **Secret:** unknown — do not decide she is Correction, victim, or crank until *Vozes sem Corpo* is written and/or played
+- **Secret:** unknown — do not decide she is Concordance, victim, or crank until *Vozes sem Corpo* is written and/or played
 - **Relationships:** Asked for Lilly (the detective on Loman), not for the chief.
 - **If ignored:** She still has a tape and a job. She may call again, go on air, or drop it — not established.
 - **What can change their behavior:** What is actually on the recording; who else wants it; whether Lilly shows up.

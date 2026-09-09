@@ -15,7 +15,7 @@ Lilly's sheet prints as an Ashgrove PD personnel file: mounted photo, descriptio
 
 Two rules for the case-file blocks:
 
-- **Player-facing only.** `dossier` may carry what Lilly knows. `threads` on this sheet are blank write-in rows. No GM Correction material, no prepared outcomes for an unplayed night.
+- **Player-facing only.** `dossier` may carry what Lilly knows. `threads` on this sheet are blank write-in rows. No GM Concordance material, no prepared outcomes for an unplayed night.
 - **Era-stable, not night-specific.** `you` and `play` must stay true for every 1986 job, since later 1986 nights are unrelated cases. Names of tonight's people (Whitley, Doyle, Nancy, Abigail) belong in the child adventure's `characters.md`.
 - **Do not invent canon to fill a field.** A field the campaign has not established (height, shield number, partner) takes an empty value, which prints a line to fill in by hand.
 

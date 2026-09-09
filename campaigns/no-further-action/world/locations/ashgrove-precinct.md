@@ -15,7 +15,7 @@
 - **Current state:** Loman is shelved officially; Abigail Carr’s call is the live thread into the next night. (January 1986.)
 - **People/factions:** See NPC files. Mill yard after dark: **Len Pell** (not PD).
 - **Resources and hazards:** Radio, cars, files, local knowledge, political pressure from the sitting chief, empty rooms that keep old process, a lab nobody is qualified to treat as CSI.
-- **Secrets:** GM — Whitley’s quiet is partly bought (local graft, not Correction). Ordinary small-town self-protection remains true on the surface. Earl sleeping is an open secret, not a mystery.
+- **Secrets:** GM — Whitley’s quiet is partly bought (local graft, not Concordance). Ordinary small-town self-protection remains true on the surface. Earl sleeping is an open secret, not a mystery.
 - **How it changes if ignored:** The precinct’s default is **no further action**.
 - **Historical/background sources:** none
 - **Maps/handouts:** none yet

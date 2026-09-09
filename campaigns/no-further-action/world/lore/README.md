@@ -6,5 +6,5 @@ Setting-wide cosmology and history that apply to every table belong in root `wor
 
 - [`timeline.md`](timeline.md)
 - [`between-1986-and-1998.md`](between-1986-and-1998.md) — write after the four 1986 recaps; required before planning the first 1998 night
-- [`the-correction.md`](the-correction.md)
+- [`the-concordance.md`](the-concordance.md)
 - [`revelation-ladder.md`](revelation-ladder.md)

@@ -6,7 +6,7 @@
 - **Current objective:** Make the town look like it still works. No ugly headlines. Maybe someone still wants the Cinder Creek property to look fine.
 - **Fear:** Press, a circus missing-person story, looking like the mill town that died on his watch.
 - **Leverage/resources:** Ceremonies, the one-year town houses, a phone to Whitley, leftover mill civic clubs.
-- **Secret:** none established as Correction. He likes Whitley’s quiet. That is civic, not a mastermind plot.
+- **Secret:** none established as Concordance. He likes Whitley’s quiet. That is civic, not a mastermind plot.
 - **Relationships:** Allied with Whitley’s “keep it small” reflex. Not Doyle’s friend particularly. Proud of 14 Cedar as proof Ashgrove “takes care of its people.”
 - **If ignored:** He does not call the detective. Ribbon-cuttings continue.
 - **What can change their behavior:** Reporters, a body, county attention, a buyer sniffing the mill.
@@ -18,7 +18,7 @@
 - Spoken lines:
   - “We’re a quiet town. Let’s keep it that way.”
   - “You have the Cedar house through the year. That’s the arrangement.”
-- Avoid: Confession of graft mechanics, Correction, telling Lilly how to investigate.
+- Avoid: Confession of graft mechanics, Concordance, telling Lilly how to investigate.
 - Pressure variants:
   - Cooperate: A grudging introduction. “Talk to the chief. That’s his shop.”
   - Refuse: Calendar. “I have the school board.”

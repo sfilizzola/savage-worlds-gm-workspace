@@ -29,7 +29,7 @@ Player-known career and town (what Lilly and a coworker could say in 1998):
 
 GM-only:
 
-- What the Correction did or did not touch in the gap
+- What the Concordance did or did not touch in the gap
 - What Whitley actually lost (the job, not years inside) and still resents; whether any investigation is still a rumor in 1998
 - Open threads from the four recaps that 1998 may pick up (Loman, gap, bruise) vs threads that stay cold
 

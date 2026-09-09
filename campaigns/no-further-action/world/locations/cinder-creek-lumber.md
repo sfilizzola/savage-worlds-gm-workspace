@@ -10,7 +10,7 @@
 - **Current state:** Closed. Salvage / watch, not production.
 - **People/factions:** Len Pell. Occasional PD. Not a workforce.
 - **Resources and hazards:** Empty buildings, rust, places to hide a car, Len’s sense that this is still family ground.
-- **Secrets:** none established as Correction. Do not put the consortium in the mill office unless a later night proves a reason.
+- **Secrets:** none established as Concordance. Do not put the consortium in the mill office unless a later night proves a reason.
 - **How it changes if ignored:** The yard stays dark. Len still walks it.
 - **Historical/background sources:** none
 - **Maps/handouts:** none yet

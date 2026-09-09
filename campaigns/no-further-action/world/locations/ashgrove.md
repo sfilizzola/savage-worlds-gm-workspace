@@ -15,13 +15,13 @@
   - **Barrow Bait & Tackle** on the lake road, not Main Street.
   - Faith: **Zion Lutheran** in town; tiny **St. Brigid** with a visiting priest.
   - Schools are a **valley district**, not a city system. **Ashgrove Middle** in town. **West End Middle** at the old mill camp (half empty; politics will not close it). **Ashgrove High** — one campus for the valley; big *here* (a few hundred kids), not a city school.
-  - Civic: Mayor **Art Lindstrom** (~58). Leftover mill pride. Wants the town to look fine. Likes quiet headlines. Not Correction.
+  - Civic: Mayor **Art Lindstrom** (~58). Leftover mill pride. Wants the town to look fine. Likes quiet headlines. Not Concordance.
   - Radio: **KCRK 102.3 FM** (Abigail Carr). Frequency and calls are campaign continuity authored after session one.
   - Ashgrove PD covers **town plus rural beat**: Main Street, mill yard, Lake Barrow road, two-lane to county. See [ashgrove-precinct.md](ashgrove-precinct.md).
 - **Current state:** Frank Loman is a local missing-person file the chief would rather keep small. Two unfamiliar men and an out-of-county truck are the kind of thing people notice.
 - **People/factions:** Ashgrove PD (1986 roster in the precinct file). Daisy Pell. Mayor Lindstrom. Local radio (Abigail Carr). By 1998 Whitley is a civilian.
 - **Resources and hazards:** Distance, weather, lake road, gossip, empty mill yard, a high school Friday that pulls the valley in.
-- **Secrets:** GM — this is where Lilly first hits *results* of the Correction. The town is not required to know.
+- **Secrets:** GM — this is where Lilly first hits *results* of the Concordance. The town is not required to know.
 - **How it changes if ignored:** The official story wins by default (shelved files). Main Street keeps serving coffee.
 - **Historical/background sources:** none (invented)
 - **Maps/handouts:** none yet

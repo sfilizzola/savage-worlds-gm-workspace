@@ -5,7 +5,7 @@
 
 This document protects the 30-year arc from becoming either twelve unrelated nights or one forced clue chain. Only adventure 1 has happened. Later rungs are jobs for future adventure design, not guaranteed events.
 
-Each child adventure remains a real professional case with its own objective and closure. A case can be independent while its **official record** is later touched by a Correction operation. Essential progress must remain reachable through multiple vectors; never require one roll, NPC, or surviving piece of evidence.
+Each child adventure remains a real professional case with its own objective and closure. A case can be independent while its **official record** is later touched by a Concordance operation. Essential progress must remain reachable through multiple vectors; never require one roll, NPC, or surviving piece of evidence.
 
 When an adventure is written, every essential revelation inside that night receives its own three-clue check. The campaign-scale redundancy at the end of this file does not replace night-level clue design.
 
@@ -32,7 +32,7 @@ When an adventure is written, every essential revelation inside that night recei
 - The night is a genuine armed police case with live danger and shots.
 - The perpetrators and motive are unrelated to the Loman/radio case.
 - The live trail can reach **Chief Whitley’s** local graft (protection, quiet files, people who work for him). He is not the consortium and must not lecture the machine.
-- Intended destination **by the end of the 1986 arc** (this night and/or night 4): he is off the force. Default from Lilly’s seat: she puts the proof up the chain; he may sit a short hold or an investigation; political connections let him **walk** (resign/retire) instead of prison. Local politics, not Correction. If this night fails to prove him, he is still out by 1998 by a quieter deal and still blames her.
+- Intended destination **by the end of the 1986 arc** (this night and/or night 4): he is off the force. Default from Lilly’s seat: she puts the proof up the chain; he may sit a short hold or an investigation; political connections let him **walk** (resign/retire) instead of prison. Local politics, not Concordance. If this night fails to prove him, he is still out by 1998 by a quieter deal and still blames her.
 - Behind the screen, custodians alter part of the official aftermath to protect an institution with a consortium connection. That alteration is not Whitley’s racket and must not require him as the only clue.
 - Do not reveal the cross-case pattern here. Lilly may preserve an original without knowing its later importance.
 
@@ -57,7 +57,7 @@ When an adventure is written, every essential revelation inside that night recei
 - Lilly remains an Ashgrove detective and becomes an FBI consultant.
 - A supposed interstate pattern brings federal attention into her town.
 - The evidence looks assembled into a serial narrative rather than discovered from common behavior.
-- **Chief Whitley is already gone from the PD** — walked, not convicted. Someone else holds the chair. At least one 1998 night (this child unless another owns it) requires Lilly to ask the former chief something only he would know. He is a civilian with resentment; she already knows the walk was unfair. He does not brief the Correction. Failure to get his help changes cost and vectors, not the existence of the federal case.
+- **Chief Whitley is already gone from the PD** — walked, not convicted. Someone else holds the chair. At least one 1998 night (this child unless another owns it) requires Lilly to ask the former chief something only he would know. He is a civilian with resentment; she already knows the walk was unfair. He does not brief the Concordance. Failure to get his help changes cost and vectors, not the existence of the federal case.
 
 ### 6. Rhyme out of town — vendor layer
 
@@ -75,7 +75,7 @@ When an adventure is written, every essential revelation inside that night recei
 ### 8. Dead letterhead — custodial spine
 
 - Rotating shells map back to a small office coordinating compartmentalized vendors for wealthy clients.
-- Lilly can expose one Correction operation and protect someone affected by it.
+- Lilly can expose one Concordance operation and protect someone affected by it.
 - The custodians sacrifice an active shell or personnel unrelated to Simon's protected fragment and survive. His independently held proof remains capable of authenticating one historic transfer.
 - Lilly carries one durable authorization pattern into 2016.
 
@@ -109,7 +109,7 @@ These four adventures are movements of one live case. Hours or days may pass for
 
 - Ashgrove is one of many forgotten continuity nodes; it was not chosen for Lilly.
 - The custodians move to purge its dangerous archive fragment and finish the new scapegoat.
-- Climax objectives: save the target, preserve independently verifiable evidence, expose the authorization chain, and disable the Correction's operating capacity.
+- Climax objectives: save the target, preserve independently verifiable evidence, expose the authorization chain, and disable the Concordance's operating capacity.
 - The apparently supernatural pattern resolves into signal manipulation, staged evidence, controlled rumor, and human fear.
 
 **2016 end state:** earlier choices determine what Lilly can prove, whom she can save, which patrons face consequences, and what survives after the custodial spine is broken.

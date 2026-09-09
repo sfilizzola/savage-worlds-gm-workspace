@@ -95,7 +95,7 @@ Human starting Edge plus two Edges from two Major Hindrances.
 
 ---
 
-## Background (player-facing; not the Correction)
+## Background (player-facing; not the Concordance)
 
 New Jersey; parents Medrick and Simon Dawson; younger sister Ashley. Simon is not her biological father; that fact came through a PI she hired as a teenager. The biological father is a convicted violent offender. She became a cop in part for the work and in part for access. Long-term professional goal: FBI. Personal fear: that her father’s violence is in her.
 
@@ -113,13 +113,13 @@ Lilly does not want to go. Refusing an official promotion would confirm that she
 
 From Lilly's perspective, Ashgrove is simply the distant small department that accepted the arrangement. She has no reason to suspect a family or investigative connection.
 
-Do not print GM Correction material on this sheet.
+Do not print GM Concordance material on this sheet.
 
 ## Print
 
 A4 print extract: `print/chars.json`, rendered by `tools/print-sheets/`. It prints as an Ashgrove PD personnel file with the 1986 ID photo, description-and-service fields, ruled case notes, and blank open-thread checkboxes for the player to fill at the table.
 
-Fields the campaign has not established — height, shield number, assigned partner — print as blank lines to fill in by hand. Do not invent values for them here or in the extract. The threads list is empty write-in rows; do not pre-fill plot or GM Correction material.
+Fields the campaign has not established — height, shield number, assigned partner — print as blank lines to fill in by hand. Do not invent values for them here or in the extract. The threads list is empty write-in rows; do not pre-fill plot or GM Concordance material.
 
 The sheet's **At the table** line stays true for all of 1986: the transfer, Keane's bargain, and what she wants. Tonight's people and pressures belong in the child adventure's `characters.md`, because this sheet is reprinted for unrelated 1986 jobs.
 

@@ -18,7 +18,7 @@
 - Spoken lines:
   - “Yard’s closed. That includes you.”
   - “Earl’s car I know. I don’t know yours.”
-- Avoid: Giving mill-company secrets he does not have, Correction, a friendly exposition walk.
+- Avoid: Giving mill-company secrets he does not have, Concordance, a friendly exposition walk.
 - Pressure variants:
   - Cooperate: Points at a building. “That’s as far as you go.”
   - Refuse: Chain. “Get the chief if you want a tour.”

@@ -18,7 +18,7 @@
 - Spoken lines:
   - “If it’s not on the triplicate, it didn’t happen.”
   - “Tom knows where the tabs are. I don’t work there.”
-- Avoid: Explaining the Correction, Lake Barrow as magic, Lilly’s New Jersey case, a tour of the 1950s lab as CSI.
+- Avoid: Explaining the Concordance, Lake Barrow as magic, Lilly’s New Jersey case, a tour of the 1950s lab as CSI.
 - Pressure variants:
   - Cooperate: One old habit. “We initialed the flap. That’s all.”
   - Refuse: Stands to leave. “I’m retired.”

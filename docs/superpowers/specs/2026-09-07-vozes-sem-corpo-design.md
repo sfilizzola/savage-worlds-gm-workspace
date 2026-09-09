@@ -10,7 +10,7 @@ The adventure begins the morning after *Neblina sobre o Lago*. Chief Whitley she
 
 **Player-facing mission:** Hear the tape, find Frank, and build a file that cannot honestly be dismissed as a drowning.
 
-**Resolution boundary:** Lilly can prove that Frank interrupted a local signal capture/replay job, was killed, and was staged as a walk into Lake Barrow. Independent records share one precise missing interval. Muddy local paperwork does not establish ClearWave, a national consortium, or the Correction.
+**Resolution boundary:** Lilly can prove that Frank interrupted a local signal capture/replay job, was killed, and was staged as a walk into Lake Barrow. Independent records share one precise missing interval. Muddy local paperwork does not establish ClearWave, a national consortium, or the Concordance.
 
 ## Predetermined truths
 

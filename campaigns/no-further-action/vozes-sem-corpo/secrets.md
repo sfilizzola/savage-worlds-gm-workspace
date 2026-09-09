@@ -85,4 +85,4 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 
 ## GM-only campaign boundary
 
-The crew's remote employer and the enduring correction practice exist only in campaign-level GM canon. No player-facing record in this adventure names ClearWave, the consortium, the Correction, or a national organization. Ray and Cal cannot identify such an entity, and muddy local paperwork must remain muddy even on a raise.
+The crew's remote employer and the enduring concordance practice exist only in campaign-level GM canon. No player-facing record in this adventure names ClearWave, the consortium, the Concordance, or a national organization. Ray and Cal cannot identify such an entity, and muddy local paperwork must remain muddy even on a raise.
