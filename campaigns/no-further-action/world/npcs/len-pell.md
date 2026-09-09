@@ -2,10 +2,10 @@
 
 - **Canon status:** authored as true for this table; not yet in play
 - **Visibility:** GM until Lilly is on the mill yard after dark
-- **Role:** Cinder Creek yard after dark. Daisy Pell’s brother-in-law. Territorial. Still has a key.
+- **Role:** Cinder Creek yard after dark. Daisy Pell’s brother-in-law. Territorial. Still has a key — a **[Rennick](../factions/rennick-family.md)** trust, not a PD arrangement.
 - **Current objective:** Keep people off family-feeling ground. Know who is in the lot.
 - **Fear:** Salvage thieves, kids, cops treating the yard like a public park. The company name meaning nothing.
-- **Leverage/resources:** Keys, flashlight, mill-family name, knowledge of which buildings still lock.
+- **Leverage/resources:** Keys (held on the Rennicks’ say-so), flashlight, mill-family name, knowledge of which buildings still lock.
 - **Secret:** none established
 - **Relationships:** **Daisy Pell**. **Earl Voss** sleeping in the lot — Len may tolerate it as unofficial security or resent it; play the tension, do not decide a sitcom. Not PD.
 - **If ignored:** He still walks the yard. He does not phone the detective.

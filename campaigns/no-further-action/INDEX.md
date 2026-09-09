@@ -158,6 +158,14 @@ Directory policy: [`world/locations/README.md`](world/locations/README.md).
 | [Daisy's](world/locations/daisys.md) | Town living room; diner and night-shift coffee | 1986– | authored — not played |
 | [Cinder Creek Lumber](world/locations/cinder-creek-lumber.md) | Closed mill yard; night-shift geography | closed ~1982–84; play from 1986 | authored — not played |
 
+### 7.2b Factions and families
+
+Directory policy: [`world/factions/README.md`](world/factions/README.md). Persistent families and interest groups; strictly local unless a file says otherwise.
+
+| Faction | Function | Era | State |
+|---|---|---|---|
+| [The Rennick family](world/factions/rennick-family.md) | Mill house behind Cinder Creek Lumber; social/property weight, not office. Public quarrel of the mill's afterlife (hold vs. sell; split title with a Rookton buyer). **Not** Concordance. | 1986– | authored — not played (GM background for future hooks) |
+
 ### 7.3 Lore
 
 Directory policy: [`world/lore/README.md`](world/lore/README.md).

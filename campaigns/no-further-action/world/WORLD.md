@@ -39,6 +39,10 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 - [Abigail Carr](npcs/abigail-carr.md)
 - [Frank Loman](npcs/frank-loman.md) (missing; not a speaker)
 
+### Factions and families
+
+- [The Rennick family](factions/rennick-family.md) (mill house; strictly local influence; authored — not played)
+
 ### Lore
 
 - [Timeline](lore/timeline.md)

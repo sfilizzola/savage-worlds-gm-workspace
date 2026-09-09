@@ -13,7 +13,7 @@
   - 1986: He can shelf a case. He assigns work. Local favors, cash, and people who like the town boring.
   - 1998: Memory of old dispositions, who owed whom, which files never left his desk. No command. A few people still take his calls.
 - **Secret:** Local graft — protection, quiet closures, overtime and evidence that never quite get written. **Not** Concordance; he is not a mastermind and does not know the consortium. He shelves Loman because spectacle is bad for the town and for the people who pay for quiet.
-- **Relationships:** Lilly’s institutional obstacle in 1986. Gave her Loman. Would rather it be a drowning/disappearance than a hunt. Mayor **Art Lindstrom** likes the same quiet headlines; they are civic allies, not a conspiracy lecture. By 1998 he blames her for the heat that took the job; she already lived the unfair walk. He will not grant her the courtesy of a colleague.
+- **Relationships:** Lilly’s institutional obstacle in 1986. Gave her Loman. Would rather it be a drowning/disappearance than a hunt. Mayor **Art Lindstrom** likes the same quiet headlines; they are civic allies, not a conspiracy lecture. His bought quiet also happens to serve the **[Rennick family](../factions/rennick-family.md)** (a shelved ugly story protects the mill house’s property and the town’s face) — but the Rennicks are a **reason** the quiet is worth buying, **not** clients of his graft and **not** part of any machine. By 1998 he blames her for the heat that took the job; she already lived the unfair walk. He will not grant her the courtesy of a colleague.
 - **If ignored:**
   - 1986: He assumes the file stays quiet.
   - 1998: He does not call her. The resentment sits.

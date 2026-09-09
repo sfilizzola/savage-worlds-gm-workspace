@@ -7,7 +7,7 @@
 - **Fear:** Knees going before retirement. Getting blamed for Earl’s night logs.
 - **Leverage/resources:** Mill-family memory — who worked which Cinder Creek shift. Local plates.
 - **Secret:** none established. Not in on Whitley’s graft.
-- **Relationships:** Senior to **Andy Foyle** on days. Complains about nights with Andy over Nancy’s coffee. Decent.
+- **Relationships:** Senior to **Andy Foyle** on days. Complains about nights with Andy over Nancy’s coffee. Decent. Kin to the **[Rennick family](../factions/rennick-family.md)** by marriage — **Carol Rennick Halvorsen** married a Halvorsen (an unused PD/family thread; do not make Don a family spokesman unless a night needs it).
 - **If ignored:** He still runs the day beat. He does not volunteer a briefing.
 - **What can change their behavior:** A crash on the two-lane; a name from the mill years; Whitley in the hallway.
 

@@ -6,9 +6,10 @@
 - **First impression:** Climate / See / Hear / Feel — stacks against rain, chain, puddles in a parking lot sized for a shift that does not come, a flashlight sometimes, a cruiser sometimes.
 - **Persistent truths:**
   - Company name on leftover letterhead, the Daisy’s clock, and the stacks: **Cinder Creek Lumber**. **Cinder Creek** comes off **Elk Ridge** country into the **mill pond**. A **rail spur** still enters the yard and runs toward Ashgrove; nothing passenger has used it in years.
-  - After dark **Len Pell** is territorial and still has a key. Earl Voss sometimes sleeps in a cruiser on the lot; that is a relationship, not scenery.
+  - The mill family is the **[Rennicks](../factions/rennick-family.md)** — they ran the floor for two generations. **Split title:** the Rennicks hold the West End houses and a share of the paper; a **Rookton-side holding** shares the ground and wants to close. Neither can sell cleanly, which is why the yard sits frozen. Strictly local; **not** Concordance.
+  - After dark **Len Pell** is territorial and still has a key — a **Rennick trust**, not a PD arrangement. Earl Voss sometimes sleeps in a cruiser on the lot; that is a relationship, not scenery.
 - **Current state:** Closed. Salvage / watch, not production.
-- **People/factions:** Len Pell. Occasional PD. Not a workforce.
+- **People/factions:** Len Pell (on a Rennick key). The **[Rennick family](../factions/rennick-family.md)** (owners of the local name and West End houses; split title with Rookton). Occasional PD. Not a workforce.
 - **Resources and hazards:** Empty buildings, rust, places to hide a car, Len’s sense that this is still family ground.
 - **Secrets:** none established as Concordance. Do not put the consortium in the mill office unless a later night proves a reason.
 - **How it changes if ignored:** The yard stays dark. Len still walks it.
