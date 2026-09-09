@@ -17,7 +17,7 @@
 - Voice/manner cue: Roads, mile markers, who was at West End Fuel. Not poetry.
 - Spoken lines:
   - “Earl’s on the lot. I’m on the road. That’s the split.”
-  - “I wanted county. This is what they had.”
+  - “I wanted county. Rookton. This is what they had.”
 - Avoid: Sidekick briefing, crush on Lilly by default, explaining mill politics he does not own.
 - Pressure variants:
   - Cooperate: A specific road and a time. Offers to show her the mill fence line.

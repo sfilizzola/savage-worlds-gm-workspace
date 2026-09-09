@@ -150,7 +150,8 @@ Directory policy: [`world/locations/README.md`](world/locations/README.md).
 
 | Location | Function | Era | State |
 |---|---|---|---|
-| [Ashgrove, Oregon](world/locations/ashgrove.md) | The table's town; Lilly's posting | 1986– | mixed — posting established; named shops, schools, and civic people authored |
+| [Ashgrove, Oregon](world/locations/ashgrove.md) | The table's town; Lilly's posting | 1986– | mixed — posting established; named shops, schools, civic people, and valley geography authored |
+| [1984 Rook County highway sheet](world/locations/ashgrove_map_1984.png) | Player-facing table map of Ashgrove and the valley | 1984 print / 1986 table | authored — not played |
 | [Lake Barrow](world/locations/lake-barrow.md) | Fishing water ~5 km out; site of the Loman scene | 1986 | played |
 | [Ashgrove Police Precinct](world/locations/ashgrove-precinct.md) | Lilly's workplace | 1986– | mixed — workplace established; building scale, empty lab, patrol roster authored |
 | [Daisy's](world/locations/daisys.md) | Town living room; diner and night-shift coffee | 1986– | authored — not played |

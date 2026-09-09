@@ -5,7 +5,7 @@
 - **Function:** Lilly’s workplace. Small-town PD in a building that remembers a richer mill town.
 - **First impression:** Old town hall, one floor, too many rooms. Cloakroom and floor wax. A radio room that still sounds like 1958. Empty offices used for dead paper.
 - **Persistent truths:**
-  - The building is the **former town hall**, one floor, raised in the **1950s** when Cinder Creek money made Ashgrove look complete. Enough rooms for **three times** the 1986 headcount. **Two cells.** **Radio room.** An **old forensic lab** (period gear, not a modern unit). County does real forensics. Kearney’s carbon process, envelopes, and a cork board still live in the extra rooms.
+  - The building is the **former town hall**, one floor, raised in the **1950s** when Cinder Creek money made Ashgrove look complete. North side of **Main / ORE. 328**, between Pell’s Hardware and the Hoot Owl. Enough rooms for **three times** the 1986 headcount. **Two cells.** **Radio room.** An **old forensic lab** (period gear, not a modern unit). Real forensics and the sheriff live in **Rookton** (~22 mi east). Kearney’s carbon process, envelopes, a cork board, and the **1984 Rook County highway sheet** still live in the extra rooms. Outside the sheet’s patrol tint: **Rook County Sheriff**.
   - **1986 chain:** Chief Whitley; **Sgt. Tom Doyle** (sergeant-detective, ~44); detective Lilly Dawson (new); secretary **Nancy Iverson**.
   - **Day patrol (decent, not in on Whitley’s graft):** **Don Halvorsen** (53) and **Andy Foyle** (~34). They complain about the night logs and drink Nancy’s coffee. Hiring is rare; Andy is only “junior” relative to Don.
   - **Night patrol:** **Earl Voss** (56) sleeps because “nothing happens after eleven.” **Kevin Alder** (31) actually runs the beat. Town knows. Whitley does not care if headlines stay down. Kevin was the last badge issued before Lilly.
@@ -18,4 +18,4 @@
 - **Secrets:** GM — Whitley’s quiet is partly bought (local graft, not Concordance). Ordinary small-town self-protection remains true on the surface. Earl sleeping is an open secret, not a mystery.
 - **How it changes if ignored:** The precinct’s default is **no further action**.
 - **Historical/background sources:** none
-- **Maps/handouts:** none yet
+- **Maps/handouts:** [`ashgrove_map_1984.png`](ashgrove_map_1984.png) — Town Hall / Police on Main Street, north side, between Pell’s Hardware and the Hoot Owl. Patrol-area tint on the sheet. The wall copy in 1986 is this sheet, used.

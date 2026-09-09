@@ -9,7 +9,7 @@
 - **Secret:** none established as Concordance. He likes Whitley’s quiet. That is civic, not a mastermind plot.
 - **Relationships:** Allied with Whitley’s “keep it small” reflex. Not Doyle’s friend particularly. Proud of 14 Cedar as proof Ashgrove “takes care of its people.”
 - **If ignored:** He does not call the detective. Ribbon-cuttings continue.
-- **What can change their behavior:** Reporters, a body, county attention, a buyer sniffing the mill.
+- **What can change their behavior:** Reporters, a body, Rookton attention, a buyer sniffing the mill.
 
 ## Portrayal
 
@@ -22,7 +22,7 @@
 - Pressure variants:
   - Cooperate: A grudging introduction. “Talk to the chief. That’s his shop.”
   - Refuse: Calendar. “I have the school board.”
-  - Threatened: Mentions county, image, her being new.
+  - Threatened: Mentions Rookton, image, her being new.
   - Ignored: Does not chase her. Goes to Zion Lutheran coffee hour.
 
 ## Mechanics
