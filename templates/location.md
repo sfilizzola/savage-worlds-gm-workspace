@@ -3,7 +3,7 @@
 - **Canon status:** proposed | established
 - **Region/time period:**
 - **Function:**
-- **First impression:** Climate / See / Hear / Feel — player-perceivable only. No secrets.
+- **First impression:** one flowing paragraph (~40-80 words) describing the place — weather/temperature, what's seen, what's heard, woven together, player-perceivable only. No secrets.
 - **Persistent truths:**
 - **Current state:**
 - **People/factions:**
