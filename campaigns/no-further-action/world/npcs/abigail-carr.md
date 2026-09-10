@@ -2,7 +2,7 @@
 
 - **Canon status:** established as the caller at the end of January 1986; personality beyond that is **thin**
 - **Visibility:** player-known (the call); her full motives unknown
-- **Role:** Local radio host / DJ at **KCRK 102.3 FM**, south of the Ashgrove River off Bridge Street (Sheet 2). Frequency and calls authored after session one for ongoing continuity
+- **Role:** Local radio host / DJ at **KCRK 102.3 FM**, south of the Ashgrove River off Bridge Street (Sheet 2). Early 40s, compact and a little weathered from swing shifts; a smoker's rasp under the on-air voice. Frequency and calls authored after session one for ongoing continuity
 - **Current objective:** Unknown. Established act: she called Lilly because the station recorded something unusual at the time Frank disappeared.
 - **Fear:** unknown
 - **Leverage/resources:** KCRK 102.3, the recording, airtime, whoever else heard the log.
@@ -13,7 +13,7 @@
 
 ## Portrayal
 
-- First impression (phone, end of night 1): Practical, rattled enough to call the precinct, not a campfire ghost story. In the studio: protecting a reel and a shift.
+- First impression (phone, end of night 1): Practical, rattled enough to call the precinct, not a campfire ghost story. In the studio: protecting a reel and a shift. Reading glasses shoved up into greying dark hair, flannel or a cardigan over a station polo, cigarette going cold in an ashtray by the board.
 - Voice/manner cue: Radio professional. Times, logs, “last night,” not prophecy.
 - Spoken lines:
   - “My radio recorded last night something very weird — exactly when the fisherman disappeared.”
