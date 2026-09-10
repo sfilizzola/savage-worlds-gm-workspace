@@ -5,7 +5,7 @@ Locations provide actionable state, not predetermined solutions.
 ## <Location Name>
 
 - **Role in adventure:**
-- **First impression:** four labeled lines the GM can paraphrase to the table (Climate / See / Hear / Feel). Player-perceivable only. Compiles into story-point **Mood**. No secrets, unearned names, historical footnotes, or “this is not the X.”
+- **First impression:** one flowing paragraph (~40-80 words) the GM can paraphrase to the table, weaving weather/temperature, what's seen, and what's heard into a description of the place. Player-perceivable only. Compiles into story-point **Mood**. No secrets, unearned names, historical footnotes, or “this is not the X.”
 - **Current situation:** what is happening when the PCs arrive.
 - **Environment:** terrain, light, weather, cover, access, hazards.
 - **People/forces present:** links or concise summaries.
