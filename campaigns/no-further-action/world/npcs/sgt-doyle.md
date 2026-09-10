@@ -13,7 +13,7 @@
 
 ## Portrayal
 
-- First impression: Quiet, local, hard to impress. Kind when it costs him nothing. Skeptical of speeches.
+- First impression: Quiet, local, hard to impress. Kind when it costs him nothing. Skeptical of speeches. Stocky, weathered build, big working hands; short salt-and-pepper hair side-parted; a heavy 1980s mustache. Wears the department's tan short-sleeve uniform shirt with sergeant stripes and badge for floor duty, or a rumpled brown sport coat over it with the tie loosened when he's working detective hours.
 - Voice/manner cue: Short. Does not fill silences for her. Facts from the road, not patterns.
 - Spoken lines:
   - “The town doesn’t change. Only the people arriving here do.”

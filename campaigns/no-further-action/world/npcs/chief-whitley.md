@@ -2,7 +2,7 @@
 
 - **Canon status:** established as Ashgrove’s 1986 chief (played). Corruption, exit from the PD, and 1998 civilian status are **GM predetermined / planned**, not session history.
 - **Visibility:** mixed — player-known as the chief who shelves files; graft and why he is gone by 1998 are GM until a later night proves them
-- **Role:** 1986 — police chief, Ashgrove. 1998 — former chief, civilian, no badge
+- **Role:** 1986 — police chief, Ashgrove (mid-50s). 1998 — former chief, civilian, no badge
 - **Current objective:**
   - 1986: Peace, budget, no headlines. Protect the quiet he is paid to keep. Make problems smaller.
   - 1998: Stay out of official paper. If Lilly needs him, make her feel the cost.
@@ -22,8 +22,8 @@
 ## Portrayal
 
 - First impression:
-  - 1986: Political, lazy, pragmatic — not cartoon evil. The graft does not show in the hallway.
-  - 1998: Smaller. Civilian clothes. He looks at her like she walked into his house with a warrant.
+  - 1986: Political, lazy, pragmatic — not cartoon evil. The graft does not show in the hallway. Heavyset and comfortable in the job; thinning hair combed straight back. Wears a full chief's uniform, sharper and more braided than his sergeant's, or shirtsleeves and a loosened tie behind his own desk. A gold watch or tie clip a little too good for a small-town chief's salary — noticeable only if someone's looking for it.
+  - 1998: Smaller. Civilian clothes. He looks at her like she walked into his house with a warrant. Same face gone heavier and greyer, no uniform left to fill it out — a cardigan or windbreaker instead.
 - Voice/manner cue:
   - 1986: Asks whether this can become someone else’s problem.
   - 1998: Short. He will not use rank she does not have over him. He remembers dates she would rather skip.
