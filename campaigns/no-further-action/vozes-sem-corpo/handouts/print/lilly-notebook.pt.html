@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Lilly Dawson — Caderno de Casos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /*
+    Every block below is exactly one ruled row tall (line-height: var(--line)),
+    and every margin is an exact multiple of --line. That keeps each line of
+    text — including wrapped lines inside a paragraph or list item — locked to
+    the same ruled grid the whole way down the page. Headings use transform:
+    scale() (not font-size) to look bigger, because scale doesn't change the
+    box's layout height the way font-size would, so it can't knock the grid
+    out of alignment. Do not give any element here a margin, padding, or
+    line-height that isn't 0 or a multiple of --line.
+  */
+  @page { size: A4 portrait; margin: 0; }
+  * { box-sizing: border-box; }
+  html { --line: 8.9mm; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+  }
+  .page {
+    position: relative;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: calc(var(--line) * 2) 16mm calc(var(--line) * 2) 24mm;
+    background-color: #fffdf6;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent calc(var(--line) - 2.4mm),
+      #b9d3e8 calc(var(--line) - 2.4mm),
+      #b9d3e8 calc(var(--line) - 2.05mm),
+      transparent calc(var(--line) - 2.05mm),
+      transparent var(--line)
+    );
+    background-position: 0 0;
+    background-origin: padding-box;
+    color: #23385c;
+    font-family: "Kalam", "Comic Sans MS", cursive, sans-serif;
+    font-size: 13pt;
+    line-height: var(--line);
+  }
+  .page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 18mm;
+    width: 0.6mm;
+    background: #d98a8a;
+    opacity: 0.6;
+  }
+  h1, h2, p, ul, .masthead, .sub, .person, .status, .lastline {
+    margin: 0;
+    padding: 0;
+    font-size: 13pt;
+    line-height: var(--line);
+  }
+  .masthead {
+    position: relative;
+    z-index: 1;
+    color: #6b6b63;
+    font-style: italic;
+    margin-bottom: var(--line);
+  }
+  h1 {
+    font-weight: 700;
+    color: #1c2c48;
+    display: inline-block;
+    transform: scale(2.2);
+    transform-origin: 0% 100%;
+    margin-bottom: var(--line);
+  }
+  .sub {
+    font-style: italic;
+    color: #6b6b63;
+    margin-bottom: var(--line);
+  }
+  p { margin-bottom: var(--line); }
+  h2 {
+    font-weight: 700;
+    color: #1c2c48;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #9fb8d6;
+    display: inline-block;
+    transform: scale(1.45);
+    transform-origin: 0% 100%;
+    margin-top: var(--line);
+  }
+  ul { padding-left: 7mm; list-style: none; margin-bottom: var(--line); }
+  li { position: relative; }
+  li::before {
+    content: "—";
+    position: absolute;
+    left: -6mm;
+    color: #6b83a8;
+  }
+  strong { font-weight: 700; }
+  .status {
+    display: inline-block;
+    font-weight: 700;
+    box-shadow: inset 0 0 0 1.6pt #23385c;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    margin-bottom: var(--line);
+  }
+  .person .name {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #9fb8d6;
+  }
+  .person { margin-bottom: var(--line); }
+  .lastline {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #d98a8a;
+    display: inline-block;
+    transform: scale(1.25);
+    transform-origin: 0% 100%;
+    margin-top: var(--line);
+  }
+  @media print {
+    html, body { background: #fff; }
+    .page { margin: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="masthead">
+  Polícia de Ashgrove &mdash; Det. L. Dawson &mdash; anotações pessoais, não é o arquivo do caso<br>
+  relido: na manhã seguinte
+</div>
+
+<h1>Caderno de Casos</h1>
+
+<div class="sub">(escrito como o próprio caderno de Lilly &mdash; relido tomando café antes de sair de casa)</div>
+
+<p>Ashgrove, Oregon. Terceira semana neste trabalho e eu ainda abro a gaveta errada procurando minha própria arma de serviço. Relendo o arquivo Loman antes de sair &mdash; queria tudo claro na cabeça antes que esta manhã escape de mim.</p>
+
+<h2>O arquivo Loman</h2>
+
+<p>Frank Loman. Pescador local. Registrado como desaparecido no meu primeiro ou segundo dia de trabalho &mdash; porque, ao que parece, detetives novos recebem primeiro o arquivo que ninguém mais quer.</p>
+
+<p>O carro dele estava na estrada do lago, a uns cinco quilômetros da cidade. Encontrado na cena:</p>
+
+<ul>
+  <li>Arranhões no volante e no painel. Alguém estava naquele carro sem querer estar.</li>
+  <li>Duas séries de pegadas saindo do carro em direção à água &mdash; uma de bota, outra descalça. Elas simplesmente somem na beira d'água.</li>
+  <li>Uma fita cassete na lama, como se tivesse caído da mão de alguém e ficado ali.</li>
+  <li>O rádio do carro emitindo estática metálica, com uma voz por baixo, muito distorcida.</li>
+</ul>
+
+<p>Doyle foi comigo. Seguimos as pegadas até o lago. Uma neblina pesada desceu naquela noite, e havia um som vindo do outro lado da água &mdash; metálico, quase rítmico. Pode ser a torre velha que fica por ali. Ninguém confirmou isso. Doyle também ouviu, para o que isso vale, e ele não me parece um homem que inventa coisas para poupar os nervos de uma detetive novata.</p>
+
+<p>Em algum momento, ouvindo aquela estática, eu juraria que o rádio disse meu nome. Não vou escrever isso no relatório oficial. Estou escrevendo aqui só para não me convencer depois de que imaginei tudo.</p>
+
+<p>De volta à delegacia, Whitley quis que isso fosse arquivado pequeno e quieto. &ldquo;Não vou transformar um pescador desaparecido em circo&rdquo; &mdash; palavras dele. Ele não está errado que Ashgrove não quer manchetes. Só não gosto da rapidez com que ele quis fechar a gaveta sobre um homem que ainda não foi encontrado.</p>
+
+<div class="status">Situação: engavetado. Frank Loman: ainda desaparecido. Caso: não encerrado, não importa o que o arquivo diga.</div>
+
+<h2>Pessoas (para eu parar de chamar todo mundo de &ldquo;ei, você&rdquo;)</h2>
+
+<div class="person"><span class="name">Chefe Whitley.</span> Meu chefe. Uns 50 e poucos anos, acomodado no cargo, quer Ashgrove monótona e quer isso no ritmo dele. Me passou o caso Loman e depois quis que fosse arquivado rápido. Não é bem um inimigo &mdash; só não está do meu lado nesse.</div>
+
+<div class="person"><span class="name">Sgt. Tom Doyle.</span> O outro detetive daqui, também sargento de plantão. Casado, tem uns dois filhos. Quieto, não preenche o silêncio por mim e também não atua para plateia &mdash; o que, depois de Nova Jersey, é quase um alívio. Ele ouviu o mesmo som que eu no lago e não tentou se convencer do contrário. Confio mais nos olhos dele do que nas teorias da maioria das pessoas.</div>
+
+<div class="person"><span class="name">Nancy.</span> Cuida da recepção da delegacia, e metade da fofoca da cidade passa por ali. Simpática comigo, a cara nova. Sabe quem é parente de quem e quem disse o quê para quem no balcão. Boa pessoa para perguntar quando preciso do mapa humano deste lugar, em vez do oficial.</div>
+
+<div class="person"><span class="name">Abigail Carr.</span> Locutora de rádio local, KCRK 102.3. Ainda não a conheço direito &mdash; só falamos por telefone, ontem à noite, quando ela ligou perguntando especificamente por mim. Disse que a estação gravou algo estranho, quase exatamente na hora em que Frank desapareceu. Parecia abalada, não estava atuando. É a ligação que ainda preciso retornar.</div>
+
+<div class="person"><span class="name">Frank Loman.</span> O homem que eu deveria estar encontrando, e a única pessoa deste arquivo que eu não conheci &mdash; porque ele não está aqui para ser conhecido. Pescador local. Isso ainda é quase tudo o que sei sobre ele como pessoa, e isso me incomoda.</div>
+
+<h2>Como as coisas estão nesta manhã</h2>
+
+<p>Foi aí que a noite passada parou: a ligação de Abigail, sem resposta, sobre uma gravação feita na hora exata em que Frank desapareceu.</p>
+
+<p>Whitley acha que isso está encerrado. Eu não acho.</p>
+
+<p><strong>Ainda não sei:</strong></p>
+<ul>
+  <li>Onde Frank realmente está.</li>
+  <li>O que tem na gravação de Abigail.</li>
+  <li>O que era, de fato, aquele som do outro lado da água.</li>
+  <li>De quem eram aqueles pés descalços no lago.</li>
+  <li>O que realmente tem naquela fita cassete da lama.</li>
+</ul>
+
+<div class="lastline">Primeira coisa hoje: ligar de volta para Abigail.</div>
+
+</div>
+</body>
+</html>

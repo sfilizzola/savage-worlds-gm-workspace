@@ -2,7 +2,9 @@
 
 Player handout for the start of session 2, after a long real-world gap since session 1. Sourced only from [`../../neblina-sobre-o-lago/session-recap.md`](../../neblina-sobre-o-lago/session-recap.md) and established `world/npcs/*.md` canon (visibility: player-known). Contains nothing from this adventure's unplayed prep — do not add plot answers, culprits, or GM secrets here if this file is reused or edited later.
 
-Print from [`print/lilly-notebook.html`](print/lilly-notebook.html) (A4) — rendered as handwritten notebook pages (ruled paper, ink-blue script), not a typed report. This markdown is the source text; it loads two Google Fonts (Kalam, Caveat) for the handwriting look, so print or preview it with an internet connection.
+Print from [`print/lilly-notebook.html`](print/lilly-notebook.html) (A4) — rendered as handwritten notebook pages (ruled paper, ink-blue script), not a typed report. This markdown is the source text; it loads a Google Font (Kalam) for the handwriting look, so print or preview it with an internet connection.
+
+A Brazilian Portuguese table copy is at [`lilly-notebook.pt.md`](lilly-notebook.pt.md), printing from [`print/lilly-notebook.pt.html`](print/lilly-notebook.pt.html) / `.pdf`. This English file remains the source of truth; a content change here must be carried into the PT-BR copy too. Proper nouns, the station name (KCRK 102.3), and "Lake Barrow" stay in English per campaign lock.
 
 ---
 
