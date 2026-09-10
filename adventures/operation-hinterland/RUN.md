@@ -53,7 +53,7 @@ Shorthand used in this file. Not player-facing unless you choose to say it.
 | Trait tests                        | `Notice (-4)`, `Persuasion`, `Survival` — no invented skill names |
 | Information rolls                  | Fail, success, and raise are always stated                        |
 | Quoted speech                      | Lines the GM can speak; not a read-aloud script. Carry speech in **Spoken lines** or a blockquote that opens with `"` |
-| Mood                               | **Mood (table):** Climate / See / Hear / Feel. Player-perceivable only. Not a read-aloud. No secrets |
+| Mood                               | **Mood (table):** one flowing paragraph describing the place. Player-perceivable only. Not a read-aloud. No secrets |
 | GM Note                            | Secret; never player-facing                                       |
 | Optional material                  | Labeled Optional; does not gate the main objective                |
 | PC-specific hooks                  | Labeled PC hook — named PC; never the only vector                 |
@@ -159,12 +159,7 @@ Index only. Run the live head’s story point (SP3, 4, or 5) **and** **Story Poi
 
 ## Story Point 0 - Briefing in Pont-à-Mousson
 
-**Mood (table):** Paraphrase. Not a read-aloud. No secrets.
-
-- **Climate:** Stove heat in a winter room. Coats still on. No shells on the roof.
-- **See:** A commandeered classroom. Blackout paper on the windows. The November sheet on the table. Kit. Ward with a folder.
-- **Hear:** The stove. A quiet street beyond the paper — not a front.
-- **Feel:** Calm. Rear-area. The pressure is the clock, not incoming fire.
+**Mood (table):** Stove heat fills the commandeered classroom, coats still on despite it. Blackout paper covers the windows; kit is stacked by the door, and Ward stands over the table with a folder and the November sheet spread flat. Beyond the paper, the street outside sounds quiet — no front, no shells on the roof. This is rear-area calm; the only pressure here is the clock.
 
 - **Goal:** put HQ’s picture of the town in their hands, let the four talk, mark only what the briefing is allowed to know.
 - **Situation now:** first thing at the table. Commandeered schoolroom, Pont-à-Mousson. **CAPT. ELLIS WARD** believes the pack. Player copy of BG-OH-001. Kit on the table. One room. Optional short walk to a shed. Not a second map. Voss is not here. Do not play an attack on Ward.
@@ -243,12 +238,7 @@ Circle the Rathaus. No radio icon.
 
 ## Story Point 0b - The jump
 
-**Mood (table):** Paraphrase. Not a read-aloud. No secrets.
-
-- **Climate:** Colder and darker than the classroom. Cloud. Wind through the airframe.
-- **See:** Four in one stick. No readable fields. Flak flashes somewhere under the flight — not a town they can name.
-- **Hear:** Engines. Wind. Bursts. Then a crew voice and a green light.
-- **Feel:** Thrill. Not a fight. The drop is already worse than the briefing.
+**Mood (table):** Colder and darker than the classroom, wind cutting through the airframe as engines drone and bursts flash somewhere below. Four in one stick, no readable fields, no town they can name — just flak flashes under the flight path, not a fight. It's already worse than the briefing.
 
 - **Goal:** thrill, and the cause of the missed DZ. Spend little clock. No mechanical teeth.
 - **Situation now:** one transport. Weather worse than briefed. West DZ not readable. Flak **en route**, not Dinkelsbühl’s. Four in one stick. Ward is not aboard. Crew is color. Do not fight gunners. Do not bench a chute.
@@ -309,12 +299,7 @@ Circle the Rathaus. No radio icon.
 
 ## Story Point 1 - Wrong face of the walls
 
-**Mood (table):** Paraphrase. Not a read-aloud. They do **not** know which face this is yet.
-
-- **Climate:** Heavy January night. Packed snow. Breath hanging. Wind off black water. Dark (−4).
-- **See:** A masonry wall close enough to feel like a building. Ice and water on one side. Cover in a ditch or tree line. Along the wall, a dark gate-arch; a faint glow only if they look that way. The town beyond the wall is asleep.
-- **Hear:** Their own breath. Water against ice. No aircraft now. No alarm. The town does not wake.
-- **Feel:** The town is calm. They are the intrusion. Cold. Short night. Not a firefight.
+**Mood (table):** Heavy January night presses in — snow packed underfoot, breath hanging, wind off black water nearby. A masonry wall looms close, ice and water along one side, a ditch or tree line for cover, and a dark gate-arch further along that shows only a faint glow. Beyond it the town sleeps, silent but for their own breath and water against ice — no alarm, no aircraft, no fight. They are the only intrusion in a calm, cold, short night.
 
 - **Goal:** they discover they are on the unplanned east face and choose a close. Spend little clock.
 - **Situation now:** together in cover, snow, short night, **east / Wörnitz face**, south of Wörnitztor, off the Bahnhof. They do **not** know that when they hit snow. Rehearsed close is **Segringer Tor** (west). After they orient, mark the actual LZ on the player copy. Distant thin watch at Wörnitztor. No station company. Height and ice are **not** an opening death gate.
@@ -359,11 +344,7 @@ Circle the Rathaus. No radio icon.
 
 ### Wörnitztor
 
-- Sensory frame:
-  - **Climate:** Ice in the passage. Mill-race dark. Stove-smell if they get close.
-  - **See:** A dark gate-arch. Gatehouse. A faint glow from a lamp or stove.
-  - **Hear:** Stove. Water. Two tired voices if they are close.
-  - **Feel:** Thin watch. They want the night to pass. Not a fortress.
+- Sensory frame: Ice glazes the gate passage, mill-race dark, and a faint glow leaks from the gatehouse lamp or stove — a stove-smell too, if they get close. Two tired voices carry over the water. This is a thin watch waiting out the night, not a fortress.
 - People and forces: two tired Extras (Volkssturm / convalescent). Keller is not here at start. **HPTM. FRIEDRICH STEIN** is not here at start.
 - Environment/hazards: gate passage, gatehouse, ice, short view along the east walk toward Altrathausplatz.
 - Spoken lines: `"Halt! Wer da?" (Halt! Who goes there?)` / `"Papiere. Schnell." (Papers. Quick.)`
@@ -403,12 +384,7 @@ Do not clone the Wörnitztor pair. Full face table: **Gates and the circuit**.
 
 Optional visit. Skip is allowed — **Finding the heads**.
 
-**Mood (table):** Paraphrase. Not a read-aloud. They came for the board. Do not tell them it is missing until they look.
-
-- **Climate:** Same winter night. Less wind in the square. Cold coming down the street.
-- **See:** A civic pile on the market street. One lamp on the ground floor. No aerial on this roof. Tight older lanes. Blackout windows.
-- **Hear:** Almost nothing. No machine hum. No traffic. Maybe a stove behind a shutter.
-- **Feel:** A town that went to bed. An officers’ building, quiet, not a keep.
+**Mood (table):** The wind drops in the square, though the cold still runs down the street. The Rathaus sits on the market street, a civic pile with one lamp lit on the ground floor and no aerial on its roof, tight older lanes closing around it under blackout windows. Almost nothing moves — no hum, no traffic, maybe a stove ticking behind a shutter. This is a town gone to bed, an officers' building standing quiet, not a keep.
 
 - **Goal:** the real improvisation. They came for the **board**. The Rathaus is a **false head**.
 - **Situation now:** they are looking for the landline exchange, **not** papers and not the aerial. Hofmann on the ground floor with a lamp, stove, old paper if they come in quiet hours. Stein in nearby quarters unless noise or a runner fetches him. Brandt is not here. A habit check at the door is possible (one person). Keller only if her round has been pulled here. Offices, stair, winter blackout, a yard or side door. Not a dungeon.
@@ -464,12 +440,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 
 ## Story Point 3 - Switchboard
 
-**Mood (table):** Paraphrase. Not a read-aloud. No secrets.
-
-- **Climate:** Heat after the street. Enclosed. A night lamp.
-- **See:** A working telephone room: cable, a live board, two people, a back door into lanes. Dwellings against the walls. A church bulk close if they came from the square.
-- **Hear:** Clicks. Low winter traffic. A line that can still speak. Lives on the other side of the wall.
-- **Feel:** This room is awake. The square outside is not. Civilians are next door.
+**Mood (table):** Heat closes in after the cold street, the room lit low by a night lamp. Cable runs to a live switchboard where two operators work, a back door open onto the lanes, dwellings pressed against the walls. Clicks and low winter traffic carry over a line that can still speak — and lives carry through the wall next door. This room is awake; the square outside it is not.
 
 - **Goal:** one head. Killing it is one of the two hits needed.
 - **Situation now:** in town, watched by the signals detachment more than by street garrison. Civilians live nearby. Brandt is **not** in this square. Two signals Extras. A runner only after trouble. Stein / Keller only after the fuse. Benoit’s cellar is near, not in the exchange. Interior, cables, a back door to the lanes. **Fire here is a civilian problem.**
@@ -511,11 +482,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 
 ### Pvt. Louis Benoit (cellar) — Optional, same east cluster
 
-- Sensory frame:
-  - **Climate:** Cold cellar. Pitch Darkness (−6) if unlit.
-  - **See:** Stolen food. No uniform on a hanger. A man hiding if they find him.
-  - **Hear:** Street muffled above. His breath if they are close.
-  - **Feel:** Hiding, not a fight.
+- Sensory frame: Cold settles in the cellar, pitch black if no one's lit it. Stolen food is stacked in a corner, no uniform on the hanger — and if they look closely, a man hiding in the dark. The street sounds muffled overhead; up close, his breath is the only other sound. This is someone hiding, not a fight.
 - People and forces: **PVT. LOUIS BENOIT**. Neighbors who may or may not know.
 - Spoken lines: **PVT. LOUIS BENOIT**, if they find him: `"Ne tirez pas. Français." (Don’t shoot. French.)` If they want a guide: `"Je ne marche pas en ville. Je reste en dessous." (I don’t walk the town. I stay under it.)`
 - Discoverable:
@@ -548,12 +515,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 
 ## Story Point 4 - Aerial or radio loft
 
-**Mood (table):** Paraphrase. Not a read-aloud. Do not place Keller in the description unless they can already see her.
-
-- **Climate:** Wind and ice. Colder than the streets. Height.
-- **See:** A tall tower on the north wall. A stick of aerial if they have the angle. A tight stair. Ice on the wall-walk. A church bulk elsewhere, not this tower.
-- **Hear:** Wind. The set if they are close. Maybe a step on ice.
-- **Feel:** Exposed. One watch, not a fortress roof. Sound will travel.
+**Mood (table):** Wind and ice bite harder up here than in the streets below, the tower's tight stair climbing to a wall-walk glazed with ice. From the right angle, a stick of aerial shows against the north wall — a tall tower, not the church bulk elsewhere in town. Wind is the loudest thing, though the set hums if they get close, and a step on ice carries. This is exposed ground, one watch instead of a fortress roof — sound will travel here.
 
 - **Goal:** second head. **Grüner Turm**, north wall. Aerial visible in principle.
 - **Situation now:** more exposed than the switchboard; winter wind and height; a small watch, not a fortress roof. One Extra at start. Keller’s round passes this stretch. Feed line runs down the masonry to a join reachable from the wall-walk or the base.
@@ -618,12 +580,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 
 ## Story Point 5 - Papers and the signals NCO
 
-**Mood (table):** Paraphrase. Not a read-aloud. No secrets.
-
-- **Climate:** Ordinary blackout street. Wood smoke. Less wind than the wall.
-- **See:** A commandeered room: stove, cot, a satchel or a drawer. The street runs toward a southeast gate. Not a staff HQ.
-- **Hear:** The stove. A quiet lane. Maybe a sleeper a long way off.
-- **Feel:** Domestic. One NCO and a bag. Not a fortress.
+**Mood (table):** Wood smoke hangs over an ordinary blackout street, the wind gentler here than up on the wall. The room is a commandeered billet — stove, cot, a satchel or drawer — with the street running off toward a southeast gate. It reads domestic, not a staff HQ: just the stove ticking, a quiet lane, maybe a sleeper somewhere far off. One NCO and a bag, nothing more.
 
 - **Goal:** third head. Codebooks and traffic. The NCO is a person, not a locked box.
 - **Situation now:** papers move. Default start: **Brandt’s billet on Nördlinger Straße**, not on Altrathausplatz and not in the Rathaus. The bag may be on him, in the room, or in motion. A runner only after trouble. Stein and Keller know he holds the books; they are not standing over him. One or two rooms, a street door, a way toward Wörnitztor or the board.
@@ -662,12 +619,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 
 ## Story Point 6 - Fuse and extraction
 
-**Mood (table):** Paraphrase. Not a read-aloud. Fork on the clocks.
-
-- **Climate:** The same winter. Sound carries in the cold. First light only if the dawn clock is on.
-- **See:** Tight lanes, snow in the ruts, a church bulk, blackout or waking windows. The walls and gates they already know.
-- **Hear:** Shutters. If the fuse is lit: a curfew shout, a pair on the lanes. If not: still a sleeping town.
-- **Feel:** The night they earned — still thin, or a hunt. Not a second map.
+**Mood (table):** The same winter night presses on, cold enough that sound carries — first light shows only if the dawn clock has run out. Tight lanes hold snow in the ruts, a church bulk against the skyline, windows blacked out or starting to wake. If the fuse is lit, shutters bang to a curfew shout and a pair working the lanes; if not, the town is still asleep. This is the night they earned — still thin, or already a hunt.
 
 - **Goal:** end the night under the cost they earned.
 - **Situation now:** hollow town becoming a hunt or a waking street. Named officers act as the fuse, not as a battalion arriving by teleport. Reachable after noise, dawn, a wounded hydra scream, or they choose to leave. Civilians behind shutters; thin street watch only if already woken; a signals runner if the hydra is busy or wounded; Benoit only if they find that cellar. Keller is on the north wall at start, not every street. Ice, corners, wall-walk access at towers, almost no motors.
@@ -934,7 +886,7 @@ Consequences to record after play: which heads died; whether a call went out; ci
 - [x] Every stat and rule reminder was verified.
 - [x] Relevant mechanics are beside the situations where they matter, in the published stat-block layout.
 - [x] Situations with speakers have quoted lines; situations with secrets have a GM Note.
-- [x] Every story point has **Mood (table)** with Climate / See / Hear / Feel; no secrets in Mood.
+- [x] Every story point has a **Mood (table)** as a single flowing paragraph describing the place; no secrets in Mood.
 - [x] Essential information has independent discovery vectors.
 - [x] Failure consequences preserve meaningful play.
 - [x] Early PC removal has mitigation and re-entry.
