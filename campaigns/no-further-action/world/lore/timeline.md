@@ -20,6 +20,7 @@
 - **Months later, 1986:** action cop case (shots). Prepared trail can reach Chief Whitley’s local graft; outcomes are not history.
 - **Later 1986:** puzzle case; arc-1 rhyme. Intended: Whitley is off the force by the end of the 1986 arc (unfair walk after Lilly went through channels; maybe a short hold or dead investigation, not prison).
 - **After all four 1986 nights have recaps:** write [`between-1986-and-1998.md`](between-1986-and-1998.md) before planning the first 1998 story. That file is empty until then.
+- **After the 1986 arc:** Abigail Carr becomes Lilly's close friend. Authored intent, not yet established at the table; confirm/detail it when [`between-1986-and-1998.md`](between-1986-and-1998.md) is filled from the four 1986 recaps.
 - **1998:** four files, weeks or months apart; she is still Ashgrove PD when the year opens; FBI consultancy. Whitley is a resentful civilian; at least one night may require asking him something.
 - **2016:** one urgent case in four movements, hours or days apart; she is 54, senior / retiring.
 - **Planned family pressure, 1998:** Lilly's biological father dies in custody before the truth is complete; exact timing remains subject to that adventure's situation and Lilly's choices.
