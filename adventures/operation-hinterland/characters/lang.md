@@ -188,6 +188,14 @@ Seasoned scout and field medicine. Second stealth path. If the map and the groun
 
 ---
 
+## Physical description
+
+Age (inferred, not on sheet): early-to-mid 20s. Lean and wiry (Agility d8, Strength d4), built for covering ground quietly, not for standing and trading blows (no Fighting skill — she doesn't melee). Weather-reddened face from time outdoors (Woodsman), hair cropped short and out of the way. Carries herself with restless energy tempered by a soft spot she can't switch off (Heroic, Major). British battledress, Sten slung, a well-worn field medical satchel that gets more attention than her sidearm.
+
+**Image prompt (reference, not canon):** "Grainy black-and-white archival-style wartime photograph, candid snapshot framing, British Army corporal, scout and combat medic, early 20s, lean wiry athletic build, short practical hair, weather-reddened complexion, alert expression, British battledress and helmet, field medical satchel prominent, Sten submachine gun slung, standing near beach obstacles and landing craft on a Normandy beachhead, June 1944, period photographic grain and contrast, unposed candid framing."
+
+---
+
 ## Table card
 
 Human Wild Card. Pace 6; **Parry 2**; Toughness 5; Size 0; 3 Bennies. Helmet +2 vs head Called Shots only.

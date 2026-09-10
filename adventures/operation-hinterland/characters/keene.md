@@ -202,6 +202,14 @@ Seasoned American point and small-unit lead. He holds the four together and read
 
 ---
 
+## Physical description
+
+Age (inferred, not on sheet): late 20s. Rangy and fit, the build of a man who moves a squad rather than muscles through a wall. Short, regulation-cut dark hair under a wool knit cap or garrison cap when the helmet's off. Clean-shaven per Army regs even in the field. Eyes that don't stop moving — a habit, not nerves (Alertness). Jaw set in the particular way of someone who has already decided and isn't interested in the second opinion (Stubborn). Wears the olive-drab wool field uniform and unbuckled greatcoat, binoculars and map case slung Officer-issue.
+
+**Image prompt (reference, not canon):** "Grainy black-and-white archival-style wartime photograph, candid snapshot framing, American infantry officer, 1st Lieutenant, late 20s, lean athletic build, short dark hair, clean-shaven, alert eyes, olive-drab US Army wool field uniform and M1943 field jacket, M1 steel helmet, binoculars and map case, standing in a snow-covered Ardennes pine forest with foxholes and other GIs blurred in the background, December 1944, Battle of the Bulge, period photographic grain and contrast, unposed candid expression."
+
+---
+
 ## Table card
 
 Human Wild Card. Pace 6; Parry 5; Toughness 5; Size 0; 3 Bennies. Helmet +2 vs head Called Shots only.

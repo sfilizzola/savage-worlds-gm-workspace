@@ -192,6 +192,14 @@ Seasoned signals and language. She can smash gear as well as read it. The stale 
 
 ---
 
+## Physical description
+
+Age (inferred, not on sheet): mid-to-late 20s. Slight, quick-handed build (Strength d4), the kind of stillness that breaks the instant something interesting appears (Curious, Major). Sharp, watchful eyes — someone who reads a room and a wiring diagram with the same attention. Dark hair kept short and practical under a field cap. Free French battledress (British-pattern with FFL insignia and the Cross of Lorraine), a field-telephone tap kit and tools riding where a rifle usually would.
+
+**Image prompt (reference, not canon):** "Grainy black-and-white archival-style wartime photograph, candid snapshot framing, Free French Forces sergeant, signals specialist, mid-20s, slight quick build, sharp watchful eyes, short practical dark hair under a French field cap, British-pattern battledress with Free French Cross of Lorraine insignia, field telephone and tools on webbing, standing in a dug-in desert position with sandbags and scrub visible, Bir Hakeim, Libya, June 1942, period photographic grain and contrast, alert unposed expression."
+
+---
+
 ## Table card
 
 Human Wild Card. Pace 6; Parry 5; Toughness 5; Size 0; 3 Bennies. Helmet +2 vs head Called Shots only. Default load treated as at the weight limit.

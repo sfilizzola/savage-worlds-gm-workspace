@@ -177,6 +177,14 @@ Missed this lift. Stealth and wrecking so a removed PC does not delete a compete
 
 ---
 
+## Physical description
+
+Age (inferred, not on sheet): mid-20s. Light-footed and loose-limbed (Agility d8, Thief), with the faint permanent smirk of someone who genuinely believes he can talk, climb, or pick his way out of anything (Overconfident, Major). Fingers quick and light — a lock-picker's hands. Dutch Army field uniform under a greatcoat, lockpicks and a pry bar riding next to the demo tools, alone in the snow having missed the jump.
+
+**Image prompt (reference, not canon):** "Grainy black-and-white archival-style wartime photograph, candid snapshot framing, Dutch Army corporal, scout and light infiltrator, mid-20s, lean loose-limbed build, faint cocky smirk, quick light hands, Dutch Army field uniform and greatcoat, lockpicks and pry bar on webbing, Sten submachine gun, standing amid urban rubble near the Arnhem bridge, September 1944, Operation Market Garden, period photographic grain and contrast, unposed candid expression."
+
+---
+
 ## Table card
 
 Human Wild Card. Pace 6; Parry 5; Toughness 5; Size 0; 3 Bennies. Helmet +2 vs head Called Shots only.

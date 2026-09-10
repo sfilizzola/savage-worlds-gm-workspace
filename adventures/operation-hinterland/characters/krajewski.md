@@ -198,6 +198,14 @@ Seasoned demolitions and field engineering. The briefed building may waste charg
 
 ---
 
+## Physical description
+
+Age (inferred, not on sheet): early-to-mid 30s — old enough to have lost Poland once already. Heavyset through the shoulders and forearms (Strength d8), hands scarred and calloused from wire and charges. Weathered face, older than his rank suggests — someone who's been at this since 1939 and doesn't waste words on it (Driven). Keeps a low mutter going while he works, counting charges under his breath (Quirk). Polish Army battledress, satchel of tools and demo kit slung heavier than anyone else's pack.
+
+**Image prompt (reference, not canon):** "Grainy black-and-white archival-style wartime photograph, candid snapshot framing, Polish Army sergeant, combat engineer, early 30s, heavyset weathered build, scarred calloused hands, short dark hair under a Polish field cap, olive-brown Polish/British-pattern battledress with Polish insignia, demolition satchel and tools, standing amid the shattered rubble of Monte Cassino with the ruined monastery hill visible behind, May 1944, period photographic grain and contrast, grim unposed expression."
+
+---
+
 ## Table card
 
 Human Wild Card. Pace 6; Parry 5; Toughness 5; Size 0; 3 Bennies. Helmet +2 vs head Called Shots only.
