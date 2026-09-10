@@ -1,0 +1,654 @@
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: block;
+  src: url("fonts/archivo-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: block;
+  src: url("fonts/archivo-latinext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Archivo Narrow";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: block;
+  src: url("fonts/archivo-narrow-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Archivo Narrow";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: block;
+  src: url("fonts/archivo-narrow-latinext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fonts/plex-400-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fonts/plex-400-latinext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+1E00-1EFF, U+2020, U+20A0-20C0;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("fonts/plex-600-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("fonts/plex-600-latinext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+1E00-1EFF, U+2020, U+20A0-20C0;
+}
+
+@page { size: A4 portrait; margin: 7mm; }
+
+:root {
+  --paper: #fff;
+  --ink: #161410;
+  --muted: #5c574c;
+  --rule: #161410;
+  --fill: #161410;
+  --alert: #b42318;
+  --band: #e8e8e8;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: var(--ink);
+}
+.sheet {
+  width: 196mm;
+  min-height: 277mm;
+  margin: 0 auto;
+  background: var(--paper);
+  padding: 4.5mm 5mm 4mm;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr auto auto auto;
+  gap: 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 7.15pt;
+  line-height: 1.18;
+}
+h1, h2, .name, .mast {
+  font-family: "Archivo", "Archivo Narrow", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+h2 {
+  font-family: "Archivo Narrow", "Archivo", sans-serif;
+  font-size: 7.4pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 1mm 1.8mm 0.85mm;
+  line-height: 1;
+}
+.mast {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  border-bottom: 2.6pt solid var(--rule);
+  padding-bottom: 1.6mm;
+  margin-bottom: 2mm;
+}
+.mast .op {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 7pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.mast .file {
+  font-size: 8.2pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.mast .meta {
+  text-align: right;
+  font-size: 6.6pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.mast .classification {
+  display: inline-block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 5.6pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--alert);
+  border: 0.8pt solid var(--alert);
+  padding: 0.5mm 1.2mm 0.35mm;
+  margin-top: 1.1mm;
+}
+.ident {
+  display: grid;
+  grid-template-columns: 1fr 58mm;
+  gap: 3mm;
+  margin-bottom: 2.2mm;
+}
+.ident.filed {
+  grid-template-columns: 32mm minmax(0, 1fr) 48mm;
+  gap: 4mm;
+  margin-bottom: 1.8mm;
+}
+.ident .who { min-width: 0; }
+.ident .side { min-width: 0; }
+.name {
+  font-size: 22pt;
+  line-height: 0.86;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.role {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 1.2mm;
+}
+.tags {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8mm 2.5mm;
+  font-size: 6.6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.tags dt { color: var(--muted); font-size: 5.8pt; letter-spacing: 0.14em; }
+.tags dd { margin: 0; font-weight: 600; font-size: 7.4pt; letter-spacing: 0.02em; }
+/* Photo pasted into the file: mount corners, thin border, caption strip. */
+.photo { margin: 0; }
+.photo .frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border: 1.4pt solid var(--rule);
+  background: #f4f1ea;
+  overflow: hidden;
+}
+.photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo .c {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0.88;
+}
+.photo .c.tl {
+  top: 0; left: 0;
+  border-top: 4.6mm solid var(--ink);
+  border-right: 4.6mm solid transparent;
+}
+.photo .c.tr {
+  top: 0; right: 0;
+  border-top: 4.6mm solid var(--ink);
+  border-left: 4.6mm solid transparent;
+}
+.photo .c.bl {
+  bottom: 0; left: 0;
+  border-bottom: 4.6mm solid var(--ink);
+  border-right: 4.6mm solid transparent;
+}
+.photo .c.br {
+  bottom: 0; right: 0;
+  border-bottom: 4.6mm solid var(--ink);
+  border-left: 4.6mm solid transparent;
+}
+.photo figcaption {
+  border: 1.4pt solid var(--rule);
+  border-top: 0;
+  padding: 0.8mm 1.2mm 0.7mm;
+  text-align: center;
+}
+.photo .cap-name {
+  display: block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 6.4pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.photo .cap-sub {
+  display: block;
+  font-size: 5.6pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.4mm;
+}
+
+/* Personnel-file fields. An empty value prints a line to fill in by hand. */
+.dossier-head {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 6pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 0.8pt solid var(--rule);
+  padding-bottom: 0.7mm;
+  margin-top: 2.6mm;
+}
+.dossier {
+  columns: 2;
+  column-gap: 4mm;
+  margin: 0.6mm 0 0;
+}
+.dossier > div {
+  display: grid;
+  grid-template-columns: 18mm minmax(0, 1fr);
+  align-items: baseline;
+  gap: 1.4mm;
+  border-bottom: 0.35pt solid #c9c3b4;
+  padding: 0.5mm 0;
+  break-inside: avoid;
+}
+.dossier dt {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 5.7pt;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dossier dd {
+  margin: 0;
+  font-size: 6.5pt;
+  font-weight: 600;
+}
+.dossier dd.blank { border-bottom: 0.5pt dotted var(--muted); height: 2.6mm; }
+
+/* Rubber stamp. Flavour only: never place it over numbers the GM must read. */
+.stamp {
+  margin-top: 4mm;
+  border: 1.6pt solid var(--alert);
+  outline: 0.5pt solid var(--alert);
+  outline-offset: 0.9mm;
+  padding: 1.4mm 1mm 1.2mm;
+  text-align: center;
+  transform: rotate(-4.5deg);
+  opacity: 0.82;
+}
+.stamp-text {
+  display: block;
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  font-size: 9.6pt;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alert);
+}
+.stamp-sub {
+  display: block;
+  font-size: 5.4pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--alert);
+  margin-top: 0.8mm;
+}
+
+.reserve-banner {
+  grid-column: 1 / -1;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 7pt;
+  padding: 1mm 1.8mm;
+  margin-bottom: 1.6mm;
+}
+
+.row-stats {
+  display: grid;
+  grid-template-columns: 62mm minmax(0, 1fr) 44mm;
+  gap: 2.4mm;
+  margin-bottom: 2.2mm;
+  align-items: start;
+}
+.row-stats > * { min-width: 0; }
+.derived {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4mm;
+}
+.statbox {
+  border: 1.4pt solid var(--rule);
+  padding: 1.6mm 1.4mm 1.2mm;
+  text-align: center;
+}
+.statbox .lbl {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 6.2pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.statbox .val {
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  font-size: 18pt;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+.statbox.alert { border-color: var(--alert); }
+.statbox.alert .val { color: var(--alert); }
+.statbox .note { font-size: 5.8pt; color: var(--muted); margin-top: 0.3mm; }
+.bennies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4mm;
+  align-items: center;
+  margin-top: 1.4mm;
+  font-size: 6.6pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.pip {
+  display: block;
+  flex-shrink: 0;
+  width: 3.4mm;
+  height: 3.4mm;
+  border: 1.1pt solid var(--rule);
+  background: transparent;
+}
+.pip.on { background: var(--fill); }
+
+.attr-row, .skill-row {
+  display: grid;
+  grid-template-columns: 22mm 1fr auto;
+  align-items: center;
+  gap: 1mm;
+  border-bottom: 0.4pt solid #c9c3b4;
+  padding: 0.55mm 0;
+}
+.attr-row .k, .skill-row .k {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 7pt;
+}
+.skill-row .k { font-size: 6.7pt; }
+.skill-row .mod {
+  color: var(--muted);
+  font-size: 6pt;
+  text-align: right;
+  max-width: 42mm;
+}
+.die {
+  font-weight: 600;
+  font-size: 8pt;
+  min-width: 8mm;
+  text-align: right;
+}
+.track {
+  display: flex;
+  gap: 0.7mm;
+  justify-content: flex-end;
+}
+.track i {
+  font-style: normal;
+  width: 4.4mm;
+  height: 4.4mm;
+  border: 0.85pt solid var(--rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5pt;
+  color: var(--muted);
+  font-weight: 600;
+}
+.track i.on {
+  background: var(--fill);
+  color: var(--paper);
+  border-color: var(--fill);
+}
+
+.mid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2.4mm;
+  margin-bottom: 2.2mm;
+  min-height: 0;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.5mm;
+}
+.panel { min-width: 0; }
+.panel .body { padding: 1.2mm 0 0; }
+.he {
+  border-bottom: 0.4pt solid #c9c3b4;
+  padding: 0.7mm 0;
+}
+.he .t {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.he .d { color: var(--muted); font-size: 6.4pt; }
+.tracks-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4mm;
+  margin: 0;
+}
+.woundbox {
+  border: 1pt solid var(--rule);
+  padding: 1.2mm 1.4mm 1.5mm;
+  min-width: 0;
+}
+.woundbox .lbl {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 6.2pt;
+  margin-bottom: 1mm;
+}
+.boxes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 2.4mm;
+}
+.tick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5mm;
+  min-width: 0;
+}
+.box {
+  display: block;
+  flex-shrink: 0;
+  width: 5mm;
+  height: 5mm;
+  border: 1.1pt solid var(--rule);
+  box-sizing: border-box;
+}
+.box.inc { border-color: var(--alert); }
+.cap {
+  font-size: 5.6pt;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.bot {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 2.4mm;
+  margin-bottom: 1.8mm;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 6.6pt;
+}
+th {
+  text-align: left;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 5.8pt;
+  border-bottom: 1pt solid var(--rule);
+  padding: 0.4mm 1mm 0.6mm 0;
+  color: var(--muted);
+}
+td {
+  border-bottom: 0.35pt solid #c9c3b4;
+  padding: 0.55mm 1mm 0.55mm 0;
+  vertical-align: top;
+}
+.gear-list { margin: 0; padding: 0; list-style: none; }
+.gear-list li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-bottom: 0.35pt solid #c9c3b4;
+  padding: 0.4mm 0;
+}
+.gear-list .w { font-weight: 600; }
+.load {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1mm;
+  margin-top: 1.2mm;
+  background: var(--band);
+  padding: 1.2mm;
+}
+.load div { font-size: 6.2pt; text-transform: uppercase; letter-spacing: 0.04em; }
+.load strong { display: block; font-size: 8pt; letter-spacing: 0; text-transform: none; }
+.load.alert { background: #f3d5d0; }
+.armor { font-size: 6.4pt; margin-top: 1mm; color: var(--ink); }
+.team { font-size: 6.3pt; margin-top: 1mm; }
+.you {
+  border-top: 1.6pt solid var(--rule);
+  padding-top: 1.2mm;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 4mm;
+}
+.you p { margin: 0 0 0.8mm; }
+.you .lbl {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 6.2pt;
+  margin-bottom: 0.6mm;
+}
+.casework {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4mm;
+  margin-top: 1.8mm;
+}
+.casework.solo { grid-template-columns: 1fr; }
+.rules {
+  display: grid;
+  gap: 4.4mm;
+  padding: 2.8mm 0 0.4mm;
+}
+.rules span { display: block; border-bottom: 0.4pt solid #b9b2a2; }
+.thread-list {
+  margin: 1mm 0 0;
+  padding: 0;
+  list-style: none;
+}
+.thread-list li {
+  display: grid;
+  grid-template-columns: 3.4mm minmax(0, 1fr);
+  gap: 1.6mm;
+  align-items: start;
+  padding: 0.55mm 0;
+  border-bottom: 0.35pt solid #c9c3b4;
+  font-size: 6.4pt;
+}
+.thread-list .cb {
+  width: 3.2mm;
+  height: 3.2mm;
+  border: 0.9pt solid var(--rule);
+  margin-top: 0.2mm;
+}
+.thread-list .blank {
+  border-bottom: 0.5pt dotted var(--muted);
+  height: 3mm;
+}
+.signature {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr;
+  gap: 6mm;
+  margin-top: 2.4mm;
+}
+.sig .rule { display: block; border-bottom: 0.9pt solid var(--rule); height: 4mm; }
+.sig .lbl {
+  display: block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 5.6pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 0.9mm;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.8pt solid var(--rule);
+  margin-top: 1.6mm;
+  padding-top: 1mm;
+  font-size: 5.8pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.star { color: var(--muted); }
+.warn { color: var(--alert); font-weight: 600; }
+
+@media print {
+  html, body { background: #fff; }
+  .sheet { min-height: 0; }
+}

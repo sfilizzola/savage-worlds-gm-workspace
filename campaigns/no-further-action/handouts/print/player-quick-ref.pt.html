@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Savage Worlds — Cartão do jogador (No Further Action)</title>
+  <link rel="stylesheet" href="sheet.css" />
+  <style>
+    /* Handout-only additions on top of the shared sheet.css. Do not edit sheet.css for this. */
+    /* This card has no fixed row-stats block like a character sheet, so every
+       row should size to its content instead of the sheet's 4th row (1fr)
+       stretching to fill the page. */
+    .sheet { grid-template-rows: auto; }
+    .body p { margin: 0 0 1.1mm; }
+    .body p:last-child { margin-bottom: 0; }
+    .body ul { margin: 0; padding-left: 3mm; }
+    .body li { margin: 0 0 0.7mm; }
+    .card-note { color: var(--muted); font-size: 6.2pt; }
+    .two-col { columns: 2; column-gap: 5mm; margin: 0; padding-left: 3mm; }
+    .two-col li { break-inside: avoid; margin-bottom: 0.9mm; }
+  </style>
+</head>
+<body>
+  <article class="sheet">
+    <header class="mast">
+      <div>
+        <div class="op">No Further Action · todas as eras</div>
+        <div class="file">Cartão de regras · Savage Worlds</div>
+      </div>
+      <div class="meta">Ashgrove PD · Regras do jogador<br>SWADE Quinta Impressão (2023)</div>
+    </header>
+
+    <div class="ident">
+      <div class="who">
+        <h1 class="name">CARTÃO DO JOGADOR</h1>
+        <div class="role">Como o Savage Worlds funciona</div>
+      </div>
+      <div class="side">
+        <dl class="tags">
+          <div><dt>Você é</dt><dd>Coringa</dd></div>
+          <div><dt>Dado extra</dt><dd>Wild Die (d6)</dd></div>
+          <div><dt>Ferimentos</dt><dd>3</dd></div>
+          <div><dt>Benes</dt><dd>3</dd></div>
+        </dl>
+        <div class="classification">Não é canon de mesa · não é briefing</div>
+      </div>
+    </div>
+
+    <div class="mid">
+      <div class="panel">
+        <h2>Como rolar</h2>
+        <div class="body">
+          <p>Role o dado da sua ficha <strong>e</strong> um d6 (Wild Die). Fique com o <strong>maior</strong>. Ambos podem ter <strong>Ace</strong>: máximo no dado → role de novo e some.</p>
+          <ul>
+            <li><strong>Sucesso:</strong> 4 ou mais depois dos modificadores (Número-Alvo 4, salvo o GM dizer o contrário).</li>
+            <li><strong>Raise:</strong> a cada 4 acima do Número-Alvo. Um raise dá o efeito extra.</li>
+            <li><strong>Oposto:</strong> você ainda precisa de 4; quem se opõe precisa empatar ou superar você.</li>
+            <li><strong>Sem treinamento:</strong> sem a perícia na ficha → <strong>d4−2</strong> (mais o Wild Die).</li>
+            <li><strong>Falha Crítica:</strong> 1 no dado de Trait <strong>e</strong> no Wild Die. Não pode usar Bene nisso.</li>
+          </ul>
+          <p class="card-note">Modificadores típicos: fácil +2, difícil −2, muito difícil −4. Ferimentos e Fadiga também subtraem.</p>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Benes · começa com 3</h2>
+        <div class="body">
+          <div class="he"><div class="t">Rerrolar um Trait</div><div class="d">Fica com o melhor total. Falha Crítica continua valendo.</div></div>
+          <div class="he"><div class="t">Remover Shaken na hora</div><div class="d">Mesmo fora do seu turno.</div></div>
+          <div class="he"><div class="t">Soak</div><div class="d">Depois do dano, antes de cair Ferimento. Vigor; cada sucesso/raise absorve um Ferimento. Uma vez por ataque.</div></div>
+          <div class="he"><div class="t">Nova carta de ação</div><div class="d">Em combate, depois de distribuir as cartas.</div></div>
+          <div class="he"><div class="t">Rerrolar dano</div><div class="d"></div></div>
+          <div class="he"><div class="t">Ajustar a história</div><div class="d">Só se o GM permitir: item pequeno, mais conversa, um detalhe perdido.</div></div>
+          <p class="card-note" style="margin-top:1.4mm">Um <strong>Joker</strong> na carta de ação: age quando quiser, +2 em Trait e dano, e todo mundo na mesa ganha um Bene.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mid">
+      <div class="panel">
+        <h2>Seu turno · cerca de 6 segundos</h2>
+        <div class="body">
+          <p>Cartas: de Ás até 2. Empates: Espadas, Copas, Ouros, Paus. Joker age quando quiser.</p>
+          <p>No seu turno: <strong>mover Movimentação 6″ (12 jardas)</strong> e <strong>uma ação</strong>. Mover não é ação. Escalar/rastejar/nadar/terreno ruim: cada polegada custa 2″.</p>
+          <p><strong>Correr:</strong> soma d6 à Movimentação (sem Ace). −2 em todas as ações.</p>
+          <p><strong>Múltiplas ações:</strong> até três. Duas = −2 nas duas. Três = −4 nas três. Declare antes de rolar.</p>
+          <p><strong>Livre:</strong> frase curta, largar algo, ficar prone, levantar (−2″), recuperar de Shaken/Stunned (1x, início do turno), preparar dois itens.</p>
+          <p><strong>Hold:</strong> esperar. Interromper alguém: oposto de Atletismo. Shaken/Stunned em Hold → perde o Hold.</p>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Acertar e ferir</h2>
+        <div class="body">
+          <table>
+            <thead><tr><th>Você tenta</th><th>Rola</th><th>Supera</th></tr></thead>
+            <tbody>
+              <tr><td>Soco, agarrão, faca</td><td>Lutar</td><td>Aparar dele</td></tr>
+              <tr><td>A pistola de serviço</td><td>Atirar</td><td>4 + alcance</td></tr>
+            </tbody>
+          </table>
+          <p class="card-note" style="margin-top:1mm">Alcance: Curto —, Médio −2, Longo −4. 1″ = 2 jardas. Raise no ataque: +1d6 de dano (dados de dano têm Ace). Corpo a corpo: Força + arma, sem Wild Die.</p>
+          <p>Dano vs <strong>Resistência</strong>: menor → nada. Igual/maior → <strong>Shaken</strong>. Cada raise no dano → <strong>Ferimento</strong> (e Shaken). Já Shaken + Shaken físico de novo → Ferimento, continua Shaken.</p>
+          <p><strong>Coringas (você):</strong> 3 Ferimentos, depois Incapacitada. Cada Ferimento: −1 Movimentação (mín. 1″), −1 em Trait (máx. −3). <strong>Extra:</strong> um Ferimento e já era.</p>
+          <p><strong>Shaken:</strong> só move e ações livres. Início do turno: Espírito livre (sucesso = normal) ou gaste um Bene.</p>
+          <p class="card-note">Called Shot: membro −2; cabeça/vitais −4 e +4 dano. Cover: −2/−4/−6/−8 (¼/½/¾/quase invisível).</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bot">
+      <div class="panel">
+        <h2>Ações comuns</h2>
+        <div class="body">
+          <table>
+            <thead><tr><th>Faça isso</th><th>Trait</th></tr></thead>
+            <tbody>
+              <tr><td>Ver, ouvir, sacar mentira, achar pista</td><td>Perceber</td></tr>
+              <tr><td>Se esgueirar, se esconder</td><td>Furtividade</td></tr>
+              <tr><td>Escalar, pular, nadar, correr atrás de alguém</td><td>Atletismo</td></tr>
+              <tr><td>Dirigir</td><td>Dirigir</td></tr>
+              <tr><td>Convencer alguém</td><td>Persuadir</td></tr>
+              <tr><td>Assustar, pressionar</td><td>Intimidar</td></tr>
+              <tr><td>Grampear, ler eletrônicos</td><td>Eletrônica</td></tr>
+              <tr><td>Lembrar algo do dia a dia</td><td>Conhecimento Geral</td></tr>
+              <tr><td>Lembrar procedimento, lei, fato acadêmico</td><td>Conhecimento Acadêmico</td></tr>
+              <tr><td>Ajudar a rolagem de alguém</td><td>Support: +1, raise +2 (máx. +4)</td></tr>
+            </tbody>
+          </table>
+          <p class="card-note" style="margin-top:1mm">Furtividade/Persuadir/Intimidar costumam ser opostos por Perceber/Espírito de quem resiste. Repair e Healing não estão na ficha dela; funcionam sem treinamento se precisar.</p>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Trabalho de detetive · HR-NFA-002</h2>
+        <div class="body">
+          <div class="he"><div class="t">Hitting the Books</div><div class="d">Pesquisa longa, registros, histórico: <strong>Pesquisar</strong>. Sucesso acha o básico; raise, mais. Falha Crítica pode trazer algo plausível, mas errado.</div></div>
+          <div class="he"><div class="t">Interrogation</div><div class="d">Alguém que não pode ir embora: Social Conflict de 3 rodadas com <strong>Intimidar</strong>/<strong>Persuadir</strong>, oposto pelo Espírito (ou Astúcia, a critério do GM).</div></div>
+          <div class="he"><div class="t">Patter</div><div class="d">Acalmar uma sala ou abrir alguém fora de um interrogatório formal: <strong>Persuadir</strong>.</div></div>
+          <div class="he"><div class="t">Tailing</div><div class="d">Seguir sem ser notada: <strong>Furtividade</strong>/<strong>Dirigir</strong> oposto pelo Perceber do alvo.</div></div>
+          <p class="card-note" style="margin-top:1.2mm">Falhar custa tempo, dinheiro, atenção indesejada ou posição — não trava o caso. Investigador (Vantagem) pode se aplicar a Perceber ou Pesquisar quando fizer sentido.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Truques de combate · quando importa</h2>
+      <div class="body">
+        <ul class="two-col">
+          <li><strong>Aim:</strong> turno inteiro, sem sair do lugar. Próximo tiro ignora 4 pontos de alcance/cobertura, ou +2 para acertar.</li>
+          <li><strong>Defend:</strong> turno inteiro, sem ação extra, sem Correr. +4 Aparar até seu próximo turno.</li>
+          <li><strong>Wild Attack</strong> (corpo a corpo): +2 em Lutar e dano; fica Vulnerable até o fim do próximo turno.</li>
+          <li><strong>The Drop</strong> (alvo amarrado ou sem perceber): +4 em ataque e dano por uma ação.</li>
+          <li><strong>Withdraw</strong> de alguém adjacente: ele ganha um ataque livre contra você.</li>
+          <li><strong>Distracted:</strong> −2 nas rolagens até o fim do próximo turno. <strong>Vulnerable:</strong> outros ganham +2 contra você até lá.</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <span>Coloque ao lado da ficha da Lilly</span>
+      <span>Tradução · não é histórico de sessão</span>
+    </footer>
+  </article>
+</body>
+</html>
