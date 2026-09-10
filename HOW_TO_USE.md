@@ -225,9 +225,9 @@ house_rules: none
 
 Do not begin detailed mechanical preparation while required configuration fields remain undecided.
 
-## 6. Activate Weird War II only when needed
+## 6. Activate an installed setting module only when needed
 
-Weird War II is installed but inactive by default. Activate it explicitly in the adventure:
+Weird War II and Deadlands Noir are installed but inactive by default. Activate the one an adventure needs explicitly in the adventure. The example below uses Weird War II; substitute `Deadlands Noir` the same way.
 
 ```yaml
 setting_modules:
@@ -247,7 +247,7 @@ Select the supernatural level independently:
 - `moderate`: supernatural elements become an important part of the adventure.
 - `full`: overt Weird War action from the beginning.
 
-Even when Weird War II is active, SWADE Fifth Printing remains the default mechanical authority. Weird War II predates SWADE, so older mechanics require compatibility review. Only an explicit active house rule may deliberately override SWADE.
+Even when an installed module is active, SWADE Fifth Printing remains the default mechanical authority. Both Weird War II and Deadlands Noir predate SWADE, so older mechanics require compatibility review. Only an explicit active house rule may deliberately override SWADE.
 
 ## 7. Develop the adventure in focused passes
 

@@ -31,7 +31,7 @@ Allowed values:
 - `historical_accuracy.requirement`: not-applicable | cinematic | researched | strict
 - `house_rules`: `none` or a list of IDs from `rules/house-rules.md`
 
-`setting_modules: []` means no optional setting module is active. List `Weird War II` explicitly to use it.
+`setting_modules: []` means no optional setting module is active. List `Weird War II` or `Deadlands Noir` explicitly to use one.
 
 ## One-sentence premise
 

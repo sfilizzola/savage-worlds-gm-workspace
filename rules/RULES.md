@@ -36,5 +36,5 @@ When the available authority does not resolve a case:
 
 ## Edition compatibility
 
-Weird War II predates SWADE. Rebuild older stat blocks and procedures against SWADE rather than copying incompatible mechanics. Preserve setting intent where possible, document any adaptation, and never imply an adaptation is printed SWADE rules text.
+Weird War II and Deadlands Noir both predate SWADE. Rebuild older stat blocks and procedures against SWADE rather than copying incompatible mechanics. Preserve setting intent where possible, document any adaptation, and never imply an adaptation is printed SWADE rules text.
 

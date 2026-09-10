@@ -66,7 +66,7 @@ Prepared material is never automatically canon or history merely because it was 
 
 1. Explicit active **house rule** (declared by the adventure, within its scope).
 2. **SWADE Fifth Printing (2023)** — permanent default authority for all mechanics.
-3. **Active setting module** — adds compatible content only; never silently replaces SWADE. (Weird War II is installed but inert unless an adventure activates it.)
+3. **Active setting module** — adds compatible content only; never silently replaces SWADE. (Weird War II and Deadlands Noir are installed but inert unless an adventure activates them.)
 4. **Recorded ruling** in `rules/rulings.md` — interprets an unclear case; promoted to `house-rules.md` only when the GM explicitly makes it a standing override.
 
 Never invent Savage Worlds notation or import older-edition mechanics. Cite source title + page beside prepared mechanics. If authority cannot be established, write `RULE UNCLEAR - GM DECISION REQUIRED`, state the question and sources checked, and ask the GM.

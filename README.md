@@ -22,7 +22,7 @@ This repository is a reusable workspace for preparing and maintaining Savage Wor
 4. Recorded rulings interpret unclear cases; they do not become house rules unless the GM explicitly promotes them.
 5. If the sources do not establish a mechanic, mark it `RULE UNCLEAR - GM DECISION REQUIRED`. Do not invent a Savage Worlds mechanic.
 
-Weird War II is installed as an optional module. It has no effect unless an adventure activates it.
+Weird War II and Deadlands Noir are installed as optional modules. Neither has any effect unless an adventure activates it.
 
 ## Repository map
 
