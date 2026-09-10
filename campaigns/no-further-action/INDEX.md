@@ -74,6 +74,7 @@ Open the narrowest source first. Prerequisite gates are named where they exist.
 | Select period radio or music | [`MUSIC.md`](MUSIC.md) → the child's `ADVENTURE.md` "Radio brief" | Diegetic only. Music never announces the solution. |
 | Promote post-session canon | The new `session-recap.md` → [`GM.md`](../../GM.md), "Post-session discipline" → affected files in [`world/`](world/WORLD.md) → [`world/lore/timeline.md`](world/lore/timeline.md) → then update this index | Promote only what occurred. Retire contradicted prep instead of rewriting it as history. |
 | Edit PC mechanics or print the sheet | [`characters/lilly-dawson.md`](characters/lilly-dawson.md) → [`characters/README.md`](characters/README.md) → [`characters/print/chars.json`](characters/print/chars.json) and [`characters/print/chars.pt-BR.json`](characters/print/chars.pt-BR.json) → [`tools/print-sheets/`](../../tools/print-sheets/README.md) | Mechanics change in the `.md` first, then both print extracts, then re-measure. Check [`rules/house-rules.md`](../../rules/house-rules.md) before any number moves. |
+| Print the player rules cheat sheet | [`handouts/README.md`](handouts/README.md) → [`handouts/player-quick-ref.pt.md`](handouts/player-quick-ref.pt.md) → [`handouts/print/player-quick-ref.pt.pdf`](handouts/print/player-quick-ref.pt.pdf) | Table-start reference, not character-specific — repeats no Trait numbers from `characters/lilly-dawson.md`. |
 
 ## 5. File-type legend
 
@@ -93,6 +94,7 @@ Open the narrowest source first. Prerequisite gates are named where they exist.
 | Child `RUN.md` | **Compiled table artifact.** Built from reviewed sources for use at the table; may duplicate runtime information deliberately. | **Not canonical session history and not a source of truth.** Rebuild it when a source changes. |
 | Child `print/` | Rendered A4 output of `RUN.md`. | Not hand-edited; regenerate with [`tools/print-run/`](../../tools/print-run/README.md). |
 | [`characters/`](characters/README.md) | Canonical mechanical sheets for this campaign's PC, print extracts, and portraits. | Not a place for GM secrets or prepared outcomes. |
+| [`handouts/`](handouts/README.md) | Table-start reference material shared across every era (player rules card, EN + pt-BR, print-ready). | Not table canon, not a briefing, not session history. |
 | [`MUSIC.md`](MUSIC.md) | Campaign radio direction, the selection test, KCRK details, era palette, research sources. | Not canon events; the retrospective palette is non-canon guidance. |
 
 ## 6. Adventure inventory
@@ -188,6 +190,15 @@ Directory policy: [`world/lore/README.md`](world/lore/README.md).
 | [`tools/print-sheets/`](../../tools/print-sheets/README.md) | A4 sheet printer and `measure.py`. Not a character generator, and never copied into an adventure. |
 
 Portraits and era stills sit in `characters/` as player art; the sheet mounts `lilly-1986-id.png`.
+
+### 7.4b Player rules card
+
+| File | Role |
+|---|---|
+| [`handouts/README.md`](handouts/README.md) | Directory contract for table-start reference material |
+| [`handouts/player-quick-ref.md`](handouts/player-quick-ref.md) | English source of truth, plus the GM authority block |
+| [`handouts/player-quick-ref.pt.md`](handouts/player-quick-ref.pt.md) | pt-BR translation; the printed card is built from this text |
+| [`handouts/print/player-quick-ref.pt.html`](handouts/print/player-quick-ref.pt.html) / [`.pdf`](handouts/print/player-quick-ref.pt.pdf) | Print-ready A4 card, styled like the character sheet (shared `sheet.css`) |
 
 ### 7.5 Rules and radio
 
