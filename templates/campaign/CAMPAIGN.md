@@ -40,7 +40,7 @@ Allowed values:
 - `historical_accuracy.sources`: list of titles/paths used for this campaign's background, or `[]`
 - `house_rules`: `none` or a list of IDs from `rules/house-rules.md`
 
-`setting_modules: []` means no optional setting module is active for this table. List `Weird War II` explicitly to use it. Child adventures must not activate a module the campaign has not listed unless a child-adventure exception records it.
+`setting_modules: []` means no optional setting module is active for this table. List `Weird War II` or `Deadlands Noir` explicitly to use one. Child adventures must not activate a module the campaign has not listed unless a child-adventure exception records it.
 
 ## One-sentence throughline
 
