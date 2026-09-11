@@ -35,7 +35,7 @@ GM-facing. These are predetermined truths of this adventure where marked. They a
 - **Truth:** Named responsible officers can escalate (curfew, hunt, a call if the hydra still lives). There is no off-map battalion waiting on one Stealth fail.
 - **Who knows:** the town lives under **Hptm. Stein** and **Oblt. Keller**. The briefing may name them; locals will have them.
 - **Why it matters:** delay and noise have a face. Escalation stays on a clock.
-- **Player-facing signs:** rounds, a staff car, a voice that others obey, a threatened call. Ward names Stein and Keller in the briefing; that is not the same as meeting them.
+- **Player-facing signs:** rounds, a staff car (Stein's Kübelwagen, kept off Weinmarkt — see `locations.md` "Extraction vehicles"), a voice that others obey, a threatened call. Ward names Stein and Keller in the briefing; that is not the same as meeting them.
 - **Independent discovery vectors:**
   1. Briefing names.
   2. Street observation.

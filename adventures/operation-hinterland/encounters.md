@@ -367,6 +367,25 @@ One Wound Incapacitates (SWADE p.95). Do not use this block unless the table goe
 
 ---
 
+## Extraction vehicles
+
+- **Trigger:** Story Point 6, or earlier if a player remembers a sighting from SP1, SP2, or SP4.
+- **Purpose and stakes:** three concrete, non-required exits. Full location/state/capacity/risk table: `locations.md` "Extraction vehicles."
+- **Opposition goal:** n/a — props, not NPCs.
+- **PC objective:** optional faster or higher-capacity exit; leaving on foot by any gate still completes the mission.
+- **Environment and tactical facts:** Stein's Kübelwagen (Rathaus lean-to, near-full tank, no key in it); loft dispatch motorcycle-and-sidecar (Grüner Turm base, keys on it, loud, seats 2); Opel Blitz cargo truck (Wörnitztor supply yard, battery pulled for winter, quarter tank, best capacity).
+- **Scaling:** no stat blocks needed; these are not combatants.
+- **Failure consequence:** a failed `Repair` roll (Kübelwagen without its key, or the Blitz's cold start) costs a few minutes and engine noise — not the vehicle itself, and not a bench.
+- **Exit conditions:** used, ignored, or left running/abandoned; none of the three is required for any end state.
+
+### Rules verification
+
+- SWADE: p.34 (Repair; the skill already covers demolitions for this team, reused here for a cold engine)
+- Setting: none — this is a mechanical prop, not a WW2 vehicle-combat subsystem
+- Adaptation: no chase mechanics. A long vehicle chase is a named pacing cut elsewhere in this adventure; these vehicles exist to shorten an exit, not to start one.
+
+---
+
 ## Unused WW2 material (do not import)
 
 - SS / Fanatic / Hitler Jugend (WW2 p.145)

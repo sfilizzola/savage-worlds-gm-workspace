@@ -344,9 +344,9 @@ Circle the Rathaus. No radio icon.
 
 ### Wörnitztor
 
-- Sensory frame: Ice glazes the gate passage, mill-race dark, and a faint glow leaks from the gatehouse lamp or stove — a stove-smell too, if they get close. Two tired voices carry over the water. This is a thin watch waiting out the night, not a fortress.
+- Sensory frame: Ice glazes the gate passage, mill-race dark, and a faint glow leaks from the gatehouse lamp or stove — a stove-smell too, if they get close. Two tired voices carry over the water. A tarped shape sits in a lean-to just inside the gate — a supply truck, plainly not going anywhere tonight. This is a thin watch waiting out the night, not a fortress.
 - People and forces: two tired Extras (Volkssturm / convalescent). Keller is not here at start. **HPTM. FRIEDRICH STEIN** is not here at start.
-- Environment/hazards: gate passage, gatehouse, ice, short view along the east walk toward Altrathausplatz.
+- Environment/hazards: gate passage, gatehouse, ice, short view along the east walk toward Altrathausplatz, a supply yard/lean-to with a tarped Opel Blitz cargo truck (do not flag it as significant now — full detail: **Extraction vehicles**, below Gates and the circuit).
 - Spoken lines: `"Halt! Wer da?" (Halt! Who goes there?)` / `"Papiere. Schnell." (Papers. Quick.)`
 - Discoverable: Stealth / Persuasion rows in the table above. Success can also tell: town is thin; east lanes toward the old post / Altrathausplatz; the Rathaus is not on this face.
 - GM Note: Bypass remains available. Failed gate = noise and time, not “you never enter.”
@@ -398,7 +398,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 | `Persuasion` vs Hofmann | She freezes or clams. Leftover still exists (wire, tag, empty board room, habit patrol). | Board moved east; books with the Feldwebel toward Nördlinger.                                             | Stein and Keller still treat this as *their* office. She can name **FW. OTTO BRANDT**.                       |
 
 
-- **GM Note:** The Rathaus is a **false head**. They came for the switchboard. Cutting this building does not count. It can light the fuse. Give a **tell** if they treat it as a win: if the aerial still lives, it is still on the north wall; if they already killed the loft, a line still alive or leftover still points at board / books. Hofmann is one leftover, not the only one. HQ’s circle is explainable (old post house until 1855) and still wrong. Brandt is **not** here. If they forget they need two heads, **restate the hydra rule**.
+- **GM Note:** The Rathaus is a **false head**. They came for the switchboard. Cutting this building does not count. It can light the fuse. Give a **tell** if they treat it as a win: if the aerial still lives, it is still on the north wall; if they already killed the loft, a line still alive or leftover still points at board / books. Hofmann is one leftover, not the only one. HQ’s circle is explainable (old post house until 1855) and still wrong. Brandt is **not** here. If they forget they need two heads, **restate the hydra rule**. Stein keeps a Kübelwagen in a plank lean-to off Weinmarkt, near his quarters — a sighting now, an extraction option later (**Extraction vehicles**, below Gates and the circuit).
 - **Pressure/escalation:** time here is time the watch can move papers or wake a stronger eye. Loud work brings Stein downstairs and Keller off her round. Dawn fills the square with ordinary eyes.
 - **Essential information and vectors:** they came for the **board**. This building is a **false head**; leftover still points the board east (Altrathausplatz) and the books toward Nördlinger. Loft is the aerial they can **see** if they look, or a wreck-tell if they already killed it. Dummy leftover; street observation; civilians or a clerk; officers’ routines; cut or followed wire. They may skip the books if loft + board are already dead.
 - **Failure changes:** time or noise at the wrong door. The three real heads remain findable.
@@ -529,7 +529,7 @@ Optional visit. Skip is allowed — **Finding the heads**.
 | `Athletics` (ice / height / climb) | Slip is a recoverable setback: noise, maybe a Wound, **not** a bench at first contact. Feed at the base remains a method. | They reach the loft or the feed.                      | Quieter. The watch may not hear.                                                   |
 
 
-- **GM Note:** Loft and feed are one head. Switchboard + papers still complete the job. Keller’s round is a sighting, not the key to the tower. Climbing is not the only method (feed line at the base, fire from below, cutting stays).
+- **GM Note:** Loft and feed are one head. Switchboard + papers still complete the job. Keller’s round is a sighting, not the key to the tower. Climbing is not the only method (feed line at the base, fire from below, cutting stays). A dispatch motorcycle-and-sidecar (Zündapp KS 750) leans under a lean-to at the tower's base, kept ready by the loft watch's runner — see **Extraction vehicles**, below Gates and the circuit.
 - **Where to pin it:** **Grüner Turm**, north wall. Board dead → they still try radio. Papers gone → less useful traffic.
 - **Pressure/escalation:** a living loft can call out of town once the watch believes the raid is real. Fuse → Keller arrives with a pair, not a company.
 - **Essential information and vectors:** this is the radio loft / aerial; killing it guts air traffic; landline may still live. Skyline; wire run; sentry pattern; someone who hates the noise or the light.
@@ -631,11 +631,12 @@ Optional visit. Skip is allowed — **Finding the heads**.
 | ---------------------------------- | --------------------------------------- | ------------------------------------------ | ------------------------------------------------------------- |
 | `Notice`                           | Tight lanes, more eyes than at the LZ.  | Whether a call went out; which gate woke.  | Whether the bag left town; which head still lives.            |
 | `Stealth` in streets (no Woodsman) | Spotted; hunt seed. Other exits remain. | They use a gate or wall they already know. | They leave by a quieter face. None of these is the only exit. |
+| `Repair` (start a placed vehicle without its key, or the Blitz's cold engine) | Costs a few minutes and engine noise; it still starts. | Running, quietly enough. | Running, and quiet — no noise cue nearby. |
 
 
 - **GM Note:** An alarm is a hunt in these streets first. Out-of-town help needs a living hydra or a long delay. They can leave by more than one face. A long chase is a pacing cut. Standing constraint: torching the civilian town or a massacre is a costly outcome (hunt, officers, conscience, extraction), not a hidden automatic fail. First light; a successful out-of-town call only if two heads still live or landline still speaks. Wörnitztor thin at start; other faces quieter. Map numbers are false. Gate-name corrections: Rules quick reference.
 - **Pressure/escalation:** dawn; a successful out-of-town call if two heads still live or landline still speaks; hostage or curfew if officers are provoked. Fuse → pairs on lanes, a curfew shout, papers in motion. Dawn → more windows, more witnesses.
-- **Essential information and vectors:** whether the hydra can still call; which way out is still open; what the civilian constraint has already cost. Their own route; a gate or wall they already used; stolen transport; hiding until another hour. Streets can also show: aerial on Grüner Turm from a north or high angle; hum or lamp at Altrathausplatz; empty feel at the Rathaus as an exchange.
+- **Essential information and vectors:** whether the hydra can still call; which way out is still open; what the civilian constraint has already cost. Their own route; a gate or wall they already used; hiding until another hour; one of three placed vehicles (Stein's Kübelwagen, the loft's dispatch motorcycle-and-sidecar, or the Opel Blitz truck at Wörnitztor — **Extraction vehicles**, below Gates and the circuit). Streets can also show: aerial on Grüner Turm from a north or high angle; hum or lamp at Altrathausplatz; empty feel at the Rathaus as an exchange.
 - **Failure changes:** costly exit, capture of gear, a PC down after they have already played. Mission result (hydra dead or not) is already decided by then or still decidable in flight.
 - **Reachable next points:** end states.
 
@@ -707,6 +708,18 @@ Hollow town. **Do not** put a Wörnitztor-style pair at every entrance. Closing 
 | **Bahnhof** | Empty or 1 sleeper. Map’s 15-man watch is stale. | Not a door into the Altstadt. **Not a fourth head.** | Ignore, or one tired man. |
 
 If the fuse is already lit, the gate they used becomes an obvious plug. Other faces stay thinner. Do not add a squad.
+
+### Extraction vehicles (GM)
+
+Three placed, concrete exits for Story Point 6 — none required, none the only way out. These are the only running vehicles in town tonight.
+
+| Vehicle | Where | State | Capacity | Risk |
+|---|---|---|---|---|
+| Stein's Kübelwagen (VW Type 82) | Plank lean-to off Weinmarkt, near his quarters (Rathaus area) | Near-full tank — he uses it for rounds. Keys are on him or inside, not in it. | 4, tight | `Repair (-2)` and a full round to start without the key; failure grinds and carries — close enough to wake Stein if he is still there. |
+| Loft's dispatch motorcycle-and-sidecar (Zündapp KS 750) | Lean-to at the base of Grüner Turm | Keys on the machine; the runner keeps it ready. First kick. | 2 (rider + sidecar) | Loud. Sits at the foot of the loft watch — using it before or during that head's fight draws that watch immediately. |
+| Opel Blitz cargo truck | Supply yard/lean-to just inside Wörnitztor | Battery pulled for winter; quarter tank — enough to clear town, not the front. | Cab (2) + open bed (rest of party and gear) | `Repair` to cold-start (SWADE p.34): success is quiet enough, failure costs a few minutes and noise, not the vehicle. |
+
+Sighted, not flagged, the first time the PCs pass each site (Wörnitztor in SP1; Rathaus in SP2; Grüner Turm in SP4). No chase mechanics — a long vehicle chase is a named pacing cut elsewhere in this adventure.
 
 ## Escalation and clocks
 
