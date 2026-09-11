@@ -5,7 +5,7 @@
 - **Role:** signal capture/replay operator using a maintenance cover
 - **Current objective:** obtain Abigail's original reel and warn Cal; at the compound, keep Lilly away from the rack long enough for the record to be destroyed and take an exit
 - **Fear:** being left responsible for Cal's killing
-- **Leverage/resources:** technical competence, maintenance paperwork, access knowledge, out-of-county truck shared with Cal, portable radio/payphone
+- **Leverage/resources:** technical competence, maintenance paperwork, access knowledge, out-of-county truck shared with Cal, his own car (slate-gray 1983 Datsun 810 Maxima, Oregon plate `XLR 204`, rented for cash out of Eugene), portable radio/payphone
 - **Secret:** he captured local police traffic, helped replay it, and helped stage the lake; Cal killed Frank
 - **Relationships:** works with Cal but does not trust him; sees Abigail as a custodian to pressure, not an enemy; underestimates Lilly as new to town
 - **If ignored:** takes the reel if allowed, warns Cal, and tries to leave Ashgrove
@@ -39,7 +39,7 @@ Skills: Athletics d6, Common Knowledge d6, Electronics d8, Fighting d4, Notice d
 Pace: 6; Parry: 4; Toughness: 5
 Hindrances: none needed at table
 Edges: none
-Gear: work jacket, service papers, tool bag, flashlight, portable radio; unarmed attack Str
+Gear: work jacket, service papers, tool bag, flashlight, portable radio, car keys (Datsun 810 Maxima, plate `XLR 204`); unarmed attack Str
 Special Abilities: none
 Personality: procedural when calm, quick to separate himself from Cal when cornered
 Authority: SWADE Fifth Printing (2023), pp.10–11 (derived statistics), pp.87–88, 95 (Extras), p.202 (creating NPCs)

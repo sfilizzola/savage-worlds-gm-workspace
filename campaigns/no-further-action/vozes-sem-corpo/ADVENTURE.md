@@ -44,11 +44,12 @@ Hear Abigail's tape, find Frank Loman, and build a file that cannot honestly be 
 - Frank is dead in an inland utility outbuilding at that tower compound, not in Lake Barrow and not at the radio station.
 - The barefoot tracks and mud cassette were staging leftovers. The cassette is work media from the capture job.
 - Lilly found the mud cassette in session 1, but its exact custody and current location were not recorded. If she seeks it, the GM places it in an evidence bag/property area or requires a short Lake Barrow scene follow-up, whichever fits table continuity. Either route succeeds with a time/custody cost instead of gating progress; the cassette is never mandatory.
-- Abigail's reel contains ordinary programming, a precise missing interval, then bleed from local police traffic.
+- Abigail's reel contains ordinary programming, a precise missing interval, then bleed from local police traffic. The missing interval is exactly **1 minute 52 seconds**, identical on every independent record — this campaign's first synchronization gap, and a fixed signature that will recur, unexplained, in later eras.
 - The station reel and dispatch recorder share the same missing interval. A maintenance timing log and the mud cassette provide additional independent vectors.
 - Access paperwork is a **Water Authority** letterhead with a vague continuity-maintenance description, an Eugene callback, and a PO box that does not resolve cleanly. Ashgrove has no such agency. The local key board is **town public works**, same Town Hall building as the precinct (north of Main, Church–Pell). Ownership remains muddy local paperwork.
-- Ashgrove is tiny. Ray and Cal, unfamiliar men using an out-of-county truck, were noticed at **Daisy’s** and **West End Fuel**. They split this morning: Ray toward KCRK (south of the river, Bridge Street continuation); Cal and the truck toward the lake-road utility access, not east on 328 through Lowater toward Rookton.
-- Ray is at **KCRK 102.3 FM** at table start. Cal is at the inland tower compound, preparing to move Frank and later to wipe equipment once alerted.
+- Ashgrove is tiny. Ray and Cal, unfamiliar men using an out-of-county truck, were noticed at **Daisy’s** and **West End Fuel**. Ray also has his own car — a slate-gray 1983 Datsun 810 Maxima sedan, Oregon plate `XLR 204` — parked outside Daisy's during breakfast, unfamiliar enough in a mill-truck town that Daisy's staff clock it alongside the truck. They split this morning: Ray in his car toward KCRK (south of the river, Bridge Street continuation); Cal and the truck toward the lake-road utility access, not east on 328 through Lowater toward Rookton.
+- Ray's car traces (Oregon MVD, Salem, via dispatch teletype/callback — realistically an hour or overnight) to a Eugene car-rental outfit, rented for cash under a name matching no local ID. Same Eugene dead end as the Water Authority work order: access is proven, ownership stays muddy.
+- Ray is at **KCRK 102.3 FM** at table start, having driven there in his own car. Cal is at the inland tower compound, preparing to move Frank and later to wipe equipment once alerted.
 
 ## Objectives and stakes
 

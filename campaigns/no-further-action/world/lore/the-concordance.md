@@ -66,6 +66,8 @@ When custodians take multiple records offline and harmonize them, the workflow l
 - 1998: analogue-to-digital transfers and vendor systems;
 - 2016: live audit trails and automated records.
 
+**Fixed duration:** the gap is always exactly **1 minute 52 seconds**, regardless of era or medium. This was set in `vozes-sem-corpo` (night 2) and must recur unchanged and unexplained in every later instance — it is the process's fingerprint, not a dramatic flourish, and no NPC before the 2016 endgame may explain why that number.
+
 The gap proves a common process. It does **not** identify the actor, motive, client, or original event.
 
 ## Ashgrove node

@@ -43,9 +43,9 @@ This is flexible preparation, not a scene sequence or session history.
 
 - **Purpose:** establish the first synchronization gap on independent records and explain the “voice.”
 - **Reachable when:** Lilly has access to any two of station reel, dispatch recorder, maintenance timing, or—optionally—the mud cassette. Abigail, Doyle, Nancy, or ordinary police procedure can provide access to the first three.
-- **Situation:** station and dispatch media were recorded by different systems. Their ordinary content differs, but comparison can reveal that both lose the same precise interval and that police traffic after the cut includes Lilly's name. Lilly found the mud cassette in session 1, but its exact custody/location was not recorded. If she seeks it, the GM places it in an evidence bag/property area or uses a short Lake Barrow follow-up, whichever matches table continuity; retrieval succeeds with time or custody cost rather than a mandatory roll.
+- **Situation:** station and dispatch media were recorded by different systems. Their ordinary content differs, but comparison can reveal that both lose the same precise **1 minute 52 second** interval and that police traffic after the cut includes Lilly's name. Lilly found the mud cassette in session 1, but its exact custody/location was not recorded. If she seeks it, the GM places it in an evidence bag/property area or uses a short Lake Barrow follow-up, whichever matches table continuity; retrieval succeeds with time or custody cost rather than a mandatory roll.
 - **Spoken lines:** Doyle: “Play the part before it. Then ours. Don't tell me what I'm supposed to hear.” Abigail: “That silence isn't dead air. I was in the chair.”
-- **Essential information:** independent records share one exact missing interval; Lilly's name came from police traffic; the gap demonstrates a common process, not who ordered it.
+- **Essential information:** independent records share one exact missing interval of 1 minute 52 seconds; Lilly's name came from police traffic; the gap demonstrates a common process, not who ordered it.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
@@ -64,9 +64,9 @@ This is flexible preparation, not a scene sequence or session history.
 
 - **Purpose:** make Ashgrove's size an active investigative instrument.
 - **Reachable when:** Lilly asks Nancy, station staff, Daisy Pell, the West End Fuel attendant, Walt Kearney if he is in his 7am booth, Don Halvorsen or Andy Foyle on day patrol, or Iverson’s Market gossip about unfamiliar men or a nonlocal truck.
-- **Situation:** people noticed two unfamiliar men and an out-of-county utility truck because Ashgrove rarely supplies anonymity. They ate at **Daisy’s** (south side of Main, first numbered door east of Church) and fueled at **West End Fuel** (west of Mill, south of Main), then separated this morning. Ray went south across the river toward KCRK; Cal and the truck took the **lake road** (Barrow Lake Rd / Co. Rd. 12) toward inland utility access, not 328 east through Lowater. **Helen Broome** (last tenant at 14 Cedar) is not **Helen Loman**.
+- **Situation:** people noticed two unfamiliar men and an out-of-county utility truck because Ashgrove rarely supplies anonymity. They ate at **Daisy’s** (south side of Main, first numbered door east of Church) and fueled the truck at **West End Fuel** (west of Mill, south of Main); Ray's own car — a slate-gray 1983 Datsun 810 Maxima, Oregon plate `XLR 204` — sat outside Daisy's during breakfast and drew its own notice. They separated this morning. Ray took his car south across the river toward KCRK; Cal and the truck took the **lake road** (Barrow Lake Rd / Co. Rd. 12) toward inland utility access, not 328 east through Lowater. **Helen Broome** (last tenant at 14 Cedar) is not **Helen Loman**.
 - **Spoken lines:** Nancy: “If they ate breakfast here, start with what they ordered.” Daisy: “Didn't know either one. Knew the truck wasn't mill.” Fuel attendant: “Filled 'em. They didn't take 328 toward Lowater.” Walt, if present: “County plate. Not mill, not sheriff. I'm retired.”
-- **Essential information:** there are two men; they used an out-of-county truck; they split this morning; the truck headed toward the tower access road.
+- **Essential information:** there are two men; they used an out-of-county truck and a second out-of-county car; they split this morning; the truck headed toward the tower access road, the car toward KCRK.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
@@ -74,8 +74,9 @@ This is flexible preparation, not a scene sequence or session history.
 | `Persuasion` with town witnesses | Gossip spreads and Ray learns a detective is asking; one witness still gives the truck color and county. | Two independent witnesses establish the pair and their split. | A fuel chit time and a remembered partial plate narrow the lake-road utility access and truck. |
 | `Common Knowledge` using Nancy's social map | Nancy gives three places to call, costing thirty minutes. | She names Daisy’s and West End Fuel as likely fresh witnesses. | She names who worked early at Daisy’s, who was on the fuel island, and that Iverson’s heard it secondhand. |
 | `Notice` at West End Fuel | The paper bin has been cleared; the attendant still identifies the direction. | A carbon slip records fuel for the out-of-county truck. | Parking mud matches the inland utility shoulder off the lake road rather than the lakeside bank or KCRK’s lot. |
+| `Notice` or `Research` on Ray's car outside Daisy's | Someone recalls "a gray import," nothing more specific. | Lilly gets the plate: Oregon `XLR 204`. | A Salem MVD callback (through Doyle or dispatch, costing an hour or overnight) traces it to a Eugene car-rental outfit, rented for cash under a name matching no local ID — the same Eugene dead end as the Water Authority work order. |
 
-- **Independent vectors:** Nancy's social map; Daisy Pell; Walt at 7am (optional; plates, not a briefing); West End Fuel attendant/carbon slip; Don or Andy on day patrol; station staff seeing Ray arrive. Do not send her to the mill yard or the Rennicks for this night.
+- **Independent vectors:** Nancy's social map; Daisy Pell; Walt at 7am (optional; plates, not a briefing); West End Fuel attendant/carbon slip; Ray's car and plate outside Daisy's; Don or Andy on day patrol; station staff seeing Ray arrive. Do not send her to the mill yard or the Rennicks for this night.
 - **Escalation:** questions become town news. Once that attention reaches the crew, Cal becomes alerted and starts active cleanup; before that, time only advances his movement preparations.
 - **Failure consequences:** publicity costs stealth and time, but produces a broad truck description and route.
 - **Links forward:** Paper That Does Not Land, Tower Compound, Missing Interval, Disposition.

@@ -19,9 +19,9 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 
 ## Secret VSC-02 - One Missing Interval
 
-- **Truth:** independent records share the same precise missing interval.
+- **Truth:** independent records share the same precise missing interval — exactly 1 minute 52 seconds.
 - **Who knows:** Ray knows records were synchronized; Cal knows only that records are being cleaned.
-- **Why it matters:** this is the campaign's first synchronization gap, proof of a common process but not motive or ownership.
+- **Why it matters:** this is the campaign's first synchronization gap, proof of a common process but not motive or ownership. The exact duration is a fixed signature that should recur, unremarked, in later eras' records.
 - **Player-facing signs:** clean station cut, matching dispatch blank, maintenance timing notation, cassette leader/stop marks.
 - **Independent discovery vectors:**
   1. Station reel against dispatch recorder.
