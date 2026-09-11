@@ -75,7 +75,7 @@ Never invent Savage Worlds notation or import older-edition mechanics. Cite sour
 
 Design flows `GM intent → objective → story point → situation → player decision → consequence → next reachable story point`. Build reachable situations, not a fixed scene chain or a menu of expected solutions. Never make one roll/clue/NPC/door/PC the only route to the main plot.
 
-Before compiling `RUN.md`: fill and score the adventure's `QUALITY.md` (copied from `templates/adventure/QUALITY.md`) — five-beat map, Coherence (prep) pass/fail, and the 120-point checklist. "Ready" requires the numeric band (≥100, or 80–99 with named repairs) **and** a passed Coherence block with a logic summary. Re-score after any major plot change.
+Before compiling `RUN.md`: fill and score the adventure's `QUALITY.md` (copied from `templates/adventure/QUALITY.md`) — five-beat map, Coherence (prep) pass/fail, Grounding audit pass/fail, and the 120-point checklist. Coherence checks structure (is each essential piece reachable); Grounding audit checks that every fact an Independent vector, Discoverable roll, or Essential-information line already promises a player can chase has a concrete value or a reasoned GM's-call tag, not just a category standing in for one. "Ready" requires the numeric band (≥100, or 80–99 with named repairs) **and** a passed Coherence block with a logic summary **and** a passed Grounding audit. Re-score after any major plot change.
 
 ## Compiling RUN.md
 
