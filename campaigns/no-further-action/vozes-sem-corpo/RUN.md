@@ -107,12 +107,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Story Point 1 - KCRK 102.3 FM: Tape in Motion
 
-**Mood (table):** Paraphrase only what Lilly perceives now.
-
-- **Climate:** Cold rain beads on the studio glass and follows coats inside.
-- **See:** A cramped board, reel boxes, a machine still warm, and a stranger's form on Abigail's desk.
-- **Hear:** Low monitor music, spool hiss, and a telephone receiver settling into place.
-- **Feel:** A normal workroom made abruptly proprietary.
+**Mood (table):** Cold rain beads on the studio glass and drips off coats stepping in from the street, into a cramped board crowded with reel boxes and a machine still warm from running. A stranger's shape leans over Abigail's desk. Low monitor music underlies spool hiss and a telephone receiver settling back into its cradle — an ordinary workroom, made abruptly proprietary.
 
 - **Goal:** decide custody and obtain a usable first reading of the recording without requiring any one choice.
 - **Situation now:** **ABIGAIL CARR** wants the recording heard and her job protected. **RAY HOLTZ** says he is collecting it for maintenance. He leaves within minutes if Lilly tests the cover.
@@ -149,12 +144,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Story Point 2 - Precinct Records: The Missing Interval
 
-**Mood (table):**
-
-- **Climate:** Wet coats steam beside a humming radiator.
-- **See:** A dispatch recorder, handwritten logs, grease-pencil marks, evidence shelves, and an open work surface.
-- **Hear:** Recorder motors, clipped radio traffic, paper shifting, and ordinary playback clicks.
-- **Feel:** Patient work under an impatient roof.
+**Mood (table):** Wet coats steam beside a humming radiator while a dispatch recorder turns beneath handwritten logs, grease-pencil marks, and evidence shelves crowding an open work surface. Recorder motors hum under clipped radio traffic, shifting paper, and the ordinary clicks of playback. It's patient, careful work — done under a roof that wants it finished fast.
 
 - **Goal:** compare independent records and determine what the “voice” actually contains.
 - **Situation now:** **SGT. DOYLE** can provide dispatch access when Lilly presents a concrete reason. **ABIGAIL CARR** may bring a copy or log. **CHIEF WHITLEY** can impose time pressure but cannot make protected evidence cease to exist. Lilly found the mud cassette in session 1, but its exact custody/location was not recorded: if she seeks it, the GM places it in an evidence bag/property area or uses a short Lake Barrow follow-up, whichever matches table continuity. That optional retrieval succeeds with a time or custody cost rather than gating this point.
@@ -185,12 +175,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Story Point 3 - Ashgrove: Two Outsiders
 
-**Mood (table):**
-
-- **Climate:** Fine rain turns Daisy’s awning dark and keeps morning customers indoors.
-- **See:** A Cinder Creek clock, pie under a dome, and booths that remember who sat where.
-- **Hear:** Cups, a register bell, and strangers described by where they sat.
-- **Feel:** Anonymity measured in minutes.
+**Mood (table):** Fine rain darkens Daisy's awning and keeps the morning crowd indoors, under a Cinder Creek clock and pie cooling beneath its dome, in booths that remember who sat where. Cups clink, the register bell rings, and strangers get described by where they parked themselves. In a town this size, anonymity is measured in minutes.
 
 - **Goal:** use the town's social memory to establish two men, the truck, their split, and the lake-road inland route.
 - **Situation now:** **NANCY IVERSON** can identify who worked early. **DAISY PELL** and the West End Fuel attendant remember an out-of-county truck because it was unusual, not because they know the crime. **WALT KEARNEY** may be in his 7am booth (plates, then he wants to stay retired). **DON HALVORSEN** or **ANDY FOYLE** may have seen the truck on the day beat. **HELEN LOMAN** can establish Frank's habits if Lilly seeks her. Helen Loman is not Helen Broome of 14 Cedar.
@@ -225,12 +210,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Story Point 4 - Town Hall public works: Paper That Does Not Land
 
-**Mood (table):**
-
-- **Climate:** Damp paper curls near a space heater.
-- **See:** A labeled key board, stamped dates, pencils, and a telephone directory in an extra mill-era room.
-- **Hear:** Telephone dialing, file drawers, radiator ticks, and precinct noise through the wall.
-- **Feel:** A small office protecting its routine.
+**Mood (table):** Damp paper curls near a space heater in a cramped mill-era room, a labeled key board and stamped dates lined up beside pencils and a telephone directory. Dialing, file drawers, radiator ticks, and precinct noise through the wall fill the small office's quiet. It's a room protecting its routine, not expecting to be questioned.
 
 - **Goal:** establish paper-covered tower access while preserving the ownership boundary.
 - **Situation now:** a **PUBLIC-WORKS CLERK** can explain normal procedure in the same Town Hall as PD. A work order on **Water Authority** letterhead, an Eugene callback, a billing address, and an access-key register are available to check; their significance is not established until Lilly questions the clerk or works the records. Ashgrove has no Water Authority. Rookton Public Works is a 22-mile call and does not own this job.
@@ -261,12 +241,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Story Point 5 - Inland Tower Compound
 
-**Mood (table):**
-
-- **Climate:** Cold rain runs across the utility road and beads on exposed metal.
-- **See:** Chain-link fencing and a gate, a low equipment shed, a truck, an outbuilding set back from the tower, and a single work light.
-- **Hear:** Rain on metal, a generator's uneven note, and relay clicks from the shed.
-- **Feel:** Cold and exposed at the end of a service road.
+**Mood (table):** Cold rain runs the length of the utility road and beads on exposed metal, past chain-link fencing and a gate, a low equipment shed, a parked truck, and an outbuilding set back beneath the tower under a single work light. Rain drums on metal, a generator holds an uneven note, and relays click somewhere inside the shed. This is the end of a service road — cold, exposed, and far from anyone who'd hear a shout.
 
 - **Goal:** find Frank and preserve physical and signal truth, rewarding an unalerted approach and applying the cleanup clock only after alert.
 - **Situation now — unalerted:** the gate is closed, the truck is parked and empty, and no smoke rises from the barrel or stove. **CAL BRIGGS** is working inside the shed or outbuilding, preparing Frank and the truck for movement; the paper log, signal head, and body are intact. **RAY HOLTZ** is present only if prior choices put him here. Lilly gets an observation/intervention beat before Cal detects police attention.
@@ -326,12 +301,7 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 ## Story Point 6 - Precinct: Disposition
 
-**Mood (table):**
-
-- **Climate:** Rain ticks against precinct windows.
-- **See:** Frank's thin file beside whatever Lilly actually brought back.
-- **Hear:** Recorder motors, paper turning, and Whitley's office door closing.
-- **Feel:** The distance between knowing and proving.
+**Mood (table):** Rain ticks against the precinct windows while Frank's thin file sits beside whatever Lilly actually managed to bring back. Recorder motors run down, paper turns, and Whitley's office door closes behind someone. The room holds the gap between knowing and proving — and tonight, that gap is what gets written down.
 
 - **Goal:** state the strongest honest disposition supported by surviving evidence.
 - **Situation now:** **CHIEF WHITLEY** wants a defensible small answer. **SGT. DOYLE** supports concrete matches. **ABIGAIL CARR** wants her station protected. **HELEN LOMAN** wants Frank not to disappear into wording.
