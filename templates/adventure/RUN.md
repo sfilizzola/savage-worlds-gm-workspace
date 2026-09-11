@@ -46,7 +46,7 @@ Shorthand used in this file. Not player-facing unless you choose to say it. Dele
 
 GM throughline of the night (briefing calm → trouble). Two to five sentences for the GM. May mention facts the players do not know yet. Do **not** speak this as the landing.
 
-Story-point **Mood (table)** is separate: Climate / See / Hear / Feel, player-perceivable only.
+Story-point **Mood (table)** is separate: one flowing paragraph describing the place, player-perceivable only.
 
 ## First 15 minutes
 
@@ -138,7 +138,7 @@ Index only. Prepare this even if the players reach it from another direction. Do
 
 Omit if this is the same space as the story point. Different door only. Fill only new fields.
 
-- Sensory frame: four Mood lines for this door
+- Sensory frame: one Mood paragraph for this door
 - People and forces:
 - Environment/hazards:
 - Spoken lines: only lines that belong to this door

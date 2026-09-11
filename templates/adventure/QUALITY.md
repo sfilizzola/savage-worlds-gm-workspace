@@ -95,7 +95,7 @@ Score each item **0–5**, then multiply by its weight. Use the notes column to 
 | 6 | Useful opposition | ×2 | | | Extras provide action and scale while Wild Cards represent genuinely important threats. | |
 | 7 | Failure moves the story forward | ×2 | | | Failed rolls introduce costs, danger, lost opportunities, or complications instead of stopping the adventure. | |
 | 8 | Player-character relevance | ×2 | | | Hindrances, Edges, relationships, and backgrounds have opportunities to matter. | |
-| 9 | Strong locations and imagery | ×1 | | | Each major situation has a recognizable identity, interactive features, and something visually memorable. Story-point Mood is player-perceivable (Climate / See / Hear / Feel), not GM editorials. | |
+| 9 | Strong locations and imagery | ×1 | | | Each major situation has a recognizable identity, interactive features, and something visually memorable. Story-point Mood is a single player-perceivable paragraph describing the place, not a labeled checklist and not GM editorials. | |
 | 10 | Clean ending and rewards | ×1 | | | Players see the consequences, receive rewards or advancement, and understand any continuing hook. | |
 
 **Total (sum of Weighted):** /120

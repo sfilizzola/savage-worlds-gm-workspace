@@ -55,7 +55,7 @@ State these rules once under **Notation**. Use them throughout the file.
 | Trait test | `` `Notice (-2)` ``, `` `Persuasion` ``, `` `Survival (+1)` `` — Trait name, optional modifier, no invented skill names |
 | Information rolls | Always state fail, success, and raise when the roll reveals information |
 | Quoted speech | Quotation marks for lines the GM can speak. Not a read-aloud script. Omit the field if nobody speaks. Carry speech in a **Spoken lines** field or a blockquote that opens with the quotation mark, so the printer can tint it |
-| Mood | Four labeled lines the GM paraphrases to the table **now**: **Climate**, **See**, **Hear**, **Feel**. Player-perceivable only. Not a boxed read-aloud. No secrets, unearned names, historical footnotes, or GM editorials |
+| Mood | One flowing paragraph (~40-80 words) the GM paraphrases to the table **now**. Weave in what's felt (weather/temperature), seen, and heard as a single description of the place — not a labeled checklist. Player-perceivable only. Not a boxed read-aloud. No secrets, unearned names, historical footnotes, or GM editorials |
 | GM Note | Labeled **GM Note.** Secret or ruling. Never player-facing |
 | Optional material | Label **Optional.** Side paths must not gate the main objective |
 | PC-specific hook | Label **PC hook — Name.** Must not be the only vector for essential information |
@@ -80,12 +80,7 @@ Use this order inside every story point and every nested location. Delete a row 
 ```text
 ## Story Point N - <Name>
 
-**Mood (table):** Paraphrase to the players the moment this situation is on. Not a read-aloud. Not a required recitation.
-
-- **Climate:** weather, light, cold/heat. What the body notices first.
-- **See:** what is in front of them before any roll. No unearned place-names.
-- **Hear:** sound, and smell if it matters. One or two cues.
-- **Feel:** temperature of the night — calm, thin, urgent, or hunt. One clause. Do not prescribe what the PCs decide.
+**Mood (table):** <one paragraph, ~40-80 words, present tense — weather/temperature, what's in front of them before any roll, and what's heard, woven into a description of the place, ending on the scene's tension or tone as its natural last clause. No unearned place-names. Do not prescribe what the PCs decide.>
 
 Do not put in Mood: secrets, tells meant to be rolled, historical footnotes, “this is not the X,” map lectures, NPC locations they cannot see, or GM editorials.
 
@@ -107,7 +102,7 @@ Do not put in Mood: secrets, tells meant to be rolled, historical footnotes, “
 
 Omit this heading when it is the same space as the story point. Use it only for a different door or room. Fill only fields that are new; do not repeat parent speech, Trait tables, or stat blocks.
 
-- Sensory frame: four Mood lines for this door. Do not write `as story-point Mood` as a substitute for omitting a same-space nest.
+- Sensory frame: one Mood paragraph for this door. Do not write `as story-point Mood` as a substitute for omitting a same-space nest.
 - People and forces:
 - Environment/hazards:
 - Spoken lines: only lines that belong to this door
@@ -137,7 +132,7 @@ Do not use a plain heading for either board. The alert is semantic source Markdo
 
 | Field | Required when |
 |---|---|
-| Mood (table) | Every story point. Four labeled lines: Climate, See, Hear, Feel. Player-perceivable only |
+| Mood (table) | Every story point. One flowing paragraph describing the place. Player-perceivable only |
 | Spoken lines | A named NPC, victim, messenger, or opposition can talk or shout |
 | Discoverable table | Players can learn a fact, track, or tell here |
 | GM Note | A secret, false assumption, or off-stage cause exists |
@@ -194,7 +189,7 @@ Refuse to call `RUN.md` complete unless all of the following are true:
 - [ ] Extra GM lookups, if any, sit after the story points.
 - [ ] Nested locations are different doors only; no “as above” repeats of parent speech or stats.
 - [ ] Every story point uses the situation-block order.
-- [ ] Every story point has a **Mood (table)** with Climate / See / Hear / Feel; no secrets in Mood.
+- [ ] Every story point has a **Mood (table)** as a single flowing paragraph describing the place; no secrets in Mood.
 - [ ] Every information roll states fail, success, and raise.
 - [ ] Every situation with a speaker has quoted lines **in that situation**.
 - [ ] Every situation with a secret has a GM Note.
