@@ -68,14 +68,14 @@ Beats diagnose pacing and completeness. They are not a mandatory scene sequence 
 
 Do not force a Chase, Dramatic Task, Quick Encounter, or other SWADE subsystem. Use the mechanic the fiction needs.
 
-Every generated adventure includes a scored copy of `templates/adventure/QUALITY.md` as `QUALITY.md`. Score it before compiling `RUN.md`, and re-score after a major plot change. Maximum 120. Coherence (prep) is a separate pass/fail in that file and can block compile regardless of the numeric band.
+Every generated adventure includes a scored copy of `templates/adventure/QUALITY.md` as `QUALITY.md`. Score it before compiling `RUN.md`, and re-score after a major plot change. Maximum 120. Coherence (prep) and Grounding audit are separate pass/fail blocks in that file and can each block compile regardless of the numeric band. Coherence checks structure — is each essential piece reachable. Grounding audit checks a different thing — for every fact an Independent vector, Discoverable roll, or Essential-information line already promises a player can chase, is there a decided value behind it, or only a category standing in for one.
 
 - **100–120:** Strong and ready to compile as ready.
 - **80–99:** Solid; repair the weakest one or two ranks before calling it ready.
 - **60–79:** Playable, but likely linear, repetitive, or underdeveloped. Rework before a convention or first-time table.
 - **Below 60:** Rework the objective, choices, escalation, and climax first. Do not compile as ready.
 
-Ready still means the numeric band (ready ≥ 100, or 80–99 with named repairs) **and** Coherence (prep) passed with a logic summary present.
+Ready still means the numeric band (ready ≥ 100, or 80–99 with named repairs) **and** Coherence (prep) passed with a logic summary present **and** Grounding audit passed.
 
 If asked to both repair quality and add new material, repair objective, agency, pacing, and climax first.
 
@@ -139,6 +139,7 @@ Challenge the draft if any answer is yes:
 - For a one-shot: is there no opening trouble in the first 10–15 minutes, more than one major twist, no prepared climax situation, or no complete ending?
 - Has `QUALITY.md` not been scored, or does the total fall below the band required for the intended table (ready ≥ 100, or 80–99 with named repairs)?
 - Has Coherence (prep) not been filled, did any row fail, or is the logic summary missing after a pass? If yes, do not compile as ready.
+- Has Grounding audit not been filled, or does any listed fact lack a concrete value or a reasoned GM's-call tag? If yes, do not compile as ready.
 - Has prep been confused with canon or with events that actually occurred?
 - Does any NPC speak or act as a plot device rather than a person with limited knowledge and a reason?
 
@@ -160,7 +161,7 @@ Challenge the draft if any answer is yes:
 - NPC and rules appendices are indexes and night-wide constants, not second copies of situation speech or stat blocks.
 - Clearly label GM-only secrets.
 - Include failure consequences, escalation, end states, rewards or advancement, pacing cuts, and re-entry options.
-- Compile only from reviewed source files, including a scored `QUALITY.md` whose Coherence (prep) block passed and includes a logic summary. A failed or missing coherence block blocks ready compile. If a source changes, rebuild and recheck `RUN.md`.
+- Compile only from reviewed source files, including a scored `QUALITY.md` whose Coherence (prep) block passed and includes a logic summary, and whose Grounding audit passed. A failed or missing Coherence or Grounding audit block blocks ready compile. If a source changes, rebuild and recheck `RUN.md`.
 
 The goal is for the GM to run nearly the entire session from `RUN.md` without making it the canonical source of truth.
 

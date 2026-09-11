@@ -25,7 +25,7 @@ Bands:
 - **60–79:** Playable, but likely linear, repetitive, or underdeveloped. Rework before a convention or first-time table.
 - **Below 60:** Rework the objective, choices, escalation, and climax first. Do not compile as ready.
 
-Ready also requires **Coherence (prep)** to pass. A failed or missing coherence block, or a missing logic summary after a pass, blocks compile regardless of this total.
+Ready also requires **Coherence (prep)** and **Grounding audit** to pass. A failed or missing block, or a missing logic summary after a Coherence pass, blocks compile regardless of this total.
 
 ## Five-beat map
 
@@ -80,6 +80,22 @@ Reachable paths:
 
 Conclusion: end states agree with these paths. This is not a visit order.
 ```
+
+## Grounding audit
+
+Pass/fail. Does not change the 120-point total. Fail any row, or leave it blank, and do not compile `RUN.md` as ready.
+
+Coherence checks structure: is each essential piece reachable. This checks a different thing: for each fact the adventure's own tables already promise a player can chase, is there an actual decided value behind it, or only a category standing in for one?
+
+**Trigger:** list every specific value that an Independent vector, a Discoverable roll's Success/Raise result, or an Essential-information line implies a player can obtain, verify, or act on — a plate number, an exact duration, a make/model, a registration or ownership answer, a code, a schedule, a precise location, and similar. Purely atmospheric or Mood-field language is never a row here.
+
+| Fact | Where committed | Concrete value or GM's-call (with reason) | Pass? |
+|---|---|---|---|
+| | | | |
+
+**Fail if:** a listed fact has neither a concrete value nor a “GM's call — `<reason>`” tag.
+
+**Not a fail:** an explicitly tagged GM's-call item with a stated reason (e.g., “guard count: GM's call — scale to table size”); purely descriptive or Mood detail; a value correctly left to player choice (e.g., which witness she asks first).
 
 ## Ranked checklist
 

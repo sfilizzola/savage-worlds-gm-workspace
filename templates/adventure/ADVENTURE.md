@@ -104,7 +104,7 @@ Facts that are true regardless of player action. Keep these distinct from planne
 
 ## Quality gate
 
-Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change. Maximum 120. Ready ≥ 100, or 80–99 with named repairs, **and** Coherence (prep) passed. Below 80: rework before a convention or first-time table. Below 60: do not compile as ready.
+Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change. Maximum 120. Ready ≥ 100, or 80–99 with named repairs, **and** Coherence (prep) passed **and** Grounding audit passed. Below 80: rework before a convention or first-time table. Below 60: do not compile as ready.
 
 - Score: /120
 - Band:
@@ -117,6 +117,7 @@ Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change
 - [ ] House rules are `none` or valid IDs.
 - [ ] `QUALITY.md` is scored and the five-beat map is filled.
 - [ ] Coherence (prep): three rows passed and logic summary present.
+- [ ] Grounding audit: every fact an Independent vector, Discoverable roll, or Essential-information line commits to has a concrete value or a reasoned GM's-call tag.
 - [ ] One-shot shape items are complete when `format` is `one-shot`.
 - [ ] Main progress has no single point of failure.
 - [ ] Failure changes play without automatically stopping it.
