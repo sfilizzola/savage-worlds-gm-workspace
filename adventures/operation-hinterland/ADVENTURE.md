@@ -25,7 +25,7 @@ house_rules: none
 
 # Operation Hinterland
 
-Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31). `RUN.md` recompiled 2026-09-07 against `templates/adventure/SKELETON.md` (table-flow pass). Rebuild if source files change. Review that file at the table before play.
+Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31); Grounding audit passed 2026-09-11. `RUN.md` recompiled 2026-09-07 against `templates/adventure/SKELETON.md` (table-flow pass); hand-patched 2026-09-11 with the three extraction vehicles (source files changed, full recompile not run — see `RUN.md` Story Points 1, 2, 4, 6 and "Extraction vehicles (GM)"). Rebuild if source files change further. Review that file at the table before play.
 
 ## One-sentence premise
 
@@ -118,11 +118,12 @@ Reserve pregen: **Cpl. Pieter Voss** (Dutch). Allied Extra: **Pvt. Louis Benoit*
 
 ## Quality gate
 
-Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change. Maximum 120. Ready ≥ 100, or 80–99 with named repairs, **and** Coherence (prep) passed. Below 80: rework before a convention or first-time table. Below 60: do not compile as ready.
+Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change. Maximum 120. Ready ≥ 100, or 80–99 with named repairs, **and** Coherence (prep) passed **and** Grounding audit passed. Below 80: rework before a convention or first-time table. Below 60: do not compile as ready.
 
 - Score: 98 /120 (2026-08-31)
 - Band: 80–99 Solid. Named repairs in `RUN.md` this pass: briefing-before-drop opening, climax situation, first-15-minutes block, rewards. Opening heat (calm briefing + thrill-only jump) and unique climax location remain open.
 - Coherence (prep): passed (2026-08-31); logic summary in `QUALITY.md`.
+- Grounding audit: passed (2026-09-11), after replacing the ungrounded "stolen transport" extraction vector with three named, located vehicles (Stein's Kübelwagen, the loft's dispatch motorcycle-and-sidecar, the Opel Blitz at Wörnitztor).
 - Weakest ranks to repair: 3 pacing/opening, 4 climax (unique location).
 
 ## Pre-compilation gate
@@ -132,6 +133,7 @@ Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change
 - [x] House rules are `none` or valid IDs.
 - [x] `QUALITY.md` is scored and the five-beat map is filled.
 - [x] Coherence (prep): three rows passed and logic summary present.
+- [x] Grounding audit: every fact an Independent vector, Discoverable roll, or Essential-information line commits to has a concrete value or a reasoned GM's-call tag.
 - [x] One-shot shape items are complete when `format` is `one-shot`.
 - [x] Main progress has no single point of failure.
 - [x] Failure changes play without automatically stopping it.

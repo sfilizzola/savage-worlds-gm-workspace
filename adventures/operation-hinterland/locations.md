@@ -97,14 +97,14 @@ No one else is required to be on the street.
 - **Role in adventure:** nearest close from the LZ. One door, not the only one.
 - **First impression:**
   - **Climate:** Ice in the passage. Mill-race dark. Stove-smell if they get close.
-  - **See:** A dark gate-arch. Gatehouse. A faint glow from a lamp or stove.
+  - **See:** A dark gate-arch. Gatehouse. A faint glow from a lamp or stove. A tarped shape in a lean-to just inside the gate — a supply truck, plainly not going anywhere tonight.
   - **Hear:** Stove. Water. Two tired voices if they are close.
   - **Feel:** Thin watch. They want the night to pass. Not a fortress.
 - **Current situation:** two tired watchers, not the map’s ten. They want the night to pass. They will challenge a loud close. They will not teleport a company.
-- **Environment:** gate passage, gatehouse, ice, short field of view along the east walk toward Altrathausplatz.
+- **Environment:** gate passage, gatehouse, ice, short field of view along the east walk toward Altrathausplatz, a supply yard/lean-to just inside the gate with a tarped Opel Blitz cargo truck (see "Extraction vehicles" below).
 - **People/forces present:** two Extras (Volkssturm or convalescent). Keller is not here at start. Stein is not here at start.
 - **What can be learned:** the town is thin; someone still walks the north wall; east lanes lead toward the old post / Altrathausplatz; the Rathaus is not on this face.
-- **GM-only truth:** bypass (postern, circuit, climb) remains available. A botched gate is noise and a hunt seed, not a failed mission.
+- **GM-only truth:** bypass (postern, circuit, climb) remains available. A botched gate is noise and a hunt seed, not a failed mission. The tarped truck is a sighting now, a possible exit later — full detail in "Extraction vehicles" below. Do not flag it as significant when they first see it.
 - **What changes over time:** if the fuse lights, this gate is an obvious plug. Dawn puts more eyes here.
 - **If violence begins:** two people who want to live. Reinforcement is a shout, then minutes, then Keller or a runner — not a battalion. Civilians in nearby houses.
 - **Relevant mechanics:** deferred.
@@ -122,7 +122,7 @@ No one else is required to be on the street.
 - **Environment:** offices, stair, winter blackout, a yard or side door. Not a dungeon. A dead wire stub or cut-over tag in a closet or cellar points **east**, not at the church.
 - **People/forces present:** Hofmann for sure if they come in quiet hours. Stein if they are loud or late. A habit check at the door is possible (one person). Keller only if her round has been pulled here.
 - **What can be learned:** this is not the hydra; traffic and the board moved; leftover note, tag, or Hofmann’s knowledge that *work* went to the old post / Altrathausplatz and that *books* live with the signals NCO toward **Nördlinger**; if they look north from the square, a stick of aerial on the north wall (loft) still live; Stein and Keller’s names and that they still treat this as *their* office. Hofmann names the north tower only if they ask.
-- **GM-only truth:** wrecking only the Rathaus does not complete the mission. It can light the fuse. Give a **tell** if they treat it as a win: aerial still on the north wall, or a line still alive. Hofmann is one leftover, not the only one (wire, tag, habit patrol, empty board room).
+- **GM-only truth:** wrecking only the Rathaus does not complete the mission. It can light the fuse. Give a **tell** if they treat it as a win: aerial still on the north wall, or a line still alive. Hofmann is one leftover, not the only one (wire, tag, habit patrol, empty board room). Stein keeps a Kübelwagen in a plank lean-to off Weinmarkt, near his quarters — see "Extraction vehicles" below.
 - **What changes over time:** loud work here brings Stein downstairs and Keller off her round. Dawn fills the square with ordinary eyes.
 - **If violence begins:** Hofmann first; Stein if woken (competent, not a super-villain). Street watch later. Civilians on the Weinmarkt. Reinforcement is local.
 - **Relevant mechanics:** deferred.
@@ -176,7 +176,7 @@ No one else is required to be on the street.
 - **Environment:** height, ice, wind, a tight stair. Recoverable setback if someone slips — not a bench at first contact.
 - **People/forces present:** one Extra at start. Keller’s round passes this stretch. She is a possible sighting, not the key to the tower.
 - **What can be learned:** they can still raise out of town; a runner path to the board or to Brandt; the church is not the aerial.
-- **GM-only truth:** loft and feed are one head. Switchboard + papers still complete the job.
+- **GM-only truth:** loft and feed are one head. Switchboard + papers still complete the job. A dispatch motorcycle-and-sidecar (Zündapp KS 750) leans under a lean-to at the tower's base — the loft watch's runner keeps it ready. See "Extraction vehicles" below.
 - **What changes over time:** board dead → they still try radio. Papers gone → less useful traffic. Fuse → Keller arrives with a pair, not a company.
 - **If violence begins:** one watch plus height. Noise wakes the north face. Civilian risk is the tower and nearby houses, not a required church demolition.
 - **Relevant mechanics:** deferred.
@@ -235,3 +235,16 @@ No one else is required to be on the street.
 - **If violence begins:** delaying action, not a required last stand. Civilian constraint still applies. Do not add a squad because they walked.
 - **Relevant mechanics:** deferred.
 - **Links:** Story Point 1 (circuit); Story Point 6; end states. Full gate card: `RUN.md` Gates and the circuit.
+
+## Extraction vehicles (GM-only)
+
+- **Role in adventure:** three placed, concrete exits for Story Point 6 — none required, none the only way out. These are the only running vehicles in town; almost no other motors move tonight.
+
+| Vehicle | Where | State | Capacity | Risk |
+|---|---|---|---|---|
+| Stein's Kübelwagen (VW Type 82) | Plank lean-to off Weinmarkt, near his quarters (Rathaus area) | Near-full tank — he uses it for rounds. Keys are on him or inside his quarters, not in it. | 4, tight | Starting it without the key costs a `Repair (-2)` roll and a full round; failure grinds and carries — close enough to wake Stein if he is still there. |
+| Loft's dispatch motorcycle-and-sidecar (Zündapp KS 750) | Lean-to at the base of Grüner Turm | Keys on the machine; the runner keeps it ready. Starts on the first kick. | 2 (rider + sidecar) | Loud. Sits at the foot of the loft watch — using it before or during that head's fight draws that watch immediately. |
+| Opel Blitz cargo truck | Supply yard/lean-to just inside Wörnitztor | Battery pulled for winter (standard practice); quarter tank — enough to clear town, not to reach the front. | Cab (2) + open bed (rest of the party and gear) | Cold start needs a `Repair` roll: success starts it quietly enough; failure costs a few minutes and engine noise, not the vehicle. |
+
+- **GM-only truth:** sighted, not flagged, the first time the PCs pass each site (Wörnitztor in SP1; Rathaus and Grüner Turm when they reach those heads). None is required for a full-success end state — leaving on foot by any gate still works. Do not add a fourth vehicle or a chase; a long vehicle chase is a pacing cut.
+- **Links:** Story Point 1 (Wörnitztor sighting); Story Point 2 (Rathaus); Story Point 4 (Grüner Turm); Story Point 6 (use).

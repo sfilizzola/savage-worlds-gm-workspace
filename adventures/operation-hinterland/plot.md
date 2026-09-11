@@ -124,7 +124,7 @@ Pacing diagnostic. Not a visit order. Scores: `QUALITY.md` (98/120, 2026-08-31).
 - **Reachable when:** after noise, after dawn, after a wounded hydra screams, or after they choose to leave.
 - **Situation:** hollow town becoming a hunt or a waking street. Named officers act as the fuse, not as a battalion arriving by teleport.
 - **Essential information:** whether the hydra can still call; which way out is still open; what the standing civilian constraint has already cost.
-- **Independent vectors:** their own route; a gate or wall they already used; stolen transport; hiding until another hour — none of these is the only exit.
+- **Independent vectors:** their own route; a gate or wall they already used; hiding until another hour; one of three placed vehicles — Stein's Kübelwagen (Rathaus lean-to), the loft's dispatch motorcycle-and-sidecar (Grüner Turm), or the Opel Blitz cargo truck (Wörnitztor supply yard, sighted in SP1) — none of these is the only exit. Full detail: `locations.md` "Extraction vehicles."
 - **Escalation:** dawn; a successful out-of-town call if two heads still live or landline still speaks; hostage or curfew if officers are provoked.
 - **Failure consequences:** costly exit, capture of gear, a PC down after they have already played. The mission result (hydra dead or not) is already decided by then or still decidable in flight.
 - **Links forward:** end states.

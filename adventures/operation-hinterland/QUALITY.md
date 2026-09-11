@@ -56,6 +56,25 @@ Reachable paths:
 Conclusion: end states agree with these paths (hydra dead or not). Order is player-chosen. This is not a visit order.
 ```
 
+## Grounding audit
+
+Pass/fail. Does not change the 120-point total. Scored 2026-09-11 against the template check added after this adventure's original 98/120 score; re-verify if a new committed fact appears.
+
+| Fact | Where committed | Concrete value or GM's-call (with reason) | Pass? |
+|---|---|---|---|
+| Kit-ask result at briefing | SP0 Discoverable roll (`RUN.md`) | "spare mag, gloves, a lamp, extra cutters, or one extra ½-lb TNT" | yes |
+| Wörnitztor watch and gate | SP1; `locations.md` "Wörnitztor" | 2 Extras, full stat block `encounters.md` | yes |
+| Alternate close: postern/circuit | SP1 Independent vector | `locations.md` "Gates…": "no dedicated watch," "costs time, not a travel map" | yes |
+| Dummy-site leftover (false-head tell) | SP2; `locations.md` "Rathaus" | Named clerk (Hofmann), wire stub/cut-over tag pointing east | yes |
+| Switchboard location + opposition | SP3; `locations.md` "Switchboard" | Altrathausplatz, 2 named operators, stat block `encounters.md` | yes |
+| Loft location + opposition | SP4; `locations.md` "Grüner Turm" | North wall, 1 loft watch, stat block `encounters.md` | yes |
+| Papers/satchel location + NCO | SP5; `locations.md` "Papers / Brandt" | Nördlinger Straße billet, named NCO with stat block `encounters.md` | yes |
+| Stale 468 garrison overlay on the briefing map | `ADVENTURE.md`, `secrets.md` Secret 2 | GM's call — deliberate false intel, tagged as such | yes |
+| Extraction via a vehicle | SP6 Independent vector (`plot.md`, `RUN.md`) | Three named vehicles with location/state/capacity/risk: `locations.md` "Extraction vehicles," `encounters.md` "Extraction vehicles," `RUN.md` "Extraction vehicles (GM)" | yes |
+| Unnamed civilian "who hates the noise or the light" (loft vector) | SP4 Independent vector | GM's call — redundant with two already-concrete vectors (skyline, feed line) to the same essential fact | yes |
+
+**Fail if:** none this pass.
+
 ## Ranked checklist
 
 | Rank | Requirement | Weight | Score (0–5) | Weighted | What good looks like | Notes |
