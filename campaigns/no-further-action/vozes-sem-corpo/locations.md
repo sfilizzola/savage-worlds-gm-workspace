@@ -10,7 +10,7 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Current situation:** Ray is requesting the original reel under a maintenance cover; Abigail is resisting without knowing how far she can go.
 - **Environment:** dry interior; front office, studio window, one public exit and one service exit; copy deck and telephone.
 - **People/forces present:** Abigail Carr and Ray Holtz; another station worker may witness custody.
-- **What can be learned:** precise gap, police traffic bleed, Ray's thin cover, arrival time, reel counter positions, station log.
+- **What can be learned:** precise gap (exactly 1 minute 52 seconds), police traffic bleed, Ray's thin cover, arrival time, reel counter positions, station log.
 - **Spoken lines:** Abigail: “I didn't call so somebody could carry it away.” Ray: “Then don't sign it over. I write that down too.”
 - **Discoverable rolls:** see `plot.md`, Tape in Motion.
 - **GM-only truth:** Ray's priority is the original reel, not violence.
@@ -40,9 +40,9 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Role in adventure:** breakfast memory of the two outsiders; one home for Daisy Pell and, around 7am, Walt Kearney.
 - **Campaign file:** [`../world/locations/daisys.md`](../world/locations/daisys.md) — south side of Main, first numbered door east of Church.
 - **First impression:** **Climate:** damp coats inside the door. **See:** a Cinder Creek clock, pie under a dome, Walt’s booth if it is his hour. **Hear:** register bell, cups, 328 through the glass. **Feel:** outsiders get a booth, not a name.
-- **Current situation:** Daisy is on the register. Two unfamiliar men ate early; she remembers the truck was not mill. Walt, if present, notices county markings and then wants to stay retired.
-- **Spoken lines:** Daisy: “Didn't know either one. Knew the truck wasn't mill.” Walt, if present: “County plate. Not mill, not sheriff. I'm retired.”
-- **GM-only truth:** they saw men and a truck, not a crime.
+- **Current situation:** Daisy is on the register. Two unfamiliar men ate early; she remembers the truck was not mill, and a slate-gray import — Ray's car, Oregon plate `XLR 204` — sat outside the whole time. Walt, if present, notices county markings and then wants to stay retired.
+- **Spoken lines:** Daisy: “Didn't know either one. Knew the truck wasn't mill. That gray car out front wasn't from around here either.” Walt, if present: “County plate. Not mill, not sheriff. I'm retired.”
+- **GM-only truth:** they saw men, a truck, and a car, not a crime.
 - **Links:** Story Point 3; campaign Daisy and Walt files.
 
 ## West End Fuel (SP3 stop)

@@ -117,11 +117,11 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Notice` while the reel plays | The gap sounds like an awkward cut; Ray edges toward the reel while Abigail can still make a copy. | Lilly marks the cut and hears her surname inside police traffic after it. | She notes both counter positions and that the cut is too clean for ordinary damage. |
+| `Notice` while the reel plays | The gap sounds like an awkward cut; Ray edges toward the reel while Abigail can still make a copy. | Lilly marks the cut — exactly 1 minute 52 seconds by the counter — and hears her surname inside police traffic after it. | She notes both counter positions and that the cut is too clean for ordinary damage. |
 | `Common Knowledge` on Ray's cover | The form looks plausible; Ray leaves after one pointed question. | His language does not fit a local station service call. | The form lacks a station equipment ID and its callback is absent from the station directory. |
 | `Persuasion` with Abigail | She refuses to surrender the original but permits a hurried cassette copy; trust cools. | She documents transfer of the original into Lilly's custody. | She adds the program log and Ray's arrival time. |
 
-- **GM Note:** Ray wants the original and an exit, not a fight. He knows the technical job and staging, but Cal killed Frank. This studio is KCRK on Trapper Ridge; Frank is not here.
+- **GM Note:** Ray wants the original and an exit, not a fight. He knows the technical job and staging, but Cal killed Frank. This studio is KCRK on Trapper Ridge; Frank is not here. Ray drove his own car here (slate-gray 1983 Datsun 810 Maxima, Oregon plate `XLR 204`); the shared out-of-county truck went with Cal to the lake road.
 - **Pressure/escalation:** Ray exits through the service door. If exposed, detained then released, or visibly tailed, he attempts to warn Cal. A successful warning starts the alerted state but does not itself erase a category.
 - **Essential information and vectors:** the gap/traffic can come from this reel, Abigail/log, dispatch, timing log, optional mud cassette, or compound gear. Ray can be tracked through witnesses, paperwork, or a tail.
 - **Failure changes:** loss of original custody leaves a copy, testimony, logs, dispatch, timing evidence, compound evidence, and the optional cassette route. A burned tail reveals direction and alerts Cal without immediately erasing a category.
@@ -154,11 +154,11 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Electronics` comparing media | Matching written times takes one hour; the overlap remains. | Lilly aligns the exact missing interval on two independent records. | She isolates post-gap police traffic as replay, including her name. |
-| `Research` through logs | A dead-end cross-check takes one hour; matching start/stop entries remain visible. | Program, dispatch, and timing entries identify one interval. | A maintenance notation points to tower access during it. |
+| `Electronics` comparing media | Matching written times takes one hour; the overlap remains. | Lilly aligns the exact missing interval — 1 minute 52 seconds — on two independent records. | She isolates post-gap police traffic as replay, including her name. |
+| `Research` through logs | A dead-end cross-check takes one hour; matching start/stop entries remain visible. | Program, dispatch, and timing entries identify one 1-minute-52-second interval. | A maintenance notation points to tower access during it. |
 | `Notice (-2)` on the mud cassette, only if retrieved | Handling creates a custody objection; its work label remains legible. | Work tones and clipped police traffic match station bleed. | Leader/stop marks provide a third independent timing vector. |
 
-- **GM Note:** The synchronization gap proves common process only. It does not reveal ownership, motive, or a national actor.
+- **GM Note:** The synchronization gap proves common process only. It does not reveal ownership, motive, or a national actor. The gap is always exactly 1 minute 52 seconds — a fixed signature across every record and, per campaign lore, across every era.
 - **Pressure/escalation:** When either failed result costs an hour, advance cleanup once if active; if unalerted, Cal advances movement preparations but does not destroy a category. Whitley asks why a shelved file is using staff time.
 - **Essential information and vectors:** station reel, dispatch recorder, maintenance timing, compound machine state, and the optional mud cassette can establish the gap/replay independently.
 - **Failure changes:** alignment becomes less precise, cassette retrieval costs time/custody, or another record must carry the revelation. The cassette is never mandatory.
@@ -178,9 +178,9 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 **Mood (table):** Fine rain darkens Daisy's awning and keeps the morning crowd indoors, under a Cinder Creek clock and pie cooling beneath its dome, in booths that remember who sat where. Cups clink, the register bell rings, and strangers get described by where they parked themselves. In a town this size, anonymity is measured in minutes.
 
 - **Goal:** use the town's social memory to establish two men, the truck, their split, and the lake-road inland route.
-- **Situation now:** **NANCY IVERSON** can identify who worked early. **DAISY PELL** and the West End Fuel attendant remember an out-of-county truck because it was unusual, not because they know the crime. **WALT KEARNEY** may be in his 7am booth (plates, then he wants to stay retired). **DON HALVORSEN** or **ANDY FOYLE** may have seen the truck on the day beat. **HELEN LOMAN** can establish Frank's habits if Lilly seeks her. Helen Loman is not Helen Broome of 14 Cedar.
+- **Situation now:** **NANCY IVERSON** can identify who worked early. **DAISY PELL** and the West End Fuel attendant remember an out-of-county truck because it was unusual, not because they know the crime; Daisy also remembers a slate-gray import parked outside during breakfast. **WALT KEARNEY** may be in his 7am booth (plates, then he wants to stay retired). **DON HALVORSEN** or **ANDY FOYLE** may have seen the truck on the day beat. **HELEN LOMAN** can establish Frank's habits if Lilly seeks her. Helen Loman is not Helen Broome of 14 Cedar.
 - **Spoken lines (Nancy):** “If they ate breakfast here, start with what they ordered.”
-- **Spoken lines (Daisy):** “Didn't know either one. Knew the truck wasn't mill.”
+- **Spoken lines (Daisy):** “Didn't know either one. Knew the truck wasn't mill. That gray car out front wasn't from around here either.”
 - **Spoken lines (fuel attendant):** “Filled 'em. They didn't take 328 toward Lowater.”
 - **Spoken lines (Walt, if present):** “County plate. Not mill, not sheriff. I'm retired.”
 - **Spoken lines (Helen, if consulted):** “Frank took his boots off at home. He didn't walk cold mud barefoot for anybody.”
@@ -191,10 +191,11 @@ The night never stopped; morning merely replaced fog with cold rain and paperwor
 | `Persuasion` with witnesses | Questions become gossip and warn the crew; one person still gives truck color and county. | Two witnesses establish the pair and their split. | Fuel time and a partial plate narrow the lake-road utility access. |
 | `Common Knowledge` using Nancy's map | She gives three calls, costing thirty minutes. | She identifies Daisy’s and West End Fuel early shifts. | She names who notices county markings and that Iverson’s heard it secondhand. |
 | `Notice` at West End Fuel | The bin was emptied; the attendant still remembers direction. | A carbon slip records fuel for the truck. | Parking mud matches the inland utility shoulder off the lake road, not the lake bank or KCRK’s lot. |
+| `Notice` or `Research` on the car outside Daisy's | Someone recalls "a gray import," nothing more specific. | Lilly gets the plate: Oregon `XLR 204`. | A Salem MVD callback (through Doyle or dispatch; costs an hour or overnight) traces it to a Eugene car-rental outfit, rented for cash under a name matching no local ID — the same Eugene dead end as the Water Authority work order. |
 
 - **GM Note:** Nobody here knows the crew's technical purpose or remote employer. Ashgrove's smallness is evidence and pressure, not quaint flavor. Do not send her to Cinder Creek Lumber or the Rennicks for this night. Lowater gas is a time-cost miss.
 - **Pressure/escalation:** each public question makes the outsiders a town story. If that attention reaches the crew, Cal becomes alerted; after alert, additional elapsed time can advance cleanup.
-- **Essential information and vectors:** Nancy, Daisy, Walt (optional), West End Fuel clerk/slip, station workers, day patrol, and access-key records independently establish the pair and route.
+- **Essential information and vectors:** Nancy, Daisy, Walt (optional), West End Fuel clerk/slip, Ray's car and plate outside Daisy's, station workers, day patrol, and access-key records independently establish the pair and route.
 - **Failure changes:** stealth and time are lost, but gossip itself produces a broad description and direction.
 - **Reachable next points:** SP2, SP4, SP5, SP6.
 - **Optional / PC hook:** Helen's testimony is optional corroboration of staging and never sole proof. Walt is optional plate/county color and never a briefing.
