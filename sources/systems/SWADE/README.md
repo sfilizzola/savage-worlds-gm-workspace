@@ -9,3 +9,5 @@
 
 Consult this PDF before creating or changing mechanics. Quick references and setting modules remain subordinate unless an explicit active house rule states a scoped override.
 
+`reference/` holds lazily-built, agent-only markdown files distilling specific topics from this PDF (see `reference/README.md` for the convention). If this PDF is ever replaced with a different printing, re-verify every `reference/*.md` file whose `source_sha256` frontmatter matches the SHA-256 above before trusting it again.
+
