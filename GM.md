@@ -23,10 +23,12 @@ Before writing a stat block, modifier, subsystem, power, item effect, or mechani
 
 1. Read the adventure's active configuration.
 2. Check whether an explicit active house rule applies.
-3. Otherwise consult the SWADE Fifth Printing (2023) core PDF.
-4. Consult only the setting modules declared active for the adventure.
-5. If an older setting rule conflicts with SWADE, use SWADE unless an explicit house rule says otherwise.
-6. Record the source title and page or section beside prepared mechanics when practical.
+3. Check `sources/systems/SWADE/reference/` for a topic file covering the need. If one exists and covers the case, use it directly instead of the PDF.
+4. If no reference file exists, or it doesn't cover the specific case, consult the SWADE Fifth Printing (2023) core PDF directly for that gap.
+5. After consulting the PDF, create the reference file if none existed, or extend the existing one with the newly-covered material, so the next task doesn't re-pay that cost.
+6. Consult only the setting modules declared active for the adventure.
+7. If an older setting rule conflicts with SWADE, use SWADE unless an explicit house rule says otherwise.
+8. Record the source title and page or section beside prepared mechanics when practical.
 
 Never convert generic RPG assumptions into Savage Worlds notation. Preserve actual Savage Worlds Traits, Wild Cards/Extras distinctions, derived statistics, and modifiers. If authority cannot be established, write:
 
