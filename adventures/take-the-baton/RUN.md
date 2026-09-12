@@ -98,10 +98,12 @@ Tonight is Colston's 25th-anniversary honoring of that team, held the same day a
 - **Situation now:** Principal Auerbach (MC), Coach DENISE ARNHOLT, HAL PREWITT, Jesse's parents RUTH and OWEN CALLOWAY, booster DIANE VANCE, this year's team including NORA SHARPE, and the reunited 2001 squad all present.
 - **Spoken lines:** Coach Arnholt: "Twenty-five years, and it's like Colston remembered how to want something again." A booster to Nora, too warmly: "You were always going to end up here, sweetheart." Hal Prewitt, quieter, to Toby: "Didn't think I'd see this again."
 - **Discoverable:**
-  | Trait | Fail | Success | Raise |
-  |---|---|---|---|
-  | `Notice (-2)` (spotting JESSE CALLOWAY across the gym) | Nothing unusual noticed | A PC sees Jesse — same age as he ever was, in his old uniform, standing very still, watching Nora, not them | His head turns slowly toward the PC when they look directly at him — he knows he's seen |
-  | `Notice` (reading Nora) | She just looks like a nervous, excited teenager | She's oddly calm for someone about to run the biggest race of her life | She repeats a phrase back to a booster in exactly the cadence they used a moment ago — a small, wrong echo |
+
+| Trait | Fail | Success | Raise |
+| --- | --- | --- | --- |
+| `Notice (-2)` (spotting JESSE CALLOWAY across the gym) | Nothing unusual noticed | A PC sees Jesse — same age as he ever was, in his old uniform, standing very still, watching Nora, not them | His head turns slowly toward the PC when they look directly at him — he knows he's seen |
+| `Notice` (reading Nora) | She just looks like a nervous, excited teenager | She's oddly calm for someone about to run the biggest race of her life | She repeats a phrase back to a booster in exactly the cadence they used a moment ago — a small, wrong echo |
+
 - **GM Note:** Jesse is present and can be approached here, but reacts only in fragments — see `npcs/jesse-calloway.md`. He is never a source of exposition.
 - **Pressure/escalation:** if the PCs do nothing, Jesse appears again, more insistently, at the pep rally (Story Point 2); the pattern proceeds on its own schedule regardless.
 - **Essential information and vectors:** that Nora is anchor, and that something is already wrong, are each independently available here through (1) seeing Jesse directly, (2) reading Nora's off calm, or (3) an uncomfortable comment from Jesse's mother or Hal Prewitt.
@@ -119,9 +121,11 @@ Tonight is Colston's 25th-anniversary honoring of that team, held the same day a
 - **Situation now:** the whole town gathered at the field. Boosters drape Jesse's retired #4 jersey over Nora's shoulders for photos while the crowd chants her name; Coach Arnholt gives a pep talk that unknowingly echoes Hal Prewitt's from 2001 almost word for word.
 - **Spoken lines:** Booster DIANE VANCE: "Every great one wears it once before the big race. Just for a minute." Coach Arnholt: "Tonight, Colston remembers what it's like to win." Nora, if pressed, flat and calm: "I feel really good. Really ready."
 - **Discoverable:**
-  | Trait | Fail | Success | Raise |
-  |---|---|---|---|
-  | `Notice` (Nora during the chant) | She seems thrilled, nothing more | For three or four seconds while the crowd chants, her eyes go still and unfocused, like she's listening to something else | A PC recognizes the exact stillness from somewhere — a home movie, a photo, the way Jesse looked the week before he vanished |
+
+| Trait | Fail | Success | Raise |
+| --- | --- | --- | --- |
+| `Notice` (Nora during the chant) | She seems thrilled, nothing more | For three or four seconds while the crowd chants, her eyes go still and unfocused, like she's listening to something else | A PC recognizes the exact stillness from somewhere — a home movie, a photo, the way Jesse looked the week before he vanished |
+
 - **GM Note:** the jersey handoff is a recurring ritual gesture, not a one-off — it happened to Wesley Corbin (1966) and Denise Kowalski (1983) too. Nora's erosion is real and accelerating with each ritual beat she passes through.
 - **Pressure/escalation:** each ritual beat the PCs let pass without acting narrows the window before the final race and deepens Nora's calm/compliance by the climax.
 - **Essential information and vectors:** Nora's visible erosion is independently available through (1) any PC's direct observation, (2) Toby's parental instinct (no roll needed if his player leans on it), or (3) Dee recognizing the jersey-drape pose from an old team photo, if Story Point 3 has already been played.
@@ -139,9 +143,11 @@ Tonight is Colston's 25th-anniversary honoring of that team, held the same day a
 - **Situation now:** open to alumni all day; town historian ARLENE COMBS is on hand and happy to pull yearbooks and clippings.
 - **Spoken lines:** Arlene Combs: "Funny, we don't have a big write-up on Wesley Corbin past that one clipping. Some things just fall out of the paper."
 - **Discoverable:**
-  | Trait | Fail | Success | Raise |
-  |---|---|---|---|
-  | `Research` or `Notice` | Standard championship history, nothing alarming | Wesley Corbin (1966) and Denise Kowalski (1983) both "drowned" at Miller's Hole a few weeks after their state win, both ran anchor | A brief 1966 letter to the editor uses the phrase "the winner's curse" once, half-joking, and is never mentioned again |
+
+| Trait | Fail | Success | Raise |
+| --- | --- | --- | --- |
+| `Research` or `Notice` | Standard championship history, nothing alarming | Wesley Corbin (1966) and Denise Kowalski (1983) both "drowned" at Miller's Hole a few weeks after their state win, both ran anchor | A brief 1966 letter to the editor uses the phrase "the winner's curse" once, half-joking, and is never mentioned again |
+
 - **GM Note:** Arlene has idly cross-referenced these dates before and calls it "a funny coincidence" — she'll say so only if asked directly whether anything like Jesse's case happened before.
 - **Pressure/escalation:** none required.
 - **Essential information and vectors:** the anchor-leg pattern and the three-generation gap are independently available here, or through Hal Prewitt (Story Point 4), or through Jesse himself (Story Point 5). Dee's own years of amateur research can hand her player one fact here for free, no roll.
@@ -159,9 +165,11 @@ Tonight is Colston's 25th-anniversary honoring of that team, held the same day a
 - **Situation now:** HAL PREWITT is home; he stopped coming to the field years ago. He answers the door because it's Toby, or because whoever's knocking clearly isn't leaving.
 - **Spoken lines:** Hal, deflecting: "Jesse drowned. That's what happened. That's all that happened." Hal, if he breaks: "I used to see him. Out past the fence line. Told myself it was grief. Told myself that for twenty-five years."
 - **Discoverable:**
-  | Trait | Fail | Success | Raise |
-  |---|---|---|---|
-  | `Persuasion` | He sticks to the official story | He admits he's seen Jesse too, and that something about "the win" has always felt wrong | He gives up his private clippings and the detail that sightings cluster at the shaft fence, not the water |
+
+| Trait | Fail | Success | Raise |
+| --- | --- | --- | --- |
+| `Persuasion` | He sticks to the official story | He admits he's seen Jesse too, and that something about "the win" has always felt wrong | He gives up his private clippings and the detail that sightings cluster at the shaft fence, not the water |
+
 - **GM Note:** Hal has never told anyone, including his late wife, what he's seen. Shame, not indifference, has kept him silent.
 - **Pressure/escalation:** if pushed too hard too fast, he can shut the door for the day — but remains reachable again that evening, more shaken, especially if approached by Toby or shown evidence from Story Point 3.
 - **Essential information and vectors:** independent confirmation Jesse still lingers, and a physical lead toward the shaft fence, are available here, or through Story Points 3 and 5. Toby's personal relationship with Hal is its own vector, no roll needed if leaned on.
@@ -179,9 +187,11 @@ Tonight is Colston's 25th-anniversary honoring of that team, held the same day a
 - **Situation now:** empty except for whoever comes looking. JESSE CALLOWAY can be found here more reliably than anywhere else.
 - **Spoken lines:** Jesse does not hold a conversation. At most one or two fragments: her name ("Nora—"), a single warning word ("Don't"), or a wordless gesture toward the fence. Never write him a monologue.
 - **Discoverable:**
-  | Trait | Fail | Success | Raise |
-  |---|---|---|---|
-  | `Spirit` (unskilled); `Persuasion` if a PC has it, representing a real attempt to reach him | He stays distant, unreachable tonight | He responds to whoever he was closest to (Toby or Renee) with a single fragment of recognition | He leads that PC to the shaft fence and, wordlessly, shows them it's already been disturbed — someone re-opens a section of it every anniversary as pep-rally decoration |
+
+| Trait | Fail | Success | Raise |
+| --- | --- | --- | --- |
+| `Spirit` (unskilled); `Persuasion` if a PC has it, representing a real attempt to reach him | He stays distant, unreachable tonight | He responds to whoever he was closest to (Toby or Renee) with a single fragment of recognition | He leads that PC to the shaft fence and, wordlessly, shows them it's already been disturbed — someone re-opens a section of it every anniversary as pep-rally decoration |
+
 - **GM Note:** the reopened fence section is where the booster committee strings the rally's bunting every year, without any of them knowing or asking why that section always needs "fixing."
 - **Pressure/escalation:** none required.
 - **Essential information and vectors:** the shaft fence's role is available here, or through Hal Prewitt (Story Point 4), or through simple experimentation at the climax without any prior lead (Story Point 6 does not require this scene).
