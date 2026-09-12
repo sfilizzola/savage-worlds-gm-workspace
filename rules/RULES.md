@@ -10,6 +10,8 @@
 
 An inactive source has no mechanical effect.
 
+`sources/systems/SWADE/reference/` is a non-authoritative lookup cache of item 2 — it is not a new rung in this list. If a reference file is ever found to disagree with the PDF, the PDF wins; correct the file in place immediately.
+
 ## Mechanical verification record
 
 Use this compact format in prep and `RUN.md`:
