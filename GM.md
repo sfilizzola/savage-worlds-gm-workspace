@@ -25,7 +25,7 @@ Before writing a stat block, modifier, subsystem, power, item effect, or mechani
 2. Check whether an explicit active house rule applies.
 3. Check `sources/systems/SWADE/reference/` for a topic file covering the need. If one exists and covers the case, use it directly instead of the PDF.
 4. If no reference file exists, or it doesn't cover the specific case, consult the SWADE Fifth Printing (2023) core PDF directly for that gap.
-5. After consulting the PDF, create the reference file if none existed, or extend the existing one with the newly-covered material, so the next task doesn't re-pay that cost.
+5. After consulting the PDF, create the reference file if none existed, or extend the existing one with the newly-covered material per `sources/systems/SWADE/reference/README.md`'s frontmatter contract, when the topic plausibly recurs — so the next task doesn't re-pay that cost.
 6. Consult only the setting modules declared active for the adventure.
 7. If an older setting rule conflicts with SWADE, use SWADE unless an explicit house rule says otherwise.
 8. Record the source title and page or section beside prepared mechanics when practical.
@@ -36,7 +36,7 @@ Never convert generic RPG assumptions into Savage Worlds notation. Preserve actu
 
 Then explain the uncertainty and ask the GM for a ruling. Put the decision in `rules/rulings.md`; promote it to `rules/house-rules.md` only when the GM explicitly makes it a standing override.
 
-Short paraphrased reminders may appear in `RUN.md`, but the PDF remains authoritative. Do not reproduce long copyrighted rules text.
+Short paraphrased reminders may appear in `RUN.md`, but the PDF remains authoritative. Do not reproduce long copyrighted rules text in player-facing or printed material; files under `sources/systems/SWADE/reference/` are agent-only and exempt.
 
 ## Adventure design model
 
