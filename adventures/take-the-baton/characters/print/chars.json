@@ -1,0 +1,294 @@
+{
+  "sheet": {
+    "title_suffix": "Take the Baton",
+    "op": "Colston, present day · 25th anniversary",
+    "file": "Player sheet · Take the Baton",
+    "meta": [
+      "Novice · Wild Card · Human · Size 0",
+      "SWADE Fifth Printing · State championship night"
+    ],
+    "skills_heading": "Skill qualification · unskilled d4−2",
+    "skills_footnote": "* Core skill. Core skills start at d4.",
+    "weapons_heading": "Weapons",
+    "gear_heading": "Gear",
+    "you_label": "You",
+    "play_label": "At the table",
+    "footer_left": "Place beside the Savage Worlds player card",
+    "footer_right": "Not session history",
+    "reserve_banner": "Reserve pregen — print if a fifth sits or a player is replaced",
+    "bennies": "Bennies · start 3 · tick when spent"
+  },
+  "characters": [
+    {
+      "id": "marcus-webb",
+      "reserve": false,
+      "name": "Marcus Webb",
+      "role": "Paramedic · Leg 1 (lead-off), 2001",
+      "tags": [
+        { "label": "Age", "value": "43" },
+        { "label": "Occupation", "value": "Paramedic" }
+      ],
+      "attrs": [
+        ["Agility", "d6"],
+        ["Smarts", "d6"],
+        ["Spirit", "d6"],
+        ["Strength", "d6"],
+        ["Vigor", "d8"]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting",
+      "tough": "6",
+      "tough_note": "2 + half Vigor",
+      "skills": [
+        ["Athletics*", "d8", ""],
+        ["Common Knowledge*", "d6", ""],
+        ["Notice*", "d6", "+2 Alertness"],
+        ["Persuasion*", "d6", ""],
+        ["Stealth*", "d6", ""],
+        ["Healing", "d10", "Paramedic training"],
+        ["Driving", "d6", ""],
+        ["Fighting", "d6", ""]
+      ],
+      "hindrances": [
+        ["Heroic", "Major", "Cannot refuse people in real need."],
+        ["Loyal", "Minor", "Will not abandon the other three, or Nora."],
+        ["Vow", "Minor", "Privately pledged to make things right for Jesse."]
+      ],
+      "edges": [
+        ["Alertness", "+2 Notice."]
+      ],
+      "weapons": [],
+      "gear": [
+        ["EMS duty bag (trauma shears, gauze, splints, AED, airway kit)", ""],
+        ["Pickup truck, phone", ""]
+      ],
+      "carried": "n/a",
+      "limit": "n/a",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "None.",
+      "you": "Jesse pulled him out of a wrecked car the spring before states. Marcus has never repaid it and doesn't know how. If he can't save Nora, it's the same failure twice.",
+      "play": "Spotlight: physical intervention and first aid at the climax; not the only PC who can act."
+    },
+    {
+      "id": "renee-ortiz",
+      "reserve": false,
+      "name": "Renee Ortiz",
+      "role": "Teacher · Leg 2, 2001",
+      "tags": [
+        { "label": "Age", "value": "42" },
+        { "label": "Occupation", "value": "High school teacher (out of state)" }
+      ],
+      "attrs": [
+        ["Agility", "d6"],
+        ["Smarts", "d10"],
+        ["Spirit", "d8"],
+        ["Strength", "d4"],
+        ["Vigor", "d4"]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "2",
+      "parry_alert": true,
+      "parry_note": "No Fighting — do not melee",
+      "tough": "4",
+      "tough_note": "2 + half Vigor",
+      "skills": [
+        ["Athletics*", "d4", ""],
+        ["Common Knowledge*", "d8", ""],
+        ["Notice*", "d6", ""],
+        ["Persuasion*", "d10", "Free reroll (Charismatic)"],
+        ["Stealth*", "d4", ""],
+        ["Academics", "d10", "Teaching background"],
+        ["Research", "d10", ""],
+        ["Driving", "d6", ""]
+      ],
+      "hindrances": [
+        ["Secret", "Major", "Was Jesse's boyfriend senior year; never told anyone."],
+        ["Cautious", "Minor", "Looks before she leaps, especially about Colston."],
+        ["Loyal", "Minor", "Will not abandon the other three, or Nora."]
+      ],
+      "edges": [
+        ["Charismatic", "Free reroll when using Persuasion."]
+      ],
+      "weapons": [],
+      "gear": [
+        ["Overnight bag, box of Jesse's old letters", ""],
+        ["Phone, rental car", ""]
+      ],
+      "carried": "n/a",
+      "limit": "n/a",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "None.",
+      "you": "A private, unresolved love the town's public memorial can't hold. Seeing Jesse again reopens something she buried on purpose.",
+      "play": "Spotlight: outsider distance and Jesse's old letters/texts are an independent vector to his state of mind; not the only vector."
+    },
+    {
+      "id": "toby-sharpe",
+      "reserve": false,
+      "name": "Toby Sharpe",
+      "role": "Hardware store owner / assistant coach · Leg 3, 2001",
+      "tags": [
+        { "label": "Age", "value": "43" },
+        { "label": "Occupation", "value": "Hardware store owner; assistant track coach" }
+      ],
+      "attrs": [
+        ["Agility", "d6"],
+        ["Smarts", "d6"],
+        ["Spirit", "d8"],
+        ["Strength", "d8"],
+        ["Vigor", "d4"]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "5",
+      "parry_alert": false,
+      "parry_note": "2 + half Fighting",
+      "tough": "4",
+      "tough_note": "2 + half Vigor",
+      "skills": [
+        ["Athletics*", "d8", ""],
+        ["Common Knowledge*", "d6", "Local Colston knowledge"],
+        ["Notice*", "d6", ""],
+        ["Persuasion*", "d10", ""],
+        ["Stealth*", "d6", ""],
+        ["Intimidation", "d6", ""],
+        ["Repair", "d6", ""],
+        ["Fighting", "d6", ""],
+        ["Driving", "d6", ""]
+      ],
+      "hindrances": [
+        ["Heroic", "Major", "Cannot refuse people in real need."],
+        ["Stubborn", "Minor", "Wants his way; hard to talk down once set."],
+        ["Loyal", "Minor", "Will not abandon the other three, or Nora."]
+      ],
+      "edges": [
+        ["Strong Willed", "+2 to resist Tests using Smarts or Spirit."]
+      ],
+      "weapons": [],
+      "gear": [
+        ["Truck, store keys, phone", ""],
+        ["2001 team photo (glove box)", ""]
+      ],
+      "carried": "n/a",
+      "limit": "n/a",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "None.",
+      "you": "His own daughter Nora is tonight's anchor. He's quietly sensed something wrong about Colston for years and told himself it was grief.",
+      "play": "Spotlight: insider access to Hal Prewitt, Coach Arnholt, and Nora herself; his family relationship should not be the only vector to any essential fact."
+    },
+    {
+      "id": "dee-whitfield",
+      "reserve": false,
+      "name": "Dee Whitfield",
+      "role": "True-crime podcaster · Alternate, 2001 (ran prelims, not the final)",
+      "tags": [
+        { "label": "Age", "value": "42" },
+        { "label": "Occupation", "value": "True-crime podcaster" }
+      ],
+      "attrs": [
+        ["Agility", "d6"],
+        ["Smarts", "d10"],
+        ["Spirit", "d6"],
+        ["Strength", "d4"],
+        ["Vigor", "d6"]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "2",
+      "parry_alert": true,
+      "parry_note": "No Fighting — do not melee",
+      "tough": "5",
+      "tough_note": "2 + half Vigor",
+      "skills": [
+        ["Athletics*", "d6", ""],
+        ["Common Knowledge*", "d10", ""],
+        ["Notice*", "d10", "+2 Alertness"],
+        ["Persuasion*", "d6", ""],
+        ["Stealth*", "d4", ""],
+        ["Research", "d10", ""],
+        ["Academics", "d8", ""],
+        ["Driving", "d6", ""]
+      ],
+      "hindrances": [
+        ["Curious", "Major", "Wants to know about everything."],
+        ["Loyal", "Minor", "Will not abandon the other three, or Nora."],
+        ["Habit", "Minor", "Runs on coffee and all-night research binges."]
+      ],
+      "edges": [
+        ["Alertness", "+2 Notice."]
+      ],
+      "weapons": [],
+      "gear": [
+        ["Field recorder, laptop", ""],
+        ["Accordion folder of prior Colston notes", ""]
+      ],
+      "carried": "n/a",
+      "limit": "n/a",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "None.",
+      "you": "Jesse's closest confidant — the one person he actually told things to, including about Renee. Half-vindication, half-guilt that she never pushed harder.",
+      "play": "Spotlight: research and pattern-finding; her prior amateur work can hand the table a free fact in Story Point 3 without gating anything behind her alone."
+    },
+    {
+      "id": "elle-kim",
+      "reserve": true,
+      "name": "Elle Kim",
+      "role": "Reserve — school nurse, 2001 team manager",
+      "tags": [
+        { "label": "Age", "value": "42" },
+        { "label": "Occupation", "value": "Colston High School nurse" }
+      ],
+      "attrs": [
+        ["Agility", "d6"],
+        ["Smarts", "d8"],
+        ["Spirit", "d6"],
+        ["Strength", "d4"],
+        ["Vigor", "d8"]
+      ],
+      "pace": "6",
+      "pace_note": "12 yards / round",
+      "parry": "2",
+      "parry_alert": true,
+      "parry_note": "No Fighting — do not melee",
+      "tough": "6",
+      "tough_note": "2 + half Vigor",
+      "skills": [
+        ["Athletics*", "d6", ""],
+        ["Common Knowledge*", "d6", ""],
+        ["Notice*", "d8", "+2 Alertness"],
+        ["Persuasion*", "d6", ""],
+        ["Stealth*", "d6", ""],
+        ["Healing", "d12", "School nurse"],
+        ["Repair", "d6", ""],
+        ["Driving", "d6", ""]
+      ],
+      "hindrances": [
+        ["Heroic", "Major", "Cannot refuse people in real need."],
+        ["Loyal", "Minor", "Will not abandon the party once she's committed."],
+        ["Pacifist", "Minor", "Fights only in self-defense."]
+      ],
+      "edges": [
+        ["Alertness", "+2 Notice."]
+      ],
+      "weapons": [],
+      "gear": [
+        ["School first-aid kit and AED access", ""],
+        ["Phone, car, staff badge", ""]
+      ],
+      "carried": "n/a",
+      "limit": "n/a",
+      "penalty": "None",
+      "encumbered": false,
+      "armor": "None.",
+      "you": "The same unprocessed history as the other four, seen from just outside the four relay legs. Already on-site, already plausible, already carrying a first-aid kit.",
+      "play": "Print if a fifth sits, or hand to any player whose PC is removed early."
+    }
+  ]
+}
