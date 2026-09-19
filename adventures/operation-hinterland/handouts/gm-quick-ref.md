@@ -14,6 +14,8 @@ Tonight. Not for players. `RUN.md` still runs the situations.
 
 **Any two real heads and the hydra dies.** Board · loft · books. The Rathaus is a **false head** — cutting it does not count. One head off = wounded; it can still scream. Hollow town. No occult. Gender is not a table question.
 
+Story points: 0 briefing · 0b jump · 1 east face · 2 Rathaus *(optional)* · 3 board · 4 loft · 5 books · 6 fuse and exit. Jump to the situation they are in.
+
 ## Tracker
 
 - ☐ Board (Altrathausplatz)
@@ -35,21 +37,20 @@ Hitting one and leaving is not the job. Restate the hydra rule if they stop.
 
 ## Finding (GM copy)
 
-They already know the *types*. Locations stay hidden until found. Need two channels; three is better. Hofmann is never the only vector.
+They were handed the *types* at briefing, never the places. They came for the **board** — at the Rathaus the question is "where did the board go?", not "where are the papers?" Need two channels; three is better. Hofmann is never the only vector. Tell them a direction, not a street name.
 
-| Head | How they find the place |
-|---|---|
-| Board | Leftover / Hofmann: east, old post. Dead wire east. Lamp or hum on Altrathausplatz; east walk from Wörnitztor. |
-| Loft | Skyline from a north or high angle. Feed at the base. Keller’s stretch is a sighting, not the key. |
-| Books | Leftover: Feldwebel toward Nördlinger. Operators name Brandt. Stein / Keller know who holds the bag. Satchel can move. |
+| Head | Where (GM) | How they find the place |
+|---|---|---|
+| Board | Altrathausplatz — unlabeled on BG-OH-001: first open square inward from the `Posten Wörnitz Tor` circle, Münster choir across it | Leftover / Hofmann: east, old post. Dead wire east. Lamp or hum on the square; east walk from Wörnitztor. |
+| Loft | Grüner Turm, north wall | Skyline from a north or high angle. Feed at the base. Keller’s stretch is a sighting, not the key. |
+| Books | Brandt’s billet, Nördlinger Straße — gate half of the run in from the `Posten Nördlinger Tor` circle, past the `4/I.R. 468` marker | Leftover: Feldwebel toward Nördlinger. Operators name Brandt. Stein / Keller know who holds the bag. Satchel can move. |
 
 Skip the Rathaus: streets still pay (aerial, hum/lamp). Dummy wreck is not a win — give a tell (aerial still up, or a line still alive).
 
 ## Night, light, cold
 
 - Default **Dark (−4)** on attacks, Notice, and similar. No target visible past **10″ (20 yd)** without a lamp or a break. SWADE p.102.
-- 6–7 Jan, Last Quarter (moon ~midnight). First half stays Dark. After moonrise, a clear snow sky or a lamp/stove can be **Dim (−2)**.
-- **Pitch (−6)** only in an unlit cellar or sealed room.
+- 6–7 Jan, Last Quarter (moon ~midnight). First half stays Dark. After moonrise, a clear snow sky or a lamp/stove can be **Dim (−2)**. **Pitch (−6)** only in an unlit cellar or sealed room.
 - Jump Athletics is flavor only: no Wounds, Fatigue, lost gear, scatter, or a better LZ. They land together. WW2 p.33 rebuilt procedure: `RUN.md` SP0b second at-hand card.
 - No hidden Fatigue at the LZ. If they linger exposed: Hazards p.125.
 - Ice / height / climb: Athletics. Rough ground: 1″ costs 2″.
@@ -61,7 +62,7 @@ Closing from the east LZ is a short correction, not a travel map. Play the gate 
 
 | Face | Watch |
 |---|---|
-| Wörnitztor E | 2 extras, stove. Immediate close. |
+| Wörnitztor E | 2 extras, stove. Immediate close. Tarped Blitz in the lean-to inside. |
 | Nördlinger SE | Empty or 1 sleeper (same Extra, maybe no rifle). Brandt’s street inside. |
 | Rothenburger N | Gate empty. Keller on the wall-walk toward Grüner Turm. |
 | Segringer W | Empty or 1 sleeper. Long circuit; night shortens. Rathaus just inside. |
@@ -69,6 +70,16 @@ Closing from the east LZ is a short correction, not a travel map. Play the gate 
 | Bahnhof | Not a door into the Altstadt. Not a fourth head. |
 
 Map names: Kohlenburger → Rothenburger (N). Sägringer → Segringer (W). If the fuse is lit, the gate they used becomes an obvious plug. Other faces stay thinner. Do not add a squad.
+
+## Extraction vehicles (GM)
+
+Sighted, not flagged, the first time they pass: Wörnitztor (SP1), Rathaus (SP2), Grüner Turm (SP4). The only running motors in town. **None is required** — leaving on foot by any face still ends the night. No chase; a long vehicle chase is the cut.
+
+| Vehicle | Where | State / seats | Starting it |
+|---|---|---|---|
+| Kübelwagen (Stein’s) | Plank lean-to off Weinmarkt, near his quarters | Near-full tank; keys on him or inside, not in it. 4, tight | `Repair (−2)` and a full round without the key. Failure grinds and carries — can wake Stein if he is still there. |
+| Motorcycle + sidecar (Zündapp KS 750) | Lean-to at the base of Grüner Turm | Keys on the machine; the runner keeps it ready. 2 | First kick. Loud — taking it before or during the loft fight draws that watch. |
+| Opel Blitz truck | Supply yard just inside Wörnitztor | Battery pulled for winter; quarter tank — clears town, not the front. Cab 2 + bed | `Repair` cold start (p.34). Failure costs minutes and engine noise, not the truck. |
 
 ## Clocks and scream
 
@@ -92,10 +103,9 @@ Map names: Kohlenburger → Rothenburger (N). Sägringer → Segringer (W). If t
 ## Failure still plays
 
 - Ugly jump → description only. Failed Notice at the LZ → water is still in front of them.
-- Dummy wreck → leftover still points onward.
-- Botched loft climb → noise, not a bench. Feed at the base remains.
-- Brandt flees → bag still findable, or skip this head (board + loft).
-- Hofmann freezes → wire stub, tag, empty board room.
+- Dummy wreck → leftover still points onward. Botched loft climb → noise, not a bench; feed at the base remains.
+- Brandt flees → bag still findable, or skip this head (board + loft). Hofmann freezes → wire stub, tag, empty board room.
+- Engine will not catch → minutes and noise, not the vehicle. Any gate on foot still works.
 - One humming room and they stop → restate: one head is not the job.
 
 **Do not import:** SS / Fanatic / HJ · Experienced / Elite Edges (Dodge, Rock and Roll!, Élan) · Sanity · Rank extra Benny / +2 Toughness on NPCs · Demo Man, Medic!, Jump Qualified · any Chapter 10 horror. Rank titles are speech.
@@ -176,6 +186,7 @@ Team kit, anyone: 2× small satchel, 4× ½-lb TNT, cutters, 4× civilian coats 
 | Climb, throw, slip on ice | Athletics |
 | Cut, charge, smash a set | Repair (electronics Limited by Electronics) |
 | Read whether a line can still scream | Electronics |
+| Start a placed vehicle | Repair — −2 without the key (Kübelwagen); Blitz cold start (p.34) |
 | Help an ally | Support: success +1, raise +2 (max +4) |
 | Unbalance a foe | Test: win Distracted or Vulnerable; raise also Shaken |
 
@@ -195,7 +206,7 @@ All Wild Cards, Pace 6, Toughness 5, 3 Bennies. If a player is removed: prefer V
 
 Player map at SP0: planned DZ (west / Segringer) + Rathaus only. Actual east LZ marked after they orient. Never mark live heads on Handout A.
 
-**Climax:** second head + live fuse. Opposition = remaining watch, officer if lit, one hunt pair. Secondary objective: finish the head or stop the scream *and* get the four off the board. Civilians in the line are a cost, not a hidden auto-fail. If time is short: one location, fuse on the table, then “you are out, at this cost.” Long vehicle chase is the cut.
+**Climax:** second head + live fuse. Opposition = remaining watch, officer if lit, one hunt pair. Secondary objective: finish the head or stop the scream *and* get the four off the board. Civilians in the line are a cost, not a hidden auto-fail. Exit on foot by any face, or one of the three placed vehicles (card 1) — no chase. If time is short: one location, fuse on the table, then “you are out, at this cost.”
 
 End: 1 Advance only if these characters continue (p.54). Otherwise the night is the ending.
 
@@ -209,5 +220,6 @@ House rule: none
 Ruling: RUL-2026-08-29-01 — helmet Armor +2 vs head Called Shots only; no 50% save
 Summary: Two-page GM table card. Short paraphrase; PDF remains authoritative.
   Tonight light: Dark −4 default. Hydra: any two of three heads. Rathaus is a false head.
+  Extraction vehicles are props: Repair to start, no chase subsystem.
 Applied here: Operation Hinterland table start; four pregens + reserve Voss
 ```

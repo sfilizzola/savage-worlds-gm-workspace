@@ -34,7 +34,7 @@ Place the card beside the character sheet. It is not a briefing and not session 
 
 ## GM card (table start)
 
-Two A4 pages. GM only. Hydra tracker, night/fuse, opposition numbers, Edges that fire. Players keep the one-pager above.
+Two A4 pages. GM only. Page 1 runs the night: hydra tracker, where each head is and how they find it, night light, gates, the three extraction vehicles, clocks, fuse. Page 2 is numbers: opposition, weapons, combat, Edges that fire, common rolls, PC snapshot. Players keep the one-pager above.
 
 | File | What to print |
 |---|---|

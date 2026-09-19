@@ -25,18 +25,20 @@ house_rules: none
 
 # Operation Hinterland
 
-Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31); Grounding audit passed 2026-09-11. `RUN.md` recompiled 2026-09-07 against `templates/adventure/SKELETON.md` (table-flow pass); hand-patched 2026-09-11 with the three extraction vehicles (source files changed, full recompile not run — see `RUN.md` Story Points 1, 2, 4, 6 and "Extraction vehicles (GM)"). Rebuild if source files change further. Review that file at the table before play.
+Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31); Grounding audit passed 2026-09-11. `RUN.md` recompiled 2026-09-07 against `templates/adventure/SKELETON.md` (table-flow pass); hand-patched 2026-09-11 with the three extraction vehicles (see `RUN.md` Story Points 1, 2, 4, 6 and "Extraction vehicles (GM)"). Review that file at the table before play.
+
+**GM instruction (2026-09-19): do not recompile `RUN.md`.** It carries hand changes that a rebuild would discard. Patch it in place, or update the modular sources and leave `RUN.md` alone, until the GM lifts this.
 
 ## Resume work
 
 Authoring handoff. Verify entries against the linked files when resuming.
 
-- Current task: No active authoring task recorded.
-- Last completed: Prior authoring handoff not recorded.
-- Next concrete action: Establish the next task from the GM's request, then follow the linked configuration and review notes.
-- Files to open: [QUALITY.md](QUALITY.md), [plot.md](plot.md), [RUN.md](RUN.md).
-- Open GM questions: Not inventoried; inspect the linked files.
-- Derived outputs needing refresh: The [configuration note above](#operation-hinterland) records a patched RUN without a full recompile after source changes. Full output freshness has not been verified.
+- Current task: None active.
+- Last completed: GM quick-ref card regenerated 2026-09-19 against the current `RUN.md`, `locations.md`, and `encounters.md` — added the three extraction vehicles and their `Repair` starts, the Wörnitztor truck sighting, the unlabeled-square and Nördlinger landmark pins for the board and books, the "they came for the board" framing at the Rathaus, and a story-point order line. `handouts/gm-quick-ref.pdf` rebuilt (verified two A4 pages).
+- Next concrete action: Establish the next task from the GM's request.
+- Files to open: [handouts/gm-quick-ref.md](handouts/gm-quick-ref.md), [RUN.md](RUN.md), [QUALITY.md](QUALITY.md).
+- Open GM questions: None recorded.
+- Derived outputs needing refresh: None known. `RUN.md` is deliberately not recompiled — see the [GM instruction above](#operation-hinterland).
 
 ## One-sentence premise
 
