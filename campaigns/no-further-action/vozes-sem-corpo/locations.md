@@ -10,7 +10,7 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Current situation:** Ray arrived at 8:45 a.m. under a maintenance cover. Abigail refused to release the original reel; he is still pressing for it when Lilly arrives later.
 - **Environment:** dry interior; front office, studio window, one public exit and one service exit; copy deck and telephone.
 - **People/forces present:** Abigail Carr and Ray Holtz; another station worker may witness custody.
-- **What can be learned:** the 9:14:00–9:15:52 p.m. gap on the evening of session 1 (exactly 1 minute 52 seconds), police traffic bleed, Ray's thin cover, his 8:45 a.m. arrival time, reel counter positions 0418 before the cut and 0419 after, and the station log. The counter locates the splice; the clocks establish elapsed time. The maintenance sheet's typed 9:16 p.m. isolation conflicts with the handwritten 9:14 p.m. key-out note signed “C. Briggs.”
+- **What can be learned:** the 9:14:00–9:15:52 p.m. gap on the evening of session 1 (exactly 1 minute 52 seconds), police traffic bleed, Ray's thin cover, his 8:45 a.m. arrival time, reel counter positions 0418 before the cut and 0419 after, and the station log. The counter locates the splice; the clocks establish elapsed time. The maintenance sheet's typed 9:16 p.m. isolation conflicts with the handwritten 9:14 p.m. key-out note signed “C. Briggs” (key **TWR-2 / lake rd**, vehicle **YEL LANE / WNT 41**).
 - **Spoken lines:** Abigail: “I didn't call so somebody could carry it away.” Ray: “Then don't sign it over. I write that down too.”
 - **Discoverable rolls:** see `plot.md`, Tape in Motion.
 - **GM-only truth:** Ray's priority is the original reel, not violence.
@@ -25,7 +25,7 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **First impression:** **Climate:** wet coats steam beside humming radiators. **See:** carbon slips, paper directories, coffee rings, and the 1984 Rook County highway sheet on the wall with pins along the lake road. **Hear:** typewriter keys, dispatch playback, phones, and names passed between desks. **Feel:** privacy measured in minutes.
 - **Current situation:** town observations are still fresh, while formal calls and pointed questions will quickly become gossip.
 - **Environment:** precinct recorder and logs in Town Hall / Police (north of Main, Church–Pell). **Daisy’s** and **West End Fuel** are walkable on Main. Public-works key board is down the hall in the same mill-era building. Iverson’s Market (Nancy’s people) is secondhand gossip, not a required stop. **Barrow Bait & Tackle** is on the lake road if Lilly revisits Frank’s habits. Driving east to **Lowater** for gas is a time-cost red herring; the truck did not go that way.
-- **People/forces present:** Nancy Iverson, Doyle, Whitley as pressure, Daisy Pell, an unnamed fuel attendant, optionally Walt Kearney (~7am at Daisy’s) and Don Halvorsen or Andy Foyle on day patrol, a town public-works clerk.
+- **People/forces present:** Nancy Iverson, Doyle, Whitley as pressure, Daisy Pell, **Bud Ellison** on the West End Fuel island, optionally Walt Kearney (~7am at Daisy’s) and Don Halvorsen or Andy Foyle on day patrol, a town public-works clerk.
 - **What can be learned:** the synchronized interval; two strangers and their split; truck route toward the lake-road utility access; false/inapt Water Authority letterhead; access-key record. The session-1 mud cassette is optional: its exact custody/location was not recorded, so the GM uses an evidence bag/property area or a short Lake Barrow follow-up to match table continuity.
 - **Spoken lines:** Nancy: “If they ate breakfast here, start with what they ordered.” Doyle: “Use the tape. Leave the story out of it.” Clerk: “We don't have a Water Authority. Keys for the creek and hydrants go on this board.”
 - **Discoverable rolls:** see `plot.md`, Missing Interval, Two Outsiders, and Paper That Does Not Land.
@@ -40,8 +40,8 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Role in adventure:** breakfast memory of the two outsiders; one home for Daisy Pell and, around 7am, Walt Kearney.
 - **Campaign file:** [`../world/locations/daisys.md`](../world/locations/daisys.md) — south side of Main, first numbered door east of Church.
 - **First impression:** **Climate:** damp coats inside the door. **See:** a Cinder Creek clock, pie under a dome, Walt’s booth if it is his hour. **Hear:** register bell, cups, 328 through the glass. **Feel:** outsiders get a booth, not a name.
-- **Current situation:** Daisy is on the register. Two unfamiliar men ate early; she remembers the truck was not mill, and a slate-gray import — Ray's car, Oregon plate `XLR 204` — sat outside the whole time. Walt, if present, notices county markings and then wants to stay retired.
-- **Spoken lines:** Daisy: “Didn't know either one. Knew the truck wasn't mill. That gray car out front wasn't from around here either.” Walt, if present: “County plate. Not mill, not sheriff. I'm retired.”
+- **Current situation:** Daisy is on the register. Two unfamiliar men ate early; she remembers the truck was chrome-yellow with **LANE CO.** on the door, not mill, and a slate-gray import — Ray's car, Oregon plate `XLR 204` — sat outside the whole time. Walt, if present, notices the Lane County marking and then wants to stay retired.
+- **Spoken lines:** Daisy: “Didn't know either one. Knew the truck wasn't mill. That yellow one had Lane County on the door.” Walt, if present: “Lane County. Not mill, not sheriff. I'm retired.”
 - **GM-only truth:** they saw men, a truck, and a car, not a crime.
 - **Links:** Story Point 3; campaign Daisy and Walt files.
 
@@ -50,17 +50,17 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Role in adventure:** carbon slip, parking mud, and the split — Cal took the lake road, not 328 east.
 - **Geography:** west of Mill Street, south of Main, outside the numbered Church–Bridge row. Authored on Sheet 2 / `ashgrove.md`; no separate campaign location file.
 - **First impression:** **Climate:** rain on the canopy. **See:** one island, a carbon pad, mud off a utility-truck tire. **Hear:** pump bell, 328 west toward West End. **Feel:** a fill that the town will talk about.
-- **Current situation:** an unnamed attendant fueled an out-of-county utility truck this morning. The truck then went toward Barrow Lake Rd, not toward Lowater.
-- **Spoken lines:** Attendant: “Filled 'em. They didn't take 328 toward Lowater.”
+- **Current situation:** **Bud Ellison** fueled a chrome-yellow **LANE CO.** utility truck this morning. The carbon slip (if recovered) is **8:22 a.m.**, pump 1, **12.4 gal diesel**, scrawl **YEL LANE** and **WNT 41**. The truck then went toward Barrow Lake Rd, not toward Lowater.
+- **Spoken lines:** Bud: “Filled 'em. Diesel. They didn't take 328 toward Lowater.”
 - **Discoverable rolls:** see `plot.md`, Two Outsiders, `Notice` at West End Fuel.
-- **GM-only truth:** mud here is lake-road utility shoulder, not KCRK’s lot and not the lakeside bank.
-- **Links:** Story Point 3.
+- **GM-only truth:** parking smear is orange-red clay with crushed-basalt chips, matching the inland utility shoulder. Session-1 lake bank is gray organic silt with pine needles. KCRK's lot is wet river gravel and asphalt fines. Bud does not know the compound or the crew by name.
+- **Links:** Story Point 3; [`npcs/bud-ellison.md`](npcs/bud-ellison.md).
 
 ## Town Hall public works (SP4)
 
 - **Role in adventure:** prove paper-covered tower access while the Water Authority letterhead fails to land.
 - **First impression:** **Climate:** damp paper curls near a space heater. **See:** a labeled key board, stamped dates, pencils, and a telephone directory in an extra mill-era room. **Hear:** file drawers, radiator ticks, precinct noise through the wall. **Feel:** a small office protecting its routine.
-- **Current situation:** a clerk can show how Ashgrove actually issues creek, hydrant, and mill-pond keys. The work order in front of them names a Water Authority, continuity maintenance, an Eugene callback, and a PO box.
+- **Current situation:** a clerk can show how Ashgrove actually issues creek, hydrant, and mill-pond keys. The work order names a Water Authority, continuity maintenance, callback **(503) 687-4419**, and **P.O. Box 2144, Eugene, OR 97401**.
 - **Environment:** same Town Hall as PD; walk the hall. Rookton Public Works is a 22-mile phone call if Lilly insists; it does not own this job.
 - **People/forces present:** unnamed clerk; Whitley if she makes a scene in his building.
 - **Spoken lines:** Clerk: “We don't have a Water Authority. Keys for the creek and hydrants go on this board. Continuity isn't a valve.”
@@ -71,13 +71,13 @@ These are actionable states, not a required route. Street and door lock: campaig
 ## Inland Tower Compound
 
 - **Role in adventure:** location of Frank's body, capture/replay equipment, and the sole major action climax.
-- **Geography lock:** inland from **Lake Barrow**, off **Barrow Lake Rd / Co. Rd. 12**, on a service road the public 1984 sheets do not mark. Session 1’s metallic sound from across the water came from this tower. **Do not** place it on the KCRK lot (south of the river at Bridge Street) or treat the east-side powerline easement as this compound.
+- **Geography lock:** inland from **Lake Barrow**, off **Barrow Lake Rd / Co. Rd. 12**. Precise turnoff: **past Barrow Bait & Tackle**, still short of the lake parking, a **two-track climbing inland** (away from the water), marked by a leaning **utility-orange survey stake** stenciled **T-2** beside a culvert of orange-red clay spoil. The public 1984 sheets do not mark this track. Session 1’s metallic sound from across the water came from this tower. **Do not** place it on the KCRK lot (south of the river at Bridge Street) or treat the east-side powerline easement as this compound.
 - **First impression:** **Climate:** cold rain runs across the utility road and beads on exposed metal. **See:** chain-link fencing and a gate, a low equipment shed, a truck, one outbuilding set back from the tower, and a single work light. **Hear:** rain on metal, a generator's uneven note, and relay clicks from the shed. **Feel:** cold and exposed at the end of a service road.
 - **Current situation — unalerted:** the gate is closed, the truck is parked and empty, and no smoke rises from the barrel or stove. Cal is inside the shed or outbuilding preparing the body and truck for movement but has not destroyed any category. Lilly may observe or intervene before her presence or another warning alerts him.
 - **Current situation — alerted:** the gate stands open, smoke rises from the barrel or stove, the truck is running, and Cal is visibly carrying loads between the outbuilding and the truck while destroying records. Ray's presence depends on prior choices.
-- **Environment:** low light; wet metal and concrete; chain-link; utility shed; outbuilding; truck; live cables; breakers; record rack; burning barrel or stove.
+- **Environment:** low light; wet metal and concrete; chain-link (gate plus a timber-side flap behind the shed); outbuilding; truck; live orange generator feeder across the shed doorway; breakers; record rack; burning barrel or stove.
 - **People/forces present:** Cal; possibly Ray; Frank's body; Doyle only if Lilly requested support and accepted delay.
-- **What can be learned:** Frank is in the outbuilding with a visible head injury and blood on his collar; staging materials, capture/replay method, signal-rack state, and the truck/work-order match may also be investigated. The injury challenges drowning without identifying Cal by itself.
+- **What can be learned:** Frank is in the outbuilding with a visible head injury and blood on his collar; his dry boots are there; Ray's silted boots, lake-silt residue, rope, and bucket are in the truck; capture/replay method, signal-rack state, and the truck/work-order match may also be investigated. The injury challenges drowning without identifying Cal by itself.
 - **Spoken lines:** Cal: “Road's closed. Badge doesn't change that.” Ray: “Back away from the rack. You don't know what you're touching.”
 - **Discoverable rolls:** see `plot.md`, Tower Compound.
 - **GM-only truth:** Frank questioned the work and tried to push past Cal, who blocked the exit and struck his head with a heavy work flashlight. Cal did not get help. Ray witnessed the aftermath, helped stage the lake, and fears being attached to murder.

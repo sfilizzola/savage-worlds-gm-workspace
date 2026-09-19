@@ -7,7 +7,7 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 - **Truth:** Lilly's name on the radio came from captured local police traffic replayed through the crew's equipment.
 - **Who knows:** Ray understands the method; Cal knows they replay captured material but not its technical detail.
 - **Why it matters:** it gives the apparently supernatural event a human mechanism without exposing a larger organization.
-- **Player-facing signs:** station police-traffic bleed, dispatch match, mud cassette work tones, compound replay gear.
+- **Player-facing signs:** station police-traffic bleed, dispatch match, mud cassette work tones, cassette sticker **ALIGN CK — TWR 2** (TDK SA C-60; routine tower/alignment work, not a music tape), compound replay gear.
 - **Independent discovery vectors:**
   1. Compare station reel and dispatch audio.
   2. Examine the mud cassette.
@@ -22,12 +22,12 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 - **Truth:** the station and dispatch records share the same missing interval, 9:14:00–9:15:52 p.m. on the evening of session 1 — exactly 1 minute 52 seconds. The maintenance log refers to that clock window; the campaign calendar date remains unset.
 - **Who knows:** Ray knows records were synchronized; Cal knows only that records are being cleaned.
 - **Why it matters:** this is the campaign's first synchronization gap, proof of a common process but not motive or ownership. The exact duration is a fixed signature that should recur, unremarked, in later eras' records.
-- **Player-facing signs:** clean station cut marked by reel counter positions 0418 before and 0419 after (position marks, not elapsed time); matching 9:14:00–9:15:52 p.m. dispatch blank, maintenance timing notation, cassette leader/stop marks.
-- **Maintenance notation:** the typed sheet says **“tower isolated 9:16 p.m.”**; the handwritten key-board note says **“tower key out 9:14 p.m. — C. Briggs.”** The discrepancy places Cal's access inside the shared 9:14:00–9:15:52 p.m. interval without identifying the remote employer.
+- **Player-facing signs:** clean station cut marked by reel counter positions 0418 before and 0419 after (position marks, not elapsed time); matching 9:14:00–9:15:52 p.m. dispatch blank, maintenance timing notation, cassette yellow-leader splices whose splice-to-splice play is 1 minute 52 seconds; compound alignment generator elapsed-time **0:01:52** if Lilly's `Electronics` raise preserves it.
+- **Maintenance notation:** the typed sheet says **“tower isolated 9:16 p.m.”**; the handwritten key-board note says **“tower key out 9:14 p.m. — C. Briggs.”** The same line records key tag **TWR-2 / lake rd** and vehicle **YEL LANE / WNT 41**. The work order site field is **T-2**. The discrepancy places Cal's access inside the shared 9:14:00–9:15:52 p.m. interval without identifying the remote employer.
 - **Independent discovery vectors:**
   1. Station reel against dispatch recorder.
   2. Either recording against the maintenance timing log.
-  3. Mud cassette timing marks against a protected copy.
+  3. Mud cassette yellow-leader splices (1 minute 52 seconds splice-to-splice) against a protected copy.
 - **If never discovered:** the local murder remains solvable, but the first seam is weak or absent.
 - **If discovered early:** the gap can authenticate later evidence and challenge accidental tape damage.
 
@@ -49,7 +49,7 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 - **Truth:** Frank caught the tower crew working and questioned them. Cal blocked the exit; when Frank tried to push past, Cal struck his head with a heavy work flashlight. Frank fell, and Cal did not get help. Ray witnessed the aftermath and helped move and stage evidence afterward.
 - **Who knows:** Cal and Ray.
 - **Why it matters:** it separates direct homicide responsibility from technical operation and explains why Ray might abandon Cal.
-- **Player-facing signs:** a visible head injury and blood on Frank's collar challenge drowning but do not alone identify Cal. Cal's bare feet and Ray's boots made the staged lake trails; a physical match requires documented or surviving impressions. Ray's fear of one murder file and compound behavior remain separate discovery vectors.
+- **Player-facing signs:** a visible head injury and blood on Frank's collar challenge drowning but do not alone identify Cal. Cal's bare feet and Ray's boots made the staged lake trails. **Frank's boots sit dry in the outbuilding.** **Ray's work boots** in the truck carry gray lake silt in the treads and orange-red clay on the uppers; the bed holds silt, wet rope, and a lake-water bucket. A physical print match requires documented or surviving impressions. Ray's fear of one murder file and compound behavior remain separate discovery vectors.
 - **Independent discovery vectors:**
   1. Body and forensic scene logic.
   2. Staged tracks and any surviving materials; a physical foot/boot comparison only if an impression was actually recorded or survives.
@@ -63,7 +63,7 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 - **Truth:** the work order, Eugene callback, PO box, and vague continuity-maintenance description allow access but do not cleanly resolve ownership.
 - **Who knows:** Ray knows only the work sheet and contact instructions; Cal knows key pickup and route. The town public-works clerk knows normal local procedure and that Ashgrove has no Water Authority.
 - **Why it matters:** it prevents premature campaign-scale proof.
-- **Player-facing signs:** inapt Water Authority letterhead, dead Eugene callback, PO box, altered local form, Town Hall key sign-out.
+- **Player-facing signs:** inapt Water Authority letterhead, Eugene callback **(503) 687-4419** (answering service: “Continuity desk. Leave a number.”; no return tonight), **P.O. Box 2144, Eugene, OR 97401** (cash rental, name not released), purple-ditto form with later black-type **CALLBACK** / **BILL TO** fields, Town Hall key sign-out.
 - **Independent discovery vectors:**
   1. Work order on the wrong letterhead.
   2. Clerk testimony and access-key register.

@@ -3,9 +3,9 @@
 - **Canon status:** proposed adventure truth; becomes established only through play
 - **Visibility:** mixed
 - **Role:** signal capture/replay operator using a maintenance cover
-- **Current objective:** obtain Abigail's original reel and warn Cal; at the compound, keep Lilly away from the rack long enough for the record to be destroyed and take an exit
+- **Current objective:** obtain Abigail's original reel and warn Cal; at the compound, keep Lilly away from the rack long enough for the record to be destroyed, then leave through the timber-side fence flap if the gate is blocked
 - **Fear:** being left responsible for Cal's killing
-- **Leverage/resources:** technical competence, maintenance paperwork, access knowledge, out-of-county truck shared with Cal, his own car (slate-gray 1983 Datsun 810 Maxima, Oregon plate `XLR 204`, rented for cash out of Eugene), portable radio/payphone
+- **Leverage/resources:** technical competence, maintenance paperwork, access knowledge, out-of-county truck shared with Cal, his own car (slate-gray 1983 Datsun 810 Maxima, Oregon plate `XLR 204`, cash-rented from **Valley U-Drive** in Eugene under **Alan Vickers**), portable radio/payphone
 - **Secret:** he captured local police traffic, helped replay it, and helped stage the lake. Ray made the booted trail beside Cal's barefoot trail. He witnessed the aftermath of Frank's fall, not the blow itself. He can describe the body and Cal's conduct, but cannot honestly claim he saw the strike.
 - **Relationships:** works with Cal but does not trust him; sees Abigail as a custodian to pressure, not an enemy; underestimates Lilly as new to town
 - **If ignored:** takes the reel if allowed, warns Cal, and tries to leave Ashgrove
