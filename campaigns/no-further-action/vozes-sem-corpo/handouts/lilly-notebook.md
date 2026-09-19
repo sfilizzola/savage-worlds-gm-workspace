@@ -10,7 +10,7 @@ A Brazilian Portuguese table copy is at [`lilly-notebook.pt.md`](lilly-notebook.
 
 *(what follows is written as Lilly's own notebook — reread over coffee before she leaves the house)*
 
-Ashgrove, Oregon. Third week on this job and I still reach for the wrong drawer for my own service weapon. Reading back over the Loman file before I head in — wanted it straight in my head before this morning gets away from me.
+Ashgrove, Oregon. Still counting this job in days and I already reach for the wrong drawer for my own service weapon. Reading back over the Loman file before I head in — wanted it straight in my head before this morning gets away from me.
 
 ## THE LOMAN FILE
 

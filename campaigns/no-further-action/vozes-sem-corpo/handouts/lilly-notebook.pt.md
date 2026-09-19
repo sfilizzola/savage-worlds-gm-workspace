@@ -8,7 +8,7 @@ Print from [`print/lilly-notebook.pt.html`](print/lilly-notebook.pt.html) (A4) �
 
 *(o que segue é escrito como o próprio caderno de Lilly — relido tomando café antes de sair de casa)*
 
-Ashgrove, Oregon. Terceira semana neste trabalho e eu ainda abro a gaveta errada procurando minha própria arma de serviço. Relendo o arquivo Loman antes de sair — queria tudo claro na cabeça antes que esta manhã escape de mim.
+Ashgrove, Oregon. Ainda conto este trabalho em dias e já abro a gaveta errada procurando minha própria arma de serviço. Relendo o arquivo Loman antes de sair — queria tudo claro na cabeça antes que esta manhã escape de mim.
 
 ## O ARQUIVO LOMAN
 

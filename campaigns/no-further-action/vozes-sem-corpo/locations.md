@@ -10,14 +10,14 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Current situation:** Ray arrived at 8:45 a.m. under a maintenance cover. Abigail refused to release the original reel; he is still pressing for it when Lilly arrives later.
 - **Environment:** dry interior; front office, studio window, one public exit and one service exit; copy deck and telephone.
 - **People/forces present:** Abigail Carr and Ray Holtz; another station worker may witness custody.
-- **What can be learned:** the 9:14:00–9:15:52 p.m. gap on the evening of session 1 (exactly 1 minute 52 seconds), police traffic bleed, Ray's thin cover, his 8:45 a.m. arrival time, reel counter positions 0418 before the cut and 0419 after, and the station log. The counter locates the splice; the clocks establish elapsed time. The maintenance sheet's typed 9:16 p.m. isolation conflicts with the handwritten 9:14 p.m. key-out note signed “C. Briggs” (key **TWR-2 / lake rd**, vehicle **YEL LANE / WNT 41**).
-- **Spoken lines:** Abigail: “I didn't call so somebody could carry it away.” Ray: “Then don't sign it over. I write that down too.”
+- **What can be learned:** the clean cut, police-traffic bleed, Ray's thin cover, his 8:45 a.m. arrival time, reel counter positions 0418 before the cut and 0419 after, and the station program log. The counters locate the cut; they do not establish elapsed time. Exact timing comes from comparison with dispatch and Town Hall records.
+- **Spoken lines:** Abigail: “I called because I wanted somebody to hear it, not because I wanted the tape walking out the door.” Ray: “Station manager signs, I take it. Otherwise I write down that you refused service.”
 - **Discoverable rolls:** see `plot.md`, Tape in Motion.
 - **GM-only truth:** Ray's priority is the original reel, not violence.
 - **What changes over time:** Ray leaves within minutes and warns Cal if exposed.
 - **If violence begins:** Ray flees through the service door; he uses fists or a heavy flashlight only if physically trapped. Abigail protects herself and the tape.
 - **Relevant mechanics:** ordinary Trait tests; HR-NFA-002 Tailing only if Lilly lets Ray leave and follows unnoticed.
-- **Links:** Story Points 1–2; `npcs/ray-holtz.md`; campaign Abigail file.
+- **Links:** Story Points 1–2; `npcs/ray-holtz.md`; campaign Abigail file; **Handout B** on the desk, **Handout C** if Abigail supplies the log (`handouts/print/investigation-evidence.pt.pdf`).
 
 ## Ashgrove Records and Social Map
 
@@ -26,14 +26,14 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Current situation:** town observations are still fresh, while formal calls and pointed questions will quickly become gossip.
 - **Environment:** precinct recorder and logs in Town Hall / Police (north of Main, Church–Pell). **Daisy’s** and **West End Fuel** are walkable on Main. Public-works key board is down the hall in the same mill-era building. Iverson’s Market (Nancy’s people) is secondhand gossip, not a required stop. **Barrow Bait & Tackle** is on the lake road if Lilly revisits Frank’s habits. Driving east to **Lowater** for gas is a time-cost red herring; the truck did not go that way.
 - **People/forces present:** Nancy Iverson, Doyle, Whitley as pressure, Daisy Pell, **Bud Ellison** on the West End Fuel island, optionally Walt Kearney (~7am at Daisy’s) and Don Halvorsen or Andy Foyle on day patrol, a town public-works clerk.
-- **What can be learned:** the synchronized interval; two strangers and their split; truck route toward the lake-road utility access; false/inapt Water Authority letterhead; access-key record. The session-1 mud cassette is optional: its exact custody/location was not recorded, so the GM uses an evidence bag/property area or a short Lake Barrow follow-up to match table continuity.
+- **What can be learned:** the synchronized interval; two strangers and their split; truck route toward the lake-road utility access; false/inapt Water Authority letterhead; access-key record. The session-1 mud cassette is optional. Final-run default: it is bagged in the precinct property area with incomplete seal/date fields; if the player explicitly remembers leaving it elsewhere, use a short Lake Barrow follow-up.
 - **Spoken lines:** Nancy: “If they ate breakfast here, start with what they ordered.” Doyle: “Use the tape. Leave the story out of it.” Clerk: “We don't have a Water Authority. Keys for the creek and hydrants go on this board.”
 - **Discoverable rolls:** see `plot.md`, Missing Interval, Two Outsiders, and Paper That Does Not Land.
 - **GM-only truth:** no person here knows the organization behind the paperwork; there is no player-facing ownership proof. Mill politics and the Rennicks are not this night's case.
 - **What changes over time:** each long comparison or dead callback costs time. Active destruction advances only after the crew is alerted; public questions or formal calls can cause that alert.
 - **If violence begins:** none expected; Whitley ends access and calls Doyle. Social consequences replace combat.
 - **Relevant mechanics:** HR-NFA-002 Hitting the Books uses Research; failures cost time/heat rather than blocking facts.
-- **Links:** Story Points 2–4 and 6; campaign NPC, precinct, Daisy’s, and ashgrove files.
+- **Links:** Story Points 2–4 and 6; campaign NPC, precinct, Daisy’s, and ashgrove files. **Handout D** at dispatch; **Handout G** only if the mud cassette is sought.
 
 ## Daisy’s (SP3 stop)
 
@@ -54,19 +54,19 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Spoken lines:** Bud: “Filled 'em. Diesel. They didn't take 328 toward Lowater.”
 - **Discoverable rolls:** see `plot.md`, Two Outsiders, `Notice` at West End Fuel.
 - **GM-only truth:** parking smear is orange-red clay with crushed-basalt chips, matching the inland utility shoulder. Session-1 lake bank is gray organic silt with pine needles. KCRK's lot is wet river gravel and asphalt fines. Bud does not know the compound or the crew by name.
-- **Links:** Story Point 3; [`npcs/bud-ellison.md`](npcs/bud-ellison.md).
+- **Links:** Story Point 3; [`npcs/bud-ellison.md`](npcs/bud-ellison.md). **Handout F** on Notice success or when Bud produces the carbon.
 
 ## Town Hall public works (SP4)
 
 - **Role in adventure:** prove paper-covered tower access while the Water Authority letterhead fails to land.
 - **First impression:** **Climate:** damp paper curls near a space heater. **See:** a labeled key board, stamped dates, pencils, and a telephone directory in an extra mill-era room. **Hear:** file drawers, radiator ticks, precinct noise through the wall. **Feel:** a small office protecting its routine.
-- **Current situation:** a clerk can show how Ashgrove actually issues creek, hydrant, and mill-pond keys. The work order names a Water Authority, continuity maintenance, callback **(503) 687-4419**, and **P.O. Box 2144, Eugene, OR 97401**.
+- **Current situation:** a clerk can show how Ashgrove actually issues creek, hydrant, and mill-pond keys. This office owns the maintenance/isolation sheet and key board used in SP2/SP4. The work order names a Water Authority, continuity maintenance, callback **(503) 687-4419**, and **P.O. Box 2144, Eugene, OR 97401**.
 - **Environment:** same Town Hall as PD; walk the hall. Rookton Public Works is a 22-mile phone call if Lilly insists; it does not own this job.
 - **People/forces present:** unnamed clerk; Whitley if she makes a scene in his building.
 - **Spoken lines:** Clerk: “We don't have a Water Authority. Keys for the creek and hydrants go on this board. Continuity isn't a valve.”
 - **Discoverable rolls:** see `plot.md`, Paper That Does Not Land.
 - **GM-only truth:** even a raise leaves ownership muddy. The clerk is not Concordance and is not covering for Ray.
-- **Links:** Story Point 4.
+- **Links:** Story Point 4. **Handout E** at the key board; **Handout B** if she still has Ray's sheet or never took it at KCRK.
 
 ## Inland Tower Compound
 
@@ -78,12 +78,12 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Environment:** low light; wet metal and concrete; chain-link (gate plus a timber-side flap behind the shed); outbuilding; truck; live orange generator feeder across the shed doorway; breakers; record rack; burning barrel or stove.
 - **People/forces present:** Cal; possibly Ray; Frank's body; Doyle only if Lilly requested support and accepted delay.
 - **What can be learned:** Frank is in the outbuilding with a visible head injury and blood on his collar; his dry boots are there; Ray's silted boots, lake-silt residue, rope, and bucket are in the truck; capture/replay method, signal-rack state, and the truck/work-order match may also be investigated. The injury challenges drowning without identifying Cal by itself.
-- **Spoken lines:** Cal: “Road's closed. Badge doesn't change that.” Ray: “Back away from the rack. You don't know what you're touching.”
+- **Spoken lines:** Cal: “Badge stays outside. Turn around.” Ray: “Back away from the rack. You don't know what you're touching.”
 - **Discoverable rolls:** see `plot.md`, Tower Compound.
 - **GM-only truth:** Frank questioned the work and tried to push past Cal, who blocked the exit and struck his head with a heavy work flashlight. Cal did not get help. Ray witnessed the aftermath, helped stage the lake, and fears being attached to murder.
 - **What changes over time:** before alert, Cal's movement preparation advances but categories remain intact. Alert is the adventure's single reversal; afterward cleanup proceeds one category per action round or equivalent interval.
 - **If violence begins:** detection alerts Cal and starts cleanup if it was not already active. Two Extras seek to escape and destroy evidence. Neither fights to the death. Frank or the live record can be lost while Lilly focuses on combat.
-- **Relevant mechanics:** standard combat; illumination (SWADE p.102); wet crossing with Athletics (SWADE p.29); Extras and Incapacitation (SWADE pp.87–88, 95); improvised clubs/flashlights use simple melee treatment only as verified in `encounters.md`.
+- **Relevant mechanics:** standard combat; illumination (SWADE p.102); wet crossing with Athletics (SWADE p.29); Extras and Incapacitation (SWADE pp.87–88, 95). If a tool or flashlight becomes an improvised weapon, `encounters.md` marks its value `RULE UNCLEAR - GM DECISION REQUIRED`; do not invent damage.
 - **Links:** Story Point 5; `encounters.md`; local NPC files.
 
 ## Disposition Desk

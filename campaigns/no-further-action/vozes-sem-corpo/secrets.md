@@ -4,7 +4,7 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 
 ## Secret VSC-01 - The Voice Was Replay
 
-- **Truth:** Lilly's name on the radio came from captured local police traffic replayed through the crew's equipment.
+- **Truth:** Lilly's name on the radio came from captured local police traffic replayed through the crew's equipment. The voice heard through Frank's car radio in session 1 was the same tower replay bleeding into that receiver, not a separate phenomenon.
 - **Who knows:** Ray understands the method; Cal knows they replay captured material but not its technical detail.
 - **Why it matters:** it gives the apparently supernatural event a human mechanism without exposing a larger organization.
 - **Player-facing signs:** station police-traffic bleed, dispatch match, mud cassette work tones, cassette sticker **ALIGN CK — TWR 2** (TDK SA C-60; routine tower/alignment work, not a music tape), compound replay gear.
@@ -15,7 +15,7 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 - **If never discovered:** Frank's murder can still be proved; the voice remains technically unexplained.
 - **If discovered early:** Lilly can use the content to focus on infrastructure and access.
 
-**Mud cassette continuity:** Lilly found it in session 1, but no recap recorded its exact custody/location. If sought, place it in an evidence bag/property area or at a short Lake Barrow follow-up according to table continuity. Recovery costs time or custody quality on failure; it is never mandatory.
+**Mud cassette continuity:** Lilly found it in session 1, but no recap recorded its exact custody/location. Final-run default: it is bagged in the precinct property area with incomplete seal/date fields. If the player explicitly remembers leaving it elsewhere, use a short Lake Barrow follow-up. Recovery costs time or custody quality on failure; it is never mandatory.
 
 ## Secret VSC-02 - One Missing Interval
 

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Vozes sem Corpo — Evidências da Investigação</title>
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #c7c6c0;
+    color: #171714;
+  }
+  body { font-family: "Courier New", Courier, monospace; }
+  .sheet {
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto 8mm;
+    overflow: hidden;
+    background: #f5f1e5;
+    page-break-after: always;
+  }
+  .sheet:last-child { page-break-after: auto; }
+  .cut {
+    position: absolute;
+    color: #73736d;
+    font: 7pt Georgia, serif;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .cut::before, .cut::after { content: " · · · · · · · · · · · · · · · "; }
+  .field-line {
+    display: inline-block;
+    min-width: 48mm;
+    border-bottom: .25mm solid currentColor;
+    transform: translateY(-.7mm);
+  }
+  .mono { font-family: "Courier New", Courier, monospace; }
+  .hand { font-family: "Bradley Hand", "Segoe Print", "Comic Sans MS", cursive; }
+  .small { font-size: 8pt; }
+
+  /* Page 1 — an old spirit-duplicated work order with later black additions. */
+  .work-paper {
+    position: absolute;
+    inset: 16mm 15mm;
+    padding: 14mm 15mm 12mm;
+    color: #57406b;
+    border: .35mm solid rgba(87, 64, 107, .65);
+    background:
+      radial-gradient(circle at 14% 21%, rgba(102, 78, 123, .055) 0 1mm, transparent 1.4mm),
+      radial-gradient(circle at 78% 71%, rgba(102, 78, 123, .04) 0 .7mm, transparent 1.1mm),
+      #f1eddf;
+    box-shadow: 0 1.2mm 3mm rgba(0,0,0,.15);
+    transform: rotate(-.18deg);
+  }
+  .work-paper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: .09;
+    background: repeating-linear-gradient(0deg, transparent 0 2.1mm, #624e73 2.15mm 2.3mm);
+  }
+  .work-kicker {
+    text-align: center;
+    font: 700 10pt Georgia, serif;
+    letter-spacing: .32em;
+  }
+  .work-title {
+    margin: 2mm 0 1mm;
+    text-align: center;
+    font: 700 19pt "Courier New", monospace;
+    letter-spacing: .08em;
+  }
+  .work-sub {
+    margin-bottom: 10mm;
+    text-align: center;
+    font-size: 8pt;
+    letter-spacing: .17em;
+  }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 34mm 1fr;
+    border-top: .35mm solid #57406b;
+    border-left: .35mm solid #57406b;
+    font-size: 10pt;
+  }
+  .form-grid > div {
+    min-height: 13mm;
+    padding: 3.5mm 4mm;
+    border-right: .35mm solid #57406b;
+    border-bottom: .35mm solid #57406b;
+  }
+  .form-grid .label {
+    font-size: 7pt;
+    letter-spacing: .12em;
+  }
+  .access-box {
+    margin-top: 10mm;
+    padding: 5mm;
+    min-height: 42mm;
+    border: .35mm solid #57406b;
+    font-size: 9pt;
+    line-height: 1.8;
+  }
+  .access-box strong { font-size: 7pt; letter-spacing: .15em; }
+  .sign-row {
+    display: grid;
+    grid-template-columns: 1fr 52mm;
+    gap: 8mm;
+    margin-top: 12mm;
+    font-size: 8pt;
+  }
+  .late-additions {
+    position: absolute;
+    right: 14mm;
+    bottom: 18mm;
+    width: 112mm;
+    color: #111;
+    font-size: 10pt;
+    line-height: 1.7;
+    transform: rotate(.32deg) translateX(1.5mm);
+  }
+  .late-additions .typed-label {
+    display: inline-block;
+    width: 28mm;
+    font-size: 8pt;
+    letter-spacing: .08em;
+  }
+  .work-footer {
+    position: absolute;
+    left: 15mm;
+    bottom: 3mm;
+    font-size: 7pt;
+    letter-spacing: .09em;
+  }
+
+  /* Page 2 — two independent logs that should be physically separated. */
+  .half {
+    position: absolute;
+    left: 12mm;
+    width: 186mm;
+    height: 128mm;
+    padding: 10mm 12mm;
+    border: .25mm solid #4f4e49;
+    background: #f8f5e9;
+  }
+  .half.top { top: 12mm; transform: rotate(.12deg); }
+  .half.bottom { bottom: 12mm; transform: rotate(-.1deg); }
+  .page2-cut { left: 34mm; top: 146mm; }
+  .log-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 3mm;
+    border-bottom: .55mm double #262620;
+  }
+  .log-head h1 {
+    margin: 0;
+    font: 700 16pt Georgia, serif;
+    letter-spacing: .04em;
+  }
+  .log-head .station {
+    font-size: 9pt;
+    text-align: right;
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    margin: 4mm 0 3mm;
+    font-size: 8.5pt;
+  }
+  .ruled {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+  }
+  .ruled td {
+    height: 10mm;
+    padding: 2mm 2.5mm;
+    border-bottom: .22mm solid #a7a398;
+    vertical-align: middle;
+  }
+  .ruled td:first-child { width: 27mm; font-weight: 700; }
+  .gap-row td { height: 25mm; vertical-align: top; }
+  .gap-mark {
+    display: block;
+    height: 17mm;
+    background: repeating-linear-gradient(to bottom, transparent 0 5.3mm, #c4c0b5 5.4mm 5.6mm);
+  }
+  .abigail-note {
+    margin-top: 4mm;
+    color: #173b66;
+    font-size: 10pt;
+    transform: rotate(-.4deg);
+  }
+  .dispatch {
+    background:
+      repeating-linear-gradient(to bottom, transparent 0 8.8mm, rgba(87,91,83,.09) 8.9mm 9.1mm),
+      #eeeadd;
+  }
+  .dispatch .log-head h1 {
+    max-width: 127mm;
+    font-family: "Courier New", monospace;
+    font-size: 11pt;
+  }
+  .dispatch .log-head .station {
+    flex: 0 0 41mm;
+    width: 41mm;
+  }
+  .stamp {
+    position: absolute;
+    right: 13mm;
+    bottom: 9mm;
+    padding: 2mm 4mm;
+    border: .65mm double #6e2e2e;
+    color: #6e2e2e;
+    font: 700 8pt Georgia, serif;
+    letter-spacing: .12em;
+    transform: rotate(-3deg);
+    opacity: .72;
+  }
+
+  /* Page 3 — cut-apart scraps. */
+  .ledger-strip {
+    position: absolute;
+    top: 14mm;
+    left: 14mm;
+    width: 182mm;
+    height: 58mm;
+    padding: 7mm 9mm;
+    border: .3mm solid #57584d;
+    background:
+      repeating-linear-gradient(to bottom, transparent 0 11.7mm, rgba(73,94,76,.25) 11.9mm 12.2mm),
+      #e8ead8;
+    transform: rotate(.15deg);
+  }
+  .ledger-title {
+    margin-bottom: 7mm;
+    font: 700 12pt Georgia, serif;
+    letter-spacing: .08em;
+    text-align: center;
+  }
+  .ledger-row {
+    display: grid;
+    grid-template-columns: 20mm 36mm 40mm 38mm 1fr;
+    gap: 2mm;
+    font-size: 9pt;
+  }
+  .ledger-row .lh {
+    display: block;
+    margin-bottom: 2mm;
+    font-size: 6.5pt;
+    letter-spacing: .08em;
+  }
+  .ledger-row .entry { color: #1e365d; font-family: "Bradley Hand", "Segoe Print", cursive; font-size: 10pt; }
+  .page3-cut1 { left: 35mm; top: 78mm; }
+
+  .fuel-slip {
+    position: absolute;
+    top: 90mm;
+    left: 126mm;
+    width: 70mm;
+    height: 96mm;
+    padding: 7mm 7mm 5mm;
+    color: #163f69;
+    border: .25mm solid #49759d;
+    background:
+      repeating-linear-gradient(to bottom, transparent 0 8.8mm, rgba(41,91,135,.18) 8.9mm 9.1mm),
+      #dbe9ef;
+    transform: rotate(-.7deg);
+  }
+  .fuel-slip::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: -2.4mm;
+    height: 3mm;
+    background: linear-gradient(135deg, transparent 0 2mm, #dbe9ef 2.1mm 4mm, transparent 4.1mm) 0 0/6mm 3mm repeat-x;
+  }
+  .fuel-brand {
+    font: 700 13pt Georgia, serif;
+    letter-spacing: .08em;
+    text-align: center;
+  }
+  .fuel-sub {
+    margin: 1mm 0 7mm;
+    font-size: 6.5pt;
+    text-align: center;
+    letter-spacing: .13em;
+  }
+  .fuel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5mm 3mm;
+    font-size: 7.5pt;
+  }
+  .fuel-grid strong { display: block; margin-top: 1mm; font-size: 10.5pt; font-weight: 400; }
+  .fuel-scrawl { font-family: "Bradley Hand", "Segoe Print", cursive; transform: rotate(-1deg); }
+
+  /*
+    Compact Cassette shell is 100 x 64 mm. Keep those two numbers exact and
+    derive every internal element from them, or the prop reads as a square
+    card rather than a tape.
+  */
+  .cassette-card {
+    position: absolute;
+    top: 90mm;
+    left: 14mm;
+    width: 106mm;
+    height: 70mm;
+    padding: 3mm;
+    border: .3mm dashed #8d8a7e;
+    background: #efebdc;
+    transform: rotate(.35deg);
+  }
+  .cassette-shell {
+    position: relative;
+    width: 100mm;
+    height: 64mm;
+    border: .5mm solid #131315;
+    border-radius: 2.2mm;
+    background: linear-gradient(180deg, #34343a 0 12%, #2a2a2e 12% 88%, #1d1d20 88%);
+  }
+  .cassette-topline {
+    position: absolute;
+    top: 3mm;
+    left: 7mm;
+    right: 7mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #efece1;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .cassette-topline .brand { font-size: 11pt; font-weight: 700; letter-spacing: .1em; }
+  .cassette-topline .type { font-size: 8pt; letter-spacing: .22em; }
+  .cassette-label {
+    position: absolute;
+    top: 10mm;
+    left: 6mm;
+    width: 88mm;
+    height: 29mm;
+    padding: 3mm 4mm;
+    background:
+      radial-gradient(ellipse at 83% 70%, rgba(86,68,44,.17) 0 6mm, rgba(86,68,44,.07) 7mm 13mm, transparent 14mm),
+      radial-gradient(ellipse at 13% 84%, rgba(86,68,44,.12) 0 4mm, transparent 8mm),
+      #f4f1e2;
+    border: .25mm solid #b3ac95;
+    transform: rotate(-.35deg);
+  }
+  .cassette-label .side {
+    position: absolute;
+    top: 2.5mm;
+    right: 3.5mm;
+    color: #5c5a4e;
+    font: 700 7pt Helvetica, Arial, sans-serif;
+    letter-spacing: .1em;
+  }
+  .cassette-label .scrawl {
+    display: block;
+    margin-top: 6mm;
+    color: #1b3a63;
+    font: 13pt "Bradley Hand", "Segoe Print", cursive;
+    transform: rotate(-.9deg);
+  }
+  .cassette-window {
+    position: absolute;
+    top: 41mm;
+    left: 21mm;
+    width: 58mm;
+    height: 14mm;
+    border: .35mm solid #0e0e10;
+    border-radius: 7mm;
+    background: #7d5a39;
+  }
+  .cassette-window .hub {
+    position: absolute;
+    top: 2mm;
+    width: 10mm;
+    height: 10mm;
+    border-radius: 50%;
+    background: #eae5d5;
+    box-shadow: inset 0 0 0 1.3mm #2b2a27;
+  }
+  .cassette-window .hub.left { left: 5mm; }
+  .cassette-window .hub.right { right: 5mm; }
+  .cassette-base {
+    position: absolute;
+    left: 14mm;
+    right: 14mm;
+    bottom: 3mm;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cassette-base i {
+    width: 2.6mm;
+    height: 2.6mm;
+    border-radius: 50%;
+    background: #121214;
+    box-shadow: inset 0 0 0 .3mm #4a4a4e;
+  }
+  .page3-cut2 { left: 35mm; top: 196mm; }
+
+  .evidence-tag {
+    position: absolute;
+    left: 24mm;
+    right: 24mm;
+    top: 204mm;
+    height: 74mm;
+    padding: 13mm 10mm 8mm;
+    border: .5mm solid #6c5d3e;
+    background: #e8dfc3;
+    transform: rotate(-.18deg);
+  }
+  .evidence-tag::before {
+    content: "";
+    position: absolute;
+    top: 5mm;
+    left: 8mm;
+    width: 4mm;
+    height: 4mm;
+    border: .35mm solid #6c5d3e;
+    border-radius: 50%;
+    background: #f5f1e5;
+  }
+  .tag-title {
+    margin: 0 0 5mm;
+    padding-bottom: 2mm;
+    border-bottom: .6mm double #6c5d3e;
+    text-align: center;
+    font: 700 12pt Georgia, serif;
+    letter-spacing: .08em;
+  }
+  .tag-grid {
+    display: grid;
+    grid-template-columns: 44mm 1fr;
+    row-gap: 3mm;
+    font-size: 8.5pt;
+  }
+  .tag-grid .value { border-bottom: .25mm solid #6c5d3e; font-weight: 700; }
+
+  @media print {
+    html, body { background: white; }
+    .sheet { margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<section class="sheet" aria-label="Ordem de serviço da Water Authority">
+  <div class="work-paper">
+    <div class="work-kicker">WATER AUTHORITY</div>
+    <div class="work-title">CONTINUITY MAINTENANCE</div>
+    <div class="work-sub">FIELD WORK ORDER · CONTROLLED ACCESS</div>
+
+    <div class="form-grid">
+      <div class="label">WORK ORDER</div><div>86-011</div>
+      <div class="label">SITE</div><div>T-2</div>
+      <div class="label">SERVICE</div><div>CONTINUITY MAINTENANCE</div>
+      <div class="label">CREW</div><div>2</div>
+      <div class="label">VEHICLE</div><div>COUNTY UTILITY</div>
+    </div>
+
+    <div class="access-box">
+      <strong>ACCESS INSTRUCTIONS</strong><br>
+      Obtain local service key.<br>
+      Maintain continuity during isolation.<br>
+      Return key after completion.
+    </div>
+
+    <div class="sign-row">
+      <div>AUTHORIZED SIGNATURE<br><span class="field-line"></span></div>
+      <div>DATE<br><span class="field-line"></span></div>
+    </div>
+
+    <div class="work-footer">FORM WA-17C · FIELD COPY · RETAIN WITH SERVICE RECORD</div>
+    <div class="late-additions">
+      <div><span class="typed-label">CALLBACK</span>(503) 687-4419</div>
+      <div><span class="typed-label">BILL TO</span>P.O. BOX 2144</div>
+      <div><span class="typed-label"></span>EUGENE, OR 97401</div>
+    </div>
+  </div>
+</section>
+
+<section class="sheet" aria-label="Registros independentes da KCRK e do despacho">
+  <article class="half top">
+    <header class="log-head">
+      <h1>KCRK — Registro de Programa</h1>
+      <div class="station">102.3 FM<br>ASHGROVE, OREGON</div>
+    </header>
+    <div class="meta">
+      <span>DATA: <span class="field-line"></span></span>
+      <span>OPERADORA: <strong>A. CARR</strong></span>
+    </div>
+    <table class="ruled">
+      <tr><td>21:10</td><td>ÁUDIO NORMAL DA PROGRAMAÇÃO</td></tr>
+      <tr><td>21:13</td><td>INTERVALO LOCAL / RETORNO</td></tr>
+      <tr class="gap-row"><td>21:14:00</td><td>CONTADOR 0418 — CORTE NO ÁUDIO<span class="gap-mark"></span></td></tr>
+      <tr><td>21:15:52</td><td>CONTADOR 0419 — PROGRAMAÇÃO RETORNA · TRÁFEGO DA POLÍCIA SOB O ÁUDIO · “DAWSON” AUDÍVEL</td></tr>
+    </table>
+    <div class="abigail-note hand">Eu estava na mesa. Isto não foi silêncio no ar. — A.C.</div>
+  </article>
+
+  <div class="cut page2-cut">cortar e entregar separadamente</div>
+
+  <article class="half bottom dispatch">
+    <header class="log-head">
+      <h1>POLÍCIA DE ASHGROVE — GRAVADOR DO DESPACHO</h1>
+      <div class="station">ROLO: MESA NOTURNA B</div>
+    </header>
+    <div class="meta">
+      <span>DATA: <span class="field-line"></span></span>
+      <span>FOLHA DE CONTROLE</span>
+    </div>
+    <table class="ruled">
+      <tr><td>21:10:32</td><td>TRÁFEGO ROTINEIRO DE RÁDIO</td></tr>
+      <tr><td>21:12:08</td><td>CONFIRMAÇÃO DE UNIDADE</td></tr>
+      <tr class="gap-row"><td>21:14:00</td><td>PERDA DE SINAL / GRAVAÇÃO<span class="gap-mark"></span></td></tr>
+      <tr><td>21:15:52</td><td>GRAVAÇÃO RETORNA</td></tr>
+      <tr><td>21:16:07</td><td>TRÁFEGO ROTINEIRO DE RÁDIO</td></tr>
+    </table>
+    <div class="stamp">MÁQUINA FUNCIONANDO<br>NENHUMA TROCA DE ROLO</div>
+  </article>
+</section>
+
+<section class="sheet" aria-label="Registro de chaves, recibo de combustível e fita cassete">
+  <article class="ledger-strip">
+    <div class="ledger-title">PREFEITURA DE ASHGROVE · OBRAS PÚBLICAS · REGISTRO DE CHAVES</div>
+    <div class="ledger-row">
+      <div><span class="lh">SAÍDA</span><span class="entry">21:14</span></div>
+      <div><span class="lh">CHAVE / LOCAL</span><span class="entry">TWR-2 / LAKE RD</span></div>
+      <div><span class="lh">ENTREGUE A</span><span class="entry">C. BRIGGS</span></div>
+      <div><span class="lh">VEÍCULO</span><span class="entry">YEL LANE / WNT 41</span></div>
+      <div><span class="lh">DEVOLUÇÃO / RUBRICA</span><span class="entry">—</span></div>
+    </div>
+  </article>
+
+  <div class="cut page3-cut1">cortar</div>
+
+  <article class="fuel-slip">
+    <div class="fuel-brand">WEST END FUEL</div>
+    <div class="fuel-sub">CUSTOMER CARBON · ASHGROVE</div>
+    <div class="fuel-grid">
+      <div>HORA<strong class="fuel-scrawl">8:22 AM</strong></div>
+      <div>BOMBA<strong class="fuel-scrawl">1</strong></div>
+      <div>PRODUTO<strong class="fuel-scrawl">DIESEL</strong></div>
+      <div>VOLUME<strong class="fuel-scrawl">12,4 GAL</strong></div>
+      <div>VEÍCULO<strong class="fuel-scrawl">YEL LANE</strong></div>
+      <div>PLACA<strong class="fuel-scrawl">WNT 41</strong></div>
+      <div>ATENDENTE<strong class="fuel-scrawl">B.E.</strong></div>
+    </div>
+  </article>
+
+  <article class="cassette-card">
+    <div class="cassette-shell">
+      <div class="cassette-topline">
+        <span class="brand">TDK</span>
+        <span class="type">SA · C-60</span>
+      </div>
+      <div class="cassette-label">
+        <span class="side">A</span>
+        <span class="scrawl">ALIGN CK — TWR 2</span>
+      </div>
+      <div class="cassette-window">
+        <span class="hub left"></span>
+        <span class="hub right"></span>
+      </div>
+      <div class="cassette-base"><i></i><i></i><i></i></div>
+    </div>
+  </article>
+
+  <div class="cut page3-cut2">cortar · etiqueta opcional de custódia</div>
+
+  <article class="evidence-tag">
+    <h1 class="tag-title">POLÍCIA DE ASHGROVE · PROPRIEDADE / EVIDÊNCIA</h1>
+    <div class="tag-grid">
+      <div>ITEM</div><div class="value">FITA DE ÁUDIO — TDK SA C-60</div>
+      <div>RECUPERADA</div><div class="value">MARGEM DE LAKE BARROW</div>
+      <div>DATA / HORA</div><div class="value">&nbsp;</div>
+      <div>POR</div><div class="value">DET. L. DAWSON</div>
+      <div>Nº DE PROPRIEDADE</div><div class="value">&nbsp;</div>
+      <div>LACRE / RUBRICA</div><div class="value">&nbsp;</div>
+    </div>
+  </article>
+</section>
+
+</body>
+</html>
