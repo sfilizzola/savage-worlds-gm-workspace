@@ -27,6 +27,17 @@ house_rules: none
 
 Configuration is complete. Pregen sheets, opposition, and researched-scope history are verified. `QUALITY.md` scored 98/120 (2026-08-31); Grounding audit passed 2026-09-11. `RUN.md` recompiled 2026-09-07 against `templates/adventure/SKELETON.md` (table-flow pass); hand-patched 2026-09-11 with the three extraction vehicles (source files changed, full recompile not run — see `RUN.md` Story Points 1, 2, 4, 6 and "Extraction vehicles (GM)"). Rebuild if source files change further. Review that file at the table before play.
 
+## Resume work
+
+Authoring handoff. Verify entries against the linked files when resuming.
+
+- Current task: No active authoring task recorded.
+- Last completed: Prior authoring handoff not recorded.
+- Next concrete action: Establish the next task from the GM's request, then follow the linked configuration and review notes.
+- Files to open: [QUALITY.md](QUALITY.md), [plot.md](plot.md), [RUN.md](RUN.md).
+- Open GM questions: Not inventoried; inspect the linked files.
+- Derived outputs needing refresh: The [configuration note above](#operation-hinterland) records a patched RUN without a full recompile after source changes. Full output freshness has not been verified.
+
 ## One-sentence premise
 
 Four Seasoned Allied specialists, briefed in Allied Lorraine and dropped onto the wrong face of Dinkelsbühl in early January 1945, must kill a rear-area signals hydra (any two of three heads) before it keeps helping German movement toward the southern Western Front.

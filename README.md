@@ -2,6 +2,16 @@
 
 This repository is a reusable workspace for preparing and maintaining Savage Worlds adventures and campaigns. It treats RPG preparation like a small, modular codebase: sources are dependencies, world files hold reusable canon, adventure files hold preparation, session records capture what actually happened, and `RUN.md` is the compiled table-facing artifact.
 
+## Workspace inventory
+
+| Material | Type | Entry point |
+|---|---|---|
+| Operation Hinterland | Standalone adventure | [ADVENTURE.md](adventures/operation-hinterland/ADVENTURE.md) |
+| Take the Baton | Standalone adventure | [ADVENTURE.md](adventures/take-the-baton/ADVENTURE.md) |
+| No Further Action | Campaign | [INDEX.md](campaigns/no-further-action/INDEX.md) |
+
+To continue existing work, open its entry point and read “Resume work.” Status and campaign state live in the linked files. For task-specific reading and editing paths, follow [AGENTS.md](AGENTS.md#shared-navigation).
+
 ## Start here
 
 1. Read [`GM.md`](GM.md) before creating or revising material.

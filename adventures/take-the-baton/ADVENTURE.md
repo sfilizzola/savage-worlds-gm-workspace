@@ -21,6 +21,17 @@ house_rules: none
 
 Complete every front-matter field before mechanical preparation.
 
+## Resume work
+
+Authoring handoff. Verify entries against the linked files when resuming.
+
+- Current task: No active authoring task recorded.
+- Last completed: Prior authoring handoff not recorded.
+- Next concrete action: Establish the next task from the GM's request, then follow the linked configuration and review notes.
+- Files to open: [QUALITY.md](QUALITY.md), [plot.md](plot.md), [RUN.md](RUN.md).
+- Open GM questions: See the pending GM choice in the [RUN table checklist](RUN.md#table-checklist); other questions have not been inventoried.
+- Derived outputs needing refresh: Freshness has not been verified. The [RUN table checklist](RUN.md#table-checklist) records pending sheet printing.
+
 ## One-sentence premise
 
 Twenty-five years after their state championship, four former teammates return to Colston for the anniversary of that win and must save one of their own — this year's anchor runner — from the same fate that quietly took their fifth teammate the night they became legends.

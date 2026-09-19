@@ -18,6 +18,19 @@ Scope: the No Further Action campaign only. Other campaigns, standalone adventur
 
 ---
 
+## Resume work
+
+Authoring handoff. Verify entries against the linked files when resuming.
+
+- Current task: Night 2 Grounding audit completed; the GM plans to play on 2026-09-20 (real-world date). The adventure remains unplayed.
+- Last completed: [Grounding audit](vozes-sem-corpo/QUALITY.md#grounding-audit), 2026-09-19; GM approved Frank's death, staged trails (Cal barefoot, Ray booted), the 9:14:00–9:15:52 p.m. gap, reel marks 0418/0419, Ray's 8:45 a.m. arrival, and the maintenance notation discrepancy. These are recorded in night-2 source files. G27, G02, G03, G04, and G06 pass; 15 rows remain unresolved.
+- Next concrete action: Review the [repair priorities](vozes-sem-corpo/QUALITY.md#repair-priorities) with the GM before authoring missing answers; then recheck grounding and compile the repaired material.
+- Files to open: [QUALITY.md](vozes-sem-corpo/QUALITY.md#grounding-audit), [ADVENTURE.md](vozes-sem-corpo/ADVENTURE.md#quality-gate), [plot.md](vozes-sem-corpo/plot.md), [secrets.md](vozes-sem-corpo/secrets.md), [locations.md](vozes-sem-corpo/locations.md).
+- Open GM questions: The remaining failed audit rows identify undecided evidence values. Address them one at a time with context and a concrete suggestion for GM approval.
+- Open audit queue for takeover (all current failed rows): G08 cassette work-label text/identifier; G09 cassette leader/stop timing mark; G11 truck color, county marking, and partial plate; G12 fuel-slip time and vehicle match; G13 named early-shift fuel witness; G15 Eugene rental firm and renter alias; G16 observable mud comparison; G18 identifiable tower-road turnoff/landmark; G20 checkable Eugene callback number and result; G21 billing PO box/address and inquiry result; G23 signed access date/time joining work order, key, site, and vehicle; G24 visible formatting difference showing callback/box were added later; G28 staging materials, footwear comparison, and truck residue; G31 independently timed machine-state reading; G32 Ray's second exit and the live cable hazard. Resolve these one at a time, recording each approved answer in its owning modular source before changing `RUN.md`.
+- Handoff note: the earlier 16-topic queue is fully represented here and in `QUALITY.md`; G06 was the approved topic just resolved, leaving these 15 current failures.
+- Derived outputs needing refresh: [RUN.md](vozes-sem-corpo/RUN.md) and its print outputs predate this audit and remain unchanged. Ready compilation is blocked; rebuild and recheck after source repairs.
+
 ## 1. Start here
 
 Cheapest default read order. Stop as soon as the task is answered.
@@ -104,7 +117,7 @@ All twelve jobs from [`CAMPAIGN.md`](CAMPAIGN.md), each listed once. Concept row
 | # | Slug | Title | Status | Calendar | Folder | Key artifacts | Purpose |
 |---|---|---|---|---|---|---|---|
 | 1 | `neblina-sobre-o-lago` | Neblina sobre o Lago | played | Jan 1986 | [exists](neblina-sobre-o-lago/ADVENTURE.md) | [`ADVENTURE.md`](neblina-sobre-o-lago/ADVENTURE.md), [`session-recap.md`](neblina-sobre-o-lago/session-recap.md), [`characters.md`](neblina-sobre-o-lago/characters.md); no `RUN.md`, no `QUALITY.md` | The Loman missing-person case at Lake Barrow; ends on Abigail Carr's call. |
-| 2 | `vozes-sem-corpo` | Vozes sem Corpo | drafting (preparation) | morning after night 1, Jan 1986 | [exists](vozes-sem-corpo/ADVENTURE.md) | **config** [`ADVENTURE.md`](vozes-sem-corpo/ADVENTURE.md) · **prep** [`plot.md`](vozes-sem-corpo/plot.md), [`locations.md`](vozes-sem-corpo/locations.md), [`encounters.md`](vozes-sem-corpo/encounters.md), [`secrets.md`](vozes-sem-corpo/secrets.md), [`characters.md`](vozes-sem-corpo/characters.md) · **quality gate** [`QUALITY.md`](vozes-sem-corpo/QUALITY.md) (coherence passed) · **table document** [`RUN.md`](vozes-sem-corpo/RUN.md), [`print/RUN.pdf`](vozes-sem-corpo/print/RUN.pdf) · **local NPCs** [`ray-holtz.md`](vozes-sem-corpo/npcs/ray-holtz.md), [`cal-briggs.md`](vozes-sem-corpo/npcs/cal-briggs.md), [`helen-loman.md`](vozes-sem-corpo/npcs/helen-loman.md) | The fresh call and the recording become a case. Only 1986 sequel. **Prepared outcomes are not history.** |
+| 2 | `vozes-sem-corpo` | Vozes sem Corpo | drafting (preparation) | morning after night 1, Jan 1986 | [exists](vozes-sem-corpo/ADVENTURE.md) | **config** [`ADVENTURE.md`](vozes-sem-corpo/ADVENTURE.md) · **prep** [`plot.md`](vozes-sem-corpo/plot.md), [`locations.md`](vozes-sem-corpo/locations.md), [`encounters.md`](vozes-sem-corpo/encounters.md), [`secrets.md`](vozes-sem-corpo/secrets.md), [`characters.md`](vozes-sem-corpo/characters.md) · **quality gate** [`QUALITY.md`](vozes-sem-corpo/QUALITY.md) (coherence passed; [Grounding audit failed](vozes-sem-corpo/QUALITY.md#grounding-audit)) · **table document** [`RUN.md`](vozes-sem-corpo/RUN.md), [`print/RUN.pdf`](vozes-sem-corpo/print/RUN.pdf) · **local NPCs** [`ray-holtz.md`](vozes-sem-corpo/npcs/ray-holtz.md), [`cal-briggs.md`](vozes-sem-corpo/npcs/cal-briggs.md), [`helen-loman.md`](vozes-sem-corpo/npcs/helen-loman.md) | The fresh call and the recording become a case. Only 1986 sequel. **Prepared outcomes are not history.** |
 | 3 | `nothing-happens-after-eleven` | Nothing Happens After Eleven | concept | months later in 1986 | none | no files | Unrelated action cop case; its discovery trail can reach Whitley's local graft. |
 | 4 | `ashgrove-puzzle-1986` | (untitled; working) | concept | later 1986, after night 3 | none | no files | Puzzle night and arc-1 finishing rhyme; the 1986 personal bruise sits in the paperwork. |
 | 5 | `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | none | no files | FBI in her town; first concrete Concordance language. **Gated** on [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md). |
@@ -241,6 +254,8 @@ Named in play-adjacent material with **no campaign NPC file**. None is a missing
 
 ## 8. Gates and danger zones
 
+- **Night 2 Grounding audit failed.** See [QUALITY.md](vozes-sem-corpo/QUALITY.md#grounding-audit) for promised facts without concrete values. Its numeric score and earlier Coherence pass do not override this gate; the current RUN and PDF do not incorporate repairs.
+
 - **1986 → 1998 interstitial gate.** [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is empty and blocks both `federal-in-ashgrove` design and the Seasoned rebuild. Its fill conditions and its "do not invent from unplayed notes" rule are stated in that file and in [`CAMPAIGN.md`](CAMPAIGN.md), "Era gap (1986 → 1998)".
 - **Rank rebuilds are planned, not done.** Only the Novice 1986 sheet exists. Seasoned (1998) and Veteran (2016) rebuilds are described in [`CAMPAIGN.md`](CAMPAIGN.md) and have no files; the twelve years must come from the interstitial file.
 - **Whitley: planned exit versus played history.** Played: he is the 1986 chief and he shelved the Loman file. Planned only: local graft, being taken off the force by the end of the 1986 arc via an unfair walk, and civilian status by 1998. Do not narrate the exit as something that happened. See [`world/npcs/chief-whitley.md`](world/npcs/chief-whitley.md).
@@ -260,6 +275,8 @@ Update this index when:
 - an entity's state changes between authored, played, mixed, GM-only, or retired — including any promotion out of a child adventure;
 - a prerequisite gate opens or changes, or the current-state snapshot stops matching the latest recap and timeline.
 
-Do **not** update this index merely because portrayal text, prose, mechanics, clues, stat blocks, or other payload changed without changing navigation metadata.
+Update [Resume work](#resume-work) after substantial authoring work finishes or pauses. Other index sections need updating only when their navigation metadata or state summaries change.
+
+Do **not** update the other index sections merely because portrayal text, prose, mechanics, clues, stat blocks, or other payload changed without changing navigation metadata.
 
 When a night is played, the promotion order is: write the recap → promote established facts into `world/` and the timeline → retire contradicted prep → then correct the [Current-state warning](#current-state-warning-read-before-writing-anything), [Current-state snapshot](#2-current-state-snapshot), and the affected inventory rows here.

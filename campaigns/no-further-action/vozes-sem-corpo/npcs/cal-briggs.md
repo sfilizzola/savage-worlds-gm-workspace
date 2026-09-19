@@ -6,7 +6,7 @@
 - **Current objective:** prepare Frank and the truck for movement; once warned or police attention is detected, destroy the cleanest signal records and drive out
 - **Fear:** confinement and Ray trading his name for leniency
 - **Leverage/resources:** physical strength, truck, compound key, knowledge of the outbuilding, control of cleanup timing
-- **Secret:** he killed Frank during the confrontation and staged the barefoot trail with Ray's help
+- **Secret:** when Frank questioned the tower work and tried to push past him, Cal blocked the exit and struck his head with a heavy work flashlight. Frank fell and Cal did not get help. Cal made the barefoot trail toward the lake; Ray made the booted trail beside it.
 - **Relationships:** treats Ray as useful but expendable; sees Lilly as one young detective who can be frightened off
 - **If ignored:** continues preparing Frank and the truck. Active destruction begins only if he is warned or detects police attention.
 - **What can change their behavior:** a blocked vehicle route, Doyle or visible backup, injury, arrest, or Ray openly separating himself

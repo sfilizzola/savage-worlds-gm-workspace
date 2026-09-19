@@ -22,16 +22,16 @@ This is flexible preparation, not a scene sequence or session history.
 
 - **Purpose:** put evidence custody, Ray, and an immediate decision on the table.
 - **Reachable when:** play begins at KCRK 102.3 FM (south of the river, Bridge Street continuation) after Abigail's call.
-- **Situation:** Ray has presented himself as a maintenance engineer and wants the original reel. Abigail is reluctant to surrender it but fears causing a station problem. Ray leaves if challenged hard, taking the reel only if Lilly allows it.
+- **Situation:** Ray arrived at 8:45 a.m. and presented himself as a maintenance engineer seeking the original reel. Abigail refused to release it, leaving him still pressing his claim when Lilly arrives later. Ray leaves if challenged hard, taking the reel only if Lilly allows it.
 - **Spoken lines:** Abigail: “I called because I wanted somebody to hear it, not because I wanted the tape walking out the door.” Ray: “Station manager signs, I take it. Otherwise I write down that you refused service.”
 - **Essential information:** the reel holds ordinary programming, a precise gap, then police-traffic bleed; Ray's cover is thin; custody choices affect evidence quality but do not gate progress.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Notice` while the reel plays | The gap is audible only as an awkward cut; Ray uses the delay to move toward the reel. | Lilly marks the cut and hears her surname in police traffic after it. | She also notices the cut is too clean for tape damage and records both counter positions. |
+| `Notice` while the reel plays | The gap is audible only as an awkward cut; Ray uses the delay to move toward the reel. | Lilly marks the cut and hears her surname in police traffic after it. | She also notices the cut is too clean for tape damage and records machine counter positions 0418 before the cut and 0419 after it. These locate the splice; they do not measure the missing 1 minute 52 seconds. |
 | `Common Knowledge` on Ray's cover | His paperwork looks bureaucratic enough; he leaves after one pointed question. | His language does not fit a local station service call. | His work order uses no station equipment identifier and his Eugene callback cannot be verified from the station directory. |
-| `Persuasion` with Abigail | She will not hand over the original but permits a hurried cassette copy; relationship cools. | She places the original in Lilly's documented custody. | She also supplies the handwritten program log and identifies when Ray arrived. |
+| `Persuasion` with Abigail | She will not hand over the original but permits a hurried cassette copy; relationship cools. | She places the original in Lilly's documented custody. | She also supplies the handwritten program log and confirms Ray arrived at 8:45 a.m. |
 
 - **Independent vectors:** listening to the reel; station program log; dispatch recording; maintenance timing log; mud cassette.
 - **Escalation:** Ray leaves within minutes. If exposed or followed, he warns Cal from a payphone or radio, beginning the cleanup clock.
@@ -43,15 +43,15 @@ This is flexible preparation, not a scene sequence or session history.
 
 - **Purpose:** establish the first synchronization gap on independent records and explain the “voice.”
 - **Reachable when:** Lilly has access to any two of station reel, dispatch recorder, maintenance timing, or—optionally—the mud cassette. Abigail, Doyle, Nancy, or ordinary police procedure can provide access to the first three.
-- **Situation:** station and dispatch media were recorded by different systems. Their ordinary content differs, but comparison can reveal that both lose the same precise **1 minute 52 second** interval and that police traffic after the cut includes Lilly's name. Lilly found the mud cassette in session 1, but its exact custody/location was not recorded. If she seeks it, the GM places it in an evidence bag/property area or uses a short Lake Barrow follow-up, whichever matches table continuity; retrieval succeeds with time or custody cost rather than a mandatory roll.
+- **Situation:** station and dispatch media were recorded by different systems. Their ordinary content differs, but both lose the same interval, **9:14:00–9:15:52 p.m. on the evening of session 1** (1 minute 52 seconds), and police traffic after the cut includes Lilly's name. The maintenance log refers to that same clock window; the exact campaign calendar date remains unset. Lilly found the mud cassette in session 1, but its exact custody/location was not recorded. If she seeks it, the GM places it in an evidence bag/property area or uses a short Lake Barrow follow-up, whichever matches table continuity; retrieval succeeds with time or custody cost rather than a mandatory roll.
 - **Spoken lines:** Doyle: “Play the part before it. Then ours. Don't tell me what I'm supposed to hear.” Abigail: “That silence isn't dead air. I was in the chair.”
-- **Essential information:** independent records share one exact missing interval of 1 minute 52 seconds; Lilly's name came from police traffic; the gap demonstrates a common process, not who ordered it.
+- **Essential information:** independent records share the 9:14:00–9:15:52 p.m. missing interval (1 minute 52 seconds) on the evening of session 1; Lilly's name came from police traffic; the gap demonstrates a common process, not who ordered it.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
 | `Electronics` comparing media | The tracks sound damaged; matching written start/stop times takes one hour and still establishes overlap. | Lilly aligns the cut to the same interval on two independent records. | She isolates the post-gap police bleed and identifies it as replay, not a voice speaking live to the station. |
-| `Research` with logs | Cross-checking takes one hour; the matching blank remains visible. | Program, dispatch, and timing entries identify the same start and stop. | A discrepancy in handwritten maintenance notation points to tower access during the interval. |
+| `Research` with logs | Cross-checking takes one hour; the matching blank remains visible. | Program, dispatch, and timing entries identify the same start and stop. | The typed maintenance sheet says **tower isolated 9:16 p.m.**, while a handwritten key-board note says **“tower key out 9:14 p.m. — C. Briggs,”** placing Cal's access inside the interval. |
 | `Notice (-2)` on the mud cassette | Handling adds an evidence-custody objection; its label still points to routine work media. | Work tones and clipped police traffic match the station bleed. | A leader/stop sequence provides a third timing mark independent of the reels. |
 
 - **Independent vectors:** station reel; dispatch recorder; maintenance timing log; optional mud cassette.
@@ -93,7 +93,7 @@ This is flexible preparation, not a scene sequence or session history.
 
 | Trait | Fail | Success | Raise |
 |---|---|---|---|
-| `Research` through paper records | The callback dead-ends after an hour. If alerted, cleanup advances; if unalerted, Cal only advances movement preparations. The signed access date remains. | Lilly links the work order, truck, and tower access. | She also finds the same precise interval penciled in a timing field before the form was filed. |
+| `Research` through paper records | The callback dead-ends after an hour. If alerted, cleanup advances; if unalerted, Cal only advances movement preparations. The signed access date remains. | Lilly links the work order, truck, and tower access. | She also finds the same precise interval penciled in a timing field before the form was filed; the typed 9:16 p.m. isolation time conflicts with the handwritten 9:14 p.m. key-out note. |
 | `Persuasion` with the public-works clerk | The clerk protects the office and gives only normal procedure. | The clerk states the work description is not locally meaningful and the letterhead is not theirs. | The clerk provides the access-key sign-out and remembers Cal, not Ray, collected it. |
 | `Common Knowledge` on the callback/PO box | They look like ordinary remote administration. | Neither resolves to a local operating company. | Formatting differences show the callback and box were added to an older local form. |
 
@@ -110,7 +110,7 @@ This is flexible preparation, not a scene sequence or session history.
 - **Situation — unalerted:** Cal is preparing Frank's wrapped body and the truck for movement but has not burned the log, started the wipe, or loaded Frank. Lilly arrives with every evidence category intact and gets an observation/intervention beat before Cal recognizes police attention. Ray may be absent, followed in, or approaching depending on prior choices.
 - **Situation — alerted:** Cal is actively destroying records and moving Frank. Ray may arrive from town or already be present. Wet metal, poor light, live equipment, and the cleanup clock create the action climax. Both men want escape and destroyed evidence more than a fight.
 - **Spoken lines:** Cal: “Badge stays outside. Turn around.” Ray: “Back away from the rack. You don't know what you're touching.”
-- **Essential information:** Frank is dead here; Cal killed him; the lake scene was staged; the equipment captured and replayed police traffic; physical and signal evidence can survive.
+- **Essential information:** Frank is dead here with a visible head injury and blood on his collar. Cal struck him with a heavy work flashlight when Frank tried to push past him; Cal did not get help. The lake scene was staged; the equipment captured and replayed police traffic; physical and signal evidence can survive. The injury challenges drowning but does not alone identify Cal.
 - **Discoverable rolls:**
 
 | Trait | Fail | Success | Raise |
@@ -120,7 +120,7 @@ This is flexible preparation, not a scene sequence or session history.
 | `Electronics` to preserve the signal record | If cleanup is active, a wrong isolation permits the active-head loss. If unalerted, the failed handling alerts Cal but leaves the head intact for the first cleanup step. Paper log, body, copies, and prior evidence are unaffected. | Lilly secures the head or stops an active wipe and preserves one original signal record. | She preserves the original plus an independently timed machine state. |
 | `Fighting` or `Shooting` in combat | Resolve normally; the crew gains time toward escape or destruction. | Resolve normally. | Resolve normally; combat success does not automatically secure evidence. |
 
-- **Independent vectors:** body and injuries; staging materials/truck; signal rack and log; Ray's knowledge; Cal's acts; mud cassette match.
+- **Independent vectors:** body and injuries; staged tracks (Cal barefoot, Ray booted) and other staging materials/truck; signal rack and log; Ray's knowledge; Cal's acts; mud cassette match. A physical print comparison needs a record Lilly actually made, or a fresh surviving impression; none is assumed from session 1.
 - **Escalation:** unalerted arrival begins with no lost categories and no cleanup step until Cal detects police attention. That detection is the same single reversal used elsewhere. Once alerted, take one cleanup step at the end of each round unless Lilly prevents it: (1) log into stove/bin, (2) signal head erased, (3) Frank loaded/truck starts, (4) surviving crew escapes if a route is open.
 - **Failure consequences:** each missed step costs one category of evidence; never erase every already protected record. Defeat may leave Lilly injured while Doyle later recovers the site in a degraded state.
 - **Links forward:** Disposition; any unworked investigative point remains available if time and evidence permit.
@@ -165,7 +165,7 @@ This is flexible preparation, not a scene sequence or session history.
 | Two outsiders split this morning | Daisy’s witnesses | West End Fuel clerk/slip | Nancy/patrol/station observations | Work order and truck route identify two users; time advances, and cleanup advances only if the crew is alerted |
 | Tower access used a false/inapt cover | Town public-works clerk | Access-key register | Station service sheet/callback | Compound equipment and truck paperwork establish unauthorized purpose |
 | Frank is at the inland compound | Truck route | Access timing/road mud | Ray's trail or optional cassette/tower association | Doyle follows the utility road after delay; a category is lost only if the crew was alerted |
-| Lake evidence was staged | Frank's body/injuries | Staging materials and footwear | Cal/Ray acts plus truck residue | The body location and signal evidence still make drowning untenable |
+| Lake evidence was staged | Frank's body/injuries | Staged tracks (Cal barefoot, Ray booted), plus any surviving materials or documented impressions | Cal/Ray acts plus truck residue | The body location and signal evidence still make drowning untenable; session 1 did not record casts or photographs |
 | Police traffic produced Lilly's “voice” | Station reel | Dispatch recording | Compound replay equipment/mud cassette | A later comparison explains it; tonight's file can still prove murder |
 
 ## Possible end states

@@ -7,10 +7,10 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Role in adventure:** opening evidence-custody crisis and one home for Abigail, Ray, the station reel, and program log.
 - **Geography lock:** Sheet 2 places the station **south of the Ashgrove River**, east of the Bridge Street continuation, Trapper Ridge side. Short drive from Town Hall across the Bridge Street bridge. This building is **not** the inland tower compound and **not** the east-grid powerline easement.
 - **First impression:** **Climate:** cold rain beads on the studio glass. **See:** cramped boards, tape boxes, a reel machine, and a stranger's paperwork on Abigail's desk. **Hear:** low monitor music, spool hiss, and a telephone receiver settling into its cradle. **Feel:** a normal workroom made abruptly proprietary.
-- **Current situation:** Ray is requesting the original reel under a maintenance cover; Abigail is resisting without knowing how far she can go.
+- **Current situation:** Ray arrived at 8:45 a.m. under a maintenance cover. Abigail refused to release the original reel; he is still pressing for it when Lilly arrives later.
 - **Environment:** dry interior; front office, studio window, one public exit and one service exit; copy deck and telephone.
 - **People/forces present:** Abigail Carr and Ray Holtz; another station worker may witness custody.
-- **What can be learned:** precise gap (exactly 1 minute 52 seconds), police traffic bleed, Ray's thin cover, arrival time, reel counter positions, station log.
+- **What can be learned:** the 9:14:00–9:15:52 p.m. gap on the evening of session 1 (exactly 1 minute 52 seconds), police traffic bleed, Ray's thin cover, his 8:45 a.m. arrival time, reel counter positions 0418 before the cut and 0419 after, and the station log. The counter locates the splice; the clocks establish elapsed time. The maintenance sheet's typed 9:16 p.m. isolation conflicts with the handwritten 9:14 p.m. key-out note signed “C. Briggs.”
 - **Spoken lines:** Abigail: “I didn't call so somebody could carry it away.” Ray: “Then don't sign it over. I write that down too.”
 - **Discoverable rolls:** see `plot.md`, Tape in Motion.
 - **GM-only truth:** Ray's priority is the original reel, not violence.
@@ -77,10 +77,10 @@ These are actionable states, not a required route. Street and door lock: campaig
 - **Current situation — alerted:** the gate stands open, smoke rises from the barrel or stove, the truck is running, and Cal is visibly carrying loads between the outbuilding and the truck while destroying records. Ray's presence depends on prior choices.
 - **Environment:** low light; wet metal and concrete; chain-link; utility shed; outbuilding; truck; live cables; breakers; record rack; burning barrel or stove.
 - **People/forces present:** Cal; possibly Ray; Frank's body; Doyle only if Lilly requested support and accepted delay.
-- **What can be learned:** body location and injuries, staging materials, capture/replay method, signal-rack state, truck and work-order match.
+- **What can be learned:** Frank is in the outbuilding with a visible head injury and blood on his collar; staging materials, capture/replay method, signal-rack state, and the truck/work-order match may also be investigated. The injury challenges drowning without identifying Cal by itself.
 - **Spoken lines:** Cal: “Road's closed. Badge doesn't change that.” Ray: “Back away from the rack. You don't know what you're touching.”
 - **Discoverable rolls:** see `plot.md`, Tower Compound.
-- **GM-only truth:** Cal killed Frank during the confrontation; Ray helped stage the lake and now fears being attached to murder.
+- **GM-only truth:** Frank questioned the work and tried to push past Cal, who blocked the exit and struck his head with a heavy work flashlight. Cal did not get help. Ray witnessed the aftermath, helped stage the lake, and fears being attached to murder.
 - **What changes over time:** before alert, Cal's movement preparation advances but categories remain intact. Alert is the adventure's single reversal; afterward cleanup proceeds one category per action round or equivalent interval.
 - **If violence begins:** detection alerts Cal and starts cleanup if it was not already active. Two Extras seek to escape and destroy evidence. Neither fights to the death. Frank or the live record can be lost while Lilly focuses on combat.
 - **Relevant mechanics:** standard combat; illumination (SWADE p.102); wet crossing with Athletics (SWADE p.29); Extras and Incapacitation (SWADE pp.87–88, 95); improvised clubs/flashlights use simple melee treatment only as verified in `encounters.md`.

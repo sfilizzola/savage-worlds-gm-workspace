@@ -19,10 +19,11 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 
 ## Secret VSC-02 - One Missing Interval
 
-- **Truth:** independent records share the same precise missing interval — exactly 1 minute 52 seconds.
+- **Truth:** the station and dispatch records share the same missing interval, 9:14:00–9:15:52 p.m. on the evening of session 1 — exactly 1 minute 52 seconds. The maintenance log refers to that clock window; the campaign calendar date remains unset.
 - **Who knows:** Ray knows records were synchronized; Cal knows only that records are being cleaned.
 - **Why it matters:** this is the campaign's first synchronization gap, proof of a common process but not motive or ownership. The exact duration is a fixed signature that should recur, unremarked, in later eras' records.
-- **Player-facing signs:** clean station cut, matching dispatch blank, maintenance timing notation, cassette leader/stop marks.
+- **Player-facing signs:** clean station cut marked by reel counter positions 0418 before and 0419 after (position marks, not elapsed time); matching 9:14:00–9:15:52 p.m. dispatch blank, maintenance timing notation, cassette leader/stop marks.
+- **Maintenance notation:** the typed sheet says **“tower isolated 9:16 p.m.”**; the handwritten key-board note says **“tower key out 9:14 p.m. — C. Briggs.”** The discrepancy places Cal's access inside the shared 9:14:00–9:15:52 p.m. interval without identifying the remote employer.
 - **Independent discovery vectors:**
   1. Station reel against dispatch recorder.
   2. Either recording against the maintenance timing log.
@@ -45,13 +46,13 @@ All truths below are predetermined GM truths for this adventure. They are prepar
 
 ## Secret VSC-04 - Cal Killed Frank
 
-- **Truth:** Frank interrupted the capture/replay job; Cal killed him during the confrontation. Ray helped move and stage evidence afterward.
+- **Truth:** Frank caught the tower crew working and questioned them. Cal blocked the exit; when Frank tried to push past, Cal struck his head with a heavy work flashlight. Frank fell, and Cal did not get help. Ray witnessed the aftermath and helped move and stage evidence afterward.
 - **Who knows:** Cal and Ray.
 - **Why it matters:** it separates direct homicide responsibility from technical operation and explains why Ray might abandon Cal.
-- **Player-facing signs:** injuries/body position, Cal's footwear and staging kit, Ray's fear of one murder file, compound behavior.
+- **Player-facing signs:** a visible head injury and blood on Frank's collar challenge drowning but do not alone identify Cal. Cal's bare feet and Ray's boots made the staged lake trails; a physical match requires documented or surviving impressions. Ray's fear of one murder file and compound behavior remain separate discovery vectors.
 - **Independent discovery vectors:**
   1. Body and forensic scene logic.
-  2. Cal's staging materials and physical match.
+  2. Staged tracks and any surviving materials; a physical foot/boot comparison only if an impression was actually recorded or survives.
   3. Ray's statement or conduct when shown Cal intends to leave him responsible.
 - **If never discovered:** both can remain suspects in a provable local murder/staging operation.
 - **If discovered early:** Ray may cooperate narrowly to distinguish his role; he cannot explain ownership.

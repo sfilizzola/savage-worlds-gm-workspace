@@ -42,6 +42,20 @@ Allowed values:
 
 `setting_modules: []` means no optional setting module is active for this table. List `Weird War II` or `Deadlands Noir` explicitly to use one. Child adventures must not activate a module the campaign has not listed unless a child-adventure exception records it.
 
+## Resume work
+
+Authoring handoff. Verify entries against the linked files when resuming.
+If an `INDEX.md` is introduced, move this handoff there and replace this
+section's contents with a link to `INDEX.md#resume-work`. Keep one campaign
+handoff, identifying the child adventure when work concerns a specific night.
+
+- Current task: <Current authoring task and child adventure, if applicable.>
+- Last completed: <Last completed action with a source link, or not recorded.>
+- Next concrete action: <Next step within the GM's requested scope.>
+- Files to open: <Relative links to the narrowest relevant files.>
+- Open GM questions: <Unresolved questions or links; state if not inventoried.>
+- Derived outputs needing refresh: <Known pending RUN, print extract, or rendered output updates; state if freshness is unverified.>
+
 ## One-sentence throughline
 
 <Who is this table about, what pressure runs across the linked adventures, and what is at stake if they fail across the arc?>

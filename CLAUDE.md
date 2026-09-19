@@ -6,6 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is **not** a software project. It is a Savage Worlds (SWADE) tabletop RPG authoring workspace that treats game prep like a modular codebase: `sources/` are dependencies, `world/` holds reusable canon, adventure files hold preparation, session recaps capture what actually happened, and `RUN.md` is the compiled table-facing artifact. Almost all work is writing and editing Markdown; the only executable code is the Python print tooling in `tools/`.
 
+## Shared navigation and resuming work
+
+Follow [AGENTS.md](AGENTS.md#shared-navigation)'s Shared navigation and [Resume work](AGENTS.md#resume-work) sections.
+Use [README.md's workspace inventory](README.md#workspace-inventory) to select the target.
+Maintain the handoff in the location `AGENTS.md` specifies.
+
 ## Required reading before authoring
 
 `AGENTS.md` is the entry contract. Before any authoring, editing, rules verification, or session-prep task, read in this order:

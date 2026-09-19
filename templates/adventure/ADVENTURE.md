@@ -33,6 +33,20 @@ Allowed values:
 
 `setting_modules: []` means no optional setting module is active. List `Weird War II` or `Deadlands Noir` explicitly to use one.
 
+## Resume work
+
+Authoring handoff. Verify entries against the linked files when resuming.
+For a campaign child, replace this section's contents with a relative link to
+the campaign's Resume work section in `INDEX.md`, or `CAMPAIGN.md` when no
+index exists. Identify child-specific work in that campaign handoff.
+
+- Current task: <Current authoring task, or no active task recorded.>
+- Last completed: <Last completed action with a source link, or not recorded.>
+- Next concrete action: <Next step within the GM's requested scope.>
+- Files to open: <Relative links to the narrowest relevant files.>
+- Open GM questions: <Unresolved questions or links; state if not inventoried.>
+- Derived outputs needing refresh: <Known pending RUN, print extract, or rendered output updates; state if freshness is unverified.>
+
 ## One-sentence premise
 
 <Who must do what, where/when, before what happens?>

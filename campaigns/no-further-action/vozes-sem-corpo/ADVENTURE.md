@@ -22,7 +22,7 @@ house_rules:
 
 # Vozes sem Corpo
 
-Complete English-language preparation for night 2 of *No Further Action*. The Portuguese title is retained. This is preparation, not session history.
+English-language preparation for night 2 of *No Further Action*. The Portuguese title is retained. This is preparation, not session history. The [Grounding audit](QUALITY.md#grounding-audit) completed 2026-09-19 found unresolved promised facts; ready compile is blocked pending repairs and recheck.
 
 ## One-sentence premise
 
@@ -40,12 +40,13 @@ Hear Abigail's tape, find Frank Loman, and build a file that cannot honestly be 
 
 - No supernatural event occurred. Lilly's name was captured from local police traffic and replayed through the crew's equipment.
 - Frank interrupted a two-man signal capture/replay job at a utility tower **inland from Lake Barrow** (the metallic sound from across the water in session 1). That compound is **not** KCRK and is **not** the north–south powerline easement printed on Sheet 2.
-- Cal Briggs killed Frank. Ray Holtz helped stage the lake scene and operates the signal equipment.
+- Frank caught Cal and Ray working at the inland tower and started asking questions. Cal blocked the exit; when Frank tried to push past, Cal struck his head with a heavy work flashlight. Frank fell, and Cal did not get help. Ray witnessed the aftermath and helped stage the lake scene. Ray operates the signal equipment. This is prepared GM truth, not played history.
 - Frank is dead in an inland utility outbuilding at that tower compound, not in Lake Barrow and not at the radio station.
-- The barefoot tracks and mud cassette were staging leftovers. The cassette is work media from the capture job.
+- Cal made the barefoot tracks and Ray made the booted tracks leading toward the lake to suggest Frank entered the water. Both trails were staged; the mud cassette was a leftover of the capture job. The tracks alone do not identify Frank's killer. Session 1 established that Lilly saw the two trails, but did not record casts or photographs of them.
 - Lilly found the mud cassette in session 1, but its exact custody and current location were not recorded. If she seeks it, the GM places it in an evidence bag/property area or requires a short Lake Barrow scene follow-up, whichever fits table continuity. Either route succeeds with a time/custody cost instead of gating progress; the cassette is never mandatory.
-- Abigail's reel contains ordinary programming, a precise missing interval, then bleed from local police traffic. The missing interval is exactly **1 minute 52 seconds**, identical on every independent record — this campaign's first synchronization gap, and a fixed signature that will recur, unexplained, in later eras.
+- Abigail's reel contains ordinary programming, a precise missing interval, then bleed from local police traffic. The missing interval runs from **9:14:00 to 9:15:52 p.m. on the evening of session 1**: exactly **1 minute 52 seconds**, identical on the station and dispatch records. Abigail's reel notes mark machine counter **0418 immediately before the cut** and **0419 immediately after**; these locate the cut but do not measure elapsed time. The station/dispatch clocks establish the duration, and the maintenance log refers to the same clock window. This is the campaign's first synchronization gap, and the fixed duration will recur, unexplained, in later eras. The exact campaign calendar date remains unset.
 - The station reel and dispatch recorder share the same missing interval. A maintenance timing log and the mud cassette provide additional independent vectors.
+- Ray arrived at KCRK at **8:45 a.m. on the morning after session 1**, as recorded by Abigail. She refused to release the original reel, so he is still pressing for it when Lilly arrives later. Lilly's exact arrival time is not fixed.
 - Access paperwork is a **Water Authority** letterhead with a vague continuity-maintenance description, an Eugene callback, and a PO box that does not resolve cleanly. Ashgrove has no such agency. The local key board is **town public works**, same Town Hall building as the precinct (north of Main, Church–Pell). Ownership remains muddy local paperwork.
 - Ashgrove is tiny. Ray and Cal, unfamiliar men using an out-of-county truck, were noticed at **Daisy’s** and **West End Fuel**. Ray also has his own car — a slate-gray 1983 Datsun 810 Maxima sedan, Oregon plate `XLR 204` — parked outside Daisy's during breakfast, unfamiliar enough in a mill-truck town that Daisy's staff clock it alongside the truck. They split this morning: Ray in his car toward KCRK (south of the river, Bridge Street continuation); Cal and the truck toward the lake-road utility access, not east on 328 through Lowater toward Rookton.
 - Ray's car traces (Oregon MVD, Salem, via dispatch teletype/callback — realistically an hour or overnight) to a Eugene car-rental outfit, rented for cash under a name matching no local ID. Same Eugene dead end as the Water Authority work order: access is proven, ownership stays muddy.
@@ -73,7 +74,7 @@ Determine what happened to Frank and preserve independently supportable evidence
 
 ## Starting state
 
-It is the wet morning after session 1. Whitley shelved Frank's file only hours ago. Abigail's call is fresh. Lilly's municipal house is **14 Cedar** if she starts from home; Town Hall / Police is a short walk north of Main. **KCRK** is a short drive south across the Bridge Street bridge, on the Trapper Ridge side of the river. When she reaches the studio, Ray Holtz is already inside under a maintenance cover, asking for the original reel. Abigail wants the recording heard without losing her job. Lilly's immediate decision is whether to assert custody, make a copy, question Ray, or let him leave and follow.
+It is the wet morning after session 1. Whitley shelved Frank's file only hours ago. Abigail's call is fresh. Lilly's municipal house is **14 Cedar** if she starts from home; Town Hall / Police is a short walk north of Main. **KCRK** is a short drive south across the Bridge Street bridge, on the Trapper Ridge side of the river. Ray Holtz arrived there at **8:45 a.m.** under a maintenance cover. Abigail has refused to release the original reel, so he is still inside asking for it when Lilly reaches the studio later; Lilly's exact arrival time stays open. Abigail wants the recording heard without losing her job. Lilly's immediate decision is whether to assert custody, make a copy, question Ray, or let him leave and follow.
 
 At table start, Cal is at the compound preparing Frank and the truck for movement, but he is not destroying records or wiping equipment. If Lilly arrives without alerting him, all evidence categories remain and she may observe or intervene before active cleanup. The adventure's single reversal occurs when Cal receives warning or unmistakably detects police attention: he begins active destruction and movement.
 
@@ -120,7 +121,8 @@ No opening danger is designed to remove Lilly. If she is incapacitated before th
 ## Quality gate
 
 - **Score:** 108/120
-- **Band:** Strong and ready to compile
+- **Band:** Numeric band: Strong (108/120). Ready compile blocked by the [failed Grounding audit](QUALITY.md#grounding-audit).
+- **Grounding audit:** failed, 2026-09-19; 16 of 36 rows unresolved after the GM-approved Frank-death detail, clock window, reel counter marks, and Ray's arrival time were added. Mechanics and RUN remain to be rechecked and compiled after the remaining gaps are repaired.
 - **Weakest ranks to repair:** Savage Worlds variety remains deliberately restrained for a solo procedural; PC relevance is strong but necessarily centered on one canonical detective; three Mood Feel clauses are figurative rather than the skeleton's plain tone word.
 
 ## Pre-compilation gate
@@ -130,6 +132,7 @@ No opening danger is designed to remove Lilly. If she is incapacitated before th
 - [x] House rules are valid IDs.
 - [x] `QUALITY.md` is scored and the five-beat map is filled.
 - [x] Coherence (prep): three rows passed and logic summary present.
+- [ ] Grounding audit: all promised facts have concrete values or reasoned GM's-call tags; see the failed rows in `QUALITY.md`.
 - [x] One-shot shape items are complete.
 - [x] Main progress has no single point of failure.
 - [x] Failure changes play without automatically stopping it.
