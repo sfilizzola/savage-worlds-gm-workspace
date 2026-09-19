@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Savage Worlds — GM card (printer friendly)</title>
+  <!-- Printer-friendly twin of gm-quick-ref.html. Identical layout and type;
+       no page background flood and no tint panels, so coloured or cream stock
+       supplies the warmth. Keep both files in step when editing content. -->
+  <style>
+    @page { size: A4 portrait; margin: 6mm; }
+
+    :root {
+      --ink: #17140e;
+      --paper: transparent;
+      --rule: #a89c84;
+      --hair: #b9ae98;
+      --blood: #8d1b12;
+      --suit: #a3261a;
+      --mute: #55503f;
+      --display: "Copperplate", "Copperplate Gothic Light", "Optima", Georgia, serif;
+      --body: "Avenir Next Condensed", "Avenir Next", "Futura", "Gill Sans", Helvetica, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 7.4pt/1.185 var(--body);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .card {
+      width: 198mm;
+      margin: 0 auto;
+      border: 0.9pt solid var(--ink);
+      padding: 2.4mm;
+    }
+    .frame {
+      border: 0.3pt solid var(--rule);
+      padding: 2.6mm 3mm 2.2mm;
+    }
+
+    /* ---- masthead ---- */
+    .mast {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 6mm;
+      border-bottom: 1.6pt solid var(--ink);
+      padding-bottom: 1.4mm;
+    }
+    .mast .eyebrow {
+      font-family: var(--display);
+      font-size: 6.4pt;
+      letter-spacing: .34em;
+      text-transform: uppercase;
+      color: var(--blood);
+      margin: 0 0 .4mm;
+    }
+    .mast h1 {
+      font-family: var(--display);
+      font-size: 19pt;
+      line-height: .92;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: 400;
+    }
+    .mast .meta {
+      text-align: right;
+      font-size: 6.3pt;
+      line-height: 1.32;
+      color: var(--mute);
+      letter-spacing: .05em;
+      padding-bottom: .6mm;
+    }
+    .mast .meta b { color: var(--ink); font-weight: 600; }
+    .motto {
+      font-family: var(--display);
+      font-size: 6.6pt;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      color: var(--blood);
+      white-space: nowrap;
+    }
+
+    /* ---- deck strip: tie order, doubles as the card's motif ---- */
+    .deck {
+      display: flex;
+      align-items: center;
+      gap: 2.2mm;
+      border-bottom: 0.3pt solid var(--rule);
+      padding: 1.1mm 0 1.2mm;
+      font-size: 6.6pt;
+      color: var(--mute);
+      letter-spacing: .04em;
+    }
+    .deck .pips { display: flex; gap: 1.4mm; font-size: 9pt; line-height: 1; }
+    .deck .pips span { color: var(--ink); }
+    .deck .pips .r { color: var(--suit); }
+    .deck b { color: var(--ink); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; font-size: 6.2pt; }
+
+    /* ---- kicker ---- */
+    .kicker {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 5mm;
+      margin: 1.6mm 0 1.8mm;
+      padding: 1.3mm 2mm;
+      border: 0.3pt solid var(--hair);
+      border-left: 2pt solid var(--blood);
+      font-size: 7pt;
+      line-height: 1.24;
+    }
+    .kicker .t {
+      font-family: var(--display);
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: 6.5pt;
+      color: var(--blood);
+      display: block;
+    }
+
+    /* ---- columns ---- */
+    .cols {
+      column-count: 3;
+      column-gap: 5.4mm;
+      column-rule: 0.3pt solid var(--rule);
+    }
+    section { margin: 0 0 1.9mm; break-inside: avoid; }
+    h2 {
+      font-family: var(--display);
+      font-size: 7.1pt;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      margin: 0 0 1mm;
+      padding: 0 0 .5mm;
+      border-bottom: 1pt solid var(--ink);
+      break-after: avoid;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 400;
+    }
+    h2 .pip { color: var(--suit); font-size: 7.4pt; }
+
+    p { margin: 0 0 .9mm; }
+    ul { margin: 0 0 .9mm; padding-left: 2.6mm; list-style: none; }
+    li { margin: 0 0 .55mm; position: relative; }
+    li::before {
+      content: "";
+      position: absolute;
+      left: -2.4mm;
+      top: .72mm;
+      width: .9mm;
+      height: .9mm;
+      background: var(--blood);
+    }
+    strong { font-weight: 600; }
+    .lede-term {
+      font-family: var(--display);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 6.6pt;
+    }
+    .n { color: var(--blood); font-weight: 600; }
+
+    /* state list */
+    dl { margin: 0; }
+    dl div {
+      display: grid;
+      grid-template-columns: 19.4mm 1fr;
+      gap: 0 1.4mm;
+      padding: .5mm 0;
+      border-bottom: 0.25pt solid var(--hair);
+      break-inside: avoid;
+    }
+    dl div:last-child { border-bottom: 0; }
+    dt {
+      font-family: var(--display);
+      font-size: 6.15pt;
+      letter-spacing: .01em;
+      overflow-wrap: break-word;
+      text-transform: uppercase;
+      color: var(--blood);
+      line-height: 1.3;
+    }
+    dd { margin: 0; }
+    dd em { color: var(--mute); font-style: italic; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 .9mm;
+      break-inside: avoid;
+    }
+    th {
+      font-family: var(--display);
+      text-align: left;
+      font-size: 6pt;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--mute);
+      font-weight: 400;
+      border-bottom: 0.6pt solid var(--ink);
+      padding: 0 1.2mm .4mm 0;
+    }
+    td {
+      text-align: left;
+      vertical-align: top;
+      padding: .45mm 1.2mm .45mm 0;
+      border-bottom: 0.25pt solid var(--hair);
+    }
+    tr:last-child td { border-bottom: 0; }
+
+    .note {
+      border: 0.3pt solid var(--hair);
+      border-left: 1.4pt solid var(--blood);
+      padding: 1mm 1.4mm;
+      margin: 0 0 .9mm;
+      break-inside: avoid;
+    }
+
+    footer {
+      margin-top: 1.6mm;
+      border-top: 1.6pt solid var(--ink);
+      padding-top: 1mm;
+      display: flex;
+      justify-content: space-between;
+      gap: 4mm;
+      font-size: 6.1pt;
+      color: var(--mute);
+      letter-spacing: .02em;
+    }
+    footer .warn {
+      font-family: var(--display);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--blood);
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+  <div class="frame">
+
+    <div class="mast">
+      <div>
+        <p class="eyebrow">Savage Worlds Adventure Edition</p>
+        <h1>Game Master&rsquo;s Card</h1>
+      </div>
+      <div class="meta">
+        <div class="motto">Fast &middot; Furious &middot; Fun</div>
+        <div><b>SWADE</b> Fifth Printing, 2023 &middot; core rules only</div>
+        <div>Paraphrase for the table &mdash; the book decides</div>
+      </div>
+    </div>
+
+    <div class="deck">
+      <b>Tie order</b>
+      <span class="pips"><span>&spades;</span><span class="r">&hearts;</span><span class="r">&diams;</span><span>&clubs;</span></span>
+      <span>Countdown Ace &rarr; Deuce &middot; reshuffle after any Joker &middot; <b>1&Prime; = 2 yards</b> &middot; tonight&rsquo;s light, opposition, and house rules live on <b>RUN.md</b>, not here</span>
+    </div>
+
+    <div class="kicker">
+      <div><span class="t">Wild Cards &mdash; PCs &amp; named foes</span>Wild Die d6 with every Trait; keep the higher. <span class="n">Three</span> Wounds, then Incapacitated.</div>
+      <div><span class="t">Extras &mdash; everyone else</span>One Trait die. <span class="n">One</span> Wound and they are out. Like Extras roll once as a group (Trait die + a Wild Die).</div>
+    </div>
+
+    <div class="cols">
+
+      <section>
+        <h2>Trait rolls <span class="pip">&spades;</span></h2>
+        <p>TN <span class="n">4</span> unless opposed or a listed TN (Parry). Easy <span class="n">+2</span>, hard <span class="n">&minus;2</span>, very hard <span class="n">&minus;4</span>. Wounds and Fatigue also subtract.</p>
+        <ul>
+          <li><strong>Ace:</strong> max on a die &rarr; roll again and add. Trait and damage Ace. The Running die does not.</li>
+          <li><strong>Raise:</strong> every <span class="n">4</span> over the TN, after modifiers. One raise is the extra effect.</li>
+          <li><strong>Wild Die:</strong> one per action. With RoF or Frenzy it <em>replaces</em> a die &mdash; it never adds a hit.</li>
+          <li><strong>Unskilled:</strong> d4&minus;2 (plus the Wild Die if a Wild Card).</li>
+          <li><strong>Opposed:</strong> actor rolls first, Bennies and all. Still needs a 4. Defender must meet or beat. Raises count from <em>their</em> total.</li>
+          <li><strong>Critical Failure:</strong> Wild Card rolls 1 on Trait <em>and</em> Wild Die. Fails badly, <strong>no Benny</strong>. Extra: a 1, then a d6 &mdash; another 1 confirms. Multiple dice: over half show 1, Wild Die included.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Bennies <span class="pip">&diams;</span></h2>
+        <p><strong>Players start with 3.</strong> Leftovers vanish at end of session. Award for Hindrances played, clever moves, a line that lands. Be generous early; scarcity makes them hoard.</p>
+        <p><strong>Spend</strong> (own character only): reroll a Trait, keeping the best &mdash; a CF still stands &middot; un-Shake instantly, even off-turn &middot; Soak &middot; draw a new Action Card after the deal &middot; reroll damage &middot; regain 5 Power Points with an Arcane Background &middot; nudge the story, if you allow it.</p>
+        <p><strong>Your side:</strong> one Benny per player character in a shared pool, spendable on any of yours including Extras. Each of <strong>your</strong> Wild Cards brings <span class="n">2</span> of their own when they appear (plus Luck). No sharing between them without an Edge.</p>
+        <div class="note"><strong>Joker&rsquo;s Wild.</strong> A PC Joker &rarr; every player gets a Benny. A villain Joker &rarr; one into your pool <em>and</em> one to each enemy Wild Card. Either way that side acts whenever it likes this round at <span class="n">+2</span> Trait and damage.</div>
+      </section>
+
+      <section>
+        <h2>The round <span class="pip">&clubs;</span></h2>
+        <p>About six seconds. One card per Wild Card (plus Edges); like Extras share a card.</p>
+        <p>On their turn: move Pace and take <strong>one</strong> action. Movement is not an action. Climbing, crawling, swimming, and Difficult Ground cost <span class="n">2&Prime;</span> per inch.</p>
+        <ul>
+          <li><strong>Run:</strong> add the Running die (d6, never Aces), <span class="n">&minus;2</span> to every action this turn.</li>
+          <li><strong>Multi-action:</strong> up to three. Two = <span class="n">&minus;2</span> to all, three = <span class="n">&minus;4</span> to all. Declare before rolling. Free actions are exempt.</li>
+          <li><strong>Free:</strong> a short line, drop an item, go prone, stand (costs 2&Prime; Pace), ready two familiar items, resist a roll, and one attempt to shake off Shaken or Stunned at the start of the turn.</li>
+          <li><strong>Hold:</strong> wait. Interrupting is opposed Athletics. Shaken or Stunned while on Hold loses it.</li>
+          <li><strong>Surprise:</strong> ambushers are on Hold. Victims roll Notice; failure means no card that round.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Test &amp; Support <span class="pip">&diams;</span></h2>
+        <p><strong>Support</strong> helps an ally: a fitting skill, success <span class="n">+1</span> and raise <span class="n">+2</span> to one Trait total this round, <span class="n">+4</span> maximum from everyone (Strength Support is uncapped). A Critical Failure costs the ally 2. The bonus expires at the end of their turn.</p>
+        <p><strong>Test</strong> hinders a foe: describe it, roll the skill against the attribute that skill is <em>linked</em> to &mdash; Fighting as a Test is opposed by <strong>Agility</strong>, never Parry. Win and choose Distracted <em>or</em> Vulnerable; with a raise, also Shaken or another subjective effect you allow, such as knocking them prone.</p>
+        <p>Repeating the same Test earns a steep penalty or a flat no. Extra dice from RoF give one result &mdash; take the highest.</p>
+      </section>
+
+      <section>
+        <h2>Attacks &amp; damage <span class="pip">&hearts;</span></h2>
+        <table>
+          <thead><tr><th>Attack</th><th>Roll</th><th>Target number</th></tr></thead>
+          <tbody>
+            <tr><td>Melee</td><td>Fighting</td><td>Parry &mdash; 2 + half Fighting (2 unskilled)</td></tr>
+            <tr><td>Shot</td><td>Shooting</td><td>4 + range, cover, light</td></tr>
+            <tr><td>Thrown</td><td>Athletics</td><td>4 + range</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Range:</strong> Short &mdash;, Medium <span class="n">&minus;2</span>, Long <span class="n">&minus;4</span>, Extreme <span class="n">&minus;8</span> (needs Aim; never thrown). <strong>Recoil</strong> <span class="n">&minus;2</span> for more than one shot in an action.</p>
+        <p>A raise on the <em>attack</em> adds <span class="n">+1d6</span> damage, once. Damage Aces. Melee damage is Strength + weapon, with <strong>no Wild Die</strong>.</p>
+        <p><strong>Against Toughness</strong> &mdash; finish each hit, Soak included, before the next:</p>
+        <ul>
+          <li>Under it &rarr; nothing that counts.</li>
+          <li>Success, 0&ndash;3 over &rarr; <strong>Shaken</strong>. Already Shaken and hit by <em>physical</em> damage &rarr; a Wound, still Shaken. A Test that only Shakes never Wounds.</li>
+          <li>Each raise &rarr; that many <strong>Wounds</strong>, and Shaken.</li>
+        </ul>
+        <div class="note"><strong>Soak.</strong> After damage, before Wounds land: a Benny and a Vigor roll. Each success and raise soaks one Wound from that hit. Soak them all and the Shaken goes too, even an older one. Once per attack; Bennies may reroll the Vigor. Do not count this hit&rsquo;s Wound penalties yet.</div>
+      </section>
+
+      <section>
+        <h2>States <span class="pip">&spades;</span></h2>
+        <dl>
+          <div><dt>Distracted</dt><dd>&minus;2 all Trait rolls. <em>Ends: their next turn.</em></dd></div>
+          <div><dt>Vulnerable</dt><dd>Others attack and act at +2 against them. <em>Ends: their next turn.</em> Never stacks with The Drop &mdash; take the higher.</dd></div>
+          <div><dt>Entangled</dt><dd>Cannot move; Vulnerable. <em>Break free: Athletics, or Strength at &minus;2.</em></dd></div>
+          <div><dt>Bound</dt><dd>Cannot move; Distracted and Vulnerable; no physical action but breaking free. <em>Success &rarr; Entangled, raise &rarr; free.</em></dd></div>
+          <div><dt>Fatigued</dt><dd>&minus;1 all Trait rolls. <em>One level per hour unless the source says otherwise.</em></dd></div>
+          <div><dt>Exhausted</dt><dd>&minus;2 all Trait rolls. Another level Incapacitates.</dd></div>
+          <div><dt>Shaken</dt><dd>Move and free actions only; may still Run. <em>Spirit free at start of turn, or a Benny anytime.</em></dd></div>
+          <div><dt>Stunned</dt><dd>Distracted, Vulnerable, prone, no move or action, no Gang Up. <em>Vigor free at start of turn: success ends Stunned but Vulnerable lasts to end of next turn; a raise ends it this turn.</em></dd></div>
+          <div><dt>Wounds</dt><dd>Each is &minus;1 Pace (min 1&Prime;) and &minus;1 Trait, to a maximum of &minus;3.</dd></div>
+          <div><dt>Incapacitated</dt><dd>No actions, still dealt cards. <em>Healing one Wound clears it.</em></dd></div>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Going down <span class="pip">&hearts;</span></h2>
+        <p>Incapacitated by damage &rarr; immediate Vigor:</p>
+        <ul>
+          <li><strong>Critical Failure</strong> &rarr; dead.</li>
+          <li><strong>Failure</strong> &rarr; Injury Table, permanent, and Bleeding Out.</li>
+          <li><strong>Success</strong> &rarr; Injury Table until every Wound heals.</li>
+          <li><strong>Raise</strong> &rarr; Injury Table for 24 hours, or until the Wounds heal.</li>
+        </ul>
+        <p><strong>Bleeding Out:</strong> Vigor at the start of each turn, or each minute outside combat. Failure kills. Success buys another roll; a raise stabilises. An ally may stabilise with a Healing action.</p>
+        <p><strong>Finishing Move:</strong> a wholly helpless victim can be dispatched as an action &mdash; automatic unless you see a reason otherwise.</p>
+        <p>Roll the Injury Table as printed; do not invent rows. Fatigue Incapacitation runs on its own track, not this one.</p>
+      </section>
+
+      <section>
+        <h2>Healing <span class="pip">&clubs;</span></h2>
+        <p><strong>Healing skill:</strong> ten minutes per Wound level, <span class="n">&minus;1</span> without a kit. Success removes one Wound, a raise two, a Critical Failure adds one.</p>
+        <p><strong>Golden Hour:</strong> one attempt per healer per patient within the first hour &mdash; a different healer may still try. After that only natural healing or the <em>healing</em> power (greater healing) works. Healing may also stabilise someone Bleeding Out, as an action.</p>
+        <p><strong>Natural:</strong> Vigor every five days. Success recovers one Wound, a raise two, a Critical Failure adds one. Let allies Support that roll.</p>
+      </section>
+
+      <section>
+        <h2>At the table <span class="pip">&spades;</span></h2>
+        <ul>
+          <li><strong>Aim</strong> &mdash; whole turn, stationary: the next first shot ignores 4 points of range, cover, Called Shot, Scale, or speed, or simply takes +2.</li>
+          <li><strong>Defend</strong> &mdash; whole turn, no extra actions, no Run: <span class="n">+4</span> Parry until the next turn.</li>
+          <li><strong>Wild Attack</strong> &mdash; <span class="n">+2</span> Fighting and damage; Vulnerable until the end of the <em>next</em> turn.</li>
+          <li><strong>Called Shot</strong> &mdash; limb <span class="n">&minus;2</span>; head or vitals <span class="n">&minus;4</span> for <span class="n">+4</span> damage; the face of an open helmet <span class="n">&minus;5</span>, and the helmet does not count.</li>
+          <li><strong>Cover</strong> &mdash; <span class="n">&minus;2 / &minus;4 / &minus;6 / &minus;8</span>. Where cover should have stopped a hit, it acts as Armor of that value. Prone against ranged fire at 3&Prime;+ is &minus;4 and does not stack with cover; prone in melee is &minus;2 Parry and &minus;2 Fighting.</li>
+          <li><strong>The Drop</strong> &mdash; <span class="n">+4</span> attack and damage for one action. Shaken or worse then forces Vigor or a knockout.</li>
+          <li><strong>Gang Up</strong> &mdash; <span class="n">+1</span> Fighting per extra adjacent attacker who is not Stunned, to <span class="n">+4</span>; each adjacent ally of the defender cancels one.</li>
+          <li><strong>Grapple</strong> &mdash; opposed Athletics. Win Entangles; a raise, or a second success, Binds. The grappler is Vulnerable while holding someone Bound. Crush is a Strength roll as damage.</li>
+          <li><strong>Withdraw</strong> &mdash; every adjacent foe who is not Shaken or Stunned gets a Free Attack.</li>
+          <li><strong>Unarmed defender</strong> &mdash; an armed melee attacker gets <span class="n">+2</span>; does not stack with The Drop.</li>
+          <li><strong>Unstable platform</strong> &mdash; <span class="n">&minus;2</span> to shoot or throw from a mount or moving vehicle. <strong>Off-hand</strong> <span class="n">&minus;2</span> unless Ambidextrous.</li>
+          <li><strong>Illumination</strong> &mdash; Dim <span class="n">&minus;2</span>, Dark <span class="n">&minus;4</span> with nothing visible past 10&Prime;, Pitch <span class="n">&minus;6</span>.</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <footer>
+      <div>Authority: <b>SWADE Fifth Printing (2023)</b>, pp. 87&ndash;109 and p. 203. No house rule and no setting module is on this card.</div>
+      <div class="warn">Unclear? &mdash; GM decision required</div>
+    </footer>
+
+  </div>
+  </div>
+</body>
+</html>

@@ -38,7 +38,7 @@ Weird War II and Deadlands Noir are installed as optional modules. Neither has a
 
 - `GM.md` - operating instructions for the GM and co-GM.
 - `sources/` - read-only rulebooks, setting books, historical references, maps, and background texts.
-- `rules/` - authority policy, explicit house rules, and recorded rulings.
+- `rules/` - authority policy, explicit house rules, recorded rulings, and the core SWADE [GM quick-ref card](rules/gm-quick-ref.md).
 - `world/` - setting-wide canon shared across tables: locations, factions, NPCs, and lore.
 - `adventures/` - standalone units: one-shots and other adventures that are not split across a campaign.
 - `campaigns/` - linked play: `CAMPAIGN.md`, campaign `world/` and `characters/`, and the child adventure folders beside them.

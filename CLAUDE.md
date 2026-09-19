@@ -53,7 +53,7 @@ Playable material has two roots — pick one:
 - **Standalone adventure** → `adventures/<slug>/`. Copy from `templates/adventure/`.
 - **Linked play** → `campaigns/<campaign-slug>/`, where `CAMPAIGN.md`, the campaign's `world/`, and its canonical `characters/` sit **beside** the child adventure folders. Copy from `templates/campaign/`.
 
-Supporting directories: `sources/` (read-only rulebooks/setting/historical refs), `rules/` (authority policy, `house-rules.md`, `rulings.md`), `world/` (setting-wide canon shared across tables), `templates/` (copy these to start new material), `docs/` (workspace design decisions).
+Supporting directories: `sources/` (read-only rulebooks/setting/historical refs), `rules/` (authority policy, `house-rules.md`, `rulings.md`, core SWADE GM card), `world/` (setting-wide canon shared across tables), `templates/` (copy these to start new material), `docs/` (workspace design decisions).
 
 **Three `world/` scopes exist — do not conflate them:** repository-root `world/` is setting-wide canon; a campaign's `world/` is that table's evolving canon and secrets; adventure files are prep only.
 

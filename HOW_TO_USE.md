@@ -335,6 +335,8 @@ python3 tools/print-run/render.py campaigns/<campaign-slug>/<adventure-slug>/RUN
 
 Edit `RUN.md`, not the generated `print/RUN.html` / `print/RUN.pdf`. Open the PDF on a tablet the same way you would flip paper.
 
+The core SWADE GM card (rolls, Bennies, damage, states) is workspace-wide, not an adventure handout: [`rules/gm-quick-ref.md`](rules/gm-quick-ref.md) and [`rules/print/gm-quick-ref.pdf`](rules/print/gm-quick-ref.pdf). Print that single A4 page beside any `RUN.md`. Adventure-specific GM cards stay in that adventure’s `handouts/`.
+
 ### Player-supplied PCs
 
 Add the character files or summaries to the owning directory: the standalone adventure's `characters/`, or `campaigns/<campaign-slug>/characters/` for a campaign child. Then use:

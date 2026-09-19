@@ -30,6 +30,7 @@ Paths are relative to the repository root unless stated otherwise.
 | Establish what happened in play | Relevant session recap → affected canon files and timeline |
 | Edit an NPC or location | Existing owning file; use the campaign index to locate persistent entities |
 | Verify mechanics | `rules/RULES.md` → target configuration and active house rules → SWADE reference cache → PDF for uncovered cases |
+| Print the core GM SWADE card | `rules/gm-quick-ref.md` → `rules/print/gm-quick-ref.pdf` |
 | Compile RUN.md | Target configuration and reviewed modular sources → `QUALITY.md` → `templates/adventure/SKELETON.md` |
 | Print RUN.md | `tools/print-run/README.md` |
 | Edit or print a PC sheet | Owning `characters/README.md` and Markdown sheet → print extracts → `tools/print-sheets/README.md` |
