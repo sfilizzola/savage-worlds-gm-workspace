@@ -18,7 +18,7 @@ Lilly is assigned Loman as an apparently simple missing person.
 
 Frank’s car is found about 5 km outside town on the road to **Lake Barrow**. At the car: scratches on the steering wheel and dashboard; two sets of footprints (shod and barefoot); a cassette tape in the mud. The car radio produces metallic static and a distorted voice.
 
-Footprints lead Lilly and (possibly) **Sgt. Doyle** toward the lake and vanish at the water. Evening: heavy fog; a strange metallic sound from across the water, possibly an electrical tower (not proven). The radio apparently whispers **Lilly Dawson**.
+Footprints lead Lilly and (possibly) **Sgt. Doyle** toward the lake and vanish at the water. Evening: heavy fog; a strange metallic sound from across the water, possibly an electrical tower (not proven). The radio apparently whispers **Lilly Dawson**. **During the gap**, everyone close to the lake felt **nauseated**. (Recorded after Session 2 as having happened at this scene; it was used at the table and is not a later invention of mechanism.)
 
 At the station, **Chief Whitley** temporarily shelves the case. **Doyle** admits he heard the strange sound too.
 
@@ -48,11 +48,12 @@ Promoted with this recap (see campaign `world/`): the scene at the car and lake;
 
 ## Unresolved questions and active threads
 
-- Where is Frank Loman?
-- What is on Abigail’s recording?
-- What produced the sound across the water?
-- Who left barefoot prints?
-- What is on the cassette from the mud?
+- Where is Frank Loman? — **resolved in Session 2** ([`../vozes-sem-corpo/session-recap.md`](../vozes-sem-corpo/session-recap.md)).
+- What is on Abigail’s recording? — **partially resolved in Session 2** (a hole in the registers; voice still odd to Lilly).
+- What produced the sound across the water? — inland tower in Session 2; purpose of the work **not** established.
+- Who left barefoot prints? — **not** proven at either table.
+- What is on the cassette from the mud? — not separately recorded as examined in Session 2.
+- Why nausea at the lake during the gap? — **open** after Session 2.
 
 ## Retired or contradicted prep
 

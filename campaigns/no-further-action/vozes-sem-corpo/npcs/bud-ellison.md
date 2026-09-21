@@ -1,6 +1,6 @@
 # Bud Ellison
 
-- **Canon status:** proposed adventure-local extra; becomes established only through play
+- **Canon status:** West End Fuel was essential in Session 2; Bud is not separately named in the recap. Treat as a usable extra if a later night returns to the pumps; do not invent that Lilly learned his name.
 - **Visibility:** player-facing if Lilly reaches West End Fuel or Nancy's raise
 - **Role:** early-shift attendant at West End Fuel
 - **Current objective:** finish the morning island and not get pulled into a police story

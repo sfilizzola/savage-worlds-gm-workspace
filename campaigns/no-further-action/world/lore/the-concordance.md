@@ -66,9 +66,15 @@ When custodians take multiple records offline and harmonize them, the workflow l
 - 1998: analogue-to-digital transfers and vendor systems;
 - 2016: live audit trails and automated records.
 
-**Fixed duration:** the gap is always exactly **1 minute 52 seconds**, regardless of era or medium. This was set in `vozes-sem-corpo` (night 2) and must recur unchanged and unexplained in every later instance — it is the process's fingerprint, not a dramatic flourish, and no NPC before the 2016 endgame may explain why that number.
+**Fixed duration:** the gap is always exactly **1 minute 52 seconds**, regardless of era or medium. Night 2 **play** established only that independent registers share **the same hole**; Lilly did **not** measure the duration. The 1:52 figure remains **GM fingerprint** for later eras — recur unchanged and unexplained, and no NPC before the 2016 endgame may explain why that number.
 
 The gap proves a common process. It does **not** identify the actor, motive, client, or original event.
+
+## Open GM job: nausea at the gap
+
+**Play (do not walk back):** During the night-1 gap, people close to Lake Barrow felt nauseated. Frank’s friends who were at the lake then felt it too; some blamed Daisy’s food (Daisy furious; Lilly unconvinced). On the morning after, climbing the inland tower, Lilly felt a little nausea until — as if something had been **turned off** once police were obvious — it stopped.
+
+**Not decided:** the human-made mechanism (equipment, field, capture/harmonize side-effect, something else that is still not magic). Design this before it has to recur. Do not let 1986 speakers explain the consortium. Do not treat nausea as proof of the supernatural. Do not invent a brand name for it in 1986 paper.
 
 ## Ashgrove node
 
@@ -76,7 +82,7 @@ Lilly's assignment to Ashgrove is ordinary departmental exile and an extraordina
 
 Ashgrove is one of many old continuity nodes. A local Concordance operation is already underway around Frank Loman before Lilly arrives; it is not waiting for her. Her investigation, not her identity, draws later attention.
 
-The apparent use of Lilly's name on the radio comes from an automated capture/replay of recent local police traffic, not advance knowledge of her or a supernatural voice. How and when Lilly can establish that remains adventure preparation.
+The apparent use of Lilly's name on the radio comes from an automated capture/replay of recent local police traffic, not advance knowledge of her or a supernatural voice. **Night 2 play:** Lilly did **not** make that connection; she still finds the voice odd. Later nights may offer the explanation again; do not require her to already know it.
 
 Ashgrove's surviving records later become dangerous because Lilly disturbed them. The node's existence predates and did not cause her random transfer.
 

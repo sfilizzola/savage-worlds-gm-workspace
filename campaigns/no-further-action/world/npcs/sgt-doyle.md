@@ -3,11 +3,11 @@
 - **Canon status:** established
 - **Visibility:** player-known
 - **Role:** Veteran sergeant-detective, Ashgrove PD. Dual hat: floor sergeant and the other detective besides Lilly.
-- **Current objective:** Do the job without looking foolish. Keep the town’s work moving. Write what he saw, not a theory.
+- **Current objective:** Do the job without looking foolish. Keep the town’s work moving. Write what he saw, not a theory. Session 2: he already worked Frank’s death scene and sat with Helen.
 - **Fear:** Being the cop who cried wolf — or the cop who ignored something that got someone killed. Looking like he is inventing a story for the new Jersey detective.
 - **Leverage/resources:** Rank, local memory, the radio and the road, Kearney’s leftover process, Jan and the kids as a reason to come home.
 - **Secret:** none established
-- **Relationships:** About **44**. Married to **Jan Doyle**. Kids **Sarah (15)** and **Ben (11)** (Ashgrove High / Ashgrove Middle). Watches Lilly; not her enemy. Will not pretend the lake sound did not happen. Works under Whitley in 1986. Does not own Whitley’s graft; do not make Doyle the only vector to it. Worked with **Walt Kearney** for years before Walt retired; still defers to him at Daisy’s. Good heart; not a theorist; not a clown. By 1998 the chair has changed — write that era’s chain when the night is designed.
+- **Relationships:** About **44**. Married to **Jan Doyle**. Kids **Sarah (15)** and **Ben (11)** (Ashgrove High / Ashgrove Middle). Watches Lilly; not her enemy. Will not pretend the lake sound did not happen. **Session 2:** Lilly called him after the shooting; he processed the inland compound with her, closed Frank’s file with her, and **comforted Helen Loman** as someone the town already knows. Works under Whitley in 1986. Does not own Whitley’s graft; do not make Doyle the only vector to it. Worked with **Walt Kearney** for years before Walt retired; still defers to him at Daisy’s. Good heart; not a theorist; not a clown. By 1998 the chair has changed — write that era’s chain when the night is designed.
 - **If ignored:** He keeps doing his shift. He does not chase Lilly down with a briefing.
 - **What can change their behavior:** Proof she can work a scene; a chief order he cannot dodge; something that matches what he already heard; Kearney saying the paper looks wrong.
 

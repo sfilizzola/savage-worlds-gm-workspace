@@ -1,6 +1,6 @@
 # Ray Holtz
 
-- **Canon status:** proposed adventure truth; becomes established only through play
+- **Canon status:** played and dead — campaign copy is [`../../../world/npcs/ray-holtz.md`](../../../world/npcs/ray-holtz.md). Prep below is **not** session history.
 - **Visibility:** mixed
 - **Role:** signal capture/replay operator using a maintenance cover
 - **Current objective:** obtain Abigail's original reel and warn Cal; at the compound, keep Lilly away from the rack long enough for the record to be destroyed, then leave through the timber-side fence flap if the gate is blocked

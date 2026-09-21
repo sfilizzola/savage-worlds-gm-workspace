@@ -17,7 +17,7 @@
 - **If ignored:**
   - 1986: He assumes the file stays quiet.
   - 1998: He does not call her. The resentment sits.
-- **What can change their behavior:** Reporters, a body, a mayor, overtime he has to sign. In 1998: something he still wants (quiet, a name that keeps worse off him, or proof she can hurt him again); or she is the only person left who will hear a civilian with a grudge against the department that replaced him.
+- **What can change their behavior:** Reporters, a body, a mayor, overtime he has to sign. Session 2: a body and a close he could sign produced praise, not a fight. Graft remains unplayed. In 1998: something he still wants (quiet, a name that keeps worse off him, or proof she can hurt him again); or she is the only person left who will hear a civilian with a grudge against the department that replaced him.
 
 ## Portrayal
 
@@ -30,6 +30,7 @@
 - Spoken lines:
   - 1986: “We’re not turning a missing fisherman into a circus.”
   - 1986: “You wrote it up. That’s enough for now.”
+  - 1986 (Session 2, signing the Loman close): “Nice work, kid.”
   - 1998: “You don’t get to come here with a pad. You already used the badge on me.”
   - 1998: “They didn’t put me in a cell. You still took the chair.”
 - Avoid: Confession of a national machine, occult lectures, “as you know,” briefing her on how to investigate him, a clean apology.

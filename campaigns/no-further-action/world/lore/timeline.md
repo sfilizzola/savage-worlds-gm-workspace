@@ -12,11 +12,11 @@
 
 ## Established in play
 
-- **January 1986.** Lilly Dawson has just transferred to Ashgrove PD (first or second day). Assigned missing person **Frank Loman**. Car on the Lake Barrow road (~5 km out): scratches on wheel and dash, shod and barefoot prints, cassette in the mud, metallic static / distorted radio. Prints to the water and stop. Evening fog; metallic sound from across the water (tower possible, not proven). Radio appears to whisper **Lilly Dawson**. Chief Whitley shelves the case. **Sgt. Doyle** says he heard the sound too. **Abigail Carr** calls: her station recorded something unusual at the time Frank disappeared. Session ended on that call. Frank is still missing.
+- **January 1986, night 1.** Lilly Dawson has just transferred to Ashgrove PD (first or second day). Assigned missing person **Frank Loman**. Car on the Lake Barrow road (~5 km out): scratches on wheel and dash, shod and barefoot prints, cassette in the mud, metallic static / distorted radio. Prints to the water and stop. Evening fog; metallic sound from across the water (tower possible, not proven). Radio appears to whisper **Lilly Dawson**. **People close to the lake felt nauseated during the gap.** Chief Whitley shelves the case. **Sgt. Doyle** says he heard the sound too. **Abigail Carr** calls: her station recorded something unusual at the time Frank disappeared. Session ended on that call. Frank still missing at end of night 1.
+- **January 1986, morning after night 1 (night 2, *Vozes sem Corpo*).** Lilly works KCRK, town (Daisy’s, West End Fuel, Town Hall), then the **inland tower compound** alone. **Ray Holtz** leaves the station without the tapes (his “boss” will be furious). Rapport with Abigail. At the compound the two outsiders are loading Frank. **Cal Briggs** fires first and misses Lilly several times. Lilly kills Ray (meant to wound). She hits Cal in the shoulder; he dies in the ambulance. Doyle works the scene; they close Frank’s death. Whitley signs: “Nice work, kid.” Body shows a head injury; marked flashlight in the pickup; **who struck Frank unproven**. Registers share **the same hole**; exact duration not noticed. Lilly does **not** explain the voice as police-radio replay. Tower nausea stops as if something shut off. Frank’s lake friends also nauseated; they blame Daisy’s food; Daisy is furious; Lilly knows it is wrong. What the two men were doing is **not** established.
 
 ## Working (not played)
 
-- **Morning after night 1, January 1986:** *Vozes sem Corpo* begins only hours after Whitley shelves the Loman file. Adventure preparation exists; outcomes remain unplayed.
 - **Months later, 1986:** action cop case (shots). Prepared trail can reach Chief Whitley’s local graft; outcomes are not history.
 - **Later 1986:** puzzle case; arc-1 rhyme. Intended: Whitley is off the force by the end of the 1986 arc (unfair walk after Lilly went through channels; maybe a short hold or dead investigation, not prison).
 - **After all four 1986 nights have recaps:** write [`between-1986-and-1998.md`](between-1986-and-1998.md) before planning the first 1998 story. That file is empty until then.
@@ -27,6 +27,9 @@
 
 ## Not established
 
-- What happened to Frank Loman.
+- What Ray and Cal were doing, or who employed them (Ray’s “boss” is a line he said, not an identified person).
+- The exact length of the shared gap in the registers (GM fingerprint remains 1 minute 52 seconds; **not** player-known).
+- That Lilly’s name on the radio was captured police traffic / replay.
+- The cause of the nausea (not Daisy’s food; not supernatural until proven otherwise — mechanism unset).
 - That any project named ClearWave exists on the record.
 - That the radio, lake, or tape are supernatural.

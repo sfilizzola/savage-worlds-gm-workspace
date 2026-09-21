@@ -1,15 +1,15 @@
 # Abigail Carr
 
-- **Canon status:** established as the caller at the end of January 1986; personality beyond that is **thin**
-- **Visibility:** player-known (the call); her full motives unknown
+- **Canon status:** established as the caller at the end of night 1; Session 2 studio rapport with Lilly is played. Close friendship after the 1986 arc remains **planned**, not locked.
+- **Visibility:** player-known
 - **Role:** Local radio host / DJ at **KCRK 102.3 FM**, south of the Ashgrove River off Bridge Street (Sheet 2). Born 1963 (23 in January 1986) — one year younger than Lilly. Frequency and calls authored after session one for ongoing continuity
-- **Current objective:** Unknown beyond the established act. She loves the work and the music; privately, not spoken aloud, she has the itch to leave Ashgrove for a bigger market — though she doesn't fully believe she'd land a station anywhere else that would let her be herself on the air the way this one does.
-- **Fear:** unknown
-- **Leverage/resources:** KCRK 102.3, the recording, airtime, whoever else heard the log.
-- **Secret:** unknown beyond night-2 prep (not played): she wants the recording heard without losing her job. Do not decide she is Concordance, victim, or crank.
-- **Relationships:** Asked for Lilly (the detective on Loman), not for the chief. Works for **Mel Corwin**, KCRK's owner — late 60s, loves music and news, hosts a fixed two-hour daily show of 1950s–60s classics and otherwise lets her run the rest of the schedule as she likes; the one line she doesn't cross is his show and his books. *Planned, not yet established:* Abigail becomes Lilly's close friend after the 1986 arc — see [`../lore/timeline.md`](../lore/timeline.md).
-- **If ignored:** She still has a tape and a job. She may call again, go on air, or drop it — not established.
-- **What can change their behavior:** What is actually on the recording; who else wants it; whether Lilly shows up.
+- **Current objective:** Keep her job and the logs honest. She wanted someone to *hear* the tape, not lose it to a stranger with a work order.
+- **Fear:** Losing the reel, the shift, or being treated as a crank.
+- **Leverage/resources:** KCRK 102.3, the recording (Ray did **not** take the tapes), airtime.
+- **Secret:** none established about the consortium. She does not know what the two men were doing.
+- **Relationships:** Asked for Lilly (the detective on Loman), not for the chief. Session 2: she and Lilly **started a good working rapport** at the station. Works for **Mel Corwin**, KCRK's owner — late 60s, loves music and news, hosts a fixed two-hour daily show of 1950s–60s classics and otherwise lets her run the rest of the schedule as she likes; the one line she doesn't cross is his show and his books. *Planned, not yet established:* Abigail becomes Lilly's close friend after the 1986 arc — see [`../lore/timeline.md`](../lore/timeline.md).
+- **If ignored:** She still has a tape and a job.
+- **What can change their behavior:** Custody fights, press, anyone else asking for the original.
 
 ## Background
 

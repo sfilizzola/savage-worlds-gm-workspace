@@ -3,7 +3,7 @@
 - **Canon status:** planned delivery; **not** session history
 - **Visibility:** GM-only
 
-This document protects the 30-year arc from becoming either twelve unrelated nights or one forced clue chain. Only adventure 1 has happened. Later rungs are jobs for future adventure design, not guaranteed events.
+This document protects the 30-year arc from becoming either twelve unrelated nights or one forced clue chain. Nights 1–2 have happened. Later rungs are jobs for future adventure design, not guaranteed events.
 
 Each child adventure remains a real professional case with its own objective and closure. A case can be independent while its **official record** is later touched by a Concordance operation. Essential progress must remain reachable through multiple vectors; never require one roll, NPC, or surviving piece of evidence.
 
@@ -14,18 +14,19 @@ When an adventure is written, every essential revelation inside that night recei
 ### 1. Neblina sobre o Lago — played
 
 - Frank Loman vanishes near Lake Barrow.
-- Radio/static phenomena appear to know Lilly's name.
+- Radio/static phenomena appear to know Lilly's name. People close to the lake felt nauseated during the gap (recorded with Session 2).
 - Chief Whitley shelves the case; Doyle admits he heard the sound.
 - Abigail Carr calls about something her station recorded at the time of the disappearance. Ongoing continuity names the station **KCRK 102.3 FM**; that frequency was not spoken in play.
 - **Boundary:** ClearWave, Walter Greene, and the Water Authority were not discovered in this session.
 
-### 2. Vozes sem Corpo — first seam
+### 2. Vozes sem Corpo — first seam (played)
 
-- Begins the morning after night 1, only hours after Whitley shelves Frank's file; drafted outcomes remain preparation, not history.
-- The station recording and local infrastructure produce the first **synchronization gap**.
-- Ownership or responsibility is deliberately muddy, but no evidence names a national consortium.
-- The Water Authority access trail is usable local evidence. Walter Greene and ClearWave remain unused material, not answers.
-- Resolve the local case as far as Lilly's choices and evidence allow; do not turn Abigail into an exposition source.
+- Played the morning after night 1. Recap: [`../../vozes-sem-corpo/session-recap.md`](../../vozes-sem-corpo/session-recap.md).
+- Independent registers share **the same hole**. Exact duration **not** noticed in play (GM fingerprint remains 1:52).
+- Ownership left muddy: fake paperwork, two outsiders, Ray mentioning a “boss.” No consortium name. Lilly did not connect the voice to police-traffic replay.
+- Local case closed: Frank found inland, not drowned; Ray dead at the compound; Cal dead in the ambulance; Whitley signed. Who struck Frank unproven.
+- Nausea at lake (night 1) and tower (until the site “turned off”) is play canon; mechanism is an open Concordance job — not supernatural confirmation.
+- Do not turn Abigail into an exposition source. Rapport with Lilly began at the station.
 
 ### 3. Action case — independent crime
 

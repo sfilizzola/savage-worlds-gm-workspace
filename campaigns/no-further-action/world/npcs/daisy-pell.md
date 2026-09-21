@@ -1,15 +1,15 @@
 # Daisy Pell
 
-- **Canon status:** authored as true for this table; not yet in play
-- **Visibility:** player-known if Lilly eats at Daisy’s
+- **Canon status:** established (Session 2)
+- **Visibility:** player-known
 - **Role:** Owns and works Daisy’s. Mill-widow, about 60.
 - **Current objective:** Keep the register moving. Remember who takes what.
-- **Fear:** Cops turning breakfast into an interview. The mill talk starting again like it will reopen.
-- **Leverage/resources:** Who came in, who didn’t, who sat with whom. Not GM secrets.
+- **Fear:** Cops turning breakfast into an interview. Being blamed for food poisoning she did not cause.
+- **Leverage/resources:** Who came in, who didn’t, who sat with whom. Not GM secrets. Session 2: her place helped Lilly place the two outsiders.
 - **Secret:** none established
-- **Relationships:** Sister-in-law orbit with **Len Pell** (mill yard). Feeds Walt, Kevin, whoever. Polite to Lilly as a new face with a tab.
-- **If ignored:** She still pours coffee. The town still eats.
-- **What can change their behavior:** A scene in the diner; someone stiffing a check; Len coming in angry.
+- **Relationships:** Sister-in-law orbit with **Len Pell** (mill yard). Feeds Walt, Kevin, whoever. Session 2: **furious** that Frank’s friends blamed the lake nausea on **Daisy’s food**. Lilly does not believe that story.
+- **If ignored:** She still pours coffee. The food rumor may keep running without her consent.
+- **What can change their behavior:** A scene in the diner; someone stiffing a check; Len coming in angry; anyone repeating the poisoning gossip.
 
 ## Portrayal
 

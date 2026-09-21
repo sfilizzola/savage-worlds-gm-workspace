@@ -1,6 +1,6 @@
 ---
 title: "Vozes sem Corpo"
-status: drafting
+status: played
 language: en
 format: one-shot
 expected_runtime_hours: "3-5"
@@ -22,7 +22,7 @@ house_rules:
 
 # Vozes sem Corpo
 
-English-language preparation for night 2 of *No Further Action*. The Portuguese title is retained. This is preparation, not session history. The [Grounding audit](QUALITY.md#grounding-audit) passed 2026-09-19 after GM-approved values; rebuild `RUN.md` before table use.
+English-language preparation for night 2 of *No Further Action*. The Portuguese title is retained. **Played.** History lives in [`session-recap.md`](session-recap.md). Do not promote unused prep from this file or `RUN.md`.
 
 ## One-sentence premise
 

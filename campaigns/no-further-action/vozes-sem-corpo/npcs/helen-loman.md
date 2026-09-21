@@ -1,6 +1,6 @@
 # Helen Loman
 
-- **Canon status:** proposed adventure-local person; Frank's sibling relationship becomes established only through play
+- **Canon status:** played — campaign copy is [`../../../world/npcs/helen-loman.md`](../../../world/npcs/helen-loman.md). This file is leftover night-2 prep.
 - **Visibility:** player-facing
 - **Role:** Frank Loman's sister and habit witness
 - **Current objective:** make police keep looking and stop strangers from turning Frank into a convenient story

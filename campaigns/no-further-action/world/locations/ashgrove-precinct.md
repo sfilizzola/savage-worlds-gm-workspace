@@ -12,7 +12,7 @@
   - **Walt Kearney** (~63) retired by 1986 and still lives in town. Daisy’s at 7am. Doyle still defers. His tabs and triplicate still run how paper is supposed to look. Lilly is the other working detective with Doyle because of the NJ transfer, not because Walt picked her.
   - Whitley can shelf a case. Doyle still works it like a cop. Nancy hears the town.
   - By the **end of the 1986 arc** Whitley is intended off the force (unfair walk after channels, not prison). By **1998** he is already a civilian. A later chief (unnamed until that era is designed) holds command; Doyle/Nancy may still be the house.
-- **Current state:** Loman is shelved officially; Abigail Carr’s call is the live thread into the next night. (January 1986.)
+- **Current state:** Loman death file closed and signed by Whitley (Session 2). Next 1986 job is months later and unrelated. (January 1986.)
 - **People/factions:** See NPC files. Mill yard after dark: **Len Pell** (not PD).
 - **Resources and hazards:** Radio, cars, files, local knowledge, political pressure from the sitting chief, empty rooms that keep old process, a lab nobody is qualified to treat as CSI.
 - **Secrets:** GM — Whitley’s quiet is partly bought (local graft, not Concordance). Ordinary small-town self-protection remains true on the surface. Earl sleeping is an open secret, not a mystery.

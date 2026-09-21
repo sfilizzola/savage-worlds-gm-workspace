@@ -69,7 +69,7 @@ Facts that are true for this table regardless of player action. Distinct from pl
 - Lilly’s **origin paperwork was already harmonized** (Simon arriving late, missing baby photos, Medrick’s repeated story). That is why a personal braid exists. At the campaign start Lilly knows only the official violent-offender story and has never contacted her biological father.
 - Concordance operations leave a precise **synchronization gap** when multiple records are taken offline and harmonized. The technology changes; the missing interval remains. The gap proves common process, not motive or culprit.
 - **1986 connection rule:** nights 1 and 2 share a thread (Abigail Carr’s call). Nights 3 and 4 are separate jobs on the calendar. Any “these were results of the Concordance” beat is **closing information of arc 1** (night 4), not a serial in night 3.
-- **Frank Loman** is missing as of the end of night 1. What happened to him is **not** established.
+- **Frank Loman** was found dead at the inland tower the morning after night 1. The death file is closed in play. What the two outsiders were doing, and who sent them, is **not** established. Which of them struck him is unproven.
 - One **personal bruise** per era (nights 4 / 7 / 11 in the index). Full lock of origin + Concordance waits for 2016.
 - **Chief Whitley** is locally corrupt (payoffs, quiet files). He is **not** Concordance and does not know the consortium. Intended 1986 destination: Lilly’s discoveries (likely night 3, settled by the end of the arc) take him off the force. The **unfair** outcome from her seat is the default: she puts the graft up the chain; he may sit a short hold or an investigation; political connections let him **walk** (resign/retire) instead of prison. By **1998** he is already a civilian. He blames her for the heat; she already knows the system let him out. At least one 1998 night requires her to ask him something. If a 1986 night fails to prove him, he is still out by 1998 by a quieter deal and still blames her.
 
@@ -83,12 +83,12 @@ Canonical mechanical sheets live under this campaign's `characters/`. Do not kee
 
 ## Adventure index
 
-Child folders sit beside `world/` and `characters/`. Night 1 is played; night 2 is drafted preparation. Other slugs are **jobs in the arc**, not written adventures.
+Child folders sit beside `world/` and `characters/`. Nights 1–2 are played. Other slugs are **jobs in the arc**, not written adventures.
 
 | Slug | Title | Status | Calendar | Notes |
 |------|-------|--------|----------|-------|
 | `neblina-sobre-o-lago` | Neblina sobre o Lago | played | Jan 1986 | Loman / Lake Barrow. Recap in the child folder. Ends with Abigail Carr’s call. |
-| `vozes-sem-corpo` | Vozes sem Corpo | drafting | morning after night 1 (Jan 1986) | Only 1986 sequel. The fresh call / recording becomes a case; prepared outcomes are not history. Not the empire. |
+| `vozes-sem-corpo` | Vozes sem Corpo | played | morning after night 1 (Jan 1986) | Only 1986 sequel. Recap in the child folder. Frank found; crew dead; gap seen without precise duration; ownership muddy. |
 | `nothing-happens-after-eleven` | Nothing Happens After Eleven | concept | months later in 1986 | Unrelated **action** cop case — shots, live danger. Discovery trail can reach Whitley’s local graft (not Loman, not the consortium). Chosen premise (concept only, unwritten): stolen plant and blasting supply staged through the dark Cinder Creek yard; Earl Voss’s sleeping cruiser is bought, not lazy. |
 | `ashgrove-puzzle-1986` | (untitled; working) | concept | later 1986, weeks/months after night 3 | **Puzzle** night. Arc-1 finishing rhyme. 1986 personal bruise in the paperwork if she looks. Whitley is intended **out of the chair by the end of this arc** (unfair walk after she went through channels; not a prison ending). He may already be under investigation or gone when this night is designed. |
 | `federal-in-ashgrove` | (untitled; working) | concept | 1998, spread through the year | **Do not plan this night until** [`world/lore/between-1986-and-1998.md`](world/lore/between-1986-and-1998.md) is filled from the four 1986 recaps. FBI in her town. She is still Ashgrove PD + consultant. First concrete Concordance language. New chief in the chair. Former Chief Whitley is a civilian; a 1998 night (this one unless another child owns it) may require asking him something he resents giving. |
@@ -123,3 +123,4 @@ Child folders sit beside `world/` and `characters/`. Night 1 is played; night 2 
 - All **2016** children: `rank: Veteran` (rebuilt sheet).
 - Deadlands Noir Companion is unused. No child may activate Deadlands as a setting module.
 - Night 1 is `status: played` and has a recap instead of a compiled `RUN.md`.
+- Night 2 is `status: played` and has a recap. `RUN.md` is leftover prep, not history.

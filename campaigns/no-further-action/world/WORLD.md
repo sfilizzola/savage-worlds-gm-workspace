@@ -9,7 +9,7 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 - Adventure preparation is not canon merely because it was written.
 - A secret may be true in GM canon before players learn it; label visibility.
 - A planned event becomes history only if it occurs.
-- January 1986 play is recorded in `campaigns/no-further-action/neblina-sobre-o-lago/` (recap). Promoted campaign facts are linked below.
+- January 1986 play is recorded in the child recaps: [`../neblina-sobre-o-lago/session-recap.md`](../neblina-sobre-o-lago/session-recap.md), [`../vozes-sem-corpo/session-recap.md`](../vozes-sem-corpo/session-recap.md). Promoted campaign facts are linked below.
 
 ## Index
 
@@ -19,6 +19,7 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 - [1984 Rook County highway sheet](locations/ashgrove_map_1984.png) (valley table map)
 - [1984 Ashgrove town inset](locations/ashgrove_town_map_1984.png) (street table map)
 - [Lake Barrow](locations/lake-barrow.md)
+- [Inland tower compound](locations/inland-tower-compound.md) (played crime scene; not on public maps)
 - [Ashgrove Police Precinct](locations/ashgrove-precinct.md)
 - [Daisy’s](locations/daisys.md)
 - [Cinder Creek Lumber](locations/cinder-creek-lumber.md)
@@ -37,7 +38,10 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 - [Len Pell](npcs/len-pell.md)
 - [Art Lindstrom](npcs/art-lindstrom.md)
 - [Abigail Carr](npcs/abigail-carr.md)
-- [Frank Loman](npcs/frank-loman.md) (missing; not a speaker)
+- [Frank Loman](npcs/frank-loman.md) (dead; case closed)
+- [Helen Loman](npcs/helen-loman.md)
+- [Ray Holtz](npcs/ray-holtz.md) (dead; not a speaker)
+- [Cal Briggs](npcs/cal-briggs.md) (dead; not a speaker)
 
 ### Factions and families
 

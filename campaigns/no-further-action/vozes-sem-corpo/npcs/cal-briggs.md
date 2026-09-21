@@ -1,6 +1,6 @@
 # Cal Briggs
 
-- **Canon status:** proposed adventure truth; becomes established only through play
+- **Canon status:** played and dead — campaign copy is [`../../../world/npcs/cal-briggs.md`](../../../world/npcs/cal-briggs.md). Prep below is **not** session history (including “Cal killed Frank”).
 - **Visibility:** mixed
 - **Role:** driver, muscle, and Frank Loman's killer
 - **Current objective:** prepare Frank and the truck for movement; once warned or police attention is detected, destroy the cleanest signal records and drive out
