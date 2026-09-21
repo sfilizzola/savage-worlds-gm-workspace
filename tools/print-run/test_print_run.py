@@ -24,7 +24,11 @@ class ConvertFixtureTests(unittest.TestCase):
 
     def test_h2_is_section_banner(self) -> None:
         self.assertIn('class="section-banner"', self.body)
-        self.assertIn("Story Point 1 - The Shed", self.body)
+        self.assertIn('<span class="sp-badge">SP 1</span> The Shed', self.body)
+
+    def test_quick_index_paragraph_is_marked(self) -> None:
+        self.assertIn('class="quick-index"', self.body)
+        self.assertIn("Jump to the situation on the table", self.body)
 
     def test_mood_card(self) -> None:
         self.assertIn('class="mood"', self.body)
@@ -38,6 +42,10 @@ class ConvertFixtureTests(unittest.TestCase):
     def test_table(self) -> None:
         self.assertIn("<table", self.body)
         self.assertIn("Notice", self.body)
+
+    def test_discoverable_table_is_marked(self) -> None:
+        self.assertIn('class="run-table discoverable"', self.body)
+        self.assertIn('<col class="c-trait">', self.body)
 
     def test_stat_block(self) -> None:
         self.assertIn('class="stat-block"', self.body)
@@ -124,13 +132,19 @@ class PrintCssTests(unittest.TestCase):
         self.assertTrue(self.value(".line", "color").startswith("#"))
 
     def test_speech_accent_differs_from_other_cards(self) -> None:
-        speech = self.value(".speech", "background")
+        # Cards share a white background (no color fills, so this survives a B&W print
+        # run); each type is told apart by its left-border accent color instead.
+        speech = self.value(".speech", "border-left-color")
         others = [
-            self.value(".gm-note", "background"),
-            self.value(".at-hand-statistics", "background"),
-            self.value(".at-hand-rules", "background"),
+            self.value(".gm-note", "border-left-color"),
+            self.value(".at-hand-statistics", "border-left-color"),
+            self.value(".at-hand-rules", "border-left-color"),
         ]
         self.assertNotIn(speech, others)
+
+    def test_cards_have_no_background_fill(self) -> None:
+        for selector in (".mood", ".gm-note", ".speech", ".speech-quote", ".stat-block"):
+            self.assertEqual(self.value(selector, "background"), "#fff")
 
     def test_fenced_rules_wrap_inside_the_column(self) -> None:
         self.assertRegex(

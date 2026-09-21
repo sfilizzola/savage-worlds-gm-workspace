@@ -7,6 +7,8 @@ import html
 import re
 
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
+STORY_POINT_RE = re.compile(r"^Story Point\s+(\d+)\s*-\s*(.*)$", re.IGNORECASE)
+DISCOVERABLE_HEAD = ("trait", "fail", "success", "raise")
 LIST_RE = re.compile(r"^\s*[-*]\s+(.*)$")
 SEP_RE = re.compile(r"^\s*\|?(\s*:?-{3,}:?\s*\|)+\s*:?-{3,}:?\s*\|?\s*$")
 ALERT_RE = re.compile(r"^\[!(IMPORTANT|TIP)\]\s*$", re.IGNORECASE)
@@ -159,6 +161,10 @@ def is_speech_item(text: str) -> bool:
     return visible_start(text).lower().startswith("spoken lines")
 
 
+def is_quickindex_item(text: str) -> bool:
+    return visible_start(text).lower().startswith("not a scene script")
+
+
 def opens_with_quote(lines: list[str]) -> bool:
     return visible_start(" ".join(lines)).startswith(("“", '"'))
 
@@ -233,6 +239,10 @@ def classify(blocks: list[tuple]) -> list[tuple]:
                 out.append(("gm-note", " ".join(lines)))
                 i += 1
                 continue
+            if is_quickindex_item(" ".join(lines)):
+                out.append(("quick-index", " ".join(lines)))
+                i += 1
+                continue
             if is_speech_item(lines[0]):
                 out.append(("speech", " ".join(lines)))
                 i += 1
@@ -263,12 +273,19 @@ def render_table(rows: list[list[str]]) -> str:
     if not rows:
         return ""
     head, body = rows[0], rows[1:]
+    is_discoverable = tuple(c.strip().lower() for c in head) == DISCOVERABLE_HEAD
+    cls = "run-table discoverable" if is_discoverable else "run-table"
+    colgroup = (
+        '<colgroup><col class="c-trait"><col class="c-out"><col class="c-out"><col class="c-out"></colgroup>'
+        if is_discoverable
+        else ""
+    )
     th = "".join(f"<th>{inline(c)}</th>" for c in head)
     trs = [f"<tr>{th}</tr>"]
     for row in body:
         tds = "".join(f"<td>{inline(c)}</td>" for c in row)
         trs.append(f"<tr>{tds}</tr>")
-    return '<table class="run-table">' + "".join(trs) + "</table>"
+    return f'<table class="{cls}">{colgroup}' + "".join(trs) + "</table>"
 
 
 def render_blocks(blocks: list[tuple]) -> str:
@@ -277,8 +294,17 @@ def render_blocks(blocks: list[tuple]) -> str:
         kind = b[0]
         if kind == "heading":
             level, text = b[1], b[2]
-            cls = ' class="section-banner"' if level == 2 else ""
-            parts.append(f"<h{level}{cls}>{inline(text)}</h{level}>")
+            if level == 2:
+                sp = STORY_POINT_RE.match(text)
+                if sp:
+                    body_text = f'<span class="sp-badge">SP {sp.group(1)}</span> {inline(sp.group(2))}'
+                else:
+                    body_text = inline(text)
+                parts.append(f'<h2 class="section-banner">{body_text}</h2>')
+            else:
+                parts.append(f"<h{level}>{inline(text)}</h{level}>")
+        elif kind == "quick-index":
+            parts.append(f'<p class="quick-index">{inline(b[1])}</p>')
         elif kind == "para":
             parts.append(f"<p>{inline(' '.join(b[1]))}</p>")
         elif kind == "list":

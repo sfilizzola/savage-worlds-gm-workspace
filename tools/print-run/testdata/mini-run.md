@@ -4,6 +4,8 @@ A plain paragraph so unclassified text still prints.
 
 > Compiled table document. Source files remain authoritative.
 
+**Not a scene script.** Jump to the situation on the table: SP1 The Shed.
+
 ## Story Point 1 - The Shed
 
 **Mood (table):** Paraphrase now.
