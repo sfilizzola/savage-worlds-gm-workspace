@@ -1,51 +1,84 @@
 html {
-  font-size: 10pt;
+  font-size: 10.3pt;
 }
 
 body {
   margin: 0;
   color: #111;
   font-family: Georgia, Palatino, "Times New Roman", Times, serif;
-  line-height: 1.35;
+  line-height: 1.38;
   background: #fff;
 }
 
 .run {
   column-count: 2;
-  column-gap: 1.1em;
+  column-gap: 9mm;
 }
 
 h1 {
   column-span: all;
-  font-size: 1.6em;
-  margin: 0 0 0.6em;
-  border-bottom: 1px solid #111;
+  font-size: 1.7em;
+  margin: 0 0 0.5em;
+  border-bottom: 2pt solid #111;
   padding-bottom: 0.2em;
   break-after: avoid;
   page-break-after: avoid;
 }
 
+/* ---------- Quick index (the "Not a scene script. Jump to..." line) ---------- */
+
+.quick-index {
+  column-span: all;
+  font-family: "Courier New", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  border: 1.4pt solid #111;
+  padding: 0.5em 0.7em;
+  margin: 0 0 0.7em;
+  background: #fff;
+}
+
+/* ---------- Section banners (story points and other H2s) ---------- */
+
 .section-banner {
   column-span: all;
-  font-size: 1.15em;
-  margin: 0.9em 0 0.45em;
-  padding: 0.15em 0 0.15em 0.45em;
-  border-left: 4px solid #111;
+  font-size: 1.2em;
+  margin: 1em 0 0.5em;
+  padding: 0.3em 0.5em;
+  border: 1.4pt solid #111;
   break-after: avoid;
   page-break-after: avoid;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.sp-badge {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-weight: 700;
+  font-size: 0.75em;
+  letter-spacing: 0.06em;
+  background: #111;
+  color: #fff;
+  padding: 0.15em 0.5em;
+  border-radius: 1px;
+  flex: none;
 }
 
 h3, h4 {
-  font-size: 1em;
-  margin: 0.7em 0 0.25em;
+  font-family: ui-sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 0.86em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #555;
+  margin: 0.8em 0 0.3em;
 }
 
 p, ul, table {
-  margin: 0 0 0.45em;
+  margin: 0 0 0.5em;
 }
 
 ul {
-  padding-left: 1.1em;
+  padding-left: 1.2em;
 }
 
 code {
@@ -54,90 +87,126 @@ code {
 }
 
 .mood,
+.gm-note,
 .stat-block,
-.run-table,
-.gm-note {
+.speech,
+.speech-quote {
   break-inside: avoid;
   page-break-inside: avoid;
+  background: #fff;
+  border: 1pt solid #ccc;
+  border-left: 4pt solid #111;
+  padding: 0.4em 0.5em 0.4em 0.6em;
+  margin: 0 0 0.5em;
+}
+
+.mood::before,
+.gm-note::before,
+.speech::before,
+.speech-quote::before,
+.stat-block::before {
+  display: block;
+  font-family: ui-sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.7em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
 }
 
 .mood {
-  border: 1px solid #ccc;
-  padding: 0.4em 0.5em;
-  margin: 0 0 0.5em;
+  border-left-color: #888;
+  font-style: italic;
+  color: #555;
 }
-
-.gm-note {
-  background: #fff6d4;
-  border-left: 4px solid #c9a227;
-  padding: 0.35em 0.5em;
-  margin: 0 0 0.5em;
+.mood::before {
+  content: "Mood — read the room";
+  color: #111;
+  font-style: normal;
 }
 
 .speech,
 .speech-quote {
-  background: #f9eef2;
-  border-left: 4px solid #8c2f4a;
-  padding: 0.35em 0.5em;
-  margin: 0 0 0.5em;
-  break-inside: avoid;
-  page-break-inside: avoid;
-  -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
+  border-left-color: #7a2f45;
 }
-
-li.speech {
-  padding: 0.25em 0.4em;
+.speech::before,
+.speech-quote::before {
+  content: "Spoken line — read aloud";
+  color: #7a2f45;
 }
-
-.speech-quote {
-  border: 1px solid #d7aab9;
-  border-left-width: 4px;
-}
-
 .speech-quote p {
   margin: 0;
 }
-
 .line,
 .speech code,
 .speech-quote code {
-  color: #8c2f4a;
-}
-
-.line {
+  color: #7a2f45;
   font-style: italic;
 }
 
-.stat-block {
-  border: 1px solid #111;
-  padding: 0.4em 0.5em;
-  margin: 0 0 0.5em;
+li.speech {
+  background: none;
+  border: none;
+  border-left: 3pt solid #7a2f45;
+  padding: 0.2em 0.3em;
+  margin: 0;
+}
+li.speech::before {
+  content: none;
 }
 
+.gm-note {
+  border-left-color: #96731a;
+  border-left-width: 6pt;
+}
+.gm-note::before {
+  content: "GM only — do not read aloud";
+  color: #96731a;
+}
+
+.stat-block {
+  border-left-color: #1f3f5c;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+.stat-block::before {
+  content: "Stat block";
+  color: #1f3f5c;
+}
 .stat-block p {
   margin: 0 0 0.2em;
 }
+/* nested inside an at-hand callout: the callout header already labels it */
+.callout .stat-block {
+  border: none;
+  border-left: 6pt solid transparent;
+  padding: 0.3em 0.2em;
+  margin: 0;
+}
+.callout .stat-block::before {
+  content: none;
+}
+
+/* ---------- At-hand callouts: white background, colored border + header text ---------- */
 
 .callout {
-  margin: 0.55em 0 0.7em;
-  padding: 0.5em 0.6em 0.45em;
-  border: 1px solid #aeb7bf;
-  border-left-width: 5px;
-  background: #f5f6f7;
+  column-span: all;
   break-inside: avoid;
   page-break-inside: avoid;
-  -webkit-print-color-adjust: exact;
-  print-color-adjust: exact;
+  margin: 0.5em 0 0.7em;
+  padding: 0;
+  border: 1.4pt solid #111;
+  background: #fff;
 }
 
 .callout h4 {
-  margin: 0 0 0.4em;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.88em;
-  line-height: 1.15;
-  letter-spacing: 0.045em;
+  margin: 0;
+  padding: 0.35em 0.5em;
+  font-family: ui-sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 0.86em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  border-bottom: 1pt solid #ccc;
 }
 
 .callout > :last-child {
@@ -145,7 +214,7 @@ li.speech {
 }
 
 .callout pre {
-  margin: 0;
+  margin: 0.3em 0.5em;
   font-family: ui-monospace, Menlo, Consolas, monospace;
   font-size: 0.82em;
   line-height: 1.3;
@@ -154,38 +223,101 @@ li.speech {
 }
 
 .at-hand-statistics {
-  border-color: #73808c;
-  border-left-color: #263746;
-  background: #eef2f5;
+  border-left-color: #1f3f5c;
+  border-left-width: 6pt;
+}
+.at-hand-statistics h4 {
+  color: #1f3f5c;
+}
+.at-hand-statistics h4::before {
+  content: "\2694  ";
 }
 
 .at-hand-rules {
-  border-color: #a7ad91;
-  border-left-color: #5d6738;
-  background: #f4f5ea;
+  border-left-color: #4b5a1f;
+  border-left-width: 6pt;
+}
+.at-hand-rules h4 {
+  color: #4b5a1f;
+}
+.at-hand-rules h4::before {
+  content: "\00a7  ";
 }
 
-.at-hand-statistics .stat-block {
-  margin: 0.35em 0 0;
-  padding: 0.35em 0 0;
-  border: 0;
-  border-top: 1px solid #aeb7bf;
-}
+/* ---------- Tables ---------- */
 
 .run-table {
+  column-span: all;
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.88em;
-}
-
-.run-table th,
-.run-table td {
-  border: 1px solid #ccc;
-  padding: 0.15em 0.3em;
-  text-align: left;
-  vertical-align: top;
+  font-size: 0.9em;
+  margin: 0 0 0.6em;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .run-table th {
-  background: #f3f3f3;
+  background: #111;
+  color: #fff;
+  text-align: left;
+  padding: 0.3em 0.4em;
+  font-family: ui-sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+  border: 0.75pt solid #111;
+}
+
+.run-table td {
+  border: 0.75pt solid #ccc;
+  padding: 0.3em 0.4em;
+  vertical-align: top;
+  background: #fff;
+}
+
+.run-table tr:nth-child(even) td {
+  background: #eee;
+}
+
+/* Discoverable tables (Trait / Fail / Success / Raise): fixed generous columns so
+   outcome text never gets cramped, plus colored header text for fast scanning — no
+   cell background tint, so this survives a B&W print run untouched. */
+.run-table.discoverable {
+  table-layout: fixed;
+}
+.run-table.discoverable col.c-trait {
+  width: 18%;
+}
+.run-table.discoverable col.c-out {
+  width: 27.33%;
+}
+.run-table.discoverable td:first-child {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-weight: 700;
+  background: #fff !important;
+}
+.run-table.discoverable th:nth-child(2) {
+  color: #f0b8ae;
+}
+.run-table.discoverable th:nth-child(3) {
+  color: #bfe3c8;
+}
+.run-table.discoverable th:nth-child(4) {
+  color: #f5dd94;
+}
+.run-table.discoverable th:nth-child(4)::after {
+  content: " \2605";
+}
+.run-table.discoverable td:last-child {
+  border-left: 3pt solid #8a6a17;
+  font-weight: 600;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+  .run-table tr:nth-child(even) td {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
