@@ -5,23 +5,109 @@
   <title>Savage Worlds — Guia de avanço de nível (Lilly Dawson)</title>
   <link rel="stylesheet" href="sheet.css" />
   <style>
-    /* Handout-only additions on top of the shared sheet.css. Do not edit sheet.css for this. */
-    .sheet { grid-template-rows: auto; }
-    .body p { margin: 0 0 1.1mm; }
-    .body p:last-child { margin-bottom: 0; }
-    .body ul { margin: 0; padding-left: 3mm; }
-    .body li { margin: 0 0 0.7mm; }
-    .card-note { color: var(--muted); font-size: 6.2pt; }
-    .two-col { columns: 2; column-gap: 5mm; margin: 0; padding-left: 3mm; }
-    .two-col li { break-inside: avoid; margin-bottom: 0.9mm; }
-    .sheet-ref {
-      columns: 2;
-      column-gap: 4mm;
-      margin: 0;
-      padding-left: 3mm;
-      font-size: 6.4pt;
+    /* Handout-only additions on top of the shared sheet.css. Do not edit sheet.css for this.
+       This card reads as prose, not a stat block, so every size below is bumped well past
+       sheet.css's dense 6.4-7.15pt defaults — legibility over squeeze. */
+    .sheet {
+      grid-template-rows: auto;
+      font-size: 8.6pt;
+      line-height: 1.36;
     }
-    .sheet-ref li { break-inside: avoid; margin-bottom: 0.6mm; }
+    h2 {
+      font-size: 8pt;
+      padding: 1.3mm 2.2mm 1.15mm;
+      letter-spacing: 0.14em;
+    }
+    .mast .file { font-size: 9.2pt; }
+    .mast .op { font-size: 7.4pt; }
+    .mast .meta { font-size: 7.2pt; }
+    .name { font-size: 24pt; }
+    .role { font-size: 9.6pt; }
+    .tags { font-size: 7.6pt; gap: 1.2mm 2.5mm; }
+    .tags dt { font-size: 6.6pt; }
+    .tags dd { font-size: 8.4pt; }
+    .classification { font-size: 6.4pt; }
+
+    .mid { gap: 3.4mm; margin-bottom: 3mm; }
+    .panel .body { padding: 1.6mm 0 0; }
+    .body p { margin: 0 0 1.6mm; }
+    .body p:last-child { margin-bottom: 0; }
+    .body ul { margin: 0; padding-left: 3.6mm; }
+    .body li { margin: 0 0 1mm; }
+    .card-note { color: var(--muted); font-size: 7.2pt; }
+
+    table { font-size: 8.2pt; }
+    th { font-size: 7pt; padding: 0.5mm 1.2mm 0.8mm 0; }
+    td { padding: 0.9mm 1.2mm 0.9mm 0; }
+
+    .he { padding: 1mm 0; }
+    .he .t { font-size: 8.4pt; }
+    .he .d { font-size: 7.6pt; }
+
+    .dossier { font-size: 7.6pt; }
+    .dossier > div { grid-template-columns: 19mm minmax(0, 1fr); }
+    .dossier dt { font-size: 6.8pt; }
+    .dossier dd { font-size: 7.8pt; }
+
+    /* The "form" is the theme move: an Ashgrove PD advance-request field, with a real
+       checkbox per option, so the card doubles as something the player fills in by hand. */
+    .advance-form {
+      grid-column: 1 / -1;
+      border: 1.4pt solid var(--rule);
+      padding: 2.4mm 2.8mm 2.6mm;
+      margin-bottom: 3mm;
+    }
+    .advance-form h2 { margin: -2.4mm -2.8mm 2mm; }
+    .choice-list { margin: 0; padding: 0; list-style: none; }
+    .choice-list li {
+      display: grid;
+      grid-template-columns: 5mm minmax(0, 1fr);
+      gap: 2.6mm;
+      align-items: start;
+      padding: 1.8mm 0;
+      border-bottom: 0.4pt solid #c9c3b4;
+    }
+    .choice-list li:last-child { border-bottom: 0; padding-bottom: 0.4mm; }
+    .choice-list .cb {
+      width: 4.4mm;
+      height: 4.4mm;
+      border: 1.2pt solid var(--rule);
+      margin-top: 0.6mm;
+    }
+    .choice-list .ct {
+      font-family: "Archivo Narrow", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 8.6pt;
+    }
+    .choice-list .cd {
+      color: var(--muted);
+      font-size: 7.8pt;
+      margin-top: 0.5mm;
+    }
+    .choice-list .cd strong { color: var(--ink); font-weight: 600; }
+
+    .stamp { margin-top: 3.6mm; margin-bottom: 1.4mm; transform: rotate(-4deg); }
+    .stamp-text { font-size: 9pt; }
+    .stamp-sub { font-size: 5.6pt; }
+
+    /* Two deliberate pages, not an accidental mid-panel split: page 1 is the
+       fillable form, page 2 is the supporting reference appendix. */
+    .panel, .he, .choice-list li { break-inside: avoid; }
+    .page-break { break-before: page; page-break-before: always; }
+    .appendix-head {
+      grid-column: 1 / -1;
+      font-family: "Archivo Narrow", sans-serif;
+      font-weight: 700;
+      font-size: 7pt;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1pt solid var(--rule);
+      padding-bottom: 1mm;
+      margin-bottom: 0.4mm;
+    }
   </style>
 </head>
 <body>
@@ -42,66 +128,79 @@
       <div class="side">
         <dl class="tags">
           <div><dt>Rank atual</dt><dd>Novice (Novato)</dd></div>
-          <div><dt>Advances</dt><dd>1 (0–3 = Novice)</dd></div>
-          <div><dt>Escolha</dt><dd>1 de 5 opções</dd></div>
+          <div><dt>Advances</dt><dd>1</dd></div>
           <div><dt>Atributo</dt><dd>1x por Rank</dd></div>
         </dl>
         <div class="classification">Não é canon de mesa · não é briefing</div>
-      </div>
-    </div>
-
-    <div class="mid">
-      <div class="panel">
-        <h2>O que é um Advance</h2>
-        <div class="body">
-          <p>Não existe barra de XP. A critério do GM, sua personagem ganha um <strong>Advance</strong> — geralmente uma vez por sessão. Advances somam e formam o <strong>Rank</strong>.</p>
-          <table>
-            <thead><tr><th>Advances</th><th>Rank</th></tr></thead>
-            <tbody>
-              <tr><td>0–3</td><td>Novice (Novato)</td></tr>
-              <tr><td>4–7</td><td>Seasoned</td></tr>
-              <tr><td>8–11</td><td>Veteran</td></tr>
-              <tr><td>12–15</td><td>Heroic</td></tr>
-              <tr><td>16+</td><td>Legendary</td></tr>
-            </tbody>
-          </table>
-          <p class="card-note" style="margin-top:1mm">Este é o primeiro Advance da Lilly — ela continua Novice. Rank mais alto só na mudança de era.</p>
-        </div>
-      </div>
-      <div class="panel">
-        <h2>Ficha atual, para referência</h2>
-        <div class="body">
-          <ul class="sheet-ref">
-            <li>Agilidade d8 · Astúcia d8</li>
-            <li>Espírito d6 · Força d4 · Vigor d4</li>
-            <li>Atletismo d8 · Atirar d8 · Pesquisar d8</li>
-            <li>Lutar d6 · Perceber d6</li>
-            <li>Furtividade/Persuadir/Eletrônica/Dirigir/Cº Acadêmico/Intimidar d4</li>
-            <li>Curioso (Maior) · Terrores Noturnos (Maior)</li>
-            <li>Investigador · Alerta · Sentido de Perigo</li>
-          </ul>
-          <p class="card-note" style="margin-top:1mm">Ficha completa (fonte de verdade, em inglês): <code>characters/lilly-dawson.md</code>.</p>
+        <div class="stamp">
+          <span class="stamp-text">Novato</span>
+          <span class="stamp-sub">1986 · Ashgrove PD</span>
         </div>
       </div>
     </div>
 
     <div class="panel">
-      <h2>As cinco coisas que um Advance pode comprar — escolha uma</h2>
+      <h2>O que é um Advance</h2>
       <div class="body">
-        <ul class="two-col">
-          <li><strong>1 · Vantagem nova.</strong> Qualquer Vantagem que ela já qualifica agora.</li>
-          <li><strong>2 · Uma perícia +1 passo,</strong> só se já é igual ou acima do atributo ligado.</li>
-          <li><strong>3 · Duas perícias +1 passo cada,</strong> abaixo do atributo ligado (uma pode ser nova, em d4).</li>
-          <li><strong>4 · Um atributo +1 passo.</strong> Só uma vez por Rank — oferta única enquanto é Novice.</li>
-          <li><strong>5 · Suavizar uma Complicação.</strong> Apaga uma Menor, ou rebaixa uma Maior para Menor (remover uma Maior de vez custa dois Advances guardados).</li>
-        </ul>
-        <p class="card-note" style="margin-top:1mm">Nenhum Trait passa do máximo ancestral (d12 numa pessoa humana). Autoridade: SWADE Quinta Impressão (2023), p.54, "Advancement"/"Rank".</p>
+        <p>Não existe barra de XP. A critério do GM, sua personagem ganha um <strong>Advance</strong> — geralmente uma vez por sessão. Advances somam e formam o <strong>Rank</strong>. Este é o primeiro Advance da Lilly: ela continua <strong>Novice</strong> (1 dos 0–3). Rank mais alto só na mudança de era.</p>
+        <table>
+          <thead><tr><th>Advances</th><th>Rank</th><th>Advances</th><th>Rank</th></tr></thead>
+          <tbody>
+            <tr><td>0–3</td><td>Novice (Novato)</td><td>12–15</td><td>Heroic</td></tr>
+            <tr><td>4–7</td><td>Seasoned</td><td>16+</td><td>Legendary</td></tr>
+            <tr><td>8–11</td><td>Veteran</td><td></td><td></td></tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
+    <div class="advance-form">
+      <h2>Formulário de avanço — marque uma opção</h2>
+      <ul class="choice-list">
+        <li>
+          <span class="cb"></span>
+          <div>
+            <div class="ct">1 · Vantagem nova</div>
+            <div class="cd">Qualquer Vantagem que ela já qualifica agora. <strong>Já qualifica:</strong> Quick, Brave, Calculating, Martial Artist, Trademark Weapon, Free Runner, Luck (ver detalhes abaixo).</div>
+          </div>
+        </li>
+        <li>
+          <span class="cb"></span>
+          <div>
+            <div class="ct">2 · Uma perícia, +1 passo</div>
+            <div class="cd">Só uma perícia já <strong>igual ou acima</strong> do atributo ligado. Ex.: Atirar d8 → d10.</div>
+          </div>
+        </li>
+        <li>
+          <span class="cb"></span>
+          <div>
+            <div class="ct">3 · Duas perícias, +1 passo cada</div>
+            <div class="cd">Perícias <strong>abaixo</strong> do atributo ligado. Uma pode ser nova, começando em d4.</div>
+          </div>
+        </li>
+        <li>
+          <span class="cb"></span>
+          <div>
+            <div class="ct">4 · Um atributo, +1 passo</div>
+            <div class="cd">Só <strong>uma vez por Rank</strong> — oferta única enquanto ela é Novice. Ex.: Vigor d4 → d6.</div>
+          </div>
+        </li>
+        <li>
+          <span class="cb"></span>
+          <div>
+            <div class="ct">5 · Suavizar uma Complicação</div>
+            <div class="cd">Apaga uma Menor, ou rebaixa uma Maior para Menor. Remover uma Maior de vez custa <strong>dois</strong> Advances guardados.</div>
+          </div>
+        </li>
+      </ul>
+      <p class="card-note" style="margin-top:1.6mm">Nenhum Trait passa do máximo ancestral (d12 numa pessoa humana). Autoridade: SWADE Quinta Impressão (2023), p.54, "Advancement"/"Rank".</p>
+    </div>
+
+    <div class="appendix-head page-break">Apêndice · detalhes e exemplos de cada opção</div>
+
     <div class="mid">
       <div class="panel">
-        <h2>Opção 1 · Vantagem nova — exemplos</h2>
+        <h2>Opção 1 · Vantagens que ela já qualifica</h2>
         <div class="body">
           <div class="he"><div class="t">Quick</div><div class="d">Agilidade d8+ · carta de ação 5 ou menos é descartada e comprada de novo.</div></div>
           <div class="he"><div class="t">Brave</div><div class="d">Espírito d6+ · +2 em testes de Medo, −2 na Tabela de Medo.</div></div>
@@ -110,37 +209,47 @@
           <div class="he"><div class="t">Trademark Weapon</div><div class="d">Uma perícia de arma d8+ (Atirar) · +1 Atirar com a pistola de serviço, +1 Aparar.</div></div>
           <div class="he"><div class="t">Free Runner</div><div class="d">Agilidade d8+, Atletismo d6+ · Movimentação cheia em terreno difícil a pé; +2 Atletismo escalando/em perseguição.</div></div>
           <div class="he"><div class="t">Luck</div><div class="d">Sem requisito · um Bene extra no início de cada sessão.</div></div>
-          <p class="card-note" style="margin-top:1.2mm">Ainda não qualifica: Hard to Kill (Espírito d8+), Nerves of Steel/Iron Jaw (Vigor d8+), Brawler/Sweep (Força d8+ e Vigor d8+).</p>
+          <p class="card-note" style="margin-top:1.4mm">Ainda não qualifica: Hard to Kill (Espírito d8+), Nerves of Steel/Iron Jaw (Vigor d8+), Brawler/Sweep (Força d8+ e Vigor d8+).</p>
         </div>
       </div>
       <div class="panel">
-        <h2>Opções 2–4 · perícias e atributo</h2>
+        <h2>Ficha atual da Lilly</h2>
         <div class="body">
-          <div class="he"><div class="t">2 · perícia ≥ atributo</div><div class="d">Atletismo d8, Atirar d8, Pesquisar d8 (todas em Agilidade/Astúcia d8) → qualquer uma vai a d10. Ex.: Atirar d8 → d10.</div></div>
-          <div class="he"><div class="t">3 · duas perícias &lt; atributo</div><div class="d">Ex.: Lutar d6→d8 + Furtividade d4→d6 (Agilidade d8). Ou Persuadir d4→d6 + Intimidar d4→d6 (Espírito d6). Uma pode ser perícia nova em d4.</div></div>
-          <div class="he"><div class="t">4 · atributo (única vez no Rank)</div><div class="d">Ex.: Vigor d4→d6 (mais resistente) ou Espírito d6→d8 (abre Hard to Kill/Charismatic/Elan).</div></div>
-          <p class="card-note" style="margin-top:1.2mm">A opção 4 só é oferecida uma vez enquanto ela é Novice; as outras quatro podem repetir em Advances futuros.</p>
+          <dl class="dossier">
+            <div><dt>Agilidade</dt><dd>d8</dd></div>
+            <div><dt>Astúcia</dt><dd>d8</dd></div>
+            <div><dt>Espírito</dt><dd>d6</dd></div>
+            <div><dt>Força</dt><dd>d4</dd></div>
+            <div><dt>Vigor</dt><dd>d4</dd></div>
+            <div><dt>Atletismo</dt><dd>d8</dd></div>
+            <div><dt>Atirar</dt><dd>d8</dd></div>
+            <div><dt>Pesquisar</dt><dd>d8</dd></div>
+            <div><dt>Lutar</dt><dd>d6</dd></div>
+            <div><dt>Perceber</dt><dd>d6</dd></div>
+            <div><dt>Outras</dt><dd>Furtividade, Persuadir, Eletrônica, Dirigir, Cº Acadêmico, Intimidar — d4</dd></div>
+            <div><dt>Maiores</dt><dd>Curioso · Terrores Noturnos</dd></div>
+            <div><dt>Vantagens</dt><dd>Investigador · Alerta · Sentido de Perigo</dd></div>
+          </dl>
+          <p class="card-note" style="margin-top:1.6mm">Ficha completa (fonte de verdade, em inglês): <code>characters/lilly-dawson.md</code>.</p>
         </div>
       </div>
     </div>
 
     <div class="mid">
       <div class="panel">
-        <h2>Opção 5 · suavizar uma Complicação</h2>
+        <h2>Opções 2–4 · perícias e atributo</h2>
         <div class="body">
-          <p>Ela tem duas Maiores, nenhuma Menor — este Advance rebaixaria uma Maior para Menor:</p>
-          <ul>
-            <li><strong>Terrores Noturnos</strong> → Menor: os pesadelos aliviam, não somem.</li>
-            <li><strong>Curioso</strong> → Menor: ela ainda não deixa um fio solto, só de um jeito menos arriscado.</li>
-          </ul>
-          <p class="card-note">Remover uma Maior por completo precisa deste Advance <strong>mais</strong> um futuro guardado junto.</p>
+          <div class="he"><div class="t">2 · perícia ≥ atributo</div><div class="d">Atletismo d8, Atirar d8, Pesquisar d8 (todas em Agilidade/Astúcia d8) → qualquer uma vai a d10.</div></div>
+          <div class="he"><div class="t">3 · duas perícias &lt; atributo</div><div class="d">Ex.: Lutar d6→d8 + Furtividade d4→d6 (Agilidade d8). Ou Persuadir d4→d6 + Intimidar d4→d6 (Espírito d6). Uma pode ser perícia nova em d4.</div></div>
+          <div class="he"><div class="t">4 · atributo (única vez no Rank)</div><div class="d">Ex.: Vigor d4→d6 (mais resistente) ou Espírito d6→d8 (abre Hard to Kill/Charismatic/Elan).</div></div>
+          <p class="card-note" style="margin-top:1.4mm">A opção 4 só é oferecida uma vez enquanto ela é Novice; as outras quatro podem repetir em Advances futuros.</p>
         </div>
       </div>
       <div class="panel">
-        <h2>O que levar para a mesa</h2>
+        <h2>Opção 5 e o que levar para a mesa</h2>
         <div class="body">
-          <p>Diga ao GM qual <strong>opção única</strong> você quer (1 Vantagem, ou uma escolha de perícia/atributo/Complicação).</p>
-          <p>O GM atualiza <code>characters/lilly-dawson.md</code> e <code>characters/print/chars.json</code> depois — você não precisa tocar em nenhum dos dois.</p>
+          <p>Ela tem duas Maiores, nenhuma Menor — este Advance rebaixaria uma para Menor: <strong>Terrores Noturnos</strong> (os pesadelos aliviam, não somem) ou <strong>Curioso</strong> (ela ainda não deixa um fio solto, só de um jeito menos arriscado).</p>
+          <p>Diga ao GM qual <strong>opção única</strong> marcou no formulário acima. O GM atualiza <code>characters/lilly-dawson.md</code> e <code>chars.json</code> depois — você não precisa tocar em nenhum dos dois.</p>
         </div>
       </div>
     </div>
