@@ -45,7 +45,7 @@ Player-facing orientation for this night only. The canonical sheet carries the e
 - **Kevin Alder** takes the beat car on nights and will answer a radio. **Earl Voss** has West End and the mill and will not. **Sgt. Doyle** is at home with his family and is reachable at the cost of minutes.
 - Nancy went home hours ago. After midnight the town line rings through to the radio room, and if nobody is in the building it rings out or bounces to Rook County and loses time.
 - The chief is at home and stays there until morning.
-- Nights 1 and 2 are done and unrelated. The lake, the tower, and Abigail Carr are not this case.
+- Nights 1 and 2 are done and unrelated. The lake, the tower, and Abigail Carr are not this case: she has no lead, no clue, and no role in tonight's yard, chief, or graft thread. A pre-session personal beat with Abigail (see [`ADVENTURE.md`](ADVENTURE.md#prologue-pre-session-flavor)) is off-case texture only and does not put her in this night's story.
 
 ## Early removal mitigation
 
