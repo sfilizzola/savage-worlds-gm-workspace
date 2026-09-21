@@ -2,12 +2,12 @@
 
 - **Canon status:** established as the caller at the end of night 1; Session 2 studio rapport with Lilly is played. Close friendship after the 1986 arc remains **planned**, not locked.
 - **Visibility:** player-known
-- **Role:** Local radio host / DJ at **KCRK 102.3 FM**, south of the Ashgrove River off Bridge Street (Sheet 2). Born 1963 (23 in January 1986) — one year younger than Lilly. Frequency and calls authored after session one for ongoing continuity
+- **Role:** Local radio host / DJ at **[KCRK 102.3 FM](../locations/kcrk.md)**, south of the Ashgrove River off Bridge Street (Sheet 2). Born 1963 (23 in January 1986) — one year younger than Lilly. Frequency and calls authored after session one for ongoing continuity
 - **Current objective:** Keep her job and the logs honest. She wanted someone to *hear* the tape, not lose it to a stranger with a work order.
 - **Fear:** Losing the reel, the shift, or being treated as a crank.
-- **Leverage/resources:** KCRK 102.3, the recording (Ray did **not** take the tapes), airtime.
+- **Leverage/resources:** [KCRK 102.3](../locations/kcrk.md), the recording (Ray did **not** take the tapes), airtime.
 - **Secret:** none established about the consortium. She does not know what the two men were doing.
-- **Relationships:** Asked for Lilly (the detective on Loman), not for the chief. Session 2: she and Lilly **started a good working rapport** at the station. Works for **Mel Corwin**, KCRK's owner — late 60s, loves music and news, hosts a fixed two-hour daily show of 1950s–60s classics and otherwise lets her run the rest of the schedule as she likes; the one line she doesn't cross is his show and his books. *Planned, not yet established:* Abigail becomes Lilly's close friend after the 1986 arc — see [`../lore/timeline.md`](../lore/timeline.md).
+- **Relationships:** Asked for Lilly (the detective on Loman), not for the chief. Session 2: she and Lilly **started a good working rapport** at the station. Works for **[Mel Corwin](mel-corwin.md)** — owner and station manager; she does not touch his two-hour classics show or his books. *Planned, not yet established:* Abigail becomes Lilly's close friend after the 1986 arc — see [`../lore/timeline.md`](../lore/timeline.md).
 - **If ignored:** She still has a tape and a job.
 - **What can change their behavior:** Custody fights, press, anyone else asking for the original.
 
@@ -16,7 +16,7 @@
 - Ashgrove native. No family named for now — she stands alone in the file; add kin only if a night needs them.
 - Talked her way into KCRK as a board-op around 17, cueing records and splicing tape on overnight fill-ins; on-air regularly by 20–21.
 - Three years in, she's genuinely good at it — clean logs, never misses a cue. Loves music the way some people love a religion.
-- Owner **Mel Corwin** likes her energy and leaves her the schedule; she doesn't touch his two-hour classics show or his books.
+- Works for **[Mel Corwin](mel-corwin.md)** — owner and station manager; she doesn't touch his two-hour classics show or his books.
 
 ## Portrayal
 

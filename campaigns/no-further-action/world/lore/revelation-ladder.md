@@ -28,14 +28,13 @@ When an adventure is written, every essential revelation inside that night recei
 - Nausea at lake (night 1) and tower (until the site “turned off”) is play canon; mechanism is an open Concordance job — not supernatural confirmation.
 - Do not turn Abigail into an exposition source. Rapport with Lilly began at the station.
 
-### 3. Action case — independent crime
+### 3. Nothing Happens After Eleven — independent crime (drafting)
 
-- The night is a genuine armed police case with live danger and shots.
+- The night is a genuine armed police case with live danger and shots: a salvage crew loading out the closed Cinder Creek yard.
 - The perpetrators and motive are unrelated to the Loman/radio case.
 - The live trail can reach **Chief Whitley’s** local graft (protection, quiet files, people who work for him). He is not the consortium and must not lecture the machine.
-- Intended destination **by the end of the 1986 arc** (this night and/or night 4): he is off the force. Default from Lilly’s seat: she puts the proof up the chain; he may sit a short hold or an investigation; political connections let him **walk** (resign/retire) instead of prison. Local politics, not Concordance. If this night fails to prove him, he is still out by 1998 by a quieter deal and still blames her.
-- Behind the screen, custodians alter part of the official aftermath to protect an institution with a consortium connection. That alteration is not Whitley’s racket and must not require him as the only clue.
-- Do not reveal the cross-case pattern here. Lilly may preserve an original without knowing its later importance.
+- **This rung delivers certainty, not proof.** The four vectors — the fold, the assignment roster, the thief’s unsigned line, Kevin’s uncounted trucks — are each defensible on their own, so Lilly ends the night sure her chief is protecting that lot and holding nothing she can file. **This night does not end his tenure**; he is still the sitting chief in the morning, and he backs her case loudly. Evidence and the walk belong to rung 4.
+- **No Concordance operation touches this night.** Nothing on the salvage file, the tuck-fold, the roster, or any other paper is altered, erased, or harmonized. There is no synchronization gap, no missing interval, and no behind-the-screen custodial rewrite of the aftermath. The fold means Whitley and only Whitley. The first arc-closing process rhyme (shared missing interval across independent files) waits for rung 4.
 
 ### 4. Puzzle case — the Ashgrove rhyme
 
@@ -43,7 +42,7 @@ When an adventure is written, every essential revelation inside that night recei
 - Comparing independent files can reveal the same precise missing interval.
 - The conclusion is administrative: unrelated events were standardized by the same process.
 - If Lilly compares what she learned with her private investigator's old report, a routing mark there supplies the era's personal bruise. It links a process, not Ashgrove, to her family and does not name her father as part of the machine.
-- Whitley is intended **out of the chair** by this night’s calendar or immediately after the arc: under investigation, already walked, or the unfair stamp lands in the paperwork. He is not the puzzle’s consortium rhyme.
+- **This rung owns the graft evidence and the unfair walk.** Whitley is intended **out of the chair** by this night’s calendar or immediately after the arc: under investigation, already walked, or the unfair stamp lands in the paperwork. He is not the puzzle’s consortium rhyme. If the arc never lands the proof, he is still out by 1998 by a quieter deal and still blames her.
 
 **1986 end state:** Lilly has evidence of a repeatable process, not an organization. Ashgrove's cases remain different crimes. Whitley is off the force; the graft case did not become a prison ending.
 

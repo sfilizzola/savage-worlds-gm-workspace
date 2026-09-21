@@ -22,6 +22,8 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 - [Inland tower compound](locations/inland-tower-compound.md) (played crime scene; not on public maps)
 - [Ashgrove Police Precinct](locations/ashgrove-precinct.md)
 - [Daisy’s](locations/daisys.md)
+- [The Hoot Owl](locations/the-hoot-owl.md)
+- [KCRK 102.3 FM](locations/kcrk.md)
 - [Cinder Creek Lumber](locations/cinder-creek-lumber.md)
 
 ### NPCs
@@ -38,6 +40,7 @@ Navigation: see the campaign index [`../INDEX.md`](../INDEX.md) for adventure ro
 - [Len Pell](npcs/len-pell.md)
 - [Art Lindstrom](npcs/art-lindstrom.md)
 - [Abigail Carr](npcs/abigail-carr.md)
+- [Mel Corwin](npcs/mel-corwin.md)
 - [Frank Loman](npcs/frank-loman.md) (dead; case closed)
 - [Helen Loman](npcs/helen-loman.md)
 - [Ray Holtz](npcs/ray-holtz.md) (dead; not a speaker)

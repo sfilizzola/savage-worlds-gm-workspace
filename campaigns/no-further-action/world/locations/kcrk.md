@@ -1,0 +1,23 @@
+# KCRK 102.3 FM
+
+- **Canon status:** mixed — studio and lot **established in play** (night 2). Mel's schedule, books, and the helper pool are **authored as true for this table; not yet in play**.
+- **Region/time period:** South of the Ashgrove River, east of the Bridge Street continuation, Trapper Ridge side (Sheet 2); 1986–.
+- **Function:** Ashgrove's local FM. Abigail's workplace. Mel Corwin's license and books.
+- **First impression:** Rain beads on the studio glass and the wet lot. Inside, a cramped board, tape boxes, and a reel deck sit under low monitor music and spool hiss; the front office is one room with a public door, and a service door lets onto gravel. It is a working small-market shop, not a compound.
+- **Persistent truths:**
+  - Call letters **KCRK 102.3 FM**. Short drive from Town Hall across the Bridge Street bridge. **Not** the [inland tower compound](inland-tower-compound.md). **Not** the east-grid powerline easement.
+  - Rooms, thin: front office, studio, one public exit, one service exit. Lot is wet river gravel and asphalt fines.
+  - **[Mel Corwin](../npcs/mel-corwin.md)** owns it and is the station manager. Weekday afternoons he hosts a fixed two-hour 1950s–60s classics block and sits with the books (advertising ledger, program log, who may sign a work order). He is not a morning body.
+  - **[Abigail Carr](../npcs/abigail-carr.md)** runs the rest of the schedule: graveyard, morning, and the board when Mel is not in his two hours. She does not touch his show or his books.
+  - Occasional help — not default presence when Lilly visits:
+    - **Hap Dwyer** — unofficial engineer. Retired mill electrician, ham in the shed. Mel calls him for the transmitter or a sick board. Not on payroll. Was **not** in the building on night 2. A Water Authority sheet would not have been his job.
+    - **Ricky Boone** — intern. Ashgrove High, junior/senior in 1986. Files carts, shadows the board, coffee. Mel's hire. After school and some Saturdays. Does not sign work orders and does not own keys.
+    - **Bev March** — weekend voice. Saturday morning community hour (lost dogs, Grange, school sports, spots Mel already sold). Can run that slot. Does not manage the station.
+  - **Ray Holtz** was never staff.
+- **Current state:** Ordinary small FM after night 2. Ray is dead. Daily work is not the reel-custody crisis. Working May 1986 does not change owner, DJ, or cheap help.
+- **People/factions:** Mel Corwin; Abigail Carr; Hap Dwyer, Ricky Boone, and Bev March when Mel has called them. No Concordance.
+- **Resources and hazards:** Airtime, logs, a service door, human gossip. A stranger with a work order is a person, not a faction.
+- **Secrets:** none involving the Concordance.
+- **How it changes if ignored:** It still broadcasts. Mel still does his two hours. Abigail still has a job.
+- **Historical/background sources:** none (invented)
+- **Maps/handouts:** [`ashgrove_town_map_1984.png`](ashgrove_town_map_1984.png) — south of the river, east of the Bridge Street road, Trapper Ridge (Sheet 2).

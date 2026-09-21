@@ -17,8 +17,8 @@
 
 ## Working (not played)
 
-- **Months later, 1986:** action cop case (shots). Prepared trail can reach Chief Whitley’s local graft; outcomes are not history.
-- **Later 1986:** puzzle case; arc-1 rhyme. Intended: Whitley is off the force by the end of the 1986 arc (unfair walk after Lilly went through channels; maybe a short hold or dead investigation, not prison).
+- **Saturday 17 May 1986 (working date, not played), night 3 — *Nothing Happens After Eleven*:** action cop case at Cinder Creek Lumber. A salvage crew loads out the dark mill yard, the West End houses lose power, a tenant telephones the precinct at about 00:20, and there are shots. Prepared trail can reach Chief Whitley’s local graft and can leave Lilly certain without anything she can file. The date is a working pin and every outcome in [`../../nothing-happens-after-eleven/`](../../nothing-happens-after-eleven/ADVENTURE.md) is prep, not history.
+- **Later 1986:** puzzle case; arc-1 rhyme. Night 4 is where the graft evidence and the unfair walk land. Intended: Whitley is off the force by the end of the 1986 arc (unfair walk after Lilly went through channels; maybe a short hold or dead investigation, not prison). He is still the sitting chief through night 3.
 - **After all four 1986 nights have recaps:** write [`between-1986-and-1998.md`](between-1986-and-1998.md) before planning the first 1998 story. That file is empty until then.
 - **After the 1986 arc:** Abigail Carr becomes Lilly's close friend. Authored intent, not yet established at the table; confirm/detail it when [`between-1986-and-1998.md`](between-1986-and-1998.md) is filled from the four 1986 recaps.
 - **1998:** four files, weeks or months apart; she is still Ashgrove PD when the year opens; FBI consultancy. Whitley is a resentful civilian; at least one night may require asking him something.

@@ -1,6 +1,6 @@
 # Chief Whitley
 
-- **Canon status:** established as Ashgrove’s 1986 chief (played). Corruption, exit from the PD, and 1998 civilian status are **GM predetermined / planned**, not session history.
+- **Canon status:** established as Ashgrove’s 1986 chief (played). Corruption, the Cinder Creek arrangement and its paper habit, exit from the PD, and 1998 civilian status are **authored as true for this table / GM predetermined**, not session history.
 - **Visibility:** mixed — player-known as the chief who shelves files; graft and why he is gone by 1998 are GM until a later night proves them
 - **Role:** 1986 — police chief, Ashgrove (mid-50s). 1998 — former chief, civilian, no badge
 - **Current objective:**
@@ -10,9 +10,11 @@
   - 1986: A story that makes the town look cursed, incompetent, or interesting to outside press — and anyone following the money behind the quiet.
   - 1998: Being dragged back into a file. Losing the small life he bought after the job.
 - **Leverage/resources:**
-  - 1986: He can shelf a case. He assigns work. Local favors, cash, and people who like the town boring.
+  - 1986: He can shelf a case. He assigns work. Local favors, cash, and people who like the town boring. He is careful with the assignment sheet: mill-yard noise goes to patrol or gets called kids, never to his detective. He steers rather than forbids — a refusal is something she would remember, a dull errand is not.
   - 1998: Memory of old dispositions, who owed whom, which files never left his desk. No command. A few people still take his calls.
 - **Secret:** Local graft — protection, quiet closures, overtime and evidence that never quite get written. **Not** Concordance; he is not a mastermind and does not know the consortium. He shelves Loman because spectacle is bad for the town and for the people who pay for quiet.
+  - **The Cinder Creek arrangement** (authored as true for this table; not yet in play): he is paid to keep the frozen [mill yard](../locations/cinder-creek-lumber.md) unpublished. He never meets a scrap hauler and never warns anyone in the lot; the cash reaches him at a remove, an envelope passed by **Marnie Quade** behind the bar at [The Hoot Owl](../locations/the-hoot-owl.md). What he sells is the roster, not a crime scene: on **[Len Pell](len-pell.md)’s** drinking nights — Wednesday and Saturday — **[Earl Voss](earl-voss.md)** is posted to West End and the mill, **[Kevin Alder](kevin-alder.md)** is posted away, and whatever Lilly draws is small and in town or out at the lake.
+  - He believes he is protecting **salvage**. He does **not** know a blasting magazine was left in that yard, and no one has told him a truck out there ever carried powder.
 - **Relationships:** Lilly’s institutional obstacle in 1986. Gave her Loman. Would rather it be a drowning/disappearance than a hunt. Mayor **Art Lindstrom** likes the same quiet headlines; they are civic allies, not a conspiracy lecture. His bought quiet also happens to serve the **[Rennick family](../factions/rennick-family.md)** (a shelved ugly story protects the mill house’s property and the town’s face) — but the Rennicks are a **reason** the quiet is worth buying, **not** clients of his graft and **not** part of any machine. By 1998 he blames her for the heat that took the job; she already lived the unfair walk. He will not grant her the courtesy of a colleague.
 - **If ignored:**
   - 1986: He assumes the file stays quiet.
@@ -25,7 +27,7 @@
   - 1986: Political, lazy, pragmatic — not cartoon evil. The graft does not show in the hallway. Heavyset and comfortable in the job; thinning hair combed straight back. Wears a full chief's uniform, sharper and more braided than his sergeant's, or shirtsleeves and a loosened tie behind his own desk. A gold watch or tie clip a little too good for a small-town chief's salary — noticeable only if someone's looking for it.
   - 1998: Smaller. Civilian clothes. He looks at her like she walked into his house with a warrant. Same face gone heavier and greyer, no uniform left to fill it out — a cardigan or windbreaker instead.
 - Voice/manner cue:
-  - 1986: Asks whether this can become someone else’s problem.
+  - 1986: Asks whether this can become someone else’s problem. Handles paper he wants shrunk the same way every time — folds the sheet so the heading disappears, then runs the side of his hand down the crease once. He does it while he is talking about something else.
   - 1998: Short. He will not use rank she does not have over him. He remembers dates she would rather skip.
 - Spoken lines:
   - 1986: “We’re not turning a missing fisherman into a circus.”
@@ -51,7 +53,8 @@
 ## Era notes (planned, not history)
 
 - **Nights 1–2 (January 1986):** Still the sitting chief. Play the political shelf, not a takedown.
-- **1986 discovery (nights 3–4):** The shots case can trail into his racket. Intended destination **by the end of the 1986 arc:** he is off the force. Default flavor from Lilly’s seat is **unfair:** she proves graft and gives it to superiors; he may be held briefly or sit an investigation; political connections let him resign or retire instead of prison. That walk is **local politics**, not the Concordance. Do not make one arrest the only route. If she never lands the proof, he is still out by 1998 by a quieter deal and still blames her.
+- **Night 3 (`nothing-happens-after-eleven`, later 1986):** The shooting at the mill yard trails into the arrangement, and it stops at **certainty without proof**. What she can reach that night is a habit on a sheet of paper, an assignment roster that any chief could defend, an unsigned line from a thief, and a patrolman’s uncounted trucks. No ledger, no cash, no confession. The morning after, he does not try to shrink a shooting with his own detective on the scene: he backs her loudly, signs the salvage close, and quietly lets the arrangement die. Night 3 does **not** take him off the force.
+- **Night 4 (`ashgrove-puzzle-1986`):** Where evidence and the unfair walk belong. Intended destination **by the end of the 1986 arc:** he is off the force. Default flavor from Lilly’s seat is **unfair:** she proves graft and gives it to superiors; he may be held briefly or sit an investigation; political connections let him resign or retire instead of prison. That walk is **local politics**, not the Concordance. Do not make one arrest the only route. If she never lands the proof, he is still out by 1998 by a quieter deal and still blames her.
 - **1998:** Already gone. Not serving a sentence. The old investigation is dead or was never a conviction. At least one child requires her to ask him something only a former chief would know. He is reachable and hostile. The question belongs to that adventure when it is written; he does not volunteer campaign secrets. Where he lives, how the town tells the walk versus what she proved, belong in [`../lore/between-1986-and-1998.md`](../lore/between-1986-and-1998.md) after the 1986 recaps — fill that before planning `federal-in-ashgrove`.
 
 ## Mechanics
