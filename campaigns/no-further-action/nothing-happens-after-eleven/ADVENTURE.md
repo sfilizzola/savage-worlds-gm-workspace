@@ -112,7 +112,7 @@ Abigail leaves this message on Lilly's home answering machine earlier on the eve
 >
 > Call me back if you get five minutes between whatever it is you're doing over there. Or don't, and I'll just tell you at the counter whenever your shift lets you breathe. Miss you already, this is ridiculous. Bye, Lilly.
 
-A PT-BR reading and an ElevenLabs voice-direction/tag pass exist outside the repo for now; bring the audio in here once a voice is settled.
+The prologue voicemail audio is at [`handouts/abi_voice_message.mp3`](handouts/abi_voice_message.mp3) — play it for the table before the session opens, as GM-read flavor (not canon, not a story point; see the boundary note above). A PT-BR reading and an ElevenLabs voice-direction/tag pass exist outside the repo for now.
 
 ## Starting state
 
