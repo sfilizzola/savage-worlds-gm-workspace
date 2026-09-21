@@ -94,6 +94,26 @@ Stop the load-out, account for Len Pell, and bring the night home as a scene tha
 
 **Resolution boundary (the arc split).** Every ending leaves Lilly certain that Whitley is protecting that lot and unable to prove it. **Forbidden this night:** a ledger, a signed statement, cash in hand, a confession, or a chain-of-command packet that names him. Tonight's salvage file is ordinary police paper, not proof of payoffs. Night 3 does not take Whitley off the force.
 
+## Prologue (pre-session flavor)
+
+Not canon, not a story point, and not part of tonight's case — see the boundary note in [`characters.md`](characters.md#at-the-table-tonight). Read or play this before the session opens, as color for the Lilly–Abigail friendship (a good working rapport since Session 2, warmed by off-screen time in the months since). It never mentions the yard, the chief, or anything Lilly is about to walk into.
+
+Abigail leaves this message on Lilly's home answering machine earlier on the evening of **17 May 1986**, before Lilly leaves for her shift:
+
+> Hey, hey, it's me. Abigail. I know, I know, you're probably still getting ready or already out the door, but I had to complain to somebody and you're my favorite person to complain to lately, so.
+>
+> Three. Night shifts. In a row. Whitley posted your rotation and I about lost it when I heard — and today's a *Saturday*, Lilly, the one day we could've actually done something instead of me just yelling case notes at you across the KCRK counter for twenty minutes. I had this whole thing planned. Okay, I didn't have a whole thing planned, but I was *going* to plan a thing, and now you're gonna be stuck behind a desk till who knows when and I'm gonna be behind my board till two in the morning, and neither of us gets a night off. It's criminal. You should arrest whoever's in charge of scheduling. Oh wait.
+>
+> Remember two weeks ago when you fell asleep in the studio chair waiting for me to finish my shift and I had to wake you up because Mel almost walked in? I still think about that. You looked so unimpressed with the entire world. It was great.
+>
+> Random fact for you, since I know you like collecting those about me for some reason — I have never once in my life eaten a whole sandwich without taking the crust off first. Three years old, twenty-three now, doesn't matter. Some habits just stay.
+>
+> Anyway — okay, actual question, since you always have an opinion on everything even when nobody asks: I've got two records fighting for the same slot tonight and I can't decide, and Mel's useless for this kind of thing, he'd just tell me to play whatever's shortest. So — Whitney, or the Van Halen? You've heard both enough times by now, you must have a take.
+>
+> Call me back if you get five minutes between whatever it is you're doing over there. Or don't, and I'll just tell you at the counter whenever your shift lets you breathe. Miss you already, this is ridiculous. Bye, Lilly.
+
+A PT-BR reading and an ElevenLabs voice-direction/tag pass exist outside the repo for now; bring the audio in here once a voice is settled.
+
 ## Starting state
 
 Saturday evening, **17 May 1986** (working date), at the Ashgrove precinct. Whitley catches Lilly at the start of the evening shift with last night's mill-noise complaint in his hand — folds it so the heading disappears, runs the side of his hand down the crease once while he is talking about something else, calls it kids or Earl's business and not detective work, and hands her the **Daisy's overflow** on Main Street instead: the Hoot Owl is shut for a private supper and the whole mill crowd is eating three doors west. Compliance, keep it civil, nothing that needs a detective.
