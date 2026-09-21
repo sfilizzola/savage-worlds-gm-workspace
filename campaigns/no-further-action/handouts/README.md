@@ -20,3 +20,24 @@ python3 tools/print-sheets/measure.py campaigns/no-further-action/handouts/print
 ```
 
 Place the card beside the character sheet. It repeats no GM secrets, no Concordance material, and no prepared outcomes for an unplayed night.
+
+## Level-up guide (Lilly, Night 3)
+
+Unlike the player rules card, this one **is** character-specific: it explains SWADE
+Advances/Rank and works every example off Lilly's current Novice Traits, so the player
+can pick her first Advance without opening the rulebook. Snapshot of her sheet at the
+time of writing — re-check the numbers against `characters/lilly-dawson.md` before
+reusing this for a later Advance.
+
+| File | What it is |
+|---|---|
+| `level-up-guide.md` | English source of truth, plus the GM authority block (do not print that block). |
+| `level-up-guide.pt.md` | Brazilian Portuguese translation. The printed card is built from this text. Rank tiers (Seasoned/Veteran/Heroic/Legendary), "Advance", and Edge names beyond her three current ones stay in English — unconfirmed pt-BR SWADE terms per `characters/README.md`. |
+| `print/level-up-guide.pt.html` | Styled like the campaign's personnel-file character sheet (`tools/print-sheets/sheet.css`, same fonts). Rebuild the PDF from this if you edit the card. |
+| `print/level-up-guide.pt.pdf` | **Easiest.** One A4 page, ready to print. |
+
+Verify the card still fits one page with:
+
+```text
+python3 tools/print-sheets/measure.py campaigns/no-further-action/handouts/print/level-up-guide.pt.html
+```
