@@ -143,12 +143,12 @@ Coherence checks structure: is each essential piece reachable. This checks a dif
 | G31 — Crew and ally runtime statistics | encounters.md Encounter 2 Runtime statistics; npcs/*.md | Full Extra blocks for Meeks, Colfax, Runkle, Sloat, Len, Kevin with SWADE page cites; Earl unstatted by prep (stays in/behind car 1). | yes |
 | G32 — Len Healing / Aftermath procedure | encounters.md Encounter 4 | Golden Hour `Healing` within ~01:02; later **Vigor** under Aftermath & Extras (p.96); cold hazard explicitly does not apply at ~46°F; elapsed-exposure **−2 — GM's call** (reason: Cold rule is below freezing / four-hour ticks). | yes |
 | G33 — Chase vehicle rows if pursuit runs | encounters.md Encounter 5 | **Do not force Chase**; if run, name printed substitutions aloud — Mid-Sized Car for day car; Semi-Truck or SUV analogues for flatbed/pickup — **GM's call** (no printed 1970s flatbed row). | yes |
-| G34 — Old-powder detonation if struck, dropped, or fired on | encounters.md Encounter 3 "What the powder resolves as" | **RULE UNCLEAR - GM DECISION REQUIRED** — reasoned unresolved authority tag. Sources checked (SWADE pp.34, 78–79, 97–98, 125, 127); Options A (default: burn under Fire only), B (one named printed mine row unchanged), C (narrative). **No invented yield; no claimed GM ruling.** Prep never auto-detonates. | yes |
+| G34 — Old-powder detonation if struck, dropped, or fired on | encounters.md Encounter 3 "What the powder resolves as"; rules/rulings.md RUL-2026-09-21-01 | **Ruled: Option A** — no detonation tonight; cases burn under Fire (p.127) only. Sources checked (SWADE pp.34, 78–79, 97–98, 125, 127). Prep never auto-detonates. | yes |
 | G35 — Suspicion floor (certainty without vectors) | plot.md suspicion floor; ADVENTURE.md resolution boundary; secrets.md NHE-01 | Concrete unmissable sequence: 18:10 steer off that lot → revealed months-long salvage → controlled dawn praise. Certainty in every branch; still not proof. | yes |
 
 **Fail if:** a listed fact has neither a concrete value nor a “GM's call — `<reason>`” tag.
 
-**Not a fail:** G34's explicit unresolved-authority tag with sources and labeled options; G29/G32/G33 reasoned GM's calls; atmospheric Mood; player choice of which vector to chase first; forbidden fileable proof that prep correctly withholds.
+**Not a fail:** G29/G32/G33 reasoned GM's calls; atmospheric Mood; player choice of which vector to chase first; forbidden fileable proof that prep correctly withholds.
 
 ## Ranked checklist
 
@@ -213,6 +213,6 @@ Not applicable.
 | Rank 3 (pacing) | Optional Daisy's + Doyle + magazine clock can push past five hours | Scope budget already names cuts (narrate Daisy's, merge West End into approach, keep magazine as smell/hazard, compress morning) | yes — documented; enforce at table |
 | Rank 6 (opposition) | No opposing Wild Card | Intentional for Novice solo; four Extras with break-contact doctrine — do not promote anyone | yes — documented |
 | Rank 10 (rewards) | No XP/Advance named | State at table that consequence and the night-4 hinge are the reward | yes — documented |
-| Powder authority | Detonation yield not established under SWADE | Keep `RULE UNCLEAR` in `encounters.md`; default Option A if GM does not rule before play; do not invent a row | open — GM ruling still required before any detonation path |
-| 9mm runtime mapping | Lilly's generic 9mm has no printed p.74 row pinned for this night | Leave canonical sheet untouched; `encounters.md` flags Glock (9mm) as the obvious match but out of this file's scope. Settle a printed-row pin or “use the sheet as written” before play — do not invent a ruling here | open — table pin, not a 6A sheet edit |
+| Powder authority | Detonation yield not established under SWADE | Ruled Option A — no detonation, cases burn under Fire (p.127) only; recorded as `RUL-2026-09-21-01` in `rules/rulings.md` | closed |
+| 9mm runtime mapping | Lilly's generic 9mm has no printed p.74 row pinned for this night | Pinned to Glock (9mm), p.74: 12/24/48, 2d6, AP 1, RoF 1, Shots 17, on her canonical sheet (`../characters/lilly-dawson.md`) | closed |
 | Compile | `RUN.md` not built | Intentionally deferred by GM (Task 6A); re-score only if modular sources change before compile | deferred |

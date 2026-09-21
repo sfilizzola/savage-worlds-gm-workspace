@@ -26,3 +26,13 @@ Rulings are dated decisions made for unclear or situational cases. They are prec
 - Scope: this adventure
 - Promote to house rule: no
 
+### RUL-2026-09-21-01 - Old blasting powder does not detonate
+
+- Adventure/session: Nothing Happens After Eleven (No Further Action, night 3)
+- Question: If a round strikes a case, a case is dropped or driven off the pickup bed, or fire reaches the bunker with the taped tin of caps in it, does anything detonate tonight — and if so, with what damage, what template, and how many cases?
+- Sources checked: SWADE Fifth Printing (2023) p.34 (Repair covers demolitions/explosives but supplies no yield); pp.78–79 (only printed bulk-blast gear is military grenades and mines, tagged Heavy Weapon); pp.97–98 (Area Effect Attacks and Blast Templates are delivery only, no yield for this material); p.127 (Fire covers burning, not detonation); p.125 (Hazards has no explosion entry). No setting module active; HR-NFA-001 and HR-NFA-002 do not touch explosives.
+- Decision: Option A. No detonation tonight. The cases burn under Fire (p.127) and never go off. The hazard is fire, smoke, a building to evacuate, and a 22-mile ambulance.
+- Reason: No SWADE profile exists for commercial blasting agent, blasting caps, or degraded stock; inventing a yield would homebrew a fourth option. Option A needs no invented value and every clock, vector, and end state in `nothing-happens-after-eleven` already works under it.
+- Scope: this adventure
+- Promote to house rule: no
+

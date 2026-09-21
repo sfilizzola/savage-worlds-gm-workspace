@@ -89,7 +89,7 @@ Human starting Edge plus two Edges from two Major Hindrances.
 
 ## Gear (1986 issue, when assigned)
 
-- 9mm service pistol (range, damage, ROF: SWADE modern firearms table when printed)
+- 9mm service pistol — Glock (9mm), SWADE Fifth Printing (2023) p.74: 12/24/48, 2d6, AP 1, RoF 1, Shots 17
 - Light Kevlar vest when worn (Armor per SWADE gear; coverage torso)
 - Badge and ID, handcuffs, flashlight, police radio, notebook, department vehicle when assigned
 

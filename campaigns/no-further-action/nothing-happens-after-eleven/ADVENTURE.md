@@ -30,7 +30,7 @@ Design authority: [`docs/superpowers/specs/2026-09-21-nothing-happens-after-elev
 
 Campaign handoff: [`../INDEX.md`](../INDEX.md) → Resume work. Do not duplicate campaign lore or state here.
 
-- Child-specific state: modular sources and [`QUALITY.md`](QUALITY.md) are complete. The next action is to resolve the two open decisions in [`encounters.md`](encounters.md): old-powder detonation authority and Lilly's printed 9mm row. Compile `RUN.md` only when the GM asks; the compile remains deliberately deferred.
+- Child-specific state: modular sources and [`QUALITY.md`](QUALITY.md) are complete. Both previously open decisions in [`encounters.md`](encounters.md) are now settled — old-powder detonation is Option A (no detonation; [`RUL-2026-09-21-01`](../../../rules/rulings.md)) and Lilly's 9mm is pinned to Glock (9mm), p.74, on her canonical sheet. Compile `RUN.md` only when the GM asks; the compile remains deliberately deferred.
 
 ## One-sentence premise
 
@@ -153,8 +153,8 @@ Prepared re-entry, because the table is solo: Kevin Alder is on scene or minutes
 Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change. Maximum 120. Ready ≥ 100, or 80–99 with named repairs, **and** Coherence (prep) passed **and** Grounding audit passed. Below 80: rework before a convention or first-time table. Below 60: do not compile as ready.
 
 - **Score:** 110/120
-- **Band:** 100–120 Strong; Coherence (prep) passed with logic summary; Grounding audit passed (including the powder `RULE UNCLEAR` as a reasoned unresolved-authority tag). Numeric ready does **not** authorize compile while `RUN.md` remains unbuilt — compile is intentionally deferred by GM instruction (Task 6A).
-- **Weakest ranks to repair:** Rank 3 (optional Daisy's/Doyle/magazine sprawl — enforce Scope budget cuts); Rank 6 (no opposing Wild Card — intentional); Rank 10 (no XP named — state consequence/night-4 hinge as the reward). Open items: old-powder detonation remains `RULE UNCLEAR - GM DECISION REQUIRED` in `encounters.md` (default Option A if no ruling before play); Lilly's runtime 9mm printed-row mapping is unset in `encounters.md` (canonical sheet not edited here).
+- **Band:** 100–120 Strong; Coherence (prep) passed with logic summary; Grounding audit passed (the powder decision is now closed by [`RUL-2026-09-21-01`](../../../rules/rulings.md) rather than left as an unresolved-authority tag). Numeric ready does **not** authorize compile while `RUN.md` remains unbuilt — compile is intentionally deferred by GM instruction (Task 6A).
+- **Weakest ranks to repair:** Rank 3 (optional Daisy's/Doyle/magazine sprawl — enforce Scope budget cuts); Rank 6 (no opposing Wild Card — intentional); Rank 10 (no XP named — state consequence/night-4 hinge as the reward). Both previously open items are closed: old-powder detonation is ruled Option A (no detonation) in `encounters.md` and `rules/rulings.md`; Lilly's 9mm is pinned to Glock (9mm), p.74, on her canonical sheet.
 
 ## Pre-compilation gate
 
@@ -169,6 +169,6 @@ Score `QUALITY.md` before compiling `RUN.md`. Re-score after a major plot change
 - [x] Failure changes play without automatically stopping it; see Stakes and the resolution boundary.
 - [x] Early PC removal risks and re-entry are addressed.
 - [x] Historical claims match the declared accuracy level and sources.
-- [x] Mechanics have been verified against active authority **except** two open items, both left unset on purpose: (1) old-powder detonation in `encounters.md` Encounter 3 (`RULE UNCLEAR - GM DECISION REQUIRED`; Options A/B/C; no invented yield; no claimed GM ruling); (2) Lilly's generic 9mm has **no printed SWADE p.74 row pinned** for this night (`encounters.md` “Lilly's own gear” — Glock (9mm) is named as the obvious 1986 match but pinning it would edit her canonical sheet, which this child does not do; settle a printed-row mapping or use-the-sheet-as-written before play). Illumination cone/flashlight Dim readings, Len Aftermath exposure −2, and optional Chase vehicle substitutions are reasoned GM's calls already tagged in `encounters.md`.
+- [x] Mechanics have been verified against active authority. Both previously open items are now settled: (1) old-powder detonation in `encounters.md` Encounter 3 is ruled Option A — no detonation tonight, cases burn under Fire (p.127) only — recorded as [`RUL-2026-09-21-01`](../../../rules/rulings.md); (2) Lilly's 9mm is pinned to Glock (9mm), p.74: 12/24/48, 2d6, AP 1, RoF 1, Shots 17, on her canonical sheet (`../characters/lilly-dawson.md`). Illumination cone/flashlight Dim readings, Len Aftermath exposure −2, and optional Chase vehicle substitutions are reasoned GM's calls already tagged in `encounters.md`.
 - [x] The planned scope fits 3–5 hours and includes a named 3–4 hour core.
 - [ ] `RUN.md` compiled from `templates/adventure/SKELETON.md` and ready to print — **intentionally unchecked**; compile deferred by GM instruction (Task 6A). Do not create or render `RUN.md` until the GM lifts that deferral.

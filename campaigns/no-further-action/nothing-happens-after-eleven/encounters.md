@@ -107,9 +107,8 @@ it. Two things the GM should have settled before the yard:
   Min Str d6 against her Strength d4, so wearing it costs **−1 to Pace, Agility, and
   Agility-linked skills** (p.66), which for her means Shooting, Athletics, Stealth,
   Driving, and Fighting. Make her feel that trade at the precinct, not at the fence.
-- **Her 9mm has no printed row chosen.** Glock (9mm) — 12/24/48, 2d6, AP 1, RoF 1, Shots 17
-  (p.74) — is the obvious 1986 service-pistol match, but pinning it is an edit to her
-  canonical sheet and is out of this file's scope. Settle it before play.
+- **Her 9mm is pinned to Glock (9mm)** — 12/24/48, 2d6, AP 1, RoF 1, Shots 17 (p.74),
+  set on her canonical sheet (`../characters/lilly-dawson.md`). Settled before play.
 
 ## Encounter 1 — The fence line and the apron
 
@@ -302,10 +301,8 @@ somewhere dangerous, build him freehand under p.202 before resolving anything.
 - **Burning.** Fire is fully covered: a flammable target hit by fire catches on a d6 roll of 6, a very flammable one on 4–6, a volatile one on 2–6, and the Fire Damage table runs 1d6 spot contact / 2d6 burning room / 3d6 flamethrower, growing on a 6 and dropping on a 1 at the start of the victim's turns, with `Athletics` as an action to put it out and Armor protecting normally (p.127).
 - **Securing it.** Standing on the track works and needs no roll at all.
 
-**Not decided, because no active authority establishes it:**
+**Settled by ruling, because no active authority establishes it directly:**
 
-> **RULE UNCLEAR - GM DECISION REQUIRED**
->
 > **Question.** If a round strikes a case, a case is dropped or driven off the pickup bed,
 > or fire reaches the bunker with the taped tin of caps in it, does anything detonate
 > tonight — and if so, with what damage, what template, and how many cases?
@@ -319,17 +316,14 @@ somewhere dangerous, build him freehand under p.202 before resolving anything.
 > There is no SWADE profile for commercial blasting agent, for blasting caps, or for
 > degraded stock.
 >
-> **Options, clearly labeled. Do not blend them and do not invent a fourth.**
->
-> - **Option A — no detonation tonight. This is the default if the GM does not rule before play.** The cases burn under Fire (p.127) and never go off. The hazard is fire, smoke, a building to get people out of, and a 22-mile ambulance. Every clock, vector, and end state in this adventure still works.
-> - **Option B — the GM names one printed profile and applies it unchanged.** For example, one case resolved as an Anti-Tank Mine, 4d6 in a Medium Blast Template (p.79), or as an Anti-Personnel Mine, 2d6+2 in a Small Blast Template (p.79). If this is chosen, the GM must state which row, whether the Heavy Weapon tag applies, and how many cases are involved — and must not scale, average, or homebrew a row.
-> - **Option C — narrative resolution.** A detonation ends the scene without a damage roll; the GM adjudicates who was where and what survives.
->
-> **Afterwards.** Record the decision in [`../../../rules/rulings.md`](../../../rules/rulings.md) per [`rules/RULES.md`](../../../rules/RULES.md), "Unclear rules". Promote it to `house-rules.md` only if the GM explicitly wants a standing override.
+> **Decision: Option A — no detonation tonight.** The cases burn under Fire (p.127) and
+> never go off. The hazard is fire, smoke, a building to get people out of, and a 22-mile
+> ambulance. Every clock, vector, and end state in this adventure works under this ruling.
+> Recorded as [`RUL-2026-09-21-01`](../../../rules/rulings.md).
 
-**Regardless of the option chosen:** the magazine is a clock and a hazard. **Prep never
-detonates it.** No entry on the night clock, no escalation, and no failure state may fire
-it on its own. Only a player or crew action, adjudicated under the option above, can.
+**Regardless:** the magazine is a clock and a hazard. **Prep never detonates it.** No entry
+on the night clock, no escalation, and no failure state may fire it on its own. Only a
+player or crew action, adjudicated under the ruling above, can.
 
 ### Runtime statistics
 
